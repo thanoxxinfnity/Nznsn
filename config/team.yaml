@@ -1,0 +1,8 @@
+# AI टीम: हर role को एक model मिलेगा (कल API मिलने पर model IDs भरेंगे)
+router: openrouter
+roles:
+  lead:        { model: TBD, job: "काम बाँटना, plan बनाना, review करना" }
+  game_coder:  { model: TBD, job: "Godot GDScript / scenes लिखना" }
+  blender_tech:{ model: TBD, job: "Blender Python (bpy) से maps और scenes बनाना" }
+  art_3d:      { model: TBD, job: "3D model generation API को prompts देना" }
+  reviewer:    { model: TBD, job: "bugs और quality check" }
