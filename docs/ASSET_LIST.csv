@@ -623,23 +623,23 @@ RE01,P3,"Metro, roads & park extras",Metro / City,Ticket vending machine,1,1.8,6
 RE02,P3,"Metro, roads & park extras",Metro / City,Platform signs symbols,3,1.2,1500,-,"3 variants platform signs, symbols only",DONE-Claude (3/3)
 RE03,P3,"Metro, roads & park extras",Metro / City,Metro track piece,1,6.0,3000,-,metro track section,DONE-Claude (1/1)
 RE04,P3,"Metro, roads & park extras",Metro / City,Train front cab,1,4.0,15000,-,metro train front,DONE-Claude (1/1)
-RE05,P3,"Metro, roads & park extras",Metro / City,Station pillar,1,4.0,3000,-,concrete pillar with tile,
-RE06,P3,"Metro, roads & park extras",Metro / City,Station bench,1,2.0,3000,-,bench,
-RE07,P3,"Metro, roads & park extras",Metro / City,Metro map board,1,2.0,2500,-,map board no text,
-RE08,P3,"Metro, roads & park extras",Metro / City,Railway signal,1,3.0,3000,-,railway signal,
-RE09,P3,"Metro, roads & park extras",Metro / City,Escalator side panel,1,3.0,4000,-,escalator side,
-RE10,P3,"Metro, roads & park extras",Metro / City,Flyover pillar,1,8.0,5000,-,concrete flyover pillar,
-RE11,P3,"Metro, roads & park extras",Metro / City,Bridge section,1,10.0,12000,-,bridge section,
-RE12,P3,"Metro, roads & park extras",Metro / City,Dark traffic light,1,5.0,3000,-,"traffic light, dark",
-RE13,P3,"Metro, roads & park extras",Metro / City,Zebra crossing flat,1,4.0,300,-,flat road crossing,
-RE14,P3,"Metro, roads & park extras",Metro / City,Road barrier,2,2.0,2000,-,2 variants road barriers,
-RE15,P3,"Metro, roads & park extras",Metro / City,Large dumpster,1,1.8,3500,-,large dumpster,
-RE16,P3,"Metro, roads & park extras",Metro / City,Old signpost,1,3.0,2500,-,old signpost,
-RE17,P3,"Metro, roads & park extras",Metro / City,Underpass tunnel piece,1,8.0,8000,-,underpass tunnel section,
-RE18,P3,"Metro, roads & park extras",Metro / City,Dry garden fountain,1,3.0,8000,-,dry fountain with statue,
-RE19,P3,"Metro, roads & park extras",Metro / City,Broken garden statue,2,2.0,6000,-,2 variants broken garden statues,
-RE20,P3,"Metro, roads & park extras",Metro / City,Gazebo,1,4.0,8000,-,old gazebo,
-RE21,P3,"Metro, roads & park extras",Metro / City,Dirty pond,1,6.0,3000,-,dirty pond,
+RE05,P3,"Metro, roads & park extras",Metro / City,Station pillar,1,4.0,3000,-,concrete pillar with tile,DONE-Claude (1/1)
+RE06,P3,"Metro, roads & park extras",Metro / City,Station bench,1,2.0,3000,-,bench,DONE-Claude (1/1)
+RE07,P3,"Metro, roads & park extras",Metro / City,Metro map board,1,2.0,2500,-,map board no text,DONE-Claude (1/1)
+RE08,P3,"Metro, roads & park extras",Metro / City,Railway signal,1,3.0,3000,-,railway signal,DONE-Claude (1/1)
+RE09,P3,"Metro, roads & park extras",Metro / City,Escalator side panel,1,3.0,4000,-,escalator side,DONE-Claude (1/1)
+RE10,P3,"Metro, roads & park extras",Metro / City,Flyover pillar,1,8.0,5000,-,concrete flyover pillar,DONE-Claude (1/1)
+RE11,P3,"Metro, roads & park extras",Metro / City,Bridge section,1,10.0,12000,-,bridge section,DONE-Claude (1/1)
+RE12,P3,"Metro, roads & park extras",Metro / City,Dark traffic light,1,5.0,3000,-,"traffic light, dark",DONE-Claude (1/1)
+RE13,P3,"Metro, roads & park extras",Metro / City,Zebra crossing flat,1,4.0,300,-,flat road crossing,DONE-Claude (1/1)
+RE14,P3,"Metro, roads & park extras",Metro / City,Road barrier,2,2.0,2000,-,2 variants road barriers,DONE-Claude (2/2)
+RE15,P3,"Metro, roads & park extras",Metro / City,Large dumpster,1,1.8,3500,-,large dumpster,DONE-Claude (1/1)
+RE16,P3,"Metro, roads & park extras",Metro / City,Old signpost,1,3.0,2500,-,old signpost,DONE-Claude (1/1)
+RE17,P3,"Metro, roads & park extras",Metro / City,Underpass tunnel piece,1,8.0,8000,-,underpass tunnel section,DONE-Claude (1/1)
+RE18,P3,"Metro, roads & park extras",Metro / City,Dry garden fountain,1,3.0,8000,-,dry fountain with statue,DONE-Claude (1/1)
+RE19,P3,"Metro, roads & park extras",Metro / City,Broken garden statue,2,2.0,6000,-,2 variants broken garden statues,DONE-Claude (2/2)
+RE20,P3,"Metro, roads & park extras",Metro / City,Gazebo,1,4.0,8000,-,old gazebo,DONE-Claude (1/1)
+RE21,P3,"Metro, roads & park extras",Metro / City,Dirty pond,1,6.0,3000,-,dirty pond,DONE-Claude (1/1)
 RE22,P3,"Metro, roads & park extras",Metro / City,Huge dead tree,1,10.0,15000,-,huge old dead tree with twisted roots,
 X01,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Wall segment plain,4,3.0,1200,-,"OPTIONAL: plain plaster wall segment 3m, 4 variants dirty",
 X02,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Wall with door opening,2,3.0,1500,-,OPTIONAL: wall with door opening,
@@ -663,18 +663,18 @@ CV03,P2,Cars & vehicles: intact variety,City,Open jeep,1,3.8,14000,-,"old open j
 CV04,P2,Cars & vehicles: intact variety,City,Taxi black-yellow,1,4.2,15000,-,"old black-and-yellow taxi, no text",DONE (1/1)
 CV05,P2,Cars & vehicles: intact variety,City,Pickup truck,1,5.0,16000,-,old pickup truck with open bed,DONE (1/1)
 CV06,P2,Cars & vehicles: intact variety,City,Minivan,1,4.6,15000,-,old minivan with sliding door,DONE (1/1)
-CV07,P3,Cars & vehicles: intact variety,City,Station wagon,1,4.6,15000,-,old station wagon,
-CV08,P3,Cars & vehicles: intact variety,City,Luxury old car,1,4.8,16000,-,"old luxury sedan with chrome, faded",
-CV09,P3,Cars & vehicles: intact variety,City,Mini goods truck (tempo),1,4.5,14000,-,small three-wheel goods tempo,
-CV10,P3,Cars & vehicles: intact variety,City,Tractor,1,3.5,14000,-,old farm tractor,
-CV11,P3,Cars & vehicles: intact variety,City,Hearse,1,5.2,16000,-,"old black hearse, dusty",
+CV07,P3,Cars & vehicles: intact variety,City,Station wagon,1,4.6,15000,-,old station wagon,DONE-Claude (1/1)
+CV08,P3,Cars & vehicles: intact variety,City,Luxury old car,1,4.8,16000,-,"old luxury sedan with chrome, faded",DONE-Claude (1/1)
+CV09,P3,Cars & vehicles: intact variety,City,Mini goods truck (tempo),1,4.5,14000,-,small three-wheel goods tempo,DONE-Claude (1/1)
+CV10,P3,Cars & vehicles: intact variety,City,Tractor,1,3.5,14000,-,old farm tractor,DONE-Claude (1/1)
+CV11,P3,Cars & vehicles: intact variety,City,Hearse,1,5.2,16000,-,"old black hearse, dusty",DONE-Claude (1/1)
 CV12,P3,Cars & vehicles: intact variety,City,Ice-cream van,1,5.0,16000,-,"old ice-cream van, faded cartoon colors, no text",
-CV13,P3,Cars & vehicles: intact variety,City,Mail van,1,4.8,15000,-,"old mail van, no text",
-CV14,P3,Cars & vehicles: intact variety,City,Vegetable truck,1,7.0,20000,-,old open truck with wooden sides,
-CV15,P3,Cars & vehicles: intact variety,City,Water tanker,1,7.0,20000,-,old water tanker truck,
-CV16,P3,Cars & vehicles: intact variety,City,Road roller,1,4.0,14000,-,old road roller,
-CV17,P3,Cars & vehicles: intact variety,City,Vespa-style scooter,1,1.8,9000,-,old Italian-style scooter,
-CV18,P3,Cars & vehicles: intact variety,City,Bullock cart,1,3.0,8000,-,wooden bullock cart without animal,
+CV13,P3,Cars & vehicles: intact variety,City,Mail van,1,4.8,15000,-,"old mail van, no text",DONE-Claude (1/1)
+CV14,P3,Cars & vehicles: intact variety,City,Vegetable truck,1,7.0,20000,-,old open truck with wooden sides,DONE-Claude (1/1)
+CV15,P3,Cars & vehicles: intact variety,City,Water tanker,1,7.0,20000,-,old water tanker truck,DONE-Claude (1/1)
+CV16,P3,Cars & vehicles: intact variety,City,Road roller,1,4.0,14000,-,old road roller,DONE-Claude (1/1)
+CV17,P3,Cars & vehicles: intact variety,City,Vespa-style scooter,1,1.8,9000,-,old Italian-style scooter,DONE-Claude (1/1)
+CV18,P3,Cars & vehicles: intact variety,City,Bullock cart,1,3.0,8000,-,wooden bullock cart without animal,DONE-Claude (1/1)
 CV19,P4,Cars & vehicles: intact variety,City,Horse carriage,1,4.0,12000,-,"old horse carriage, no horse",
 CV20,P4,Cars & vehicles: intact variety,City,Large ride-on toy car,1,1.2,5000,-,"large kid's ride-on toy car, faded",
 CV21,P4,Cars & vehicles: intact variety,City,Pedal car,1,1.2,4000,-,old kid's pedal car,
@@ -686,18 +686,18 @@ JV05,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car with smashe
 JV06,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Rusted overgrown car,2,4.4,14000,-,rusty car covered with vines and weeds,DONE (2/2)
 JV07,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Head-on collision pair,1,8.0,28000,-,"two old cars crashed head-on, interlocked",DONE (1/1)
 JV08,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked city bus,2,10.0,26000,-,"2 variants wrecked city bus, windows smashed, tilted",DONE (2/2)
-JV09,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked truck,2,7.0,20000,-,"2 variants wrecked truck, cargo spilled",
-JV10,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked auto-rickshaw,2,3.0,10000,-,2 variants overturned crushed rickshaw,
-JV11,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked motorcycle,2,2.0,8000,-,2 variants crashed motorcycles,
-JV12,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Bent bicycle,2,1.8,5000,-,2 variants bent bicycles,
-JV13,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Detached car doors,3,1.2,2500,-,3 variants detached car doors,
-JV14,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Detached car hood,2,1.4,2000,-,2 variants detached car hoods,
-JV15,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Worn tyres,3,0.7,1500,-,"3 variants worn tyres, single and stacked",
-JV16,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car wheel rims,2,0.7,1500,-,2 variants rims,
-JV17,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exposed engine block,1,0.8,4000,-,exposed car engine block,
-JV18,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Torn car seats,2,0.7,2500,-,2 variants torn car seats,
-JV19,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Steering wheel,1,0.4,1500,-,old steering wheel,
-JV20,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Bumper pieces,3,1.5,1500,-,3 variants bumpers,
+JV09,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked truck,2,7.0,20000,-,"2 variants wrecked truck, cargo spilled",DONE-Claude (2/2)
+JV10,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked auto-rickshaw,2,3.0,10000,-,2 variants overturned crushed rickshaw,DONE-Claude (2/2)
+JV11,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked motorcycle,2,2.0,8000,-,2 variants crashed motorcycles,DONE-Claude (2/2)
+JV12,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Bent bicycle,2,1.8,5000,-,2 variants bent bicycles,DONE-Claude (2/2)
+JV13,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Detached car doors,3,1.2,2500,-,3 variants detached car doors,DONE-Claude (3/3)
+JV14,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Detached car hood,2,1.4,2000,-,2 variants detached car hoods,DONE-Claude (2/2)
+JV15,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Worn tyres,3,0.7,1500,-,"3 variants worn tyres, single and stacked",DONE-Claude (3/3)
+JV16,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car wheel rims,2,0.7,1500,-,2 variants rims,DONE-Claude (2/2)
+JV17,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exposed engine block,1,0.8,4000,-,exposed car engine block,DONE-Claude (1/1)
+JV18,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Torn car seats,2,0.7,2500,-,2 variants torn car seats,DONE-Claude (2/2)
+JV19,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Steering wheel,1,0.4,1500,-,old steering wheel,DONE-Claude (1/1)
+JV20,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Bumper pieces,3,1.5,1500,-,3 variants bumpers,DONE-Claude (3/3)
 JV21,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Smashed windshield frame,1,1.4,2000,-,smashed windshield frame,
 JV22,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exhaust pipe,1,1.2,1000,-,exhaust pipe,
 JV23,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Tyre stacks,2,1.2,2500,-,2 variants stacks of tyres,
