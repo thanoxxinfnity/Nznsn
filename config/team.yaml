@@ -1,8 +1,9 @@
-# AI टीम: हर role को एक model मिलेगा (कल API मिलने पर model IDs भरेंगे)
-router: openrouter
+# Team roles. Model: Fable 5.2 (final). Real agent links live in config/agents.json
+# Manage with: python3 scripts/studio.py list | add | ask | remember
+default_model: "Fable 5.2"
 roles:
-  lead:        { model: TBD, job: "काम बाँटना, plan बनाना, review करना" }
-  game_coder:  { model: TBD, job: "Godot GDScript / scenes लिखना" }
-  blender_tech:{ model: TBD, job: "Blender Python (bpy) से maps और scenes बनाना" }
-  art_3d:      { model: TBD, job: "3D model generation API को prompts देना" }
-  reviewer:    { model: TBD, job: "bugs और quality check" }
+  lead:         { job: "kaam banta, plan banata, review karta" }
+  coder:        { job: "Godot GDScript / scenes likhna", status: connected }
+  blender_tech: { job: "Blender Python (bpy) se maps aur scenes" }
+  art_3d:       { job: "3D model generation ke prompts" }
+  reviewer:     { job: "bugs aur quality check" }
