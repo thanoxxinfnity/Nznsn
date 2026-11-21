@@ -31,11 +31,19 @@ mn, mx = bbox(ob)
 ob.data.transform(Matrix.Translation(Vector((-(mn.x + mx.x) / 2, -(mn.y + mx.y) / 2, -mn.z))))
 ob.location = (0, 0, 0)
 tris1 = sum(len(p.vertices) - 2 for p in ob.data.polygons)
+if tris1 > budget and len(ob.data.vertices) > 2 * tris1:  # triangle-soup (AI/Draco): pehle jodo warna decimate jaali bana deta hai
+    import bmesh
+    bm = bmesh.new(); bm.from_mesh(ob.data)
+    bmesh.ops.remove_doubles(bm, verts=bm.verts, dist=size * 1e-5)
+    bm.to_mesh(ob.data); bm.free()
 if tris1 > budget:
-    m = ob.modifiers.new("dec", "DECIMATE"); m.ratio = max(0.02, budget / tris1)
+    m =ob.modifiers.new("dec", "DECIMATE"); m.ratio = max(0.02, budget / tris1)
     bpy.ops.object.modifier_apply(modifier="dec")
 tris2 = sum(len(p.vertices) - 2 for p in ob.data.polygons)
 mn, mx = bbox(ob); d1 = mx - mn
+for i in bpy.data.images:  # phone ke liye: 1024 se badi texture chhoti karo
+    if max(i.size) > 1024:
+        f = 1024 / max(i.size); i.scale(int(i.size[0] * f), int(i.size[1] * f))
 imgs = [(i.name, i.size[0], i.size[1]) for i in bpy.data.images if i.size[0] > 4]
 rep = {"origin_ok": abs((mn.x + mx.x) / 2) < 0.01 and abs((mn.y + mx.y) / 2) < 0.01 and abs(mn.z) < 0.01, "size_ok": abs(max(d1) - size) < 0.02 * size + 0.005, "tris_before": tris0, "tris_after": tris2, "dims_before": [round(x, 2) for x in d0], "dims_after": [round(x, 2) for x in d1],
        "materials": len(ob.data.materials), "textures": len(imgs), "tex_max": max([max(w, h) for _, w, h in imgs], default=0),

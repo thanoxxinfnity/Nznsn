@@ -1,0 +1,98 @@
+{
+ "M01_Gudiya.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 499796,
+  "tris_after": 25000,
+  "dims_before": [
+   1.25,
+   0.6,
+   1.99
+  ],
+  "dims_after": [
+   0.76,
+   0.36,
+   1.2
+  ],
+  "materials": 1,
+  "textures": 3,
+  "tex_max": 1024,
+  "has_uv": true,
+  "budget": 25000,
+  "target": "1.2",
+  "name": "Gudiya (doll monster)",
+  "size_mb": 1.29
+ },
+ "M02_KhokhlaTeddy.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 499859,
+  "tris_after": 11998,
+  "dims_before": [
+   1.31,
+   1.0,
+   1.99
+  ],
+  "dims_after": [
+   0.39,
+   0.3,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 3,
+  "tex_max": 1024,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "0.6",
+  "name": "Khokhla Teddy (hollow bear)",
+  "size_mb": 0.77
+ },
+ "M04_FPArmsFlashlight.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 499687,
+  "tris_after": 9993,
+  "dims_before": [
+   1.99,
+   0.72,
+   1.92
+  ],
+  "dims_after": [
+   0.7,
+   0.25,
+   0.68
+  ],
+  "materials": 1,
+  "textures": 3,
+  "tex_max": 1024,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "0.7",
+  "name": "First-person arms with flashlight grip",
+  "size_mb": 0.65
+ },
+ "M05_LambuKaka.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 499710,
+  "tris_after": 39999,
+  "dims_before": [
+   1.91,
+   1.32,
+   1.99
+  ],
+  "dims_after": [
+   2.87,
+   2.0,
+   3.0
+  ],
+  "materials": 1,
+  "textures": 3,
+  "tex_max": 1024,
+  "has_uv": true,
+  "budget": 40000,
+  "target": "3.0",
+  "name": "Lambu Kaka (tall puppet man)",
+  "size_mb": 2.09
+ }
+}
