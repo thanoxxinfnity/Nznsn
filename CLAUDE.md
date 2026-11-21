@@ -8,7 +8,8 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 
 ## AI team (Sim.ai chats, model Fable 5.2 — FINAL)
 - Agents `config/agents.json` mein (9: lead, coder, blender_tech, level_designer, props_artist, animator, reviewer, art_director, gameplay_designer).
-- Chat stateless hai -> yaaddasht hamari: `python3 scripts/studio.py ask|add|list|remember|memory|forget|team`.
+- Sim-side memory CHALU hai (Agent block: Memory=conversation, ID=<start.conversationId>); 8/8 links test PASS (21 Nov). studio.py har agent ko `conversationId=nznsn-<naam>` bhejta hai.
+- Phir bhi studio.py apni local yaaddasht bhi saath bhejta hai (backup): `python3 scripts/studio.py ask|add|list|remember|memory|forget|team`.
   Memory: team/memory/<agent>.json (local), team/memory/shared.md (git mein, poori team ko jaata hai).
 - Sim par ek saath bahut requests = 429. Agents ko ek-ek karke chalao.
 - Blender agent: `python3 scripts/blender_agent.py "naam" "kya banana" 4 [--anim] [--base script.py]` -> assets/models_3d/*.glb/.png
