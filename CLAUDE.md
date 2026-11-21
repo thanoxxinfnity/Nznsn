@@ -50,3 +50,8 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 
 ## Purana demo (jungle)
 Horror plan (naya): HORROR_PLAN.md. Block City plan: PLAN.md (Block City, GTA-jaisa open world, Minecraft look). Purana demo: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
+
+## CHoMU Engine (user ka apna engine) — https://chomu-engine.vercel.app/
+- Core = Godot 4.7.2.stable (hamare jaisa, projects 100% compatible). Android editor APK (438 MB) + Linux AARCH64 editor zip (x86_64 par NAHI chalta). Releases: HF repo tertrxcuvuvjvj/chomu-releases (public); GitHub: thanoxxinfnity/CHOMU-engine.
+- Addons (MIT, pure GDScript, koi network/shell nahi): chomu_systems (tension director, flicker, fear exposure, stress FX, HFSM/BT/GOAP/perception monster AI, world streaming, device tier/DRS, active ragdoll; self-test 853 PASS hamare Godot par), chomu_ultra (graphics presets), chomu_character_studio (rig/IK/retarget). horror_city/addons/chomu_systems lagaya hua.
+- Self-test: `godot --headless --path <proj> res://addons/chomu_systems/tests/self_test.tscn`.

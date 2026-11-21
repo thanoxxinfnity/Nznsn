@@ -5,6 +5,15 @@ config/name="Khilauna Nagar"
 run/main_scene=""
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
+[autoload]
+
+ChomuDeviceTier="*res://addons/chomu_systems/core/device_tier.gd"
+ChomuReplay="*res://addons/chomu_systems/replay/replay.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/chomu_systems/plugin.cfg")
+
 [display]
 window/size/viewport_width=1280
 window/size/viewport_height=720
