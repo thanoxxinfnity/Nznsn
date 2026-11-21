@@ -4,6 +4,8 @@ extends CharacterBody3D
 
 signal bomb_thrown(pos: Vector3, vel: Vector3)
 signal died
+signal jumped
+signal got_hurt
 
 const GRAV := 24.0
 var world: VoxelWorld
@@ -51,6 +53,7 @@ func _ready() -> void:
 func hurt(a: float) -> void:
     hp -= a
     since_hurt = 0.0
+    got_hurt.emit()
     if hp <= 0.0:
         hp = 0.0
         died.emit()
@@ -94,6 +97,7 @@ func _physics_process(delta: float) -> void:
         velocity.y = -1.0
         if Ctl.jump:
             velocity.y = 8.6
+            jumped.emit()
     Ctl.jump = false
     move_and_slide()
     if is_on_floor() and is_on_wall() and sp > 0.5 and velocity.y <= 0.0:

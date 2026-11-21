@@ -10,6 +10,7 @@ var toast := ""
 var toast_t := 0.0
 var radar: Array = []
 var in_car := false
+var stars := 0
 var load_frac := 0.0
 var help_t := 14.0
 var joy_id := -1
@@ -105,6 +106,14 @@ func _process(delta: float) -> void:
     help_t = maxf(0.0, help_t - delta)
     queue_redraw()
 
+func _star(c: Vector2, r: float, filled: bool) -> void:
+    var pts := PackedVector2Array()
+    for i in 10:
+        var a := -PI / 2.0 + i * PI / 5.0
+        var rr := r if i % 2 == 0 else r * 0.45
+        pts.append(c + Vector2(cos(a), sin(a)) * rr)
+    draw_colored_polygon(pts, Color(1.0, 0.85, 0.1) if filled else Color(1, 1, 1, 0.18))
+
 func _txt(t: String, pos: Vector2, size: int, col: Color, align := HORIZONTAL_ALIGNMENT_LEFT, w := -1.0) -> void:
     draw_string(font, pos + Vector2(2, 2), t, align, w, size, Color(0, 0, 0, 0.8))
     draw_string(font, pos, t, align, w, size, col)
@@ -139,6 +148,8 @@ func _draw() -> void:
     draw_rect(Rect2(26, 22, 260.0 * hp / 100.0, 22), Color(0.3, 0.85, 0.3).lerp(Color(0.9, 0.2, 0.2), 1.0 - hp / 100.0))
     _txt("HP", Vector2(34, 42), 20, Color.WHITE)
     _txt("$ %d" % money, Vector2(24, 88), 34, Color(0.5, 1.0, 0.5))
+    for i in 3:
+        _star(Vector2(38 + i * 36, 124), 15.0, i < stars)
     # mission
     if title != "":
         _txt(title, Vector2(0, 40), 26, Color(1, 0.9, 0.3), HORIZONTAL_ALIGNMENT_CENTER, v.x)
@@ -154,6 +165,7 @@ func _draw() -> void:
         draw_circle(rc + p * 80.0, 5.0, it[1])
     draw_circle(rc, 5.0, Color.WHITE)
     draw_line(rc, rc + Vector2(0, -14), Color.WHITE, 2.0)
+    _txt("FPS %d" % int(Engine.get_frames_per_second()), Vector2(v.x * 0.5 - 40, v.y - 16), 18, Color(1, 1, 1, 0.45))
     # toast
     if toast_t > 0.0:
         var a := clampf(toast_t, 0.0, 1.0)

@@ -18,8 +18,26 @@ var money := 0
 var built := false
 var fails := 0
 var _last_idx := -99
+var wanted := 0.0
+var crime_t := 99.0
+var police: Array = []
+var police_timer := 0.0
+var calm_t := 0.0
+var clouds: Array = []
+var cloud_mat: StandardMaterial3D
+var testing := false
+var save_path := "user://blockcity.json"
+var save_t := 0.0
+var snd := {}
+var engine_p: AudioStreamPlayer
+var siren_p: AudioStreamPlayer
+var hurt_cd := 0.0
 
 func _ready() -> void:
+    for a in OS.get_cmdline_user_args():
+        if a == "--autotest" or a.begins_with("--shot="):
+            testing = true
+    _setup_audio()
     _setup_env()
     var layer := CanvasLayer.new()
     add_child(layer)
@@ -40,6 +58,7 @@ func _ready() -> void:
             i += 1
             hud.load_frac = 0.08 + 0.85 * float(i) / float(total)
             await get_tree().process_frame
+    _make_clouds()
     _spawn_entities()
     hud.load_frac = 1.0
     built = true
@@ -94,7 +113,22 @@ func _spawn_entities() -> void:
     missions.world = world
     missions.player = player
     add_child(missions)
-    missions.reward.connect(func(n: int) -> void: money += n)
+    missions.reward.connect(func(n: int) -> void:
+        money += n
+        _play("coin", 2.0)
+        missions.idx += 0
+        _save())
+    missions.pickup.connect(func() -> void: _play("coin", -2.0))
+    player.jumped.connect(func() -> void: _play("jump", -8.0))
+    player.got_hurt.connect(func() -> void:
+        if hurt_cd <= 0.0:
+            _play("hurt", -4.0)
+            hurt_cd = 0.4)
+    if not testing:
+        var d := _read_save()
+        if d.has("money"):
+            money = int(d["money"])
+            missions.idx = int(d.get("idx", 0)) - 1
     missions.toast.connect(func(m: String) -> void: hud.show_toast(m))
     missions.pause_t = 1.5
 
@@ -141,7 +175,54 @@ func _process(delta: float) -> void:
         if npc_respawn[i] <= 0.0:
             npc_respawn.remove_at(i)
             _spawn_npc()
+    # wanted + police
+    crime_t += delta
+    hurt_cd -= delta
+    if crime_t > 8.0 and wanted > 0.0:
+        wanted = maxf(0.0, wanted - 0.08 * delta)
+    var stars := int(ceil(wanted - 0.001))
+    police_timer -= delta
+    if stars > 0:
+        calm_t = 0.0
+        if police.size() < stars and police_timer <= 0.0:
+            _spawn_police()
+            police_timer = 3.5
+    else:
+        calm_t += delta
+        if calm_t > 4.0 and not police.is_empty():
+            for pp in police:
+                if is_instance_valid(pp):
+                    pp.queue_free()
+            police.clear()
+    var tp := (player.in_car.global_position if player.in_car else player.global_position)
+    var nearest := 999.0
+    for pp in police:
+        if is_instance_valid(pp):
+            pp.target_pos = tp
+            nearest = minf(nearest, pp.global_position.distance_to(tp))
+    if nearest < 60.0 and not siren_p.playing:
+        siren_p.play()
+    elif nearest >= 60.0 and siren_p.playing:
+        siren_p.stop()
+    siren_p.volume_db = lerpf(-4.0, -28.0, clampf(nearest / 60.0, 0.0, 1.0))
+    if player.in_car != null:
+        var cc := player.in_car as Car
+        if not engine_p.playing:
+            engine_p.play()
+        engine_p.pitch_scale = 0.7 + absf(cc.spd) / 17.0 * 1.3
+    elif engine_p.playing:
+        engine_p.stop()
+    for cl in clouds:
+        cl.position.x += delta * 1.4
+        if cl.position.x > VoxelWorld.W + 30.0:
+            cl.position.x = -30.0
+    cloud_mat.albedo_color = Color(b, b, b, 0.92)
+    save_t += delta
+    if save_t > 20.0:
+        save_t = 0.0
+        _save()
     # HUD
+    hud.stars = stars
     hud.hp = player.hp
     hud.money = money
     hud.title = missions.title if missions.pause_t <= 0.0 else ""
@@ -195,6 +276,7 @@ func _toggle_car() -> void:
             hud.show_toast("Gaadi: upar=aage, neeche=peeche, baayein/daayein=mudo")
 
 func _on_bomb(pos: Vector3, vel: Vector3) -> void:
+    _play("throw", -4.0)
     var b := Bomb.new()
     b.world = world
     b.vel = vel
@@ -216,6 +298,10 @@ func _on_explode(pos: Vector3) -> void:
     for c in cars:
         if c.dead_t <= 0.0 and c.global_position.distance_to(pos) < r * 1.5:
             _blow_car(c)
+    for pc in police.duplicate():
+        if is_instance_valid(pc) and pc.global_position.distance_to(pos) < r * 1.5:
+            _blow_police(pc)
+    _play("boom", lerpf(0.0, -20.0, clampf(d / 40.0, 0.0, 1.0)))
     Input.vibrate_handheld(140)
 
 func _kill_npc(n: Node3D) -> void:
@@ -223,12 +309,14 @@ func _kill_npc(n: Node3D) -> void:
     npcs.erase(n)
     n.queue_free()
     npc_respawn.append(10.0)
+    add_wanted(0.6)
 
 func _blow_car(c: Car) -> void:
     if c.driver != null:
         _toggle_car()
     _fx_boom(c.global_position + Vector3(0, 1, 0), 2.2, false)
     c.dead_t = 9.0
+    add_wanted(1.0)
     c.visible = false
     c.position = c.home + Vector3(0, -120, 0)
     c.velocity = Vector3.ZERO
@@ -299,6 +387,102 @@ func _on_died() -> void:
     player.hp = 100.0
     player.velocity = Vector3.ZERO
     player.global_position = world.spawn_pos
+    wanted = 0.0
+    for pp in police:
+        if is_instance_valid(pp):
+            pp.queue_free()
+    police.clear()
+
+func add_wanted(a: float) -> void:
+    var before := int(ceil(wanted - 0.001))
+    wanted = minf(3.0, wanted + a)
+    crime_t = 0.0
+    if before == 0 and wanted > 0.0:
+        hud.show_toast("WANTED! Police aa rahi hai")
+
+func _spawn_police() -> void:
+    var tp := (player.in_car.global_position if player.in_car else player.global_position)
+    var best: Vector3 = world.road_points[0]
+    for i in 40:
+        var c: Vector3 = world.road_points[randi() % world.road_points.size()]
+        var dd := Vector2(c.x - tp.x, c.z - tp.z).length()
+        if dd > 28.0 and dd < 55.0:
+            best = c
+            break
+    var p := Police.new()
+    p.collision_layer = 2
+    p.collision_mask = 1
+    p.setup(Color.WHITE, best + Vector3(0, 0.1, 0), 0.0)
+    add_child(p)
+    p.hit.connect(func(dm: float) -> void: player.hurt(dm))
+    police.append(p)
+
+func _blow_police(p: Node3D) -> void:
+    _fx_boom(p.global_position + Vector3(0, 1, 0), 2.2, false)
+    police.erase(p)
+    p.queue_free()
+    add_wanted(0.5)
+
+func _play(n: String, db := 0.0) -> void:
+    var p := AudioStreamPlayer.new()
+    p.stream = snd[n]
+    p.volume_db = db
+    add_child(p)
+    p.finished.connect(p.queue_free)
+    p.play()
+
+func _setup_audio() -> void:
+    snd = {"boom": Sfx.boom(), "coin": Sfx.coin(), "jump": Sfx.jump(), "throw": Sfx.throw_(), "hurt": Sfx.hurt()}
+    engine_p = AudioStreamPlayer.new()
+    engine_p.stream = Sfx.engine()
+    engine_p.volume_db = -12.0
+    add_child(engine_p)
+    siren_p = AudioStreamPlayer.new()
+    siren_p.stream = Sfx.siren()
+    add_child(siren_p)
+
+func _make_clouds() -> void:
+    var rng := RandomNumberGenerator.new()
+    rng.seed = 5
+    cloud_mat = StandardMaterial3D.new()
+    cloud_mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+    cloud_mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+    cloud_mat.albedo_color = Color(1, 1, 1, 0.92)
+    for i in 12:
+        var c := Node3D.new()
+        for j in rng.randi_range(3, 6):
+            var mi := MeshInstance3D.new()
+            var bm := BoxMesh.new()
+            bm.size = Vector3(rng.randf_range(5.0, 9.0), 2.0, rng.randf_range(4.0, 7.0))
+            mi.mesh = bm
+            mi.material_override = cloud_mat
+            mi.position = Vector3(j * 5.0 - 10.0, rng.randf_range(-0.4, 0.4), rng.randf_range(-3.0, 3.0))
+            c.add_child(mi)
+        c.position = Vector3(rng.randf_range(-30.0, 130.0), rng.randf_range(32.0, 38.0), rng.randf_range(-10.0, 106.0))
+        add_child(c)
+        clouds.append(c)
+
+func _write_save(m: int, idx: int) -> void:
+    var f := FileAccess.open(save_path, FileAccess.WRITE)
+    if f:
+        f.store_string(JSON.stringify({"money": m, "idx": idx}))
+
+func _read_save() -> Dictionary:
+    if not FileAccess.file_exists(save_path):
+        return {}
+    var f := FileAccess.open(save_path, FileAccess.READ)
+    if f == null:
+        return {}
+    var d: Variant = JSON.parse_string(f.get_as_text())
+    return d if d is Dictionary else {}
+
+func _save() -> void:
+    if not testing and missions != null:
+        _write_save(money, missions.idx + (1 if missions.pause_t > 0.0 else 0))
+
+func _notification(what: int) -> void:
+    if what == NOTIFICATION_WM_CLOSE_REQUEST or what == NOTIFICATION_APPLICATION_PAUSED or what == NOTIFICATION_WM_GO_BACK_REQUEST:
+        _save()
 
 # ---------------- tests ----------------
 func _t(name: String, cond: bool, info: String = "") -> void:
@@ -376,6 +560,38 @@ func _autotest() -> void:
                         player.global_position = missions.bags[0].position
         await _frames(8)
     _t("4 missions pure hue (deliver+demolish+taxi+bags)", money >= 900, "idx %d -> %d, paisa $%d" % [start_idx, missions.idx, money])
+    # --- v0.2 checks
+    _t("awaazein bani", Sfx.boom().data.size() > 10000 and Sfx.engine().data.size() > 5000 and Sfx.siren().data.size() > 10000)
+    if player.in_car != null:
+        _toggle_car()
+    player.global_position = world.spawn_pos
+    wanted = 0.0
+    police_timer = 0.0
+    for pp in police:
+        if is_instance_valid(pp):
+            pp.queue_free()
+    police.clear()
+    add_wanted(1.0)
+    await _frames(20)
+    _t("police aayi", police.size() >= 1, str(police.size()))
+    var pc: Police = police[0]
+    pc.position = Vector3(49.5, VoxelWorld.PLATEAU + 1.2, world.spawn_pos.z + 22.0)
+    pc.rotation.y = 0.0
+    pc.spd = 0.0
+    player.hp = 100.0
+    var d0 := pc.global_position.distance_to(player.global_position)
+    await _frames(150)
+    var d1 := pc.global_position.distance_to(player.global_position)
+    _t("police ne peecha kiya", d1 < d0 - 8.0, "%.1f -> %.1f m" % [d0, d1])
+    await _frames(60)
+    _t("police ne chot maari", player.hp < 100.0, "hp %d" % int(player.hp))
+    _on_explode(pc.global_position)
+    _t("police udi", not police.has(pc))
+    var w1 := wanted
+    save_path = "user://test_save.json"
+    _write_save(777, 5)
+    var sd := _read_save()
+    _t("save/load", int(sd.get("money", 0)) == 777 and int(sd.get("idx", 0)) == 5)
     print("AUTOTEST ", "PASS" if fails == 0 else "FAIL (%d)" % fails)
     get_tree().quit(0 if fails == 0 else 1)
 
@@ -434,6 +650,22 @@ func _shots(dir_s: String) -> void:
     await _frames(40)
     await _shot(dir_s + "/s5_car.png")
     Ctl.move = Vector2.ZERO
+    _toggle_car()
+    player.global_position = world.spawn_pos
+    player.face_dir(Vector3(0, 0, 1))
+    wanted = 0.0
+    add_wanted(2.0)
+    police_timer = 0.0
+    await _frames(15)
+    for pp in police:
+        pp.position = Vector3(49.5, 11.2, world.spawn_pos.z + 14.0)
+        break
+    await _frames(25)
+    await _shot(dir_s + "/s7_police.png")
+    player.pitch = 0.35
+    await _frames(5)
+    await _shot(dir_s + "/s8_sky.png")
+    player.pitch = -0.25
     daytime = 0.78
     await _frames(5)
     await _shot(dir_s + "/s6_night.png")

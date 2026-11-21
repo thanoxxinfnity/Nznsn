@@ -9,6 +9,9 @@ var home := Vector3.ZERO
 var color := Color(0.8, 0.15, 0.15)
 var dead_t := 0.0
 var body_root: Node3D
+var ai := false
+var ai_thr := 0.0
+var ai_steer := 0.0
 
 func setup(c: Color, pos: Vector3, yaw: float) -> void:
     color = c
@@ -39,7 +42,10 @@ func _physics_process(delta: float) -> void:
         return
     var thr := 0.0
     var steer := 0.0
-    if driver != null:
+    if ai:
+        thr = ai_thr
+        steer = ai_steer
+    elif driver != null:
         thr = -Ctl.move.y
         steer = Ctl.move.x
     var target := thr * (17.0 if thr > 0.0 else 6.0)

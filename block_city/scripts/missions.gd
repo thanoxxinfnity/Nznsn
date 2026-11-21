@@ -4,6 +4,7 @@ extends Node3D
 
 signal reward(amount: int)
 signal toast(msg: String)
+signal pickup
 
 var world: VoxelWorld
 var player: Player
@@ -148,6 +149,7 @@ func _process(delta: float) -> void:
                     bags.erase(b)
                     b.queue_free()
                     toast.emit("+ thaila!")
+                    pickup.emit()
             text = "Paisa-thaile baaki: %d / 5" % bags.size()
             done = bags.is_empty()
     if kind == "bags":
