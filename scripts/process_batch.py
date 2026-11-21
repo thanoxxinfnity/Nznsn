@@ -8,7 +8,7 @@ rows = {r["ID"]: r for r in csv.DictReader(open(ROOT / "docs/ASSET_LIST.csv", en
 src, dst = Path(sys.argv[1]), Path(sys.argv[2]); dst.mkdir(parents=True, exist_ok=True)
 (dst / "previews").mkdir(exist_ok=True)
 def work(f):
-    m = re.match(r"([A-Z]\d{2})", f.name)
+    m = re.match(r"([A-Z]{1,2}\d{2,3})", f.name)
     r = rows.get(m.group(1)) if m else None
     if not r: return f.name, {"error": "ID list mein nahi"}
     out = dst / f.name; prev = dst / "previews" / (f.stem + ".png")
