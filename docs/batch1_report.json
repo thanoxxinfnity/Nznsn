@@ -1,0 +1,578 @@
+{
+ "F01_conveyor_belt_straight.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3880,
+  "tris_after": 3880,
+  "dims_before": [
+   3.02,
+   0.95,
+   0.91
+  ],
+  "dims_after": [
+   3.0,
+   0.94,
+   0.9
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "3.0",
+  "name": "Conveyor belt straight",
+  "size_mb": 1.25
+ },
+ "F06_metal_shelving_boxes.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2268,
+  "tris_after": 2268,
+  "dims_before": [
+   1.84,
+   0.64,
+   2.0
+  ],
+  "dims_after": [
+   1.84,
+   0.64,
+   2.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Metal shelving unit with boxes",
+  "size_mb": 0.87
+ },
+ "F07_cardboard_box_stack_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 216,
+  "tris_after": 216,
+  "dims_before": [
+   0.58,
+   0.55,
+   0.62
+  ],
+  "dims_after": [
+   0.93,
+   0.88,
+   1.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cardboard box stack",
+  "size_mb": 0.22
+ },
+ "F07_cardboard_box_stack_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 324,
+  "tris_after": 324,
+  "dims_before": [
+   0.64,
+   0.58,
+   0.86
+  ],
+  "dims_after": [
+   0.74,
+   0.68,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cardboard box stack",
+  "size_mb": 0.44
+ },
+ "F07_cardboard_box_stack_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 432,
+  "tris_after": 432,
+  "dims_before": [
+   0.9,
+   0.54,
+   0.76
+  ],
+  "dims_after": [
+   1.0,
+   0.61,
+   0.85
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cardboard box stack",
+  "size_mb": 0.45
+ },
+ "F08_wooden_pallet.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 950,
+  "tris_after": 950,
+  "dims_before": [
+   1.2,
+   1.0,
+   0.15
+  ],
+  "dims_after": [
+   1.2,
+   1.0,
+   0.15
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.2",
+  "name": "Wooden pallet",
+  "size_mb": 0.44
+ },
+ "F09_rusty_oil_barrel.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.61,
+   0.61,
+   0.9
+  ],
+  "dims_after": [
+   0.62,
+   0.62,
+   0.9
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.9",
+  "name": "Rusty oil barrel",
+  "size_mb": 0.61
+ },
+ "F10_workbench_tools.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3724,
+  "tris_after": 3724,
+  "dims_before": [
+   2.0,
+   1.16,
+   1.06
+  ],
+  "dims_after": [
+   2.0,
+   1.16,
+   1.06
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.0",
+  "name": "Workbench with tools",
+  "size_mb": 1.43
+ },
+ "F12_fuse_box_wall.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1380,
+  "tris_after": 1380,
+  "dims_before": [
+   0.79,
+   0.54,
+   0.6
+  ],
+  "dims_after": [
+   0.6,
+   0.41,
+   0.46
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.6",
+  "name": "Fuse box (wall)",
+  "size_mb": 0.76
+ },
+ "F14_metal_locker.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1944,
+  "tris_after": 1944,
+  "dims_before": [
+   0.45,
+   0.7,
+   1.8
+  ],
+  "dims_after": [
+   0.45,
+   0.7,
+   1.8
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Metal locker (hideable)",
+  "size_mb": 0.58
+ },
+ "F15_office_desk.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1404,
+  "tris_after": 1404,
+  "dims_before": [
+   1.6,
+   0.81,
+   0.81
+  ],
+  "dims_after": [
+   1.6,
+   0.81,
+   0.81
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.6",
+  "name": "Office desk",
+  "size_mb": 0.81
+ },
+ "F25_metal_door_single.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1756,
+  "tris_after": 1756,
+  "dims_before": [
+   0.98,
+   0.18,
+   2.15
+  ],
+  "dims_after": [
+   1.0,
+   0.18,
+   2.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "2.2",
+  "name": "Metal door single",
+  "size_mb": 0.86
+ },
+ "F31_keycard_reader.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 528,
+  "tris_after": 528,
+  "dims_before": [
+   0.09,
+   0.04,
+   0.15
+  ],
+  "dims_after": [
+   0.12,
+   0.05,
+   0.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.2",
+  "name": "Keycard reader panel",
+  "size_mb": 0.7
+ },
+ "F32_valve_wheel.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.6,
+   0.48,
+   0.51
+  ],
+  "dims_after": [
+   0.5,
+   0.4,
+   0.42
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.5",
+  "name": "Large valve wheel",
+  "size_mb": 0.61
+ },
+ "G01_flashlight.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1812,
+  "tris_after": 1812,
+  "dims_before": [
+   0.06,
+   0.06,
+   0.24
+  ],
+  "dims_after": [
+   0.06,
+   0.06,
+   0.25
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.25",
+  "name": "Flashlight (held)",
+  "size_mb": 0.77
+ },
+ "G02_battery_d_cell.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 676,
+  "tris_after": 676,
+  "dims_before": [
+   0.03,
+   0.03,
+   0.06
+  ],
+  "dims_after": [
+   0.05,
+   0.05,
+   0.1
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.1",
+  "name": "Battery D-cell",
+  "size_mb": 0.58
+ },
+ "G03_key_v1_brass.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 396,
+  "tris_after": 396,
+  "dims_before": [
+   0.07,
+   0.0,
+   0.03
+  ],
+  "dims_after": [
+   0.1,
+   0.01,
+   0.04
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.1",
+  "name": "Key",
+  "size_mb": 0.2
+ },
+ "G03_key_v2_red_tag.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 600,
+  "tris_after": 600,
+  "dims_before": [
+   0.1,
+   0.0,
+   0.05
+  ],
+  "dims_after": [
+   0.1,
+   0.0,
+   0.05
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.1",
+  "name": "Key",
+  "size_mb": 0.7
+ },
+ "G03_key_v3_blue_tag.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 600,
+  "tris_after": 600,
+  "dims_before": [
+   0.1,
+   0.0,
+   0.05
+  ],
+  "dims_after": [
+   0.1,
+   0.0,
+   0.05
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.1",
+  "name": "Key",
+  "size_mb": 0.75
+ },
+ "G04_ceramic_fuse.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 564,
+  "tris_after": 564,
+  "dims_before": [
+   0.06,
+   0.02,
+   0.02
+  ],
+  "dims_after": [
+   0.1,
+   0.03,
+   0.03
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.1",
+  "name": "Ceramic fuse",
+  "size_mb": 0.42
+ },
+ "G05_diary.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 540,
+  "tris_after": 540,
+  "dims_before": [
+   0.15,
+   0.21,
+   0.03
+  ],
+  "dims_after": [
+   0.14,
+   0.2,
+   0.03
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.2",
+  "name": "Diary / notebook",
+  "size_mb": 0.61
+ },
+ "G06_envelope_wax_seal.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 356,
+  "tris_after": 356,
+  "dims_before": [
+   0.16,
+   0.11,
+   0.01
+  ],
+  "dims_after": [
+   0.2,
+   0.14,
+   0.01
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 500,
+  "target": "0.2",
+  "name": "Letter / envelope",
+  "size_mb": 0.42
+ },
+ "G07_cassette_tape.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 412,
+  "tris_after": 412,
+  "dims_before": [
+   0.1,
+   0.06,
+   0.01
+  ],
+  "dims_after": [
+   0.1,
+   0.06,
+   0.01
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.1",
+  "name": "Cassette tape",
+  "size_mb": 0.62
+ },
+ "G08_family_photo_frame.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 552,
+  "tris_after": 552,
+  "dims_before": [
+   0.24,
+   0.1,
+   0.21
+  ],
+  "dims_after": [
+   0.3,
+   0.13,
+   0.27
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Family photo frame",
+  "size_mb": 0.57
+ }
+}

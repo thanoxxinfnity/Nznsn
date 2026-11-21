@@ -8,3 +8,4 @@ config/agents.json
 team/memory/usage.log
 build/
 block_city/.godot/
+horror_city/.godot/
