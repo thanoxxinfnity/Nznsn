@@ -1,0 +1,8 @@
+{
+  "codex":   {"type": "codex",  "min_gap": 0,  "note": "xingchiapi gpt-6.1-sol via Codex CLI (scripts/codex_agent.sh)"},
+  "nvidia":  {"type": "openai", "base": "https://integrate.api.nvidia.com/v1", "key_env": "NVIDIA_API_KEY", "min_gap": 2, "max_tokens": 3000},
+  "gemini":  {"type": "gemini", "key_env": "GOOGLE_API_KEY", "min_gap": 2},
+  "coarena": {"type": "openai", "base": "https://coarena.ai/api/v1", "key_env": "COARENA_API_KEY", "min_gap": 7, "max_tokens": 3000},
+  "seek":    {"type": "openai", "base": "https://100milionseek.top/v1", "key_env": "SEEK_API_KEY", "min_gap": 2, "max_tokens": 3000},
+  "sim":     {"type": "sim",    "min_gap": 3, "note": "Sim.ai chat agents (credits kam: $5 free)"}
+}

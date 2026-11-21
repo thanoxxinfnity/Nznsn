@@ -1,0 +1,57 @@
+{
+  "_chains": {
+    "strong": [
+      "codex:gpt-6.1-sol",
+      "nvidia:moonshotai/kimi-k3.1-pro",
+      "gemini:gemini-3.5-flash",
+      "coarena:deepseek-v4-1-flash-1017",
+      "seek:deepseek-v4.1-flash-free",
+      "sim:-"
+    ],
+    "cheap": [
+      "coarena:deepseek-v4-1-flash-1017",
+      "seek:deepseek-v4.1-flash-free",
+      "coarena:gpt-6-luna",
+      "gemini:gemini-3.5-flash",
+      "nvidia:moonshotai/kimi-k3.1-pro",
+      "codex:gpt-6.1-sol",
+      "sim:-"
+    ]
+  },
+  "lead": {
+    "chain": "strong",
+    "role": "Team lead: bade kaam ko chhote kaamon mein todna, agents ko baantna, kaam review karna"
+  },
+  "coder": {
+    "chain": "strong",
+    "role": "Godot 4 GDScript (aur Blender bpy) code likhna"
+  },
+  "blender_tech": {
+    "chain": "strong",
+    "role": "Blender 5.3 ke bpy Python scripts likhna jo 3D models/maps banate hain"
+  },
+  "reviewer": {
+    "chain": "strong",
+    "role": "Code, models aur animations mein bugs/kamiyan dhoondhna"
+  },
+  "level_designer": {
+    "chain": "cheap",
+    "role": "Jungle/lakdi wali duniya ka map aur level ka dhaancha banana"
+  },
+  "props_artist": {
+    "chain": "cheap",
+    "role": "Ped, lattha, jhopdi, pul, saman jaise lakdi ke props ke Blender models"
+  },
+  "animator": {
+    "chain": "cheap",
+    "role": "Darwaze, ped hilna jaise animations (keyframes) banana"
+  },
+  "art_director": {
+    "chain": "cheap",
+    "role": "Game ka look/style, rang aur lakdi-jungle theme tay karna"
+  },
+  "gameplay_designer": {
+    "chain": "cheap",
+    "role": "Gameplay: player ke kaam, dushman, items, rules aur quests"
+  }
+}

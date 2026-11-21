@@ -14,6 +14,8 @@
 """
 import os, sys, json, re, time, urllib.request, urllib.error
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import llm
 
 ROOT = Path(__file__).resolve().parent.parent
 AGENTS = ROOT / "config" / "agents.json"
@@ -128,32 +130,38 @@ def compress(name, agent, m):
     q = ("Neeche purani baat-cheet aur purana saar hai. Inko milakar 10 lines se kam ka saar likho: "
          "faisle, file names, kaam jo ho gaye, aur jo baaki hai. Sirf saar do.\n\n"
          f"Purana saar: {m['summary']}\n\nBaat-cheet:\n{blob}")[:MAX_CHARS]
-    m["summary"] = raw_chat(agent["chat_id"], q).strip()
+    m["summary"] = llm.chat(name, lambda p: q, chain=llm.load_team()["art_director"]["chain"][:-1])[0].strip()
     m["turns"] = m["turns"][-MAX_TURNS:]
 
 def ask(name, text, fresh=False):
-    agents = load_agents()
-    if name not in agents:
-        raise SystemExit(f"agent '{name}' nahi mila. Available: {', '.join(agents)}")
-    agent = agents[name]
+    agents = load_agents() if AGENTS.exists() else {}
+    teamcfg = llm.load_team()
+    if name not in teamcfg:
+        raise SystemExit(f"agent '{name}' nahi mila. Available: {', '.join(teamcfg)}")
+    agent = {**agents.get(name, {}), "role": teamcfg[name]["role"]}
     m = {"summary": "", "turns": []} if fresh else load_mem(name)
-    lean = (not fresh) and os.environ.get("NZNSN_LOCAL_MEMORY") != "1"
-    prompt = build_prompt_lean(name, agent, text) if lean else build_prompt(name, agent, text, m)
-    reply = raw_chat(agent["chat_id"], prompt, conv=None if fresh else f"nznsn-{name}")
+    empty = {"summary": "", "turns": []}
+
+    def make(provider):
+        # Sim ke paas server-side yaaddasht hai: sirf tab lean jab pichla jawab bhi Sim ne diya ho
+        if provider == "sim" and not fresh and m.get("last") == "sim" and os.environ.get("NZNSN_LOCAL_MEMORY") != "1":
+            return build_prompt_lean(name, agent, text)
+        return build_prompt(name, agent, text, empty if fresh else m)
+
+    reply, used = llm.chat(name, make, conv=None if fresh else f"nznsn-{name}")
+    print(f"[{name} <- {used}]", file=sys.stderr)
     if not fresh:
         m["turns"] += [{"who": "user", "text": text}, {"who": name, "text": reply}]
-        if lean:
-            m["turns"] = m["turns"][-MAX_TURNS * 2:]
-        elif len(m["turns"]) > SUMMARIZE_AT:
+        m["last"] = used.split(":")[0]
+        m["turns"] = m["turns"][-MAX_TURNS * 2:]
+        if len(m["turns"]) > SUMMARIZE_AT:
             try: compress(name, agent, m)
             except RuntimeError: pass
         save_mem(name, m)
     return reply
 
 def team(task):
-    agents = load_agents()
-    if "lead" not in agents:
-        raise SystemExit("'lead' agent chahiye. Pehle: studio.py add lead <chat_id> \"role\"")
+    agents = llm.load_team()
     others = {k: v["role"] for k, v in agents.items() if k != "lead"}
     plan = ask("lead",
         f"Task: {task}\n\nTeam members: {json.dumps(others, ensure_ascii=False)}\n"
@@ -171,8 +179,8 @@ def main(a):
         print(__doc__); return
     cmd = a[0]
     if cmd == "list":
-        for k, v in load_agents().items():
-            print(f"{k:12} {v.get('model','?'):12} {v['chat_id']:12} {v['role']}")
+        for k, v in llm.load_team().items():
+            print(f"{k:18} {v['chain'][0].split(':')[0]:>7} -> ... ({len(v['chain'])} providers)  {v['role'][:60]}")
     elif cmd == "add":
         ag = load_agents()
         ag[a[1]] = {"chat_id": a[2], "role": a[3], "model": a[4] if len(a) > 4 else "Fable 5.2"}

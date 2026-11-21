@@ -6,15 +6,15 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Secrets (git mein NAHI jaate, user se maango): `.env` (template `.env.example`), `config/agents.json` (template `config/agents.example.json`).
 - Branch: `ccr-be73983f-pefhcc`. Chat mein aayi keys/links kabhi commit mat karo.
 
-## AI team (Sim.ai chats, model Fable 5.2 — FINAL)
-- Agents `config/agents.json` mein (9: lead, coder, blender_tech, level_designer, props_artist, animator, reviewer, art_director, gameplay_designer).
-- Sim-side memory CHALU hai (Agent block: Memory=conversation, ID=<start.conversationId>); 8/8 links test PASS (21 Nov). studio.py har agent ko `conversationId=nznsn-<naam>` bhejta hai.
-- Phir bhi studio.py apni local yaaddasht bhi saath bhejta hai (backup): `python3 scripts/studio.py ask|add|list|remember|memory|forget|team`.
-  Memory: team/memory/<agent>.json (local), team/memory/shared.md (git mein, poori team ko jaata hai).
-- Sim plan FREE: $5 limit. Asli kharcha dekho: `python3 scripts/studio.py credits` (SIM_API_KEY, .env). Kharcha dollar/token ke hisaab se hai (flat per-message nahi). 21 Nov: $4.29/$5. Chhoti call ~ $0.02. Bina poochhe bade kaam mat chalao.
-- Sim par ek saath bahut requests = 429. Agents ko ek-ek karke chalao.
-- Blender agent: `python3 scripts/blender_agent.py "naam" "kya banana" 4 [--anim] [--base script.py]` -> assets/models_3d/*.glb/.png
-  (agent bpy code likhta hai, hum headless Blender mein chalate/validate karte hain). Sirf primitives-wale props achhe; character rigging untested.
+## AI team (multi-provider, auto-failover) — 9 roles, `config/team_models.json`
+- Roles: lead, coder, blender_tech, reviewer (chain "strong": Codex gpt-6.1-sol -> NVIDIA kimi -> Gemini -> Coarena -> seek -> Sim)
+  aur level_designer, props_artist, animator, art_director, gameplay_designer (chain "cheap": Coarena deepseek -> seek -> Coarena luna -> Gemini -> NVIDIA -> Codex -> Sim).
+- Ek provider ka limit/balance/429/down hone par agla chalta hai, fail hue ko cooldown (scripts/llm.py). Health: `python3 scripts/llm.py health` (chhoti calls, Codex ~$0.03).
+- Chalana: `python3 scripts/studio.py ask <role> "sawaal"` | `team "bada kaam"` (lead baantta hai) | `list` | `credits` | `remember "fact"` | `memory/forget <role>`.
+- Yaaddasht: team/memory/<role>.json (local, har provider ke saath pichli baatein bheji jaati hain) + team/memory/shared.md (git mein). Sim ka server-side memory sirf Sim ke liye (config/agents.json mein chat links, git mein NAHI).
+- Sim sirf aakhri backup ($5 free limit, ~$0.7 bacha). Coarena $1/din, 10 req/min.
+- Blender agent: `python3 scripts/blender_agent.py "naam" "kya banana" 4 [--anim] [--base script.py]` -> assets/models_3d/*.glb/.png (blender_tech role chain use karta hai).
+- Codex agent (file likhta/chalata hai): `bash scripts/codex_agent.sh "kaam" [folder]` (CODEX_SANDBOX=workspace-write).
 
 ## API providers (sab ek ek limit ke saath; .env mein keys)
 - z14vx94quka0-d.space-z.ai router: sirf demo-chat/demo-3d (demo-3d prompt ignore karta hai, gola deta hai).
