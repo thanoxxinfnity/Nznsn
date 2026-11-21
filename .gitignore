@@ -3,3 +3,4 @@
 .godot/
 assets/models_3d/*.glb
 __pycache__/
+team/memory/*.json
