@@ -698,13 +698,13 @@ JV17,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exposed engine 
 JV18,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Torn car seats,2,0.7,2500,-,2 variants torn car seats,DONE-Claude (2/2)
 JV19,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Steering wheel,1,0.4,1500,-,old steering wheel,DONE-Claude (1/1)
 JV20,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Bumper pieces,3,1.5,1500,-,3 variants bumpers,DONE-Claude (3/3)
-JV21,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Smashed windshield frame,1,1.4,2000,-,smashed windshield frame,
-JV22,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exhaust pipe,1,1.2,1000,-,exhaust pipe,
-JV23,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Tyre stacks,2,1.2,2500,-,2 variants stacks of tyres,
-JV24,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Scrap metal piles,3,1.5,2500,-,3 variants scrap metal piles,
-JV25,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Oil puddle flat,1,1.0,300,-,flat oil puddle,
-JV26,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car jack,1,0.6,2000,-,old car jack,
-JV27,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Old tow truck,1,7.0,22000,-,old tow truck,
+JV21,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Smashed windshield frame,1,1.4,2000,-,smashed windshield frame,DONE-Claude (1/1)
+JV22,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Exhaust pipe,1,1.2,1000,-,exhaust pipe,DONE-Claude (1/1)
+JV23,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Tyre stacks,2,1.2,2500,-,2 variants stacks of tyres,DONE-Claude (2/2)
+JV24,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Scrap metal piles,3,1.5,2500,-,3 variants scrap metal piles,DONE-Claude (3/3)
+JV25,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Oil puddle flat,1,1.0,300,-,flat oil puddle,DONE-Claude (1/1)
+JV26,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car jack,1,0.6,2000,-,old car jack,DONE-Claude (1/1)
+JV27,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Old tow truck,1,7.0,22000,-,old tow truck,DONE-Claude (1/1)
 JV28,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Crushed car cubes stack,1,3.0,9000,-,stack of crushed car cubes,
 JV29,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car crusher machine,1,5.0,16000,-,junkyard car crusher,
 JV30,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Junkyard sheet-metal gate,1,5.0,4000,-,junkyard sheet-metal gate,
@@ -726,32 +726,32 @@ BR08,P2,Broken & damaged props (toota-foota saman),All,Cracked mirror,3,1.0,2000
 BR09,P2,Broken & damaged props (toota-foota saman),All,Broken bed frame,2,2.0,4500,-,2 variants broken bed frames,DONE (2/2)
 BR10,P2,Broken & damaged props (toota-foota saman),All,Torn mattress,2,1.9,2500,-,2 variants torn mattresses,DONE (2/2)
 BR11,P2,Broken & damaged props (toota-foota saman),All,Ripped sofa,2,2.0,5500,-,2 variants ripped sofa,DONE (2/2)
-BR12,P3,Broken & damaged props (toota-foota saman),All,Smashed vending machine,1,1.8,7000,-,smashed vending machine,
+BR12,P3,Broken & damaged props (toota-foota saman),All,Smashed vending machine,1,1.8,7000,-,smashed vending machine,DONE-Claude (1/1)
 BR13,P3,Broken & damaged props (toota-foota saman),All,Bent street lamp,2,5.0,3500,-,2 variants bent street lamps,
-BR14,P3,Broken & damaged props (toota-foota saman),All,Fallen signboard,3,2.0,1500,-,3 variants fallen blank signboards,
-BR15,P3,Broken & damaged props (toota-foota saman),All,Broken wooden fence,2,3.0,2000,-,2 variants broken wooden fence,
-BR16,P3,Broken & damaged props (toota-foota saman),All,Cracked wall panel,3,3.0,1500,-,3 variants wall segments with big cracks,
-BR17,P3,Broken & damaged props (toota-foota saman),All,Cracked floor slab,3,3.0,1000,-,3 variants cracked floor slabs,
-BR18,P3,Broken & damaged props (toota-foota saman),All,Collapsed ceiling piece,2,3.0,3000,-,2 variants collapsed ceiling pieces with hanging wires,
-BR19,P3,Broken & damaged props (toota-foota saman),All,Broken stairs,2,3.0,3500,-,2 variants broken stairs,
-BR20,P3,Broken & damaged props (toota-foota saman),All,Broken railing,3,2.0,1500,-,3 variants broken railings,
-BR21,P3,Broken & damaged props (toota-foota saman),All,Bent metal sheet,3,1.5,1200,-,3 variants bent metal sheets,
-BR22,P3,Broken & damaged props (toota-foota saman),All,Torn tent,1,4.0,3000,-,torn tent collapsed,
-BR23,P3,Broken & damaged props (toota-foota saman),All,Broken piano,1,1.6,8000,-,broken piano with missing keys,
+BR14,P3,Broken & damaged props (toota-foota saman),All,Fallen signboard,3,2.0,1500,-,3 variants fallen blank signboards,DONE-Claude (3/3)
+BR15,P3,Broken & damaged props (toota-foota saman),All,Broken wooden fence,2,3.0,2000,-,2 variants broken wooden fence,DONE-Claude (2/2)
+BR16,P3,Broken & damaged props (toota-foota saman),All,Cracked wall panel,3,3.0,1500,-,3 variants wall segments with big cracks,DONE-Claude (3/3)
+BR17,P3,Broken & damaged props (toota-foota saman),All,Cracked floor slab,3,3.0,1000,-,3 variants cracked floor slabs,DONE-Claude (3/3)
+BR18,P3,Broken & damaged props (toota-foota saman),All,Collapsed ceiling piece,2,3.0,3000,-,2 variants collapsed ceiling pieces with hanging wires,DONE-Claude (2/2)
+BR19,P3,Broken & damaged props (toota-foota saman),All,Broken stairs,2,3.0,3500,-,2 variants broken stairs,DONE-Claude (2/2)
+BR20,P3,Broken & damaged props (toota-foota saman),All,Broken railing,3,2.0,1500,-,3 variants broken railings,DONE-Claude (3/3)
+BR21,P3,Broken & damaged props (toota-foota saman),All,Bent metal sheet,3,1.5,1200,-,3 variants bent metal sheets,DONE-Claude (3/3)
+BR22,P3,Broken & damaged props (toota-foota saman),All,Torn tent,1,4.0,3000,-,torn tent collapsed,DONE-Claude (1/1)
+BR23,P3,Broken & damaged props (toota-foota saman),All,Broken piano,1,1.6,8000,-,broken piano with missing keys,DONE-Claude (1/1)
 BR24,P3,Broken & damaged props (toota-foota saman),All,Broken clock,2,0.6,2000,-,2 variants broken clocks,
 BR25,P3,Broken & damaged props (toota-foota saman),All,Smashed dollhouse,1,0.8,6000,-,smashed dollhouse,
-BR26,P3,Broken & damaged props (toota-foota saman),All,Smashed toy box,1,0.6,2500,-,smashed toy box,
-BR27,P3,Broken & damaged props (toota-foota saman),All,Broken fridge open,1,1.7,5000,-,broken fridge door hanging open,
-BR28,P3,Broken & damaged props (toota-foota saman),All,Broken toilet,1,0.8,3000,-,broken toilet,
-BR29,P3,Broken & damaged props (toota-foota saman),All,Broken sink,1,0.8,2500,-,broken sink,
-BR30,P3,Broken & damaged props (toota-foota saman),All,Cracked bathtub,1,1.7,4500,-,cracked bathtub,
-BR31,P3,Broken & damaged props (toota-foota saman),All,Broken glass table,1,1.2,2500,-,broken glass-top table,
-BR32,P3,Broken & damaged props (toota-foota saman),All,Broken lamp,3,0.5,1200,-,3 variants broken lamps,
-BR33,P3,Broken & damaged props (toota-foota saman),All,Cracked pots,4,0.4,1200,-,4 variants cracked clay pots,
+BR26,P3,Broken & damaged props (toota-foota saman),All,Smashed toy box,1,0.6,2500,-,smashed toy box,DONE-Claude (1/1)
+BR27,P3,Broken & damaged props (toota-foota saman),All,Broken fridge open,1,1.7,5000,-,broken fridge door hanging open,DONE-Claude (1/1)
+BR28,P3,Broken & damaged props (toota-foota saman),All,Broken toilet,1,0.8,3000,-,broken toilet,DONE-Claude (1/1)
+BR29,P3,Broken & damaged props (toota-foota saman),All,Broken sink,1,0.8,2500,-,broken sink,DONE-Claude (1/1)
+BR30,P3,Broken & damaged props (toota-foota saman),All,Cracked bathtub,1,1.7,4500,-,cracked bathtub,DONE-Claude (1/1)
+BR31,P3,Broken & damaged props (toota-foota saman),All,Broken glass table,1,1.2,2500,-,broken glass-top table,DONE-Claude (1/1)
+BR32,P3,Broken & damaged props (toota-foota saman),All,Broken lamp,3,0.5,1200,-,3 variants broken lamps,DONE-Claude (3/3)
+BR33,P3,Broken & damaged props (toota-foota saman),All,Cracked pots,4,0.4,1200,-,4 variants cracked clay pots,DONE-Claude (4/4)
 BR34,P3,Broken & damaged props (toota-foota saman),All,Smashed crates,3,0.8,1500,-,3 variants smashed wooden crates,
-BR35,P3,Broken & damaged props (toota-foota saman),All,Collapsed scaffolding,1,3.0,4000,-,collapsed scaffolding,
-BR36,P3,Broken & damaged props (toota-foota saman),All,Fallen bookcase,1,1.8,4000,-,fallen bookcase with books,
-BR37,P3,Broken & damaged props (toota-foota saman),All,Torn curtain rod,1,2.0,1200,-,torn curtain and bent rod,
+BR35,P3,Broken & damaged props (toota-foota saman),All,Collapsed scaffolding,1,3.0,4000,-,collapsed scaffolding,DONE-Claude (1/1)
+BR36,P3,Broken & damaged props (toota-foota saman),All,Fallen bookcase,1,1.8,4000,-,fallen bookcase with books,DONE-Claude (1/1)
+BR37,P3,Broken & damaged props (toota-foota saman),All,Torn curtain rod,1,2.0,1200,-,torn curtain and bent rod,DONE-Claude (1/1)
 BR38,P4,Broken & damaged props (toota-foota saman),All,Burnt furniture,4,1.0,2500,-,4 variants burnt black furniture pieces,
 BR39,P4,Broken & damaged props (toota-foota saman),All,Burnt doll,3,0.4,3500,-,3 variants burnt dolls,
 BR40,P4,Broken & damaged props (toota-foota saman),All,Melted toys pile,2,0.5,3000,-,2 variants piles of melted toys,
@@ -783,16 +783,16 @@ NT24,P3,Nature & outdoors,Outdoors,Bird nest,1,0.3,1000,-,bird nest,
 NT25,P3,Nature & outdoors,Outdoors,Mud puddle,2,1.5,400,-,2 variants mud puddle flat,
 NT26,P4,Nature & outdoors,Outdoors,Pond reeds,1,1.0,1500,-,pond reeds,
 NT27,P4,Nature & outdoors,Outdoors,Dried grass field patch,1,2.0,2000,-,dried grass patch,
-CS01,P3,Construction site,Outskirts,Scaffolding section,3,3.0,3500,-,3 variants metal scaffolding sections,
-CS02,P3,Construction site,Outskirts,Tower crane,1,20.0,20000,-,"tall tower crane, rusty",
-CS03,P3,Construction site,Outskirts,Cement mixer,1,2.0,6000,-,cement mixer,
-CS04,P3,Construction site,Outskirts,Concrete barriers,3,2.0,1500,-,3 variants concrete barriers,
-CS05,P3,Construction site,Outskirts,Traffic cones,2,0.7,600,-,2 variants traffic cones,
-CS06,P3,Construction site,Outskirts,Sand piles,2,2.0,1000,-,2 variants sand piles,
-CS07,P3,Construction site,Outskirts,Rebar bundle,2,3.0,1500,-,2 variants steel rebar bundles,
-CS08,P3,Construction site,Outskirts,Brick pallet,1,1.2,2000,-,brick pallet,
-CS09,P3,Construction site,Outskirts,Long ladder,1,4.0,2500,-,long ladder,
-CS10,P3,Construction site,Outskirts,Site portable cabin,1,3.0,5000,-,portable site office cabin,
+CS01,P3,Construction site,Outskirts,Scaffolding section,3,3.0,3500,-,3 variants metal scaffolding sections,DONE-Claude (3/3)
+CS02,P3,Construction site,Outskirts,Tower crane,1,20.0,20000,-,"tall tower crane, rusty",DONE-Claude (1/1)
+CS03,P3,Construction site,Outskirts,Cement mixer,1,2.0,6000,-,cement mixer,DONE-Claude (1/1)
+CS04,P3,Construction site,Outskirts,Concrete barriers,3,2.0,1500,-,3 variants concrete barriers,DONE-Claude (3/3)
+CS05,P3,Construction site,Outskirts,Traffic cones,2,0.7,600,-,2 variants traffic cones,DONE-Claude (2/2)
+CS06,P3,Construction site,Outskirts,Sand piles,2,2.0,1000,-,2 variants sand piles,DONE-Claude (2/2)
+CS07,P3,Construction site,Outskirts,Rebar bundle,2,3.0,1500,-,2 variants steel rebar bundles,DONE-Claude (2/2)
+CS08,P3,Construction site,Outskirts,Brick pallet,1,1.2,2000,-,brick pallet,DONE-Claude (1/1)
+CS09,P3,Construction site,Outskirts,Long ladder,1,4.0,2500,-,long ladder,DONE-Claude (1/1)
+CS10,P3,Construction site,Outskirts,Site portable cabin,1,3.0,5000,-,portable site office cabin,DONE-Claude (1/1)
 CS11,P3,Construction site,Outskirts,Excavator,1,6.0,22000,-,old excavator,
 CS12,P3,Construction site,Outskirts,Bulldozer,1,5.0,20000,-,old bulldozer,
 CS13,P3,Construction site,Outskirts,Dump truck,1,7.0,22000,-,old dump truck,
