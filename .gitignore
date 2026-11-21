@@ -6,3 +6,5 @@ __pycache__/
 team/memory/*.json
 config/agents.json
 team/memory/usage.log
+build/
+block_city/.godot/
