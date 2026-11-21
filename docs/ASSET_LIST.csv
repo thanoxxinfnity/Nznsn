@@ -162,21 +162,21 @@ R21,P2,Metro & city streets,2,Dead tree,3,6.0,6000,-,"3 variants bare dead trees
 R22,P2,Metro & city streets,2,Iron fence section,1,3.0,2000,-,"iron picket fence section, rusty",DONE (1/1)
 R23,P3,Metro & city streets,2,Manhole cover,1,0.8,1000,-,round iron manhole cover,DONE-Claude (1/1)
 R24,P3,Metro & city streets,2,Newspaper stand,1,1.5,4000,-,street newspaper stand with faded papers,
-R25,P3,Metro & city streets,2,Wooden handcart (thela),1,2.0,5000,-,wooden hand cart with two wheels,
+R25,P3,Metro & city streets,2,Wooden handcart (thela),1,2.0,5000,-,wooden hand cart with two wheels,DONE-Claude (1/1)
 R26,P3,Metro & city streets,2,Overgrown weeds,1,1.0,2000,-,clump of tall weeds,
-R27,P3,Metro & city streets,2,Rubble pile,1,2.0,3000,-,pile of broken bricks and concrete,
+R27,P3,Metro & city streets,2,Rubble pile,1,2.0,3000,-,pile of broken bricks and concrete,DONE-Claude (1/1)
 R28,P3,Metro & city streets,2,Telephone booth,1,2.4,6000,-,"old red street telephone booth, cracked glass",
-A01,P3,Maa Ghar (Act 3),3,Giant cradle,1,4.0,20000,-,"giant ornate wooden baby cradle, toys hanging, eerie",
-A02,P3,Maa Ghar (Act 3),3,Giant music box mechanism,1,5.0,25000,-,"huge music box comb and cylinder mechanism, brass",
-A03,P3,Maa Ghar (Act 3),3,Rocking chair,1,1.0,5000,-,old wooden rocking chair with shawl,
-A04,P3,Maa Ghar (Act 3),3,Treadle sewing machine,1,1.0,6000,-,old treadle sewing machine,
-A05,P3,Maa Ghar (Act 3),3,Memory-core machine,1,4.0,30000,-,"glowing machine core with tubes and dials, blue light",
-A06,P3,Maa Ghar (Act 3),3,Glass tube with memory fluid,1,2.0,5000,-,tall glass tube with glowing swirling liquid,
+A01,P3,Maa Ghar (Act 3),3,Giant cradle,1,4.0,20000,-,"giant ornate wooden baby cradle, toys hanging, eerie",DONE-Claude (1/1)
+A02,P3,Maa Ghar (Act 3),3,Giant music box mechanism,1,5.0,25000,-,"huge music box comb and cylinder mechanism, brass",DONE-Claude (1/1)
+A03,P3,Maa Ghar (Act 3),3,Rocking chair,1,1.0,5000,-,old wooden rocking chair with shawl,DONE-Claude (1/1)
+A04,P3,Maa Ghar (Act 3),3,Treadle sewing machine,1,1.0,6000,-,old treadle sewing machine,DONE-Claude (1/1)
+A05,P3,Maa Ghar (Act 3),3,Memory-core machine,1,4.0,30000,-,"glowing machine core with tubes and dials, blue light",DONE-Claude (1/1)
+A06,P3,Maa Ghar (Act 3),3,Glass tube with memory fluid,1,2.0,5000,-,tall glass tube with glowing swirling liquid,DONE-Claude (1/1)
 A07,P3,Maa Ghar (Act 3),3,Giant ornate door,1,5.0,15000,-,"huge ornate door with doll-face carvings, door leaves only",
-A08,P3,Maa Ghar (Act 3),3,Mother's bed with photos,1,2.0,8000,-,old bed with framed photos on the wall behind,
-A09,P3,Maa Ghar (Act 3),3,Hanging toy mobile,1,1.0,4000,-,baby mobile with hanging toys,
+A08,P3,Maa Ghar (Act 3),3,Mother's bed with photos,1,2.0,8000,-,old bed with framed photos on the wall behind,DONE-Claude (1/1)
+A09,P3,Maa Ghar (Act 3),3,Hanging toy mobile,1,1.0,4000,-,baby mobile with hanging toys,DONE-Claude (1/1)
 A10,P3,Maa Ghar (Act 3),3,Toy throne altar,1,4.0,20000,-,throne built from piled toys and dolls,
-A11,P3,Maa Ghar (Act 3),3,Cable bundle,1,3.0,4000,-,thick bundle of cables running along floor,
+A11,P3,Maa Ghar (Act 3),3,Cable bundle,1,3.0,4000,-,thick bundle of cables running along floor,DONE-Claude (1/1)
 L01,P2,Ghar: living room & furniture,Housing colony,Sofa 3-seater,2,2.0,6000,-,"old worn 3-seater sofa, torn fabric, springs showing",DONE (2/2)
 L02,P2,Ghar: living room & furniture,Housing colony,Armchair,2,0.9,4000,-,"old armchair with lace doily, stained",DONE (2/2)
 L03,P2,Ghar: living room & furniture,Housing colony,Coffee table,1,1.0,2500,-,low wooden coffee table with cup rings,DONE (1/1)
@@ -192,25 +192,25 @@ L12,P2,Ghar: living room & furniture,Housing colony,Steel almirah,1,1.8,5000,-,o
 L13,P2,Ghar: living room & furniture,Housing colony,Wooden diwan,1,1.8,5000,-,wooden diwan with thin mattress and cushions,DONE (1/1)
 L14,P2,Ghar: living room & furniture,Housing colony,Home bookshelf,2,1.8,5000,-,2 variants wooden bookshelf with old books and trinkets,DONE (2/2)
 L15,P2,Ghar: living room & furniture,Housing colony,Sideboard cabinet,1,1.5,5000,-,wooden sideboard with glass doors and china,DONE (1/1)
-L16,P3,Ghar: living room & furniture,Housing colony,Ceiling fan,1,1.2,3000,-,"old three-blade ceiling fan, dusty",
-L17,P3,Ghar: living room & furniture,Housing colony,Table fan,1,0.5,2500,-,old metal table fan,
-L18,P3,Ghar: living room & furniture,Housing colony,Air cooler,1,0.9,4000,-,"desert air cooler, rusty",
-L19,P3,Ghar: living room & furniture,Housing colony,Pendulum wall clock,1,0.6,3000,-,wooden pendulum wall clock,
-L20,P3,Ghar: living room & furniture,Housing colony,Telephone table,1,0.7,3000,-,small table with telephone and notepad,
-L21,P3,Ghar: living room & furniture,Housing colony,Shoe rack,1,1.0,3000,-,wooden shoe rack with old shoes,
-L22,P3,Ghar: living room & furniture,Housing colony,Coat stand,1,1.8,2500,-,wooden coat stand with hanging coats,
-L23,P3,Ghar: living room & furniture,Housing colony,Wall mirror,2,1.0,2000,-,"2 variants ornate wall mirrors, cracked",
-L24,P3,Ghar: living room & furniture,Housing colony,Upright piano,1,1.6,10000,-,"old upright piano, keys yellowed",
-L25,P3,Ghar: living room & furniture,Housing colony,Sewing basket,1,0.4,2000,-,woven sewing basket with threads,
+L16,P3,Ghar: living room & furniture,Housing colony,Ceiling fan,1,1.2,3000,-,"old three-blade ceiling fan, dusty",DONE-Claude (1/1)
+L17,P3,Ghar: living room & furniture,Housing colony,Table fan,1,0.5,2500,-,old metal table fan,DONE-Claude (1/1)
+L18,P3,Ghar: living room & furniture,Housing colony,Air cooler,1,0.9,4000,-,"desert air cooler, rusty",DONE-Claude (1/1)
+L19,P3,Ghar: living room & furniture,Housing colony,Pendulum wall clock,1,0.6,3000,-,wooden pendulum wall clock,DONE-Claude (1/1)
+L20,P3,Ghar: living room & furniture,Housing colony,Telephone table,1,0.7,3000,-,small table with telephone and notepad,DONE-Claude (1/1)
+L21,P3,Ghar: living room & furniture,Housing colony,Shoe rack,1,1.0,3000,-,wooden shoe rack with old shoes,DONE-Claude (1/1)
+L22,P3,Ghar: living room & furniture,Housing colony,Coat stand,1,1.8,2500,-,wooden coat stand with hanging coats,DONE-Claude (1/1)
+L23,P3,Ghar: living room & furniture,Housing colony,Wall mirror,2,1.0,2000,-,"2 variants ornate wall mirrors, cracked",DONE-Claude (2/2)
+L24,P3,Ghar: living room & furniture,Housing colony,Upright piano,1,1.6,10000,-,"old upright piano, keys yellowed",DONE-Claude (1/1)
+L25,P3,Ghar: living room & furniture,Housing colony,Sewing basket,1,0.4,2000,-,woven sewing basket with threads,DONE-Claude (1/1)
 L26,P3,Ghar: living room & furniture,Housing colony,Dead flower vase,2,0.4,1500,-,2 variants vase with dried dead flowers,
-L27,P3,Ghar: living room & furniture,Housing colony,Stool,2,0.5,1500,-,2 variants small wooden stools,
-L28,P3,Ghar: living room & furniture,Housing colony,Folding chair,1,0.9,2000,-,metal folding chair,
-L29,P3,Ghar: living room & furniture,Housing colony,Plastic chair,2,0.9,2000,-,2 variants worn plastic chairs,
-L30,P3,Ghar: living room & furniture,Housing colony,Wall shelf with knick-knacks,1,1.0,3000,-,wall shelf with small figurines and clay toys,
-L31,P3,Ghar: living room & furniture,Housing colony,Gramophone,1,0.6,5000,-,"old gramophone with horn, record on turntable",
-L32,P3,Ghar: living room & furniture,Housing colony,Hand fan,1,0.4,1000,-,palm-leaf hand fan,
-L33,P3,Ghar: living room & furniture,Housing colony,Empty birdcage,1,0.5,2500,-,"empty hanging birdcage, door open",
-L34,P3,Ghar: living room & furniture,Housing colony,Wall calendar,1,0.4,800,-,"old paper wall calendar, no readable text",
+L27,P3,Ghar: living room & furniture,Housing colony,Stool,2,0.5,1500,-,2 variants small wooden stools,DONE-Claude (2/2)
+L28,P3,Ghar: living room & furniture,Housing colony,Folding chair,1,0.9,2000,-,metal folding chair,DONE-Claude (1/1)
+L29,P3,Ghar: living room & furniture,Housing colony,Plastic chair,2,0.9,2000,-,2 variants worn plastic chairs,DONE-Claude (2/2)
+L30,P3,Ghar: living room & furniture,Housing colony,Wall shelf with knick-knacks,1,1.0,3000,-,wall shelf with small figurines and clay toys,DONE-Claude (1/1)
+L31,P3,Ghar: living room & furniture,Housing colony,Gramophone,1,0.6,5000,-,"old gramophone with horn, record on turntable",DONE-Claude (1/1)
+L32,P3,Ghar: living room & furniture,Housing colony,Hand fan,1,0.4,1000,-,palm-leaf hand fan,DONE-Claude (1/1)
+L33,P3,Ghar: living room & furniture,Housing colony,Empty birdcage,1,0.5,2500,-,"empty hanging birdcage, door open",DONE-Claude (1/1)
+L34,P3,Ghar: living room & furniture,Housing colony,Wall calendar,1,0.4,800,-,"old paper wall calendar, no readable text",DONE-Claude (1/1)
 B01,P2,Ghar: bedroom & bathroom,Housing colony,Double bed,2,2.0,6000,-,old wooden double bed with rumpled sheets,DONE (2/2)
 B02,P2,Ghar: bedroom & bathroom,Housing colony,Single bed,2,1.9,5000,-,metal-frame single bed with thin mattress,DONE (2/2)
 B03,P2,Ghar: bedroom & bathroom,Housing colony,Bunk bed,1,2.0,7000,-,wooden kids bunk bed with ladder,DONE (1/1)
@@ -220,18 +220,18 @@ B06,P2,Ghar: bedroom & bathroom,Housing colony,Nightstand,2,0.5,2500,-,bedside t
 B07,P2,Ghar: bedroom & bathroom,Housing colony,Baby crib,1,1.0,5000,-,"wooden baby crib, mobile hanging, empty",DONE (1/1)
 B08,P2,Ghar: bedroom & bathroom,Housing colony,Toy chest,2,0.8,3500,-,"wooden toy chest with open lid, toys spilling",DONE (2/2)
 B09,P3,Ghar: bedroom & bathroom,Housing colony,Pillow and blanket pile,3,0.6,1500,-,3 variants rumpled pillow and blanket,
-B10,P3,Ghar: bedroom & bathroom,Housing colony,Kids study desk,1,1.0,3500,-,small kid's wooden study desk with drawings,
-B11,P3,Ghar: bedroom & bathroom,Housing colony,Kids wardrobe,1,1.4,4000,-,painted kids wardrobe with animal stickers peeling,
-B12,P3,Ghar: bedroom & bathroom,Housing colony,Small cradle,1,0.9,4000,-,small wooden rocking baby cradle,
+B10,P3,Ghar: bedroom & bathroom,Housing colony,Kids study desk,1,1.0,3500,-,small kid's wooden study desk with drawings,DONE-Claude (1/1)
+B11,P3,Ghar: bedroom & bathroom,Housing colony,Kids wardrobe,1,1.4,4000,-,painted kids wardrobe with animal stickers peeling,DONE-Claude (1/1)
+B12,P3,Ghar: bedroom & bathroom,Housing colony,Small cradle,1,0.9,4000,-,small wooden rocking baby cradle,DONE-Claude (1/1)
 B13,P3,Ghar: bedroom & bathroom,Housing colony,Indoor clothes line,1,2.0,2000,-,clothes line with hanging old clothes,
-B14,P3,Ghar: bedroom & bathroom,Housing colony,Old suitcase,3,0.6,2500,-,"3 variants old leather suitcases, one open",
-B15,P3,Ghar: bedroom & bathroom,Housing colony,School uniform on hanger,1,0.8,2000,-,kid's school uniform hanging,
-B16,P3,Ghar: bedroom & bathroom,Housing colony,Toilet,2,0.8,4000,-,"2 variants old toilets, stained",
-B17,P3,Ghar: bedroom & bathroom,Housing colony,Wash basin,2,0.8,3500,-,"2 variants wall wash basin with tap, rust stains",
-B18,P3,Ghar: bedroom & bathroom,Housing colony,Bathtub,1,1.7,6000,-,"old cast-iron bathtub, dirty",
-B19,P3,Ghar: bedroom & bathroom,Housing colony,Bathroom mirror cabinet,1,0.6,3000,-,"metal bathroom mirror cabinet, door open",
-B20,P3,Ghar: bedroom & bathroom,Housing colony,Bucket and mug,1,0.5,2000,-,plastic bucket and mug,
-B21,P3,Ghar: bedroom & bathroom,Housing colony,Shower head and pipe,1,0.6,1500,-,wall shower head with pipe,
+B14,P3,Ghar: bedroom & bathroom,Housing colony,Old suitcase,3,0.6,2500,-,"3 variants old leather suitcases, one open",DONE-Claude (3/3)
+B15,P3,Ghar: bedroom & bathroom,Housing colony,School uniform on hanger,1,0.8,2000,-,kid's school uniform hanging,DONE-Claude (1/1)
+B16,P3,Ghar: bedroom & bathroom,Housing colony,Toilet,2,0.8,4000,-,"2 variants old toilets, stained",DONE-Claude (2/2)
+B17,P3,Ghar: bedroom & bathroom,Housing colony,Wash basin,2,0.8,3500,-,"2 variants wall wash basin with tap, rust stains",DONE-Claude (2/2)
+B18,P3,Ghar: bedroom & bathroom,Housing colony,Bathtub,1,1.7,6000,-,"old cast-iron bathtub, dirty",DONE-Claude (1/1)
+B19,P3,Ghar: bedroom & bathroom,Housing colony,Bathroom mirror cabinet,1,0.6,3000,-,"metal bathroom mirror cabinet, door open",DONE-Claude (1/1)
+B20,P3,Ghar: bedroom & bathroom,Housing colony,Bucket and mug,1,0.5,2000,-,plastic bucket and mug,DONE-Claude (1/1)
+B21,P3,Ghar: bedroom & bathroom,Housing colony,Shower head and pipe,1,0.6,1500,-,wall shower head with pipe,DONE-Claude (1/1)
 B22,P3,Ghar: bedroom & bathroom,Housing colony,Towel rack with towel,1,0.8,1800,-,towel rail with damp towel,
 B23,P3,Ghar: bedroom & bathroom,Housing colony,Soap dish and soap,1,0.15,600,-,soap dish with cracked soap,
 B24,P3,Ghar: bedroom & bathroom,Housing colony,Toothbrush cup,1,0.15,600,-,steel cup with toothbrushes,
