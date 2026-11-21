@@ -44,3 +44,5 @@ H0 plan+APIs jodna -> H1 engine slice: 1 kamra/gallery, torch, fear, touch, 1 mo
 
 ## Khule sawal
 1. Dar ka star: halka (Poppy jaisa) ya bahut gehra (gore/zyada khauf)? 2. Naam/kirdaar (Neha?) badalna hai? 3. Awaaz Hindi mein (voice-over) chahiye? 4. Pehle Block City jaari rakhein ya ab sirf horror?
+
+## Update 21 Nov: image->3D MUFT raasta chala (HF Space Hunyuan3D-2.1 + Blender optimize). Quota kam (~2 model/din) -> zyada ke liye HF PRO ya paid API.

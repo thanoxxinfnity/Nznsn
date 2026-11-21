@@ -13,5 +13,6 @@ if ! command -v blender >/dev/null; then
   curl -sSfL $b/blender-${BLENDER_VER}.sha256 | grep linux-x64 | sed "s#blender-.*#$d/b.tar.xz#" | sha256sum -c -
   mkdir -p $T/blender; tar -xf $d/b.tar.xz -C $T/blender --strip-components=1; ln -sf $T/blender/blender /usr/local/bin/blender
 fi
+pip install -q gradio_client 2>/dev/null || true
 godot --headless --version; blender -b --version | head -1
 echo "Ab .env aur config/agents.json banao (templates: .env.example, config/agents.example.json)"

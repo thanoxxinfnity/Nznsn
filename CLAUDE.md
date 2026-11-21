@@ -27,6 +27,14 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Coarena (https://coarena.ai/api/v1, OpenAI-style /chat/completions, key COARENA_API_KEY): FREE par sirf 3 model: gpt-6-luna, gemini-3-8-flash, deepseek-v4-1-flash-1017 (teeno CHALTE, Godot code syntax OK). Limit: $1/din, 10 req/min, 2 saath. Fable/Opus/Sonnet free mein NAHI (402). PRIVACY: Coarena har prompt/reply store karta hai aur datasets mein de sakta hai -> keys/personal data kabhi mat bhejo. Aaj ka kharcha: GET /usage.
 - 100milionseek (https://100milionseek.top/v1, key SEEK_API_KEY, OpenAI-style): 2 model. deepseek-v4.1-flash-free CHALTA (/chat/completions; chhote prompt par bhi ~630 prompt tokens ka chhupa overhead). jev-1.13-free = 'judge model', sirf POST /v1/systemone {model, state(object), questions}; chat nahi karta, format abhi samjha nahi. Usage/limit endpoint nahi. Site anjaan -> sensitive data mat bhejo.
 
+## 3D models: image -> 3D (FREE route verified 21 Nov)
+- `python3 scripts/model3d.py gen <naam> <image.png> [--faces 20000] [--only hunyuan|trellis2]` -> assets/models_3d/<naam>.glb + _preview.png.
+  Hunyuan3D-2.1 (HF Space tencent/Hunyuan3D-2.1, textured, ~12s shape / ~95s textured) -> Blender decimate (blender/scripts/optimize_glb.py) -> phone-ready GLB.
+  TRELLIS.2 (HF Space microsoft/TRELLIS.2) endpoints mile par test nahi hua (ZeroGPU quota khatam). Purana microsoft/TRELLIS Space CONFIG_ERROR.
+- LIMIT: HF free ZeroGPU quota ~ kuch minute/din (2 model ke baad khatam, reset ~24h). HF PRO ya paid API (Tripo/Meshy/Rodin) chahiye zyada ke liye. Spaces ke liye `pip install gradio_client` (client arg: token=).
+- Models static aate hain; monster ke liye rig+animation chahiye (Tripo/Meshy rig API ya Blender se).
+- Gemini free key par image-generation 429; image-generator abhi nahi hai (text->3D ya user ki image).
+
 ## Mobile game: Block City (block_city/) — ASLI GAME ab yahi hai
 - Minecraft-look + GTA-jaisa: voxel shehar, touch controls (joystick/JUMP/BLAST/CAR), dhamake se dabbe udte hain, gaadi, 4 mission-type, din-raat. Plan: PLAN.md.
 - Test: `godot --headless --path block_city -- --autotest` (8+ checks, PASS). Screenshots: `xvfb-run -a godot --rendering-driver opengl3 --path block_city -- --shot=/tmp/dir`.
