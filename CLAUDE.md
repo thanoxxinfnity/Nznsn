@@ -19,5 +19,10 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - z14vx94quka0-d.space-z.ai router: sirf demo-chat/demo-3d (demo-3d prompt ignore karta hai, gola deta hai).
 - api.xingchiapi.com: chat/messages/image sab blocked (group, client check, balance). Kaam nahi aaya.
 
+- NVIDIA NIM (integrate.api.nvidia.com/v1, key NVIDIA_API_KEY): CHALTA. 33 models; chat: moonshotai/kimi-k3.1-pro (OK), mistralai/mistral-large-4-1t-a52b, z-ai/glm-5.3-flash (timeout), minimaxai/minimax-m3.1-flash, nvidia/nemotron-3-ultra-550b-a55b, stepfun-ai/step-5-preview. Reasoning models: max_tokens >= 800 rakho warna content khali.
+- Google Gemini (generativelanguage.googleapis.com, header x-goog-api-key, key GOOGLE_API_KEY): gemini-3.5-flash CHALTA; pro models free tier mein 429 (quota 0).
+- Hugging Face router (HF_TOKEN): token sahi par 402 — prepaid credits/PRO chahiye. Abhi use nahi ho sakta.
+- Google "Antigravity" OAuth code (4/0A...): use NAHI kiya (ek-baar ka code, uska API tarika official nahi/ToS ke against).
+
 ## Game
 Concept aur status: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
