@@ -25,6 +25,7 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Hugging Face router (HF_TOKEN): token sahi par 402 — prepaid credits/PRO chahiye. Abhi use nahi ho sakta.
 - Google "Antigravity" OAuth code (4/0A...): use NAHI kiya (ek-baar ka code, uska API tarika official nahi/ToS ke against).
 - Coarena (https://coarena.ai/api/v1, OpenAI-style /chat/completions, key COARENA_API_KEY): FREE par sirf 3 model: gpt-6-luna, gemini-3-8-flash, deepseek-v4-1-flash-1017 (teeno CHALTE, Godot code syntax OK). Limit: $1/din, 10 req/min, 2 saath. Fable/Opus/Sonnet free mein NAHI (402). PRIVACY: Coarena har prompt/reply store karta hai aur datasets mein de sakta hai -> keys/personal data kabhi mat bhejo. Aaj ka kharcha: GET /usage.
+- 100milionseek (https://100milionseek.top/v1, key SEEK_API_KEY, OpenAI-style): 2 model. deepseek-v4.1-flash-free CHALTA (/chat/completions; chhote prompt par bhi ~630 prompt tokens ka chhupa overhead). jev-1.13-free = 'judge model', sirf POST /v1/systemone {model, state(object), questions}; chat nahi karta, format abhi samjha nahi. Usage/limit endpoint nahi. Site anjaan -> sensitive data mat bhejo.
 
 ## Game
 Concept aur status: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
