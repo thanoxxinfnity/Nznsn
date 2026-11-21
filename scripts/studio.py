@@ -27,12 +27,15 @@ def load_agents():
 def save_agents(a):
     AGENTS.write_text(json.dumps(a, ensure_ascii=False, indent=2) + "\n")
 
-def raw_chat(chat_id, text, retries=3, timeout=240):
+def raw_chat(chat_id, text, retries=3, timeout=240, conv=None):
     url = f"https://www.sim.ai/api/chat/{chat_id}"
     last = None
     for i in range(retries + 1):
         try:
-            req = urllib.request.Request(url, json.dumps({"input": text}).encode(),
+            body = {"input": text}
+            if conv:
+                body["conversationId"] = conv   # Sim Agent Memory chalu ho to server-side yaaddasht isi se judti hai
+            req = urllib.request.Request(url, json.dumps(body).encode(),
                                          {"Content-Type": "application/json"})
             out = []
             with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -105,7 +108,7 @@ def ask(name, text, fresh=False):
         raise SystemExit(f"agent '{name}' nahi mila. Available: {', '.join(agents)}")
     agent = agents[name]
     m = {"summary": "", "turns": []} if fresh else load_mem(name)
-    reply = raw_chat(agent["chat_id"], build_prompt(name, agent, text, m))
+    reply = raw_chat(agent["chat_id"], build_prompt(name, agent, text, m), conv=None if fresh else f"nznsn-{name}")
     if not fresh:
         m["turns"] += [{"who": "user", "text": text}, {"who": name, "text": reply}]
         if len(m["turns"]) > SUMMARIZE_AT:
