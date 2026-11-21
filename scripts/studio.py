@@ -70,18 +70,21 @@ def save_mem(name, m):
     _hist_path(name).write_text(json.dumps(m, ensure_ascii=False, indent=1))
 
 def build_prompt(name, agent, text, m):
-    parts = [f"Tum is AI game studio team ke member '{name}' ho. Tumhara kaam: {agent.get('role','')}.",
-             "Neeche tumhari yaaddasht (memory) hai. Use dhyan se use karo, phir naye message ka jawab do."]
+    head = [f"Tum is AI game studio team ke member '{name}' ho. Tumhara kaam: {agent.get('role','')}.",
+            "Neeche tumhari yaaddasht (memory) hai. Use dhyan se use karo, phir naye message ka jawab do."]
     if SHARED.exists():
-        parts.append("## Shared project notes\n" + SHARED.read_text().strip())
+        head.append("## Shared project notes\n" + SHARED.read_text().strip())
     if m["summary"]:
-        parts.append("## Purani baaton ka saar\n" + m["summary"])
-    if m["turns"]:
-        hist = "\n".join(f"[{t['who']}] {t['text']}" for t in m["turns"][-MAX_TURNS:])
-        parts.append("## Haal ki baat-cheet\n" + hist)
-    parts.append("## Naya message\n" + text)
-    prompt = "\n\n".join(parts)
-    return prompt[-MAX_CHARS:] if len(prompt) > MAX_CHARS else prompt
+        head.append("## Purani baaton ka saar\n" + m["summary"])
+    tail = "## Naya message\n" + text
+    turns = [f"[{t['who']}] {t['text'][:1500]}" for t in m["turns"][-MAX_TURNS:]]
+    # drop oldest history lines until it fits; header and new message are never cut
+    while True:
+        mid = ["## Haal ki baat-cheet\n" + "\n".join(turns)] if turns else []
+        prompt = "\n\n".join(head + mid + [tail])
+        if len(prompt) <= MAX_CHARS or not turns:
+            return prompt
+        turns.pop(0)
 
 def compress(name, agent, m):
     old = m["turns"][:-MAX_TURNS]

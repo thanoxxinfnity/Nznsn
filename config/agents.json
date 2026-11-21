@@ -8,5 +8,10 @@
     "chat_id": "hshshs",
     "role": "Team lead: bade kaam ko chhote kaamon mein todna, baaki agents ko baantna, unka kaam review karna",
     "model": "Fable 5.2"
+  },
+  "blender_tech": {
+    "chat_id": "1238272ue",
+    "role": "Blender 5.3 ke bpy Python scripts likhna jo 3D models/maps banate hain",
+    "model": "Fable 5.2"
   }
 }
