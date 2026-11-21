@@ -27,5 +27,12 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Coarena (https://coarena.ai/api/v1, OpenAI-style /chat/completions, key COARENA_API_KEY): FREE par sirf 3 model: gpt-6-luna, gemini-3-8-flash, deepseek-v4-1-flash-1017 (teeno CHALTE, Godot code syntax OK). Limit: $1/din, 10 req/min, 2 saath. Fable/Opus/Sonnet free mein NAHI (402). PRIVACY: Coarena har prompt/reply store karta hai aur datasets mein de sakta hai -> keys/personal data kabhi mat bhejo. Aaj ka kharcha: GET /usage.
 - 100milionseek (https://100milionseek.top/v1, key SEEK_API_KEY, OpenAI-style): 2 model. deepseek-v4.1-flash-free CHALTA (/chat/completions; chhote prompt par bhi ~630 prompt tokens ka chhupa overhead). jev-1.13-free = 'judge model', sirf POST /v1/systemone {model, state(object), questions}; chat nahi karta, format abhi samjha nahi. Usage/limit endpoint nahi. Site anjaan -> sensitive data mat bhejo.
 
-## Game
+## Mobile game: Block City (block_city/) — ASLI GAME ab yahi hai
+- Minecraft-look + GTA-jaisa: voxel shehar, touch controls (joystick/JUMP/BLAST/CAR), dhamake se dabbe udte hain, gaadi, 4 mission-type, din-raat. Plan: PLAN.md.
+- Test: `godot --headless --path block_city -- --autotest` (8+ checks, PASS). Screenshots: `xvfb-run -a godot --rendering-driver opengl3 --path block_city -- --shot=/tmp/dir`.
+- APK: `bash scripts/setup_android.sh` (ek baar: templates+SDK+keystore), phir editor settings mein SDK path (export/android/android_sdk_path=/opt/tools/android-sdk, java_sdk_path=/usr/lib/jvm/java-21-openjdk-amd64, debug_keystore=/opt/tools/debug.keystore, user=androiddebugkey, pass=android) aur
+  `JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 godot --headless --path block_city --export-debug "Android" ../build/BlockCity.apk` (debug-signed, arm64, landscape). build/ git mein nahi.
+- v0.1 APK phone par TEST NAHI hua (sirf is mashin mein). Phone par kya chalega/dhima: user se feedback lo.
+
+## Purana demo (jungle)
 Naya bada plan: PLAN.md (Block City, GTA-jaisa open world, Minecraft look). Purana demo: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
