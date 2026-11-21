@@ -189,6 +189,13 @@ def main(a):
     elif cmd == "credits":
         c, l, plan = sim_credits()
         print(f"Sim ({plan}): ${c:.2f} / ${l:.2f} kharch ({c/l*100:.0f}%), bacha ${l-c:.2f}")
+        try:
+            key = [x.split("=", 1)[1].strip() for x in (ROOT / ".env").read_text().splitlines() if x.startswith("XINGCHI_API_KEY=")][0]
+            rq = urllib.request.Request("https://api.xingchiapi.com/v1/usage", headers={"Authorization": f"Bearer {key}"})
+            u = json.load(urllib.request.urlopen(rq, timeout=30))
+            print(f"xingchi (Codex): balance ${u['balance']:.2f}")
+        except Exception as e:
+            print("xingchi balance nahi mila:", str(e)[:60])
     elif cmd == "usage":
         f = MEM / "usage.log"
         rows = f.read_text().splitlines() if f.exists() else []
