@@ -470,21 +470,21 @@ D19,P3,"Decor, clutter & atmosphere",All,Brick pile,2,0.8,2000,-,2 variants bric
 D20,P3,"Decor, clutter & atmosphere",All,Cement bags,2,0.6,1500,-,2 variants cement bags,DONE-Claude (2/2)
 D21,P3,"Decor, clutter & atmosphere",All,Paint cans,3,0.3,1200,-,3 variants paint cans with drips,DONE-Claude (3/3)
 D22,P3,"Decor, clutter & atmosphere",All,Bucket,2,0.4,1200,-,2 variants buckets,DONE-Claude (2/2)
-D23,P3,"Decor, clutter & atmosphere",All,Mop in bucket,1,1.2,2500,-,mop in bucket,
-D24,P3,"Decor, clutter & atmosphere",All,Metal toolbox,2,0.5,2200,-,2 variants metal toolboxes,
-D25,P3,"Decor, clutter & atmosphere",All,Wire coil,1,0.4,1000,-,coil of electric wire,
-D26,P3,"Decor, clutter & atmosphere",All,Pipe pieces,3,1.0,1200,-,3 variants pipe pieces,
-D27,P3,"Decor, clutter & atmosphere",All,Rusty wheelbarrow,1,1.2,3000,-,rusty wheelbarrow,
-D28,P3,"Decor, clutter & atmosphere",All,Barbed wire roll,1,0.8,2000,-,barbed wire roll,
-D29,P3,"Decor, clutter & atmosphere",All,Concrete chunks,4,0.6,1500,-,4 variants concrete chunks,
+D23,P3,"Decor, clutter & atmosphere",All,Mop in bucket,1,1.2,2500,-,mop in bucket,DONE-Claude (1/1)
+D24,P3,"Decor, clutter & atmosphere",All,Metal toolbox,2,0.5,2200,-,2 variants metal toolboxes,DONE-Claude (2/2)
+D25,P3,"Decor, clutter & atmosphere",All,Wire coil,1,0.4,1000,-,coil of electric wire,DONE-Claude (1/1)
+D26,P3,"Decor, clutter & atmosphere",All,Pipe pieces,3,1.0,1200,-,3 variants pipe pieces,DONE-Claude (3/3)
+D27,P3,"Decor, clutter & atmosphere",All,Rusty wheelbarrow,1,1.2,3000,-,rusty wheelbarrow,DONE-Claude (1/1)
+D28,P3,"Decor, clutter & atmosphere",All,Barbed wire roll,1,0.8,2000,-,barbed wire roll,DONE-Claude (1/1)
+D29,P3,"Decor, clutter & atmosphere",All,Concrete chunks,4,0.6,1500,-,4 variants concrete chunks,DONE-Claude (4/4)
 D30,P3,"Decor, clutter & atmosphere",All,Shredded cloth nest,1,0.3,1500,-,nest of shredded cloth,
 D31,P3,"Decor, clutter & atmosphere",All,Hanging vines,3,2.5,2000,-,"3 variants vines hanging, thin",
 D32,P3,"Decor, clutter & atmosphere",All,Moss patch,2,1.0,800,-,2 variants moss patches,
-D33,P3,"Decor, clutter & atmosphere",All,Dark puddle flat,2,1.0,400,-,2 variants dark puddle flat mesh,
-D34,P3,"Decor, clutter & atmosphere",All,Dust pile,1,0.6,500,-,dust pile,
-D35,P3,"Decor, clutter & atmosphere",All,Fallen ceiling tiles,3,1.0,1500,-,3 variants ceiling tile debris,
-D36,P3,"Decor, clutter & atmosphere",All,Broken wall hole edge,1,1.2,2000,-,broken wall hole edge with bricks,
-D37,P3,"Decor, clutter & atmosphere",All,Dripping pipe,1,1.0,1500,-,pipe with drip,
+D33,P3,"Decor, clutter & atmosphere",All,Dark puddle flat,2,1.0,400,-,2 variants dark puddle flat mesh,DONE-Claude (2/2)
+D34,P3,"Decor, clutter & atmosphere",All,Dust pile,1,0.6,500,-,dust pile,DONE-Claude (1/1)
+D35,P3,"Decor, clutter & atmosphere",All,Fallen ceiling tiles,3,1.0,1500,-,3 variants ceiling tile debris,DONE-Claude (3/3)
+D36,P3,"Decor, clutter & atmosphere",All,Broken wall hole edge,1,1.2,2000,-,broken wall hole edge with bricks,DONE-Claude (1/1)
+D37,P3,"Decor, clutter & atmosphere",All,Dripping pipe,1,1.0,1500,-,pipe with drip,DONE-Claude (1/1)
 D38,P4,"Decor, clutter & atmosphere",All,Crayon drawings,3,1.0,800,-,"3 variants child crayon drawings on paper (scribbles, no text)",
 D39,P4,"Decor, clutter & atmosphere",All,Handprints plaque,1,0.5,600,-,wall plaque with small handprints,
 D40,P4,"Decor, clutter & atmosphere",All,Height marks door frame,1,2.0,1000,-,door frame with height pencil marks,
@@ -512,41 +512,41 @@ P09,P2,Puzzle items & tools,All,Claw hammer,1,0.35,1500,-,claw hammer,DONE (1/1)
 P10,P2,Puzzle items & tools,All,Big wrench,1,0.4,1500,-,big wrench,DONE (1/1)
 P11,P2,Puzzle items & tools,All,Screwdriver set,1,0.25,1500,-,screwdrivers,DONE (1/1)
 P12,P2,Puzzle items & tools,All,Lock pick set,1,0.15,1000,-,lock pick set,DONE (1/1)
-P13,P3,Puzzle items & tools,All,Metal whistle,1,0.1,500,-,metal whistle (distraction),
-P14,P3,Puzzle items & tools,All,Throwable tin can,1,0.1,500,-,tin can for throwing,
-P15,P3,Puzzle items & tools,All,Firecracker,2,0.1,500,-,2 variants firecrackers,
-P16,P3,Puzzle items & tools,All,Small hand bell,1,0.15,800,-,hand bell,
-P17,P3,Puzzle items & tools,All,Music box key,1,0.1,600,-,winding key for music box,
-P18,P3,Puzzle items & tools,All,Record disc,3,0.3,800,-,3 variants records for gramophone,
-P19,P3,Puzzle items & tools,All,Projector reel,1,0.25,1500,-,film reel,
-P20,P3,Puzzle items & tools,All,Colored valve handles,4,0.2,1000,-,"4 colors valve handles (red, blue, green, yellow)",
-P21,P3,Puzzle items & tools,All,Red switch lever,1,0.4,1500,-,red lever,
-P22,P3,Puzzle items & tools,All,Symbol tokens,4,0.1,500,-,4 variants wooden symbol tokens,
-P23,P3,Puzzle items & tools,All,Mirror shard,1,0.3,1000,-,mirror shard,
-P24,P3,Puzzle items & tools,All,Stone tablets,3,0.5,1500,-,3 variants stone tablets with symbols only,
+P13,P3,Puzzle items & tools,All,Metal whistle,1,0.1,500,-,metal whistle (distraction),DONE-Claude (1/1)
+P14,P3,Puzzle items & tools,All,Throwable tin can,1,0.1,500,-,tin can for throwing,DONE-Claude (1/1)
+P15,P3,Puzzle items & tools,All,Firecracker,2,0.1,500,-,2 variants firecrackers,DONE-Claude (2/2)
+P16,P3,Puzzle items & tools,All,Small hand bell,1,0.15,800,-,hand bell,DONE-Claude (1/1)
+P17,P3,Puzzle items & tools,All,Music box key,1,0.1,600,-,winding key for music box,DONE-Claude (1/1)
+P18,P3,Puzzle items & tools,All,Record disc,3,0.3,800,-,3 variants records for gramophone,DONE-Claude (3/3)
+P19,P3,Puzzle items & tools,All,Projector reel,1,0.25,1500,-,film reel,DONE-Claude (1/1)
+P20,P3,Puzzle items & tools,All,Colored valve handles,4,0.2,1000,-,"4 colors valve handles (red, blue, green, yellow)",DONE-Claude (4/4)
+P21,P3,Puzzle items & tools,All,Red switch lever,1,0.4,1500,-,red lever,DONE-Claude (1/1)
+P22,P3,Puzzle items & tools,All,Symbol tokens,4,0.1,500,-,4 variants wooden symbol tokens,DONE-Claude (4/4)
+P23,P3,Puzzle items & tools,All,Mirror shard,1,0.3,1000,-,mirror shard,DONE-Claude (1/1)
+P24,P3,Puzzle items & tools,All,Stone tablets,3,0.5,1500,-,3 variants stone tablets with symbols only,DONE-Claude (3/3)
 P25,P3,Puzzle items & tools,All,Rope,1,0.4,1000,-,rope,
-P26,P3,Puzzle items & tools,All,Portable ladder,1,2.0,2500,-,portable ladder,
-P27,P3,Puzzle items & tools,All,Plank bridge,1,2.0,1200,-,wooden plank,
-P28,P3,Puzzle items & tools,All,Colored key cards,3,0.1,500,-,3 variants colored key cards,
-P29,P3,Puzzle items & tools,All,Door code note,1,0.15,300,-,note with symbols,
-P30,P3,Puzzle items & tools,All,Walkie-talkie,1,0.2,2500,-,walkie-talkie for story voice,
-P31,P3,Puzzle items & tools,All,Polaroid photos,3,0.1,300,-,3 variants old polaroids,
-P32,P3,Puzzle items & tools,All,Water pistol,1,0.2,1500,-,plastic water pistol,
+P26,P3,Puzzle items & tools,All,Portable ladder,1,2.0,2500,-,portable ladder,DONE-Claude (1/1)
+P27,P3,Puzzle items & tools,All,Plank bridge,1,2.0,1200,-,wooden plank,DONE-Claude (1/1)
+P28,P3,Puzzle items & tools,All,Colored key cards,3,0.1,500,-,3 variants colored key cards,DONE-Claude (3/3)
+P29,P3,Puzzle items & tools,All,Door code note,1,0.15,300,-,note with symbols,DONE-Claude (1/1)
+P30,P3,Puzzle items & tools,All,Walkie-talkie,1,0.2,2500,-,walkie-talkie for story voice,DONE-Claude (1/1)
+P31,P3,Puzzle items & tools,All,Polaroid photos,3,0.1,300,-,3 variants old polaroids,DONE-Claude (3/3)
+P32,P3,Puzzle items & tools,All,Water pistol,1,0.2,1500,-,plastic water pistol,DONE-Claude (1/1)
 P33,P3,Puzzle items & tools,All,Horseshoe magnet,1,0.1,800,-,horseshoe magnet,
-P34,P3,Puzzle items & tools,All,Brass compass,1,0.08,800,-,brass compass,
-P35,P3,Puzzle items & tools,All,Large medkit,1,0.35,2500,-,first aid kit,
-P36,P3,Puzzle items & tools,All,Pill bottle,1,0.08,600,-,"pill bottle, no text",
+P34,P3,Puzzle items & tools,All,Brass compass,1,0.08,800,-,brass compass,DONE-Claude (1/1)
+P35,P3,Puzzle items & tools,All,Large medkit,1,0.35,2500,-,first aid kit,DONE-Claude (1/1)
+P36,P3,Puzzle items & tools,All,Pill bottle,1,0.08,600,-,"pill bottle, no text",DONE-Claude (1/1)
 P37,P3,Puzzle items & tools,All,Chocolate bar,1,0.15,500,-,"chocolate bar wrapper, no text",
 V01,P2,Vehicles,City,Old police car,1,4.5,18000,-,"old police car, boxy, light bar",DONE (1/1)
 V02,P2,Vehicles,City,Old fire truck,1,8.0,25000,-,old red fire truck with ladder,DONE (1/1)
 V03,P2,Vehicles,City,Toy company delivery truck,1,7.0,22000,-,"box delivery truck with toy mural, no text",DONE (1/1)
 V04,P2,Vehicles,City,Forklift,1,3.0,12000,-,old forklift,DONE (1/1)
-V05,P3,Vehicles,City,Kid tricycle,2,0.7,3500,-,"2 variants kid's tricycle, rusty",
-V06,P3,Vehicles,City,Baby pram,1,1.0,4000,-,old baby pram,
-V07,P3,Vehicles,City,Go-kart,1,1.5,6000,-,go-kart,
-V08,P3,Vehicles,City,Old city tram,1,12.0,30000,-,old city tram,
-V09,P3,Vehicles,City,Cycle rickshaw,1,2.5,8000,-,cycle rickshaw,
-V10,P3,Vehicles,City,Old motorcycle,1,2.0,10000,-,old motorcycle,
+V05,P3,Vehicles,City,Kid tricycle,2,0.7,3500,-,"2 variants kid's tricycle, rusty",DONE-Claude (2/2)
+V06,P3,Vehicles,City,Baby pram,1,1.0,4000,-,old baby pram,DONE-Claude (1/1)
+V07,P3,Vehicles,City,Go-kart,1,1.5,6000,-,go-kart,DONE-Claude (1/1)
+V08,P3,Vehicles,City,Old city tram,1,12.0,30000,-,old city tram,DONE-Claude (1/1)
+V09,P3,Vehicles,City,Cycle rickshaw,1,2.5,8000,-,cycle rickshaw,DONE-Claude (1/1)
+V10,P3,Vehicles,City,Old motorcycle,1,2.0,10000,-,old motorcycle,DONE-Claude (1/1)
 V11,P3,Vehicles,City,Old school van,1,5.0,15000,-,old school van,
 V12,P3,Vehicles,City,Garbage truck,1,7.0,20000,-,old garbage truck,
 V13,P3,Vehicles,City,Food truck,1,5.0,18000,-,old food truck,
