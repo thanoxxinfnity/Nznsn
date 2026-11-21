@@ -57,3 +57,9 @@ Horror plan (naya): HORROR_PLAN.md. Block City plan: PLAN.md (Block City, GTA-ja
 - Self-test: `godot --headless --path <proj> res://addons/chomu_systems/tests/self_test.tscn`.
 - APK (437 MB) ke andar 8 templates (assets/chomu/templates/*.zip): Horror, CarDriving, OpenWorld, ThirdPersonAdventure, FPSShooter, AINPCChat, AnimeVFXArena, UltraGraphicsDemo. Sab hamare Godot 4.7.2 par chalte hain (screenshots docs/chomu_*.png). Horror template = first-person, battery torch, navmesh Ghost AI (dekhna/sunna/khojna), hide wardrobes, jump scare, touch UI, fear vignette+heartbeat, Poly Haven CC0 models.
 - Screenshot trick (bina display): `xvfb-run -a godot --rendering-driver opengl3 --path <proj> --write-movie /tmp/o/f.png --fixed-fps 20 --quit-after 150` -> PNG frames.
+
+## Import setting (zaroori)
+- horror_city: GLB textures EMBED (gltf/embedded_image_handling=2, project importer_defaults). Pehle extract hoke 5516 PNG (296 MB) repo mein aa gaye the, hata diye. Naye GLB ke .import mein bhi =2 rehna chahiye.
+## Claude khud models bana raha hai (21 Nov)
+- `bash scripts/gen_pipeline.sh /tmp/claude-0/gen_pick.txt 40 4` (list: docs/claude_gen_list.json, 383 IDs / 520 models). AI (Codex) bpy build(variant) likhta hai -> blender/scripts/gen_runner.py (join, palette materials, wear/rust bake 512px, GLB) -> process_batch -> props -> Godot check -> scripts/mark_done.py -> commit. Log: /tmp/claude-0/gen_raw/gen_log.jsonl.
+- User/Hark ka hissa: docs/TEJAS_HARK_LIST.md.
