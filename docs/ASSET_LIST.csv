@@ -123,10 +123,10 @@ H10,P3,Hospital mohalla,2,Oxygen cylinder,1,1.2,2000,-,green oxygen cylinder on 
 H11,P3,Hospital mohalla,2,Ambulance (old),1,5.0,25000,-,"old white ambulance van, faded cross",
 H12,P3,Hospital mohalla,2,Operating table,1,2.0,7000,-,metal operating table with lamp stand,
 H13,P3,Hospital mohalla,2,Skeleton model,1,1.7,8000,-,anatomical skeleton model on stand,
-C01,P2,Carnival / Mela mohalla,2,Ferris wheel,1,20.0,40000,-,"large old ferris wheel with colorful gondolas, rusty, set piece",
-C02,P2,Carnival / Mela mohalla,2,Carousel,1,8.0,35000,-,"carousel with painted toy horses and striped canopy, set piece",
-C03,P2,Carnival / Mela mohalla,2,Circus tent,1,12.0,15000,-,torn striped circus tent,
-C04,P2,Carnival / Mela mohalla,2,Giant clown head entrance,1,5.0,20000,-,"giant clown face carnival entrance, open mouth gate, faded paint",
+C01,P2,Carnival / Mela mohalla,2,Ferris wheel,1,20.0,40000,-,"large old ferris wheel with colorful gondolas, rusty, set piece",DONE (1/1)
+C02,P2,Carnival / Mela mohalla,2,Carousel,1,8.0,35000,-,"carousel with painted toy horses and striped canopy, set piece",DONE (1/1)
+C03,P2,Carnival / Mela mohalla,2,Circus tent,1,12.0,15000,-,torn striped circus tent,DONE (1/1)
+C04,P2,Carnival / Mela mohalla,2,Giant clown head entrance,1,5.0,20000,-,"giant clown face carnival entrance, open mouth gate, faded paint",DONE (1/1)
 C05,P2,Carnival / Mela mohalla,2,Ticket booth,1,2.5,8000,-,wooden carnival ticket booth with window,DONE (1/1)
 C06,P3,Carnival / Mela mohalla,2,Popcorn cart,1,2.0,7000,-,vintage popcorn cart with glass box,
 C07,P3,Carnival / Mela mohalla,2,Bumper car,1,2.0,7000,-,"old bumper car, faded paint",
@@ -138,7 +138,7 @@ C12,P3,Carnival / Mela mohalla,2,Dunk tank,1,3.0,8000,-,carnival dunk tank with 
 C13,P3,Carnival / Mela mohalla,2,Strongman hammer game,1,3.0,8000,-,high-striker strongman hammer game,
 C14,P3,Carnival / Mela mohalla,2,Prize shelf with crates,1,2.0,5000,-,wooden prize shelf with crates and plush toys,
 C15,P3,Carnival / Mela mohalla,2,String-light bunting,1,4.0,2000,-,string of carnival lights with bunting flags,
-R01,P2,Metro & city streets,2,Metro train carriage,1,18.0,40000,-,"old metro train carriage, dirty windows, doors open, set piece",
+R01,P2,Metro & city streets,2,Metro train carriage,1,18.0,40000,-,"old metro train carriage, dirty windows, doors open, set piece",DONE (1/1)
 R02,P2,Metro & city streets,2,Platform bench,1,2.0,4000,-,metal metro platform bench,DONE (1/1)
 R03,P2,Metro & city streets,2,Ticket gate turnstile,1,1.0,5000,-,metro ticket turnstile gate,DONE (1/1)
 R04,P3,Metro & city streets,2,Escalator,1,10.0,20000,-,stopped metro escalator with handrails,
@@ -153,7 +153,7 @@ R12,P3,Metro & city streets,2,Bus stop shelter,1,3.0,5000,-,bus stop shelter wit
 R13,P3,Metro & city streets,2,Fire hydrant,1,0.8,2000,-,red fire hydrant,
 R14,P3,Metro & city streets,2,Street dustbin,1,0.8,2000,-,"metal street dustbin, dented",
 R15,P3,Metro & city streets,2,Park bench,1,1.8,3000,-,"wooden park bench, peeling paint",
-R16,P2,Metro & city streets,2,Apartment block facade,3,30.0,20000,-,"3 variants low-detail 8-storey apartment block, dark windows, background building",
+R16,P2,Metro & city streets,2,Apartment block facade,3,30.0,20000,-,"3 variants low-detail 8-storey apartment block, dark windows, background building",DONE (3/3)
 R17,P3,Metro & city streets,2,Shop-front modules,4,5.0,8000,-,4 variants shop fronts with shutters,
 R18,P3,Metro & city streets,2,Rooftop water tank,1,2.0,4000,-,rooftop plastic water tank on stand,
 R19,P3,Metro & city streets,2,Electric pole with wires,1,8.0,4000,-,concrete electric pole with hanging wires,
@@ -883,12 +883,12 @@ CL14,P3,Clothing & fabric,Home / Bazaar,Boots,2,0.3,1500,-,2 variants boots,
 CL15,P3,Clothing & fabric,Home / Bazaar,Slippers,3,0.25,800,-,3 variants slippers,
 CL16,P4,Clothing & fabric,Home / Bazaar,Lace curtains,1,2.0,1800,-,lace curtains,
 CL17,P4,Clothing & fabric,Home / Bazaar,Doll dresses,3,0.2,800,-,3 variants tiny doll dresses,
-HM01,P2,Heavy machinery & factory industry,Factory / Outskirts,Industrial loom,1,3.0,10000,-,large industrial loom,
-HM02,P2,Heavy machinery & factory industry,Factory / Outskirts,Injection molding machine,1,3.5,14000,-,plastic injection molding machine,
-HM03,P2,Heavy machinery & factory industry,Factory / Outskirts,Plastic extruder,1,3.0,10000,-,plastic extruder,
-HM04,P2,Heavy machinery & factory industry,Factory / Outskirts,Paint booth,1,3.0,8000,-,toy painting booth,
-HM05,P2,Heavy machinery & factory industry,Factory / Outskirts,Assembly line module,2,3.0,6000,-,2 variants assembly line modules with clamps,
-HM06,P2,Heavy machinery & factory industry,Factory / Outskirts,Packaging machine,1,2.5,8000,-,packaging machine,
+HM01,P2,Heavy machinery & factory industry,Factory / Outskirts,Industrial loom,1,3.0,10000,-,large industrial loom,DONE (1/1)
+HM02,P2,Heavy machinery & factory industry,Factory / Outskirts,Injection molding machine,1,3.5,14000,-,plastic injection molding machine,DONE (1/1)
+HM03,P2,Heavy machinery & factory industry,Factory / Outskirts,Plastic extruder,1,3.0,10000,-,plastic extruder,DONE (1/1)
+HM04,P2,Heavy machinery & factory industry,Factory / Outskirts,Paint booth,1,3.0,8000,-,toy painting booth,DONE (1/1)
+HM05,P2,Heavy machinery & factory industry,Factory / Outskirts,Assembly line module,2,3.0,6000,-,2 variants assembly line modules with clamps,DONE (2/2)
+HM06,P2,Heavy machinery & factory industry,Factory / Outskirts,Packaging machine,1,2.5,8000,-,packaging machine,DONE (1/1)
 HM07,P3,Heavy machinery & factory industry,Factory / Outskirts,Boiler,1,3.0,8000,-,industrial boiler,
 HM08,P3,Heavy machinery & factory industry,Factory / Outskirts,Air compressor,1,1.5,6000,-,air compressor,
 HM09,P3,Heavy machinery & factory industry,Factory / Outskirts,Lathe,1,2.0,7000,-,metal lathe,
@@ -907,22 +907,22 @@ HM21,P3,Heavy machinery & factory industry,Factory / Outskirts,Steel beams pile,
 HM22,P3,Heavy machinery & factory industry,Factory / Outskirts,Chain hoist,1,1.0,3500,-,chain hoist,
 HM23,P4,Heavy machinery & factory industry,Factory / Outskirts,Shipping container,2,6.0,4000,-,2 variants rusty shipping containers,
 HM24,P4,Heavy machinery & factory industry,Factory / Outskirts,Weighbridge,1,6.0,5000,-,weighbridge,
-TY01,P2,More toys (bahut saare khilaune),All,Large retro toy robot,2,0.6,7000,-,2 variants large retro toy robots,
-TY02,P2,More toys (bahut saare khilaune),All,Toy telephone,1,0.3,2500,-,pull toy phone with eyes,
-TY03,P2,More toys (bahut saare khilaune),All,Pull-along duck,1,0.4,3000,-,wooden pull-along duck,
-TY04,P2,More toys (bahut saare khilaune),All,Toy drum,1,0.3,2000,-,toy drum with sticks,
-TY05,P2,More toys (bahut saare khilaune),All,Toy trumpet,1,0.3,1500,-,toy trumpet,
-TY06,P2,More toys (bahut saare khilaune),All,Spinning carousel toy,1,0.4,4000,-,spinning carousel music toy,
-TY07,P2,More toys (bahut saare khilaune),All,Toy castle,1,0.8,7000,-,toy castle,
-TY08,P2,More toys (bahut saare khilaune),All,Toy fort with soldiers,1,0.8,6000,-,toy fort with soldiers,
-TY09,P2,More toys (bahut saare khilaune),All,Toy farm set,1,0.6,5000,-,toy farm set,
-TY10,P2,More toys (bahut saare khilaune),All,Wooden toy animals,6,0.2,2000,-,6 variants wooden toy animals,
-TY11,P2,More toys (bahut saare khilaune),All,Plush animals,6,0.4,4000,-,"6 variants plush toys (lion, panda, dog, cat, penguin, giraffe)",
-TY12,P2,More toys (bahut saare khilaune),All,Toy kitchen set,1,0.6,5000,-,toy kitchen set,
-TY13,P2,More toys (bahut saare khilaune),All,Toy doctor kit,1,0.3,2500,-,toy doctor kit,
-TY14,P2,More toys (bahut saare khilaune),All,Toy tea set,1,0.3,2500,-,toy tea set,
-TY15,P2,More toys (bahut saare khilaune),All,Toy block towers,2,0.5,3000,-,2 variants toy block towers,
-TY16,P2,More toys (bahut saare khilaune),All,Pop-up toy,1,0.3,3000,-,pop-up toy,
+TY01,P2,More toys (bahut saare khilaune),All,Large retro toy robot,2,0.6,7000,-,2 variants large retro toy robots,DONE (2/2)
+TY02,P2,More toys (bahut saare khilaune),All,Toy telephone,1,0.3,2500,-,pull toy phone with eyes,DONE (1/1)
+TY03,P2,More toys (bahut saare khilaune),All,Pull-along duck,1,0.4,3000,-,wooden pull-along duck,DONE (1/1)
+TY04,P2,More toys (bahut saare khilaune),All,Toy drum,1,0.3,2000,-,toy drum with sticks,DONE (1/1)
+TY05,P2,More toys (bahut saare khilaune),All,Toy trumpet,1,0.3,1500,-,toy trumpet,DONE (1/1)
+TY06,P2,More toys (bahut saare khilaune),All,Spinning carousel toy,1,0.4,4000,-,spinning carousel music toy,DONE (1/1)
+TY07,P2,More toys (bahut saare khilaune),All,Toy castle,1,0.8,7000,-,toy castle,DONE (1/1)
+TY08,P2,More toys (bahut saare khilaune),All,Toy fort with soldiers,1,0.8,6000,-,toy fort with soldiers,DONE (1/1)
+TY09,P2,More toys (bahut saare khilaune),All,Toy farm set,1,0.6,5000,-,toy farm set,DONE (1/1)
+TY10,P2,More toys (bahut saare khilaune),All,Wooden toy animals,6,0.2,2000,-,6 variants wooden toy animals,DONE (6/6)
+TY11,P2,More toys (bahut saare khilaune),All,Plush animals,6,0.4,4000,-,"6 variants plush toys (lion, panda, dog, cat, penguin, giraffe)",DONE (6/6)
+TY12,P2,More toys (bahut saare khilaune),All,Toy kitchen set,1,0.6,5000,-,toy kitchen set,DONE (1/1)
+TY13,P2,More toys (bahut saare khilaune),All,Toy doctor kit,1,0.3,2500,-,toy doctor kit,DONE (1/1)
+TY14,P2,More toys (bahut saare khilaune),All,Toy tea set,1,0.3,2500,-,toy tea set,DONE (1/1)
+TY15,P2,More toys (bahut saare khilaune),All,Toy block towers,2,0.5,3000,-,2 variants toy block towers,DONE (2/2)
+TY16,P2,More toys (bahut saare khilaune),All,Pop-up toy,1,0.3,3000,-,pop-up toy,DONE (1/1)
 TY17,P3,More toys (bahut saare khilaune),All,Stacking rings,1,0.3,2000,-,stacking rings toy,
 TY18,P3,More toys (bahut saare khilaune),All,Shape sorter,1,0.3,2500,-,shape sorter toy,
 TY19,P3,More toys (bahut saare khilaune),All,Bouncy balls,3,0.15,600,-,3 variants bouncy balls,

@@ -1,0 +1,1130 @@
+{
+ "C01_ferris_wheel.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 7876,
+  "tris_after": 7876,
+  "dims_before": [
+   19.05,
+   4.5,
+   19.57
+  ],
+  "dims_after": [
+   19.47,
+   4.6,
+   20.0
+  ],
+  "materials": 8,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 40000,
+  "target": "20.0",
+  "name": "Ferris wheel",
+  "size_mb": 2.25
+ },
+ "C02_carousel.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 13056,
+  "tris_after": 13056,
+  "dims_before": [
+   8.91,
+   8.91,
+   7.0
+  ],
+  "dims_after": [
+   8.0,
+   8.0,
+   6.28
+  ],
+  "materials": 11,
+  "textures": 18,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 35000,
+  "target": "8.0",
+  "name": "Carousel",
+  "size_mb": 2.83
+ },
+ "C03_circus_tent.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4492,
+  "tris_after": 4492,
+  "dims_before": [
+   15.09,
+   15.1,
+   9.9
+  ],
+  "dims_after": [
+   11.99,
+   12.0,
+   7.87
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "12.0",
+  "name": "Circus tent",
+  "size_mb": 1.83
+ },
+ "C04_giant_clown_head_entrance.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5852,
+  "tris_after": 5852,
+  "dims_before": [
+   6.34,
+   4.2,
+   6.9
+  ],
+  "dims_after": [
+   4.59,
+   3.05,
+   5.0
+  ],
+  "materials": 8,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 20000,
+  "target": "5.0",
+  "name": "Giant clown head entrance",
+  "size_mb": 2.0
+ },
+ "G11_memory_orb.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.16,
+   0.16,
+   0.19
+  ],
+  "dims_after": [
+   0.17,
+   0.17,
+   0.2
+  ],
+  "materials": 4,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Memory orb (glowing)",
+  "size_mb": 0.28
+ },
+ "HM01_industrial_loom.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2072,
+  "tris_after": 2072,
+  "dims_before": [
+   3.05,
+   1.53,
+   1.8
+  ],
+  "dims_after": [
+   3.0,
+   1.51,
+   1.77
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "3.0",
+  "name": "Industrial loom",
+  "size_mb": 1.35
+ },
+ "HM02_injection_molding_machine.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1152,
+  "tris_after": 1152,
+  "dims_before": [
+   3.85,
+   1.12,
+   2.95
+  ],
+  "dims_after": [
+   3.5,
+   1.02,
+   2.68
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "3.5",
+  "name": "Injection molding machine",
+  "size_mb": 1.12
+ },
+ "HM03_plastic_extruder.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2188,
+  "tris_after": 2188,
+  "dims_before": [
+   3.8,
+   0.7,
+   1.85
+  ],
+  "dims_after": [
+   3.0,
+   0.55,
+   1.46
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "3.0",
+  "name": "Plastic extruder",
+  "size_mb": 1.14
+ },
+ "HM04_paint_booth.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2524,
+  "tris_after": 2524,
+  "dims_before": [
+   3.1,
+   2.44,
+   2.44
+  ],
+  "dims_after": [
+   3.0,
+   2.36,
+   2.36
+  ],
+  "materials": 9,
+  "textures": 18,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "3.0",
+  "name": "Paint booth",
+  "size_mb": 2.04
+ },
+ "HM05_assembly_line_module_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4380,
+  "tris_after": 4380,
+  "dims_before": [
+   3.0,
+   0.84,
+   1.75
+  ],
+  "dims_after": [
+   3.0,
+   0.84,
+   1.75
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "3.0",
+  "name": "Assembly line module",
+  "size_mb": 0.96
+ },
+ "HM05_assembly_line_module_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4700,
+  "tris_after": 4700,
+  "dims_before": [
+   3.0,
+   0.84,
+   1.75
+  ],
+  "dims_after": [
+   3.0,
+   0.84,
+   1.75
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "3.0",
+  "name": "Assembly line module",
+  "size_mb": 1.16
+ },
+ "HM06_packaging_machine.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1304,
+  "tris_after": 1304,
+  "dims_before": [
+   2.5,
+   1.06,
+   2.14
+  ],
+  "dims_after": [
+   2.5,
+   1.06,
+   2.14
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.5",
+  "name": "Packaging machine",
+  "size_mb": 1.23
+ },
+ "R01_metro_train_carriage.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5404,
+  "tris_after": 5404,
+  "dims_before": [
+   18.76,
+   2.99,
+   3.88
+  ],
+  "dims_after": [
+   18.0,
+   2.87,
+   3.72
+  ],
+  "materials": 8,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 40000,
+  "target": "18.0",
+  "name": "Metro train carriage",
+  "size_mb": 1.97
+ },
+ "R16_apartment_block_facade_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 12036,
+  "tris_after": 12036,
+  "dims_before": [
+   12.2,
+   2.2,
+   27.42
+  ],
+  "dims_after": [
+   13.35,
+   2.41,
+   30.0
+  ],
+  "materials": 11,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 20000,
+  "target": "30.0",
+  "name": "Apartment block facade",
+  "size_mb": 2.8
+ },
+ "R16_apartment_block_facade_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 11520,
+  "tris_after": 11520,
+  "dims_before": [
+   12.2,
+   2.2,
+   27.42
+  ],
+  "dims_after": [
+   13.35,
+   2.41,
+   30.0
+  ],
+  "materials": 10,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 20000,
+  "target": "30.0",
+  "name": "Apartment block facade",
+  "size_mb": 2.74
+ },
+ "R16_apartment_block_facade_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 7704,
+  "tris_after": 7704,
+  "dims_before": [
+   12.2,
+   2.2,
+   21.02
+  ],
+  "dims_after": [
+   17.41,
+   3.14,
+   30.0
+  ],
+  "materials": 11,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 20000,
+  "target": "30.0",
+  "name": "Apartment block facade",
+  "size_mb": 2.49
+ },
+ "TY01_large_retro_toy_robot_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1748,
+  "tris_after": 1748,
+  "dims_before": [
+   0.39,
+   0.16,
+   0.63
+  ],
+  "dims_after": [
+   0.38,
+   0.16,
+   0.6
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "0.6",
+  "name": "Large retro toy robot",
+  "size_mb": 1.15
+ },
+ "TY01_large_retro_toy_robot_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1748,
+  "tris_after": 1748,
+  "dims_before": [
+   0.39,
+   0.16,
+   0.63
+  ],
+  "dims_after": [
+   0.38,
+   0.16,
+   0.6
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "0.6",
+  "name": "Large retro toy robot",
+  "size_mb": 1.09
+ },
+ "TY02_toy_telephone.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2600,
+  "tris_after": 2500,
+  "dims_before": [
+   0.4,
+   0.17,
+   0.19
+  ],
+  "dims_after": [
+   0.3,
+   0.13,
+   0.14
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.3",
+  "name": "Toy telephone",
+  "size_mb": 0.93
+ },
+ "TY03_pull_along_duck.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1648,
+  "tris_after": 1648,
+  "dims_before": [
+   0.55,
+   0.19,
+   0.31
+  ],
+  "dims_after": [
+   0.4,
+   0.14,
+   0.23
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.4",
+  "name": "Pull-along duck",
+  "size_mb": 1.14
+ },
+ "TY04_toy_drum.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1248,
+  "tris_after": 1248,
+  "dims_before": [
+   0.26,
+   0.28,
+   0.15
+  ],
+  "dims_after": [
+   0.28,
+   0.3,
+   0.16
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Toy drum",
+  "size_mb": 1.06
+ },
+ "TY05_toy_trumpet.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1152,
+  "tris_after": 1152,
+  "dims_before": [
+   0.3,
+   0.12,
+   0.12
+  ],
+  "dims_after": [
+   0.3,
+   0.12,
+   0.12
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Toy trumpet",
+  "size_mb": 0.5
+ },
+ "TY06_spinning_carousel_toy.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1484,
+  "tris_after": 1484,
+  "dims_before": [
+   0.34,
+   0.34,
+   0.42
+  ],
+  "dims_after": [
+   0.32,
+   0.32,
+   0.4
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Spinning carousel toy",
+  "size_mb": 1.07
+ },
+ "TY07_toy_castle.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4792,
+  "tris_after": 4792,
+  "dims_before": [
+   0.64,
+   0.64,
+   0.56
+  ],
+  "dims_after": [
+   0.8,
+   0.8,
+   0.7
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "0.8",
+  "name": "Toy castle",
+  "size_mb": 1.61
+ },
+ "TY08_toy_fort_soldiers.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 9448,
+  "tris_after": 6000,
+  "dims_before": [
+   0.7,
+   0.5,
+   0.31
+  ],
+  "dims_after": [
+   0.8,
+   0.57,
+   0.35
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "0.8",
+  "name": "Toy fort with soldiers",
+  "size_mb": 1.86
+ },
+ "TY09_toy_farm_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3088,
+  "tris_after": 3088,
+  "dims_before": [
+   0.6,
+   0.48,
+   0.36
+  ],
+  "dims_after": [
+   0.6,
+   0.48,
+   0.36
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.6",
+  "name": "Toy farm set",
+  "size_mb": 1.73
+ },
+ "TY10_wooden_toy_animal_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 872,
+  "tris_after": 872,
+  "dims_before": [
+   0.22,
+   0.07,
+   0.12
+  ],
+  "dims_after": [
+   0.2,
+   0.06,
+   0.11
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.8
+ },
+ "TY10_wooden_toy_animal_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 912,
+  "tris_after": 912,
+  "dims_before": [
+   0.21,
+   0.07,
+   0.17
+  ],
+  "dims_after": [
+   0.2,
+   0.07,
+   0.16
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.77
+ },
+ "TY10_wooden_toy_animal_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 804,
+  "tris_after": 804,
+  "dims_before": [
+   0.19,
+   0.07,
+   0.12
+  ],
+  "dims_after": [
+   0.2,
+   0.07,
+   0.12
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.74
+ },
+ "TY10_wooden_toy_animal_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 804,
+  "tris_after": 804,
+  "dims_before": [
+   0.22,
+   0.07,
+   0.11
+  ],
+  "dims_after": [
+   0.2,
+   0.07,
+   0.1
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.8
+ },
+ "TY10_wooden_toy_animal_v5.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 804,
+  "tris_after": 804,
+  "dims_before": [
+   0.21,
+   0.07,
+   0.16
+  ],
+  "dims_after": [
+   0.2,
+   0.07,
+   0.15
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.77
+ },
+ "TY10_wooden_toy_animal_v6.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 912,
+  "tris_after": 912,
+  "dims_before": [
+   0.21,
+   0.07,
+   0.12
+  ],
+  "dims_after": [
+   0.2,
+   0.07,
+   0.12
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Wooden toy animals",
+  "size_mb": 0.76
+ },
+ "TY11_plush_animal_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1592,
+  "tris_after": 1592,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.42
+  ],
+  "dims_after": [
+   0.32,
+   0.25,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.82
+ },
+ "TY11_plush_animal_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1680,
+  "tris_after": 1680,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.53
+  ],
+  "dims_after": [
+   0.26,
+   0.2,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.85
+ },
+ "TY11_plush_animal_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1592,
+  "tris_after": 1592,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.42
+  ],
+  "dims_after": [
+   0.32,
+   0.25,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.86
+ },
+ "TY11_plush_animal_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1648,
+  "tris_after": 1648,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.42
+  ],
+  "dims_after": [
+   0.32,
+   0.25,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.61
+ },
+ "TY11_plush_animal_v5.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1680,
+  "tris_after": 1680,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.53
+  ],
+  "dims_after": [
+   0.26,
+   0.2,
+   0.4
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.41
+ },
+ "TY11_plush_animal_v6.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1592,
+  "tris_after": 1592,
+  "dims_before": [
+   0.34,
+   0.27,
+   0.42
+  ],
+  "dims_after": [
+   0.32,
+   0.25,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.4",
+  "name": "Plush animals",
+  "size_mb": 0.6
+ },
+ "TY12_toy_kitchen_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1428,
+  "tris_after": 1428,
+  "dims_before": [
+   0.5,
+   0.32,
+   0.81
+  ],
+  "dims_after": [
+   0.37,
+   0.23,
+   0.6
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.6",
+  "name": "Toy kitchen set",
+  "size_mb": 0.94
+ },
+ "TY13_toy_doctor_kit.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1152,
+  "tris_after": 1152,
+  "dims_before": [
+   0.55,
+   0.22,
+   0.23
+  ],
+  "dims_after": [
+   0.3,
+   0.12,
+   0.12
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.3",
+  "name": "Toy doctor kit",
+  "size_mb": 1.35
+ },
+ "TY14_toy_tea_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1788,
+  "tris_after": 1788,
+  "dims_before": [
+   0.35,
+   0.25,
+   0.12
+  ],
+  "dims_after": [
+   0.3,
+   0.21,
+   0.1
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.3",
+  "name": "Toy tea set",
+  "size_mb": 0.49
+ },
+ "TY15_toy_block_tower_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1296,
+  "tris_after": 1296,
+  "dims_before": [
+   0.31,
+   0.08,
+   0.25
+  ],
+  "dims_after": [
+   0.5,
+   0.13,
+   0.39
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.5",
+  "name": "Toy block towers",
+  "size_mb": 1.08
+ },
+ "TY15_toy_block_tower_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2376,
+  "tris_after": 2376,
+  "dims_before": [
+   0.49,
+   0.18,
+   0.43
+  ],
+  "dims_after": [
+   0.5,
+   0.19,
+   0.44
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.5",
+  "name": "Toy block towers",
+  "size_mb": 1.15
+ },
+ "TY16_pop_up_toy.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1824,
+  "tris_after": 1824,
+  "dims_before": [
+   0.2,
+   0.23,
+   0.41
+  ],
+  "dims_after": [
+   0.15,
+   0.17,
+   0.3
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.3",
+  "name": "Pop-up toy",
+  "size_mb": 1.54
+ },
+ "W02_sweet_jars_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1428,
+  "tris_after": 1428,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.31
+  ],
+  "dims_after": [
+   0.19,
+   0.19,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.5
+ },
+ "W02_sweet_jars_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1428,
+  "tris_after": 1428,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.31
+  ],
+  "dims_after": [
+   0.19,
+   0.19,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.45
+ },
+ "W02_sweet_jars_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1428,
+  "tris_after": 1428,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.37
+  ],
+  "dims_after": [
+   0.16,
+   0.16,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.48
+ }
+}
