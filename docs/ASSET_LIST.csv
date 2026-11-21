@@ -396,25 +396,25 @@ Y07,P2,Underground lab & sewer,Underground,Monitor wall,1,3.0,6000,-,wall of old
 Y08,P2,Underground lab & sewer,Underground,Floor cable bundles,3,3.0,3000,-,3 variants thick cable bundles,DONE (3/3)
 Y09,P2,Underground lab & sewer,Underground,Specimen shelf,1,2.0,6000,-,shelves of glass jars containing toy parts,DONE (1/1)
 Y10,P3,Underground lab & sewer,Underground,Lab operating lamp,1,1.5,5000,-,overhead lab lamp,
-Y11,P3,Underground lab & sewer,Underground,Microscope,1,0.5,4000,-,old microscope,
-Y12,P3,Underground lab & sewer,Underground,Test tube rack,1,0.3,1500,-,test tube rack with colored liquids,
-Y13,P3,Underground lab & sewer,Underground,Chemical drums,3,1.0,2500,-,3 variants chemical drums with symbols,
-Y14,P3,Underground lab & sewer,Underground,Hazard barrel,1,0.9,2000,-,yellow hazard barrel,
-Y15,P3,Underground lab & sewer,Underground,Biohazard door,1,2.2,4000,-,heavy sealed door leaf with symbols only,
-Y16,P3,Underground lab & sewer,Underground,Airlock door,1,2.4,6000,-,round airlock hatch door leaf,
-Y17,P3,Underground lab & sewer,Underground,Control console,1,2.0,8000,-,big control console with levers and dials,
-Y18,P3,Underground lab & sewer,Underground,Glowing coil machine,1,2.5,8000,-,odd glowing coil machine,
-Y19,P3,Underground lab & sewer,Underground,Sewer pipe junction,2,2.0,3500,-,2 variants sewer pipe junction,
+Y11,P3,Underground lab & sewer,Underground,Microscope,1,0.5,4000,-,old microscope,DONE-Claude (1/1)
+Y12,P3,Underground lab & sewer,Underground,Test tube rack,1,0.3,1500,-,test tube rack with colored liquids,DONE-Claude (1/1)
+Y13,P3,Underground lab & sewer,Underground,Chemical drums,3,1.0,2500,-,3 variants chemical drums with symbols,DONE-Claude (3/3)
+Y14,P3,Underground lab & sewer,Underground,Hazard barrel,1,0.9,2000,-,yellow hazard barrel,DONE-Claude (1/1)
+Y15,P3,Underground lab & sewer,Underground,Biohazard door,1,2.2,4000,-,heavy sealed door leaf with symbols only,DONE-Claude (1/1)
+Y16,P3,Underground lab & sewer,Underground,Airlock door,1,2.4,6000,-,round airlock hatch door leaf,DONE-Claude (1/1)
+Y17,P3,Underground lab & sewer,Underground,Control console,1,2.0,8000,-,big control console with levers and dials,DONE-Claude (1/1)
+Y18,P3,Underground lab & sewer,Underground,Glowing coil machine,1,2.5,8000,-,odd glowing coil machine,DONE-Claude (1/1)
+Y19,P3,Underground lab & sewer,Underground,Sewer pipe junction,2,2.0,3500,-,2 variants sewer pipe junction,DONE-Claude (2/2)
 Y20,P3,Underground lab & sewer,Underground,Sewer floor grate,1,1.0,1500,-,floor sewer grate,
-Y21,P3,Underground lab & sewer,Underground,Big sewer valve,1,1.5,3500,-,large sewer valve wheel,
-Y22,P3,Underground lab & sewer,Underground,Sewer ladder,1,3.0,2000,-,rusty sewer ladder,
-Y23,P3,Underground lab & sewer,Underground,Caged tunnel lamp,1,0.5,1500,-,caged tunnel lamp,
-Y24,P3,Underground lab & sewer,Underground,Drain channel piece,1,3.0,2500,-,stone drain channel,
-Y25,P3,Underground lab & sewer,Underground,Metal catwalk,1,3.0,4000,-,metal catwalk section with railing,
-Y26,P3,Underground lab & sewer,Underground,Chains pile,1,0.8,2000,-,pile of chains,
-Y27,P3,Underground lab & sewer,Underground,Large brass gear,3,1.0,3000,-,3 variants large brass gears,
+Y21,P3,Underground lab & sewer,Underground,Big sewer valve,1,1.5,3500,-,large sewer valve wheel,DONE-Claude (1/1)
+Y22,P3,Underground lab & sewer,Underground,Sewer ladder,1,3.0,2000,-,rusty sewer ladder,DONE-Claude (1/1)
+Y23,P3,Underground lab & sewer,Underground,Caged tunnel lamp,1,0.5,1500,-,caged tunnel lamp,DONE-Claude (1/1)
+Y24,P3,Underground lab & sewer,Underground,Drain channel piece,1,3.0,2500,-,stone drain channel,DONE-Claude (1/1)
+Y25,P3,Underground lab & sewer,Underground,Metal catwalk,1,3.0,4000,-,metal catwalk section with railing,DONE-Claude (1/1)
+Y26,P3,Underground lab & sewer,Underground,Chains pile,1,0.8,2000,-,pile of chains,DONE-Claude (1/1)
+Y27,P3,Underground lab & sewer,Underground,Large brass gear,3,1.0,3000,-,3 variants large brass gears,DONE-Claude (3/3)
 Y28,P3,Underground lab & sewer,Underground,Lab generator,1,2.0,9000,-,industrial lab generator,
-Y29,P3,Underground lab & sewer,Underground,Elevator shaft door,1,2.4,5000,-,heavy elevator door leaf,
+Y29,P3,Underground lab & sewer,Underground,Elevator shaft door,1,2.4,5000,-,heavy elevator door leaf,DONE-Claude (1/1)
 Y30,P4,Underground lab & sewer,Underground,Cryo glass pod,1,2.2,10000,-,glass cryo pod with fog,
 Y31,P4,Underground lab & sewer,Underground,Giant toy mold,1,2.0,6000,-,giant metal mold for toy shapes,
 Y32,P4,Underground lab & sewer,Underground,Memory tapes wall,1,2.5,5000,-,"wall of labeled magnetic tapes, no readable text",
@@ -435,19 +435,19 @@ U04,P2,Lights & electrical,All,Candlestick,3,0.3,1000,-,3 variants candle holder
 U05,P2,Lights & electrical,All,Bare bulb on wire,2,0.2,600,-,2 variants hanging bare bulbs,DONE (2/2)
 U06,P2,Lights & electrical,All,Emergency light box,1,0.4,1500,-,wall emergency light box with red lamp,DONE (1/1)
 U07,P2,Lights & electrical,All,Neon sign shapes,3,1.0,2000,-,"3 variants glowing neon shapes (star, smile, arrow), no text",DONE (3/3)
-U08,P3,Lights & electrical,All,Industrial spotlight,1,0.8,2500,-,industrial spotlight on stand,
-U09,P3,Lights & electrical,All,Wall switchboard,3,0.3,1200,-,3 variants wall switchboards,
+U08,P3,Lights & electrical,All,Industrial spotlight,1,0.8,2500,-,industrial spotlight on stand,DONE-Claude (1/1)
+U09,P3,Lights & electrical,All,Wall switchboard,3,0.3,1200,-,3 variants wall switchboards,DONE-Claude (3/3)
 U10,P3,Lights & electrical,All,Wall socket,1,0.1,400,-,wall socket,
-U11,P3,Lights & electrical,All,Electric meter box,1,0.5,2500,-,electric meter box with glass,
-U12,P3,Lights & electrical,All,Tangled extension cable,1,0.5,800,-,tangled extension cable,
-U13,P3,Lights & electrical,All,Cable tray,1,3.0,1500,-,wall cable tray,
-U14,P3,Lights & electrical,All,Big transformer,1,2.5,6000,-,industrial transformer,
-U15,P3,Lights & electrical,All,Insulator set,1,1.0,2000,-,insulator set,
-U16,P3,Lights & electrical,All,Battery bank,1,1.0,3500,-,stack of car batteries,
-U17,P3,Lights & electrical,All,Big fuse panel,1,1.5,4000,-,large fuse panel with many switches,
-U18,P3,Lights & electrical,All,Warning beacon,1,0.3,1500,-,rotating warning beacon,
-U19,P3,Lights & electrical,All,Loudspeaker horn,1,0.5,2000,-,PA loudspeaker horn,
-U20,P3,Lights & electrical,All,Broken hanging tube light,1,1.2,1000,-,broken tube light hanging,
+U11,P3,Lights & electrical,All,Electric meter box,1,0.5,2500,-,electric meter box with glass,DONE-Claude (1/1)
+U12,P3,Lights & electrical,All,Tangled extension cable,1,0.5,800,-,tangled extension cable,DONE-Claude (1/1)
+U13,P3,Lights & electrical,All,Cable tray,1,3.0,1500,-,wall cable tray,DONE-Claude (1/1)
+U14,P3,Lights & electrical,All,Big transformer,1,2.5,6000,-,industrial transformer,DONE-Claude (1/1)
+U15,P3,Lights & electrical,All,Insulator set,1,1.0,2000,-,insulator set,DONE-Claude (1/1)
+U16,P3,Lights & electrical,All,Battery bank,1,1.0,3500,-,stack of car batteries,DONE-Claude (1/1)
+U17,P3,Lights & electrical,All,Big fuse panel,1,1.5,4000,-,large fuse panel with many switches,DONE-Claude (1/1)
+U18,P3,Lights & electrical,All,Warning beacon,1,0.3,1500,-,rotating warning beacon,DONE-Claude (1/1)
+U19,P3,Lights & electrical,All,Loudspeaker horn,1,0.5,2000,-,PA loudspeaker horn,DONE-Claude (1/1)
+U20,P3,Lights & electrical,All,Broken hanging tube light,1,1.2,1000,-,broken tube light hanging,DONE-Claude (1/1)
 D01,P2,"Decor, clutter & atmosphere",All,Scattered papers,4,0.5,600,-,"4 variants floor paper scatter, flat mesh",DONE (4/4)
 D02,P2,"Decor, clutter & atmosphere",All,Overturned chair,2,0.9,2500,-,2 variants fallen chairs,DONE (2/2)
 D03,P2,"Decor, clutter & atmosphere",All,Glass shards,3,0.4,700,-,3 variants glass shards,DONE (3/3)
@@ -456,20 +456,20 @@ D05,P2,"Decor, clutter & atmosphere",All,Dust sheet over furniture,3,1.5,2500,-,
 D06,P2,"Decor, clutter & atmosphere",All,Trash bag pile,3,0.8,1500,-,3 variants garbage bag piles,DONE (3/3)
 D07,P2,"Decor, clutter & atmosphere",All,Plastic bottles,3,0.3,800,-,3 variants empty bottles,DONE (3/3)
 D08,P2,"Decor, clutter & atmosphere",All,Rusty cans,3,0.2,800,-,3 variants rusty cans,DONE (3/3)
-D09,P3,"Decor, clutter & atmosphere",All,Open books on floor,3,0.4,1200,-,3 variants open books on floor,
-D10,P3,"Decor, clutter & atmosphere",All,Old shoes pair,4,0.3,1200,-,4 variants old shoes,
+D09,P3,"Decor, clutter & atmosphere",All,Open books on floor,3,0.4,1200,-,3 variants open books on floor,DONE-Claude (3/3)
+D10,P3,"Decor, clutter & atmosphere",All,Old shoes pair,4,0.3,1200,-,4 variants old shoes,DONE-Claude (4/4)
 D11,P3,"Decor, clutter & atmosphere",All,Clothes heap,3,0.6,1500,-,3 variants clothes heap,
-D12,P3,"Decor, clutter & atmosphere",All,Old umbrella,2,0.9,1500,-,2 variants old umbrellas,
-D13,P3,"Decor, clutter & atmosphere",All,Handbag,2,0.4,1800,-,2 variants handbags,
-D14,P3,"Decor, clutter & atmosphere",All,Old hat,2,0.3,1200,-,2 variants old hats,
+D12,P3,"Decor, clutter & atmosphere",All,Old umbrella,2,0.9,1500,-,2 variants old umbrellas,DONE-Claude (2/2)
+D13,P3,"Decor, clutter & atmosphere",All,Handbag,2,0.4,1800,-,2 variants handbags,DONE-Claude (2/2)
+D14,P3,"Decor, clutter & atmosphere",All,Old hat,2,0.3,1200,-,2 variants old hats,DONE-Claude (2/2)
 D15,P3,"Decor, clutter & atmosphere",All,Loose doll head,3,0.2,2500,-,3 variants loose doll heads,
 D16,P3,"Decor, clutter & atmosphere",All,Doll limbs pile,2,0.5,3000,-,2 variants piles of doll limbs,
-D17,P3,"Decor, clutter & atmosphere",All,Scattered marbles,1,0.3,1500,-,scattered glass marbles,
-D18,P3,"Decor, clutter & atmosphere",All,Wooden planks,3,1.5,1200,-,3 variants planks,
-D19,P3,"Decor, clutter & atmosphere",All,Brick pile,2,0.8,2000,-,2 variants brick piles,
-D20,P3,"Decor, clutter & atmosphere",All,Cement bags,2,0.6,1500,-,2 variants cement bags,
-D21,P3,"Decor, clutter & atmosphere",All,Paint cans,3,0.3,1200,-,3 variants paint cans with drips,
-D22,P3,"Decor, clutter & atmosphere",All,Bucket,2,0.4,1200,-,2 variants buckets,
+D17,P3,"Decor, clutter & atmosphere",All,Scattered marbles,1,0.3,1500,-,scattered glass marbles,DONE-Claude (1/1)
+D18,P3,"Decor, clutter & atmosphere",All,Wooden planks,3,1.5,1200,-,3 variants planks,DONE-Claude (3/3)
+D19,P3,"Decor, clutter & atmosphere",All,Brick pile,2,0.8,2000,-,2 variants brick piles,DONE-Claude (2/2)
+D20,P3,"Decor, clutter & atmosphere",All,Cement bags,2,0.6,1500,-,2 variants cement bags,DONE-Claude (2/2)
+D21,P3,"Decor, clutter & atmosphere",All,Paint cans,3,0.3,1200,-,3 variants paint cans with drips,DONE-Claude (3/3)
+D22,P3,"Decor, clutter & atmosphere",All,Bucket,2,0.4,1200,-,2 variants buckets,DONE-Claude (2/2)
 D23,P3,"Decor, clutter & atmosphere",All,Mop in bucket,1,1.2,2500,-,mop in bucket,
 D24,P3,"Decor, clutter & atmosphere",All,Metal toolbox,2,0.5,2200,-,2 variants metal toolboxes,
 D25,P3,"Decor, clutter & atmosphere",All,Wire coil,1,0.4,1000,-,coil of electric wire,
