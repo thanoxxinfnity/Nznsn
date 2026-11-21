@@ -52,7 +52,7 @@ def raw_chat(chat_id, text, retries=2, timeout=240):
             if out:
                 return "".join(out)
             last = "empty reply"
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (OSError, urllib.error.URLError) as e:
             last = e
         time.sleep(2 * (i + 1))
     raise RuntimeError(f"chat {chat_id} failed: {last}")

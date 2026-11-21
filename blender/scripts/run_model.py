@@ -1,6 +1,6 @@
 """Run inside Blender: blender -b --python run_model.py -- <script.py> <outdir> <name>
 Runs an agent-written bpy script in an empty scene, validates, exports .glb/.blend, renders preview."""
-import bpy, sys, json, math, traceback
+import bpy, sys, json, math, os, traceback
 from mathutils import Vector
 
 script, outdir, name = sys.argv[sys.argv.index("--") + 1:][:3]
@@ -42,6 +42,25 @@ if verts < 8: problems.append("bahut kam vertices")
 if max(dims) > 100 or max(dims) < 0.02: problems.append(f"size ajeeb hai {report['dims']} (meters mein 0.05-50 hona chahiye)")
 if not report["materials"]: problems.append("kisi mesh par material nahi hai (rang do)")
 if abs(mn.z) > 0.05 * max(dims) + 0.01: problems.append(f"neeche ka hissa z=0 par nahi hai (z_min={report['z_min']})")
+# animation info
+acts = []
+for a in bpy.data.actions:
+    n = 0; fr = []
+    try:
+        for fc in a.fcurves:
+            n += len(fc.keyframe_points); fr += [k.co.x for k in fc.keyframe_points]
+    except Exception:
+        for lay in getattr(a, "layers", []):
+            for st in lay.strips:
+                for cb in getattr(st, "channelbags", []):
+                    for fc in cb.fcurves:
+                        n += len(fc.keyframe_points); fr += [k.co.x for k in fc.keyframe_points]
+    acts.append({"name": a.name, "keyframes": n, "frames": [min(fr), max(fr)] if fr else None})
+report["animations"] = acts
+report["fps"] = bpy.context.scene.render.fps
+if os.environ.get("ANIM") == "1":
+    good = [a for a in acts if a["keyframes"] >= 2 and a["frames"] and a["frames"][1] > a["frames"][0]]
+    if not good: problems.append("animation nahi bana: keyframe_insert se kam se kam 2 keyframes, alag frames par chahiye")
 report["problems"] = problems
 
 # export
@@ -73,6 +92,14 @@ try:
     sc.render.engine = "CYCLES"; sc.cycles.samples = 24; sc.cycles.device = "CPU"
     sc.render.resolution_x = 768; sc.render.resolution_y = 768
     sc.render.filepath = f"{outdir}/{name}.png"
+    frames = []
+    if os.environ.get("ANIM") == "1" and acts and acts[0]["frames"]:
+        f0, f1 = int(acts[0]["frames"][0]), int(acts[0]["frames"][1])
+        for tag, f in (("f0", f0), ("f1", (f0 + f1) // 2), ("f2", f1)):
+            sc.frame_set(f); sc.render.filepath = f"{outdir}/{name}_{tag}.png"
+            bpy.ops.render.render(write_still=True); frames.append(sc.render.filepath)
+        report["frames"] = frames
+    sc.frame_set(sc.frame_start); sc.render.filepath = f"{outdir}/{name}.png"
     bpy.ops.render.render(write_still=True)
     report["preview"] = f"{outdir}/{name}.png"
 except Exception:

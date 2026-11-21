@@ -15,6 +15,13 @@ RULES = """Blender 5.3 ke liye ek Python (bpy) script likho. Niyam:
 - Size meters mein, realistic. Model ka neeche ka hissa z=0 par ho, x/y mein centered.
 - Camera/light mat daalo. Poora script ek hi ```python code block mein do, aur kuch nahi."""
 
+ANIM_RULES = """
+ANIMATION bhi banao (is script mein hi):
+- scene.render.fps=24, frame_start=1, frame_end=48. Ek hi action ban-na chahiye, naam 'open' ya jo kaam ho.
+- Hilne wale hisson ko ek EMPTY (hinge/pivot) ke neeche parent karo, aur EMPTY ko rotate/move karke obj.keyframe_insert(data_path=..., frame=...) se kam se kam 2 alag frames par keyframe do.
+- Pivot sahi jagah rakho (jaise dhakkan ka hinge peeche ke kinare par), warna animation galat ghoomega.
+- Interpolation smooth rakho (BEZIER)."""
+
 def extract(t):
     m = re.search(r"```(?:python)?\n(.*?)```", t, re.S)
     return (m.group(1) if m else t).strip() + "\n"
@@ -27,11 +34,14 @@ def run_blender(script, outdir, name):
         return json.loads(m[-1])
     return {"ok": False, "error": "Blender crash:\n" + (p.stdout + p.stderr)[-1200:]}
 
-def main(name, desc, tries=4):
+def main(name, desc, tries=4, anim=False, base=None):
     out = ROOT / "assets/models_3d"; gen = ROOT / "blender/generated"
     out.mkdir(parents=True, exist_ok=True); gen.mkdir(parents=True, exist_ok=True)
     script = gen / f"{name}.py"
-    msg = f"{RULES}\n\nBanana hai: {desc}"
+    import os; os.environ["ANIM"] = "1" if anim else "0"
+    msg = f"{RULES}{ANIM_RULES if anim else ''}\n\nBanana hai: {desc}"
+    if base:
+        msg += "\n\nYe pehle se bana hua script hai, ise base banao aur badlo (poora naya script do):\n```python\n" + Path(base).read_text() + "\n```"
     for i in range(1, tries + 1):
         print(f"[try {i}/{tries}] agent se script maang raha hoon...", flush=True)
         script.write_text(extract(studio.ask("blender_tech", msg)))
@@ -45,4 +55,8 @@ def main(name, desc, tries=4):
     print("FAILED after", tries, "tries"); return 1
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1], sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 4))
+    a = sys.argv[1:]
+    anim = "--anim" in a
+    base = a[a.index("--base") + 1] if "--base" in a else None
+    pos = [x for i, x in enumerate(a) if not x.startswith("--") and not (i and a[i-1] == "--base")]
+    sys.exit(main(pos[0], pos[1], int(pos[2]) if len(pos) > 2 else 4, anim, base))
