@@ -11,6 +11,7 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Sim-side memory CHALU hai (Agent block: Memory=conversation, ID=<start.conversationId>); 8/8 links test PASS (21 Nov). studio.py har agent ko `conversationId=nznsn-<naam>` bhejta hai.
 - Phir bhi studio.py apni local yaaddasht bhi saath bhejta hai (backup): `python3 scripts/studio.py ask|add|list|remember|memory|forget|team`.
   Memory: team/memory/<agent>.json (local), team/memory/shared.md (git mein, poori team ko jaata hai).
+- Sim plan FREE: $5 limit. Asli kharcha dekho: `python3 scripts/studio.py credits` (SIM_API_KEY, .env). Kharcha dollar/token ke hisaab se hai (flat per-message nahi). 21 Nov: $4.29/$5. Chhoti call ~ $0.02. Bina poochhe bade kaam mat chalao.
 - Sim par ek saath bahut requests = 429. Agents ko ek-ek karke chalao.
 - Blender agent: `python3 scripts/blender_agent.py "naam" "kya banana" 4 [--anim] [--base script.py]` -> assets/models_3d/*.glb/.png
   (agent bpy code likhta hai, hum headless Blender mein chalate/validate karte hain). Sirf primitives-wale props achhe; character rigging untested.

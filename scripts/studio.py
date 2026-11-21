@@ -9,6 +9,7 @@
   studio.py forget <name>                 # clear one agent's memory
   studio.py memory <name>                 # show what the agent remembers
   studio.py team "<task>"                 # 'lead' agent plans, others execute
+  studio.py credits                       # Sim ka asli kharcha ($) API se
   studio.py usage                         # kitni calls/characters kharch hue (local log)
 """
 import os, sys, json, re, time, urllib.request, urllib.error
@@ -64,6 +65,18 @@ def raw_chat(chat_id, text, retries=3, timeout=240, conv=None):
                 time.sleep(15 * (i + 1)); continue
         time.sleep(2 * (i + 1))
     raise RuntimeError(f"chat {chat_id} failed: {last}")
+
+def sim_credits():
+    """Sim account ka asli kharcha (dollar). Key: SIM_API_KEY (.env)."""
+    key = os.environ.get("SIM_API_KEY")
+    if not key:
+        for line in (ROOT / ".env").read_text().splitlines():
+            if line.startswith("SIM_API_KEY="):
+                key = line.split("=", 1)[1].strip()
+    req = urllib.request.Request("https://www.sim.ai/api/users/me/usage-limits", headers={"X-API-Key": key})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        d = json.load(r)["usage"]
+    return d["currentPeriodCost"], d["limit"], d.get("plan")
 
 def _log_usage(chat_id, n_in, n_out):
     try:
@@ -173,6 +186,9 @@ def main(a):
         p = _hist_path(a[1]); p.unlink(missing_ok=True); print("cleared", a[1])
     elif cmd == "memory":
         m = load_mem(a[1]); print("SUMMARY:", m["summary"] or "-"); print("TURNS:", len(m["turns"]))
+    elif cmd == "credits":
+        c, l, plan = sim_credits()
+        print(f"Sim ({plan}): ${c:.2f} / ${l:.2f} kharch ({c/l*100:.0f}%), bacha ${l-c:.2f}")
     elif cmd == "usage":
         f = MEM / "usage.log"
         rows = f.read_text().splitlines() if f.exists() else []
