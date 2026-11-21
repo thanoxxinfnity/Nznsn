@@ -1,0 +1,3194 @@
+{
+ "BR01_broken_chair_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1080,
+  "tris_after": 1080,
+  "dims_before": [
+   0.69,
+   0.63,
+   0.95
+  ],
+  "dims_after": [
+   0.65,
+   0.59,
+   0.9
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Broken chair",
+  "size_mb": 0.41
+ },
+ "BR01_broken_chair_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 972,
+  "tris_after": 972,
+  "dims_before": [
+   0.45,
+   0.53,
+   0.94
+  ],
+  "dims_after": [
+   0.43,
+   0.5,
+   0.9
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Broken chair",
+  "size_mb": 0.42
+ },
+ "BR01_broken_chair_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 864,
+  "tris_after": 864,
+  "dims_before": [
+   0.69,
+   1.01,
+   0.5
+  ],
+  "dims_after": [
+   0.61,
+   0.9,
+   0.44
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Broken chair",
+  "size_mb": 0.39
+ },
+ "BR01_broken_chair_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 972,
+  "tris_after": 972,
+  "dims_before": [
+   0.76,
+   0.44,
+   0.92
+  ],
+  "dims_after": [
+   0.74,
+   0.43,
+   0.9
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Broken chair",
+  "size_mb": 0.42
+ },
+ "BR02_broken_table_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 432,
+  "tris_after": 432,
+  "dims_before": [
+   1.15,
+   0.8,
+   0.75
+  ],
+  "dims_after": [
+   1.2,
+   0.83,
+   0.78
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "1.2",
+  "name": "Broken table",
+  "size_mb": 0.36
+ },
+ "BR02_broken_table_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 648,
+  "tris_after": 648,
+  "dims_before": [
+   1.36,
+   0.8,
+   0.75
+  ],
+  "dims_after": [
+   1.2,
+   0.71,
+   0.66
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "1.2",
+  "name": "Broken table",
+  "size_mb": 0.4
+ },
+ "BR02_broken_table_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 972,
+  "tris_after": 972,
+  "dims_before": [
+   1.21,
+   1.39,
+   1.0
+  ],
+  "dims_after": [
+   1.04,
+   1.2,
+   0.86
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "1.2",
+  "name": "Broken table",
+  "size_mb": 0.4
+ },
+ "BR03_broken_door_hanging_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 572,
+  "tris_after": 572,
+  "dims_before": [
+   1.04,
+   0.69,
+   2.15
+  ],
+  "dims_after": [
+   1.06,
+   0.7,
+   2.2
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "2.2",
+  "name": "Broken door hanging",
+  "size_mb": 0.63
+ },
+ "BR03_broken_door_hanging_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 572,
+  "tris_after": 572,
+  "dims_before": [
+   1.23,
+   0.8,
+   2.21
+  ],
+  "dims_after": [
+   1.22,
+   0.8,
+   2.2
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "2.2",
+  "name": "Broken door hanging",
+  "size_mb": 0.58
+ },
+ "BR03_broken_door_hanging_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 680,
+  "tris_after": 680,
+  "dims_before": [
+   1.47,
+   0.95,
+   2.23
+  ],
+  "dims_after": [
+   1.45,
+   0.93,
+   2.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "2.2",
+  "name": "Broken door hanging",
+  "size_mb": 0.73
+ },
+ "BR04_broken_window_glass_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 680,
+  "tris_after": 680,
+  "dims_before": [
+   1.26,
+   0.08,
+   1.46
+  ],
+  "dims_after": [
+   1.29,
+   0.08,
+   1.5
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.5",
+  "name": "Broken window with glass",
+  "size_mb": 0.58
+ },
+ "BR04_broken_window_glass_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 680,
+  "tris_after": 680,
+  "dims_before": [
+   1.26,
+   0.08,
+   1.46
+  ],
+  "dims_after": [
+   1.29,
+   0.08,
+   1.5
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.5",
+  "name": "Broken window with glass",
+  "size_mb": 0.53
+ },
+ "BR05_smashed_crt_tv_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 920,
+  "tris_after": 920,
+  "dims_before": [
+   0.63,
+   1.16,
+   0.48
+  ],
+  "dims_after": [
+   0.44,
+   0.8,
+   0.33
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.8",
+  "name": "Smashed CRT television",
+  "size_mb": 0.64
+ },
+ "BR05_smashed_crt_tv_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 920,
+  "tris_after": 920,
+  "dims_before": [
+   0.83,
+   1.07,
+   0.48
+  ],
+  "dims_after": [
+   0.62,
+   0.8,
+   0.36
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.8",
+  "name": "Smashed CRT television",
+  "size_mb": 0.77
+ },
+ "BR06_smashed_monitor.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 476,
+  "tris_after": 476,
+  "dims_before": [
+   0.8,
+   0.97,
+   0.35
+  ],
+  "dims_after": [
+   0.41,
+   0.5,
+   0.18
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.5",
+  "name": "Smashed monitor",
+  "size_mb": 0.61
+ },
+ "BR07_collapsed_shelf_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1728,
+  "tris_after": 1728,
+  "dims_before": [
+   1.32,
+   0.96,
+   1.92
+  ],
+  "dims_after": [
+   1.24,
+   0.9,
+   1.8
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.8",
+  "name": "Collapsed shelf",
+  "size_mb": 1.44
+ },
+ "BR07_collapsed_shelf_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1728,
+  "tris_after": 1728,
+  "dims_before": [
+   1.53,
+   0.91,
+   1.84
+  ],
+  "dims_after": [
+   1.49,
+   0.89,
+   1.8
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.8",
+  "name": "Collapsed shelf",
+  "size_mb": 0.95
+ },
+ "BR08_cracked_mirror_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 872,
+  "tris_after": 872,
+  "dims_before": [
+   0.87,
+   0.06,
+   0.9
+  ],
+  "dims_after": [
+   0.97,
+   0.07,
+   1.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cracked mirror",
+  "size_mb": 0.71
+ },
+ "BR08_cracked_mirror_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 228,
+  "tris_after": 228,
+  "dims_before": [
+   0.74,
+   0.05,
+   0.95
+  ],
+  "dims_after": [
+   0.78,
+   0.05,
+   1.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cracked mirror",
+  "size_mb": 0.83
+ },
+ "BR08_cracked_mirror_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 228,
+  "tris_after": 228,
+  "dims_before": [
+   0.73,
+   0.05,
+   0.95
+  ],
+  "dims_after": [
+   0.77,
+   0.05,
+   1.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Cracked mirror",
+  "size_mb": 0.67
+ },
+ "BR09_broken_bed_frame_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1080,
+  "tris_after": 1080,
+  "dims_before": [
+   0.95,
+   2.66,
+   1.03
+  ],
+  "dims_after": [
+   0.71,
+   2.0,
+   0.77
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4500,
+  "target": "2.0",
+  "name": "Broken bed frame",
+  "size_mb": 0.41
+ },
+ "BR09_broken_bed_frame_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1080,
+  "tris_after": 1080,
+  "dims_before": [
+   0.95,
+   2.66,
+   1.03
+  ],
+  "dims_after": [
+   0.71,
+   2.0,
+   0.77
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4500,
+  "target": "2.0",
+  "name": "Broken bed frame",
+  "size_mb": 0.33
+ },
+ "BR10_torn_mattress_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1148,
+  "tris_after": 1148,
+  "dims_before": [
+   0.96,
+   1.91,
+   0.27
+  ],
+  "dims_after": [
+   0.96,
+   1.9,
+   0.27
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.9",
+  "name": "Torn mattress",
+  "size_mb": 0.68
+ },
+ "BR10_torn_mattress_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1148,
+  "tris_after": 1148,
+  "dims_before": [
+   0.96,
+   1.9,
+   0.27
+  ],
+  "dims_after": [
+   0.96,
+   1.9,
+   0.27
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.9",
+  "name": "Torn mattress",
+  "size_mb": 0.72
+ },
+ "BR11_ripped_sofa_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1876,
+  "tris_after": 1876,
+  "dims_before": [
+   2.1,
+   0.91,
+   1.03
+  ],
+  "dims_after": [
+   2.0,
+   0.86,
+   0.98
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5500,
+  "target": "2.0",
+  "name": "Ripped sofa",
+  "size_mb": 0.79
+ },
+ "BR11_ripped_sofa_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1656,
+  "tris_after": 1656,
+  "dims_before": [
+   2.1,
+   0.91,
+   1.03
+  ],
+  "dims_after": [
+   2.0,
+   0.86,
+   0.98
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5500,
+  "target": "2.0",
+  "name": "Ripped sofa",
+  "size_mb": 0.83
+ },
+ "C05_ticket_booth.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1920,
+  "tris_after": 1920,
+  "dims_before": [
+   1.8,
+   1.8,
+   2.88
+  ],
+  "dims_after": [
+   1.56,
+   1.56,
+   2.5
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.5",
+  "name": "Ticket booth",
+  "size_mb": 1.51
+ },
+ "D01_scattered_papers_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 96,
+  "tris_after": 96,
+  "dims_before": [
+   0.73,
+   0.72,
+   0.03
+  ],
+  "dims_after": [
+   0.5,
+   0.49,
+   0.02
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.5",
+  "name": "Scattered papers",
+  "size_mb": 0.34
+ },
+ "D01_scattered_papers_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.77,
+   0.77,
+   0.03
+  ],
+  "dims_after": [
+   0.5,
+   0.5,
+   0.02
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.5",
+  "name": "Scattered papers",
+  "size_mb": 0.34
+ },
+ "D01_scattered_papers_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 144,
+  "tris_after": 144,
+  "dims_before": [
+   0.84,
+   0.74,
+   0.03
+  ],
+  "dims_after": [
+   0.5,
+   0.44,
+   0.02
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.5",
+  "name": "Scattered papers",
+  "size_mb": 0.34
+ },
+ "D01_scattered_papers_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 168,
+  "tris_after": 168,
+  "dims_before": [
+   0.78,
+   0.77,
+   0.04
+  ],
+  "dims_after": [
+   0.5,
+   0.5,
+   0.02
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.5",
+  "name": "Scattered papers",
+  "size_mb": 0.34
+ },
+ "D02_overturned_chair_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 864,
+  "tris_after": 864,
+  "dims_before": [
+   0.44,
+   0.96,
+   0.44
+  ],
+  "dims_after": [
+   0.41,
+   0.9,
+   0.41
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Overturned chair",
+  "size_mb": 0.39
+ },
+ "D02_overturned_chair_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 864,
+  "tris_after": 864,
+  "dims_before": [
+   0.44,
+   0.96,
+   0.44
+  ],
+  "dims_after": [
+   0.41,
+   0.9,
+   0.41
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Overturned chair",
+  "size_mb": 0.34
+ },
+ "D03_glass_shards_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 44,
+  "tris_after": 44,
+  "dims_before": [
+   0.41,
+   0.38,
+   0.0
+  ],
+  "dims_after": [
+   0.4,
+   0.37,
+   0.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 700,
+  "target": "0.4",
+  "name": "Glass shards",
+  "size_mb": 0.2
+ },
+ "D03_glass_shards_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 56,
+  "tris_after": 56,
+  "dims_before": [
+   0.42,
+   0.38,
+   0.0
+  ],
+  "dims_after": [
+   0.4,
+   0.35,
+   0.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 700,
+  "target": "0.4",
+  "name": "Glass shards",
+  "size_mb": 0.21
+ },
+ "D03_glass_shards_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 68,
+  "tris_after": 68,
+  "dims_before": [
+   0.44,
+   0.43,
+   0.0
+  ],
+  "dims_after": [
+   0.4,
+   0.39,
+   0.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 700,
+  "target": "0.4",
+  "name": "Glass shards",
+  "size_mb": 0.21
+ },
+ "D04_cobweb_corner_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 144,
+  "tris_after": 144,
+  "dims_before": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "dims_after": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.6",
+  "name": "Cobweb corner",
+  "size_mb": 0.18
+ },
+ "D04_cobweb_corner_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 144,
+  "tris_after": 144,
+  "dims_before": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "dims_after": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.6",
+  "name": "Cobweb corner",
+  "size_mb": 0.18
+ },
+ "D04_cobweb_corner_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 192,
+  "tris_after": 192,
+  "dims_before": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "dims_after": [
+   0.57,
+   0.6,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.6",
+  "name": "Cobweb corner",
+  "size_mb": 0.18
+ },
+ "D05_dust_sheet_furniture_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 648,
+  "tris_after": 648,
+  "dims_before": [
+   1.94,
+   0.96,
+   0.94
+  ],
+  "dims_after": [
+   1.5,
+   0.74,
+   0.73
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.5",
+  "name": "Dust sheet over furniture",
+  "size_mb": 0.22
+ },
+ "D05_dust_sheet_furniture_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 648,
+  "tris_after": 648,
+  "dims_before": [
+   0.86,
+   0.84,
+   1.02
+  ],
+  "dims_after": [
+   1.27,
+   1.24,
+   1.5
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.5",
+  "name": "Dust sheet over furniture",
+  "size_mb": 0.22
+ },
+ "D05_dust_sheet_furniture_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 648,
+  "tris_after": 648,
+  "dims_before": [
+   1.24,
+   0.77,
+   1.63
+  ],
+  "dims_after": [
+   1.14,
+   0.71,
+   1.5
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.5",
+  "name": "Dust sheet over furniture",
+  "size_mb": 0.21
+ },
+ "D06_trash_bag_pile_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1552,
+  "tris_after": 1500,
+  "dims_before": [
+   0.63,
+   0.75,
+   0.44
+  ],
+  "dims_after": [
+   0.68,
+   0.8,
+   0.47
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Trash bag pile",
+  "size_mb": 0.26
+ },
+ "D06_trash_bag_pile_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1940,
+  "tris_after": 1500,
+  "dims_before": [
+   0.9,
+   0.8,
+   0.45
+  ],
+  "dims_after": [
+   0.8,
+   0.71,
+   0.4
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Trash bag pile",
+  "size_mb": 0.26
+ },
+ "D06_trash_bag_pile_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2328,
+  "tris_after": 1500,
+  "dims_before": [
+   0.79,
+   0.81,
+   0.45
+  ],
+  "dims_after": [
+   0.78,
+   0.8,
+   0.45
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Trash bag pile",
+  "size_mb": 0.25
+ },
+ "D07_plastic_bottles_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1984,
+  "tris_after": 800,
+  "dims_before": [
+   0.37,
+   0.23,
+   0.22
+  ],
+  "dims_after": [
+   0.3,
+   0.19,
+   0.18
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.3",
+  "name": "Plastic bottles",
+  "size_mb": 0.46
+ },
+ "D07_plastic_bottles_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2480,
+  "tris_after": 800,
+  "dims_before": [
+   0.3,
+   0.27,
+   0.22
+  ],
+  "dims_after": [
+   0.3,
+   0.27,
+   0.22
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.3",
+  "name": "Plastic bottles",
+  "size_mb": 0.47
+ },
+ "D07_plastic_bottles_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2976,
+  "tris_after": 800,
+  "dims_before": [
+   0.27,
+   0.29,
+   0.22
+  ],
+  "dims_after": [
+   0.28,
+   0.3,
+   0.23
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.3",
+  "name": "Plastic bottles",
+  "size_mb": 0.45
+ },
+ "D08_rusty_cans_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 976,
+  "tris_after": 800,
+  "dims_before": [
+   0.24,
+   0.16,
+   0.11
+  ],
+  "dims_after": [
+   0.2,
+   0.13,
+   0.1
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.2",
+  "name": "Rusty cans",
+  "size_mb": 0.31
+ },
+ "D08_rusty_cans_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 800,
+  "dims_before": [
+   0.19,
+   0.2,
+   0.12
+  ],
+  "dims_after": [
+   0.19,
+   0.2,
+   0.12
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.2",
+  "name": "Rusty cans",
+  "size_mb": 0.31
+ },
+ "D08_rusty_cans_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1464,
+  "tris_after": 800,
+  "dims_before": [
+   0.19,
+   0.2,
+   0.12
+  ],
+  "dims_after": [
+   0.19,
+   0.21,
+   0.12
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 800,
+  "target": "0.2",
+  "name": "Rusty cans",
+  "size_mb": 0.31
+ },
+ "L14_home_bookshelf_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1416,
+  "tris_after": 1416,
+  "dims_before": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "dims_after": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Home bookshelf",
+  "size_mb": 1.37
+ },
+ "NT01_dead_tree_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 376,
+  "tris_after": 376,
+  "dims_before": [
+   1.8,
+   3.38,
+   5.65
+  ],
+  "dims_after": [
+   1.91,
+   3.58,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.35
+ },
+ "NT01_dead_tree_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 472,
+  "tris_after": 472,
+  "dims_before": [
+   2.67,
+   2.4,
+   6.27
+  ],
+  "dims_after": [
+   2.55,
+   2.29,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.36
+ },
+ "NT01_dead_tree_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 560,
+  "tris_after": 560,
+  "dims_before": [
+   3.09,
+   3.49,
+   6.28
+  ],
+  "dims_after": [
+   2.95,
+   3.34,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.36
+ },
+ "NT01_dead_tree_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 408,
+  "tris_after": 408,
+  "dims_before": [
+   2.65,
+   3.91,
+   6.14
+  ],
+  "dims_after": [
+   2.59,
+   3.81,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.35
+ },
+ "NT01_dead_tree_v5.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 504,
+  "tris_after": 504,
+  "dims_before": [
+   3.12,
+   2.49,
+   6.03
+  ],
+  "dims_after": [
+   3.11,
+   2.48,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.36
+ },
+ "NT02_overgrown_bush_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 632,
+  "tris_after": 632,
+  "dims_before": [
+   1.57,
+   1.38,
+   1.12
+  ],
+  "dims_after": [
+   1.5,
+   1.32,
+   1.07
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.5",
+  "name": "Overgrown bush",
+  "size_mb": 0.6
+ },
+ "NT02_overgrown_bush_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 712,
+  "tris_after": 712,
+  "dims_before": [
+   1.59,
+   1.43,
+   1.24
+  ],
+  "dims_after": [
+   1.5,
+   1.35,
+   1.17
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.5",
+  "name": "Overgrown bush",
+  "size_mb": 0.61
+ },
+ "NT02_overgrown_bush_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 792,
+  "tris_after": 792,
+  "dims_before": [
+   1.52,
+   1.59,
+   1.22
+  ],
+  "dims_after": [
+   1.43,
+   1.5,
+   1.15
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.5",
+  "name": "Overgrown bush",
+  "size_mb": 0.61
+ },
+ "NT02_overgrown_bush_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 872,
+  "tris_after": 872,
+  "dims_before": [
+   1.51,
+   1.33,
+   1.21
+  ],
+  "dims_after": [
+   1.5,
+   1.32,
+   1.2
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.5",
+  "name": "Overgrown bush",
+  "size_mb": 0.61
+ },
+ "NT03_tall_grass_clump_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 160,
+  "tris_after": 160,
+  "dims_before": [
+   0.69,
+   0.86,
+   0.98
+  ],
+  "dims_after": [
+   0.71,
+   0.88,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.0",
+  "name": "Tall grass clump",
+  "size_mb": 0.48
+ },
+ "NT03_tall_grass_clump_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 160,
+  "tris_after": 160,
+  "dims_before": [
+   0.69,
+   0.65,
+   0.98
+  ],
+  "dims_after": [
+   0.71,
+   0.66,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.0",
+  "name": "Tall grass clump",
+  "size_mb": 0.48
+ },
+ "NT03_tall_grass_clump_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 160,
+  "tris_after": 160,
+  "dims_before": [
+   0.71,
+   0.64,
+   0.94
+  ],
+  "dims_after": [
+   0.75,
+   0.68,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.0",
+  "name": "Tall grass clump",
+  "size_mb": 0.48
+ },
+ "NT03_tall_grass_clump_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 160,
+  "tris_after": 160,
+  "dims_before": [
+   0.6,
+   0.76,
+   0.95
+  ],
+  "dims_after": [
+   0.63,
+   0.8,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.0",
+  "name": "Tall grass clump",
+  "size_mb": 0.48
+ },
+ "NT04_rocks_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.88,
+   0.71,
+   0.52
+  ],
+  "dims_after": [
+   1.0,
+   0.81,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Rocks",
+  "size_mb": 0.29
+ },
+ "NT04_rocks_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.54,
+   0.43,
+   0.33
+  ],
+  "dims_after": [
+   1.0,
+   0.8,
+   0.61
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Rocks",
+  "size_mb": 0.21
+ },
+ "NT04_rocks_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.85,
+   0.68,
+   0.53
+  ],
+  "dims_after": [
+   1.0,
+   0.8,
+   0.62
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Rocks",
+  "size_mb": 0.29
+ },
+ "NT04_rocks_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.68,
+   0.58,
+   0.41
+  ],
+  "dims_after": [
+   1.0,
+   0.85,
+   0.61
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Rocks",
+  "size_mb": 0.21
+ },
+ "NT04_rocks_v5.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 360,
+  "tris_after": 360,
+  "dims_before": [
+   0.98,
+   0.55,
+   0.4
+  ],
+  "dims_after": [
+   1.0,
+   0.56,
+   0.41
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Rocks",
+  "size_mb": 0.3
+ },
+ "NT05_boulders_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 224,
+  "tris_after": 224,
+  "dims_before": [
+   2.65,
+   2.31,
+   1.68
+  ],
+  "dims_after": [
+   2.5,
+   2.18,
+   1.58
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "2.5",
+  "name": "Boulders",
+  "size_mb": 0.29
+ },
+ "NT05_boulders_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 224,
+  "tris_after": 224,
+  "dims_before": [
+   3.41,
+   3.07,
+   2.08
+  ],
+  "dims_after": [
+   2.5,
+   2.25,
+   1.52
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "2.5",
+  "name": "Boulders",
+  "size_mb": 0.22
+ },
+ "NT05_boulders_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 224,
+  "tris_after": 224,
+  "dims_before": [
+   3.05,
+   2.45,
+   1.9
+  ],
+  "dims_after": [
+   2.5,
+   2.01,
+   1.56
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "2.5",
+  "name": "Boulders",
+  "size_mb": 0.29
+ },
+ "P01_brass_gear_cog_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2560,
+  "tris_after": 1500,
+  "dims_before": [
+   0.21,
+   0.03,
+   0.21
+  ],
+  "dims_after": [
+   0.3,
+   0.05,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Brass gear cog",
+  "size_mb": 0.74
+ },
+ "P01_brass_gear_cog_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3088,
+  "tris_after": 1500,
+  "dims_before": [
+   0.27,
+   0.03,
+   0.27
+  ],
+  "dims_after": [
+   0.3,
+   0.04,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Brass gear cog",
+  "size_mb": 0.74
+ },
+ "P01_brass_gear_cog_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3616,
+  "tris_after": 1500,
+  "dims_before": [
+   0.33,
+   0.03,
+   0.33
+  ],
+  "dims_after": [
+   0.3,
+   0.03,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Brass gear cog",
+  "size_mb": 0.74
+ },
+ "P01_brass_gear_cog_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2296,
+  "tris_after": 1500,
+  "dims_before": [
+   0.17,
+   0.03,
+   0.17
+  ],
+  "dims_after": [
+   0.3,
+   0.06,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Brass gear cog",
+  "size_mb": 0.75
+ },
+ "P02_puzzle_box_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1344,
+  "tris_after": 1344,
+  "dims_before": [
+   0.27,
+   0.27,
+   0.22
+  ],
+  "dims_after": [
+   0.29,
+   0.3,
+   0.23
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.3",
+  "name": "Puzzle box",
+  "size_mb": 0.59
+ },
+ "P02_puzzle_box_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1344,
+  "tris_after": 1344,
+  "dims_before": [
+   0.27,
+   0.27,
+   0.22
+  ],
+  "dims_after": [
+   0.29,
+   0.3,
+   0.23
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.3",
+  "name": "Puzzle box",
+  "size_mb": 0.45
+ },
+ "P03_animal_statue_v1_elephant.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1936,
+  "tris_after": 1936,
+  "dims_before": [
+   0.43,
+   0.3,
+   0.39
+  ],
+  "dims_after": [
+   0.6,
+   0.42,
+   0.54
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.6",
+  "name": "Animal statue set",
+  "size_mb": 0.74
+ },
+ "P03_animal_statue_v2_lion.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1896,
+  "tris_after": 1896,
+  "dims_before": [
+   0.45,
+   0.3,
+   0.4
+  ],
+  "dims_after": [
+   0.6,
+   0.4,
+   0.53
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.6",
+  "name": "Animal statue set",
+  "size_mb": 0.74
+ },
+ "P03_animal_statue_v3_monkey.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 836,
+  "tris_after": 836,
+  "dims_before": [
+   0.3,
+   0.3,
+   0.4
+  ],
+  "dims_after": [
+   0.46,
+   0.46,
+   0.6
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.6",
+  "name": "Animal statue set",
+  "size_mb": 0.67
+ },
+ "P03_animal_statue_v4_bear.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 940,
+  "tris_after": 940,
+  "dims_before": [
+   0.3,
+   0.3,
+   0.46
+  ],
+  "dims_after": [
+   0.4,
+   0.4,
+   0.6
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.6",
+  "name": "Animal statue set",
+  "size_mb": 0.68
+ },
+ "P04_stone_pedestal_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 668,
+  "tris_after": 668,
+  "dims_before": [
+   0.51,
+   0.51,
+   0.99
+  ],
+  "dims_after": [
+   0.51,
+   0.51,
+   1.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Stone pedestal",
+  "size_mb": 0.25
+ },
+ "P04_stone_pedestal_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 540,
+  "tris_after": 540,
+  "dims_before": [
+   0.51,
+   0.5,
+   0.99
+  ],
+  "dims_after": [
+   0.51,
+   0.51,
+   1.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Stone pedestal",
+  "size_mb": 0.32
+ },
+ "P05_combination_padlock.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1128,
+  "tris_after": 1128,
+  "dims_before": [
+   0.08,
+   0.04,
+   0.12
+  ],
+  "dims_after": [
+   0.1,
+   0.05,
+   0.15
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.15",
+  "name": "Combination padlock",
+  "size_mb": 0.53
+ },
+ "P06_padlock_and_chain.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1248,
+  "tris_after": 1248,
+  "dims_before": [
+   0.47,
+   0.06,
+   0.16
+  ],
+  "dims_after": [
+   0.4,
+   0.05,
+   0.14
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Padlock and chain",
+  "size_mb": 0.52
+ },
+ "P07_crowbar.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 220,
+  "tris_after": 220,
+  "dims_before": [
+   0.6,
+   0.03,
+   0.1
+  ],
+  "dims_after": [
+   0.6,
+   0.03,
+   0.1
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.6",
+  "name": "Crowbar",
+  "size_mb": 0.5
+ },
+ "P08_bolt_cutters.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 620,
+  "tris_after": 620,
+  "dims_before": [
+   0.6,
+   0.14,
+   0.04
+  ],
+  "dims_after": [
+   0.7,
+   0.16,
+   0.04
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.7",
+  "name": "Bolt cutters",
+  "size_mb": 0.53
+ },
+ "P09_claw_hammer.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 500,
+  "tris_after": 500,
+  "dims_before": [
+   0.32,
+   0.2,
+   0.04
+  ],
+  "dims_after": [
+   0.35,
+   0.22,
+   0.04
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.35",
+  "name": "Claw hammer",
+  "size_mb": 0.64
+ },
+ "P10_big_wrench.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 508,
+  "tris_after": 508,
+  "dims_before": [
+   0.41,
+   0.07,
+   0.01
+  ],
+  "dims_after": [
+   0.4,
+   0.07,
+   0.01
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Big wrench",
+  "size_mb": 0.49
+ },
+ "P11_screwdriver_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 316,
+  "tris_after": 316,
+  "dims_before": [
+   0.25,
+   0.15,
+   0.04
+  ],
+  "dims_after": [
+   0.25,
+   0.15,
+   0.04
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.25",
+  "name": "Screwdriver set",
+  "size_mb": 1.27
+ },
+ "P12_lock_pick_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 324,
+  "tris_after": 324,
+  "dims_before": [
+   0.14,
+   0.08,
+   0.02
+  ],
+  "dims_after": [
+   0.15,
+   0.09,
+   0.02
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.15",
+  "name": "Lock pick set",
+  "size_mb": 0.67
+ },
+ "R02_platform_bench.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3080,
+  "tris_after": 3080,
+  "dims_before": [
+   1.9,
+   0.51,
+   0.86
+  ],
+  "dims_after": [
+   2.0,
+   0.54,
+   0.9
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "2.0",
+  "name": "Platform bench",
+  "size_mb": 0.78
+ },
+ "R03_ticket_turnstile.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 944,
+  "tris_after": 944,
+  "dims_before": [
+   1.05,
+   1.0,
+   0.99
+  ],
+  "dims_after": [
+   1.0,
+   0.96,
+   0.95
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.0",
+  "name": "Ticket gate turnstile",
+  "size_mb": 0.97
+ },
+ "R05_street_lamp.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 944,
+  "tris_after": 944,
+  "dims_before": [
+   1.2,
+   0.44,
+   4.73
+  ],
+  "dims_after": [
+   1.27,
+   0.46,
+   5.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "5.0",
+  "name": "Street lamp",
+  "size_mb": 0.7
+ },
+ "R21_dead_tree_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 544,
+  "tris_after": 544,
+  "dims_before": [
+   2.58,
+   2.8,
+   5.47
+  ],
+  "dims_after": [
+   2.83,
+   3.07,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.36
+ },
+ "R21_dead_tree_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 376,
+  "tris_after": 376,
+  "dims_before": [
+   2.48,
+   1.88,
+   5.54
+  ],
+  "dims_after": [
+   2.69,
+   2.03,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.35
+ },
+ "R21_dead_tree_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 360,
+  "tris_after": 360,
+  "dims_before": [
+   2.33,
+   1.59,
+   4.97
+  ],
+  "dims_after": [
+   2.81,
+   1.91,
+   6.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "6.0",
+  "name": "Dead tree",
+  "size_mb": 0.35
+ },
+ "R22_iron_fence_section.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   3.12,
+   0.12,
+   1.71
+  ],
+  "dims_after": [
+   3.0,
+   0.12,
+   1.64
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "3.0",
+  "name": "Iron fence section",
+  "size_mb": 0.42
+ },
+ "U01_wall_sconce_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 348,
+  "tris_after": 348,
+  "dims_before": [
+   0.15,
+   0.24,
+   0.22
+  ],
+  "dims_after": [
+   0.19,
+   0.3,
+   0.28
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1200,
+  "target": "0.3",
+  "name": "Wall sconce",
+  "size_mb": 0.6
+ },
+ "U01_wall_sconce_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 352,
+  "tris_after": 352,
+  "dims_before": [
+   0.11,
+   0.22,
+   0.23
+  ],
+  "dims_after": [
+   0.15,
+   0.28,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1200,
+  "target": "0.3",
+  "name": "Wall sconce",
+  "size_mb": 0.6
+ },
+ "U01_wall_sconce_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 348,
+  "tris_after": 348,
+  "dims_before": [
+   0.13,
+   0.23,
+   0.21
+  ],
+  "dims_after": [
+   0.18,
+   0.3,
+   0.28
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1200,
+  "target": "0.3",
+  "name": "Wall sconce",
+  "size_mb": 0.57
+ },
+ "U02_chandelier_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4264,
+  "tris_after": 4264,
+  "dims_before": [
+   0.82,
+   0.78,
+   0.8
+  ],
+  "dims_after": [
+   1.0,
+   0.95,
+   0.97
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.0",
+  "name": "Chandelier",
+  "size_mb": 0.82
+ },
+ "U02_chandelier_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4904,
+  "tris_after": 4904,
+  "dims_before": [
+   0.82,
+   0.82,
+   0.88
+  ],
+  "dims_after": [
+   0.93,
+   0.94,
+   1.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.0",
+  "name": "Chandelier",
+  "size_mb": 0.86
+ },
+ "U03_oil_lantern_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 704,
+  "tris_after": 704,
+  "dims_before": [
+   0.16,
+   0.16,
+   0.38
+  ],
+  "dims_after": [
+   0.13,
+   0.13,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Oil lantern",
+  "size_mb": 0.7
+ },
+ "U03_oil_lantern_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 704,
+  "tris_after": 704,
+  "dims_before": [
+   0.16,
+   0.16,
+   0.38
+  ],
+  "dims_after": [
+   0.13,
+   0.13,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Oil lantern",
+  "size_mb": 0.72
+ },
+ "U04_candlestick_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 952,
+  "tris_after": 952,
+  "dims_before": [
+   0.12,
+   0.12,
+   0.26
+  ],
+  "dims_after": [
+   0.14,
+   0.14,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.3",
+  "name": "Candlestick",
+  "size_mb": 0.61
+ },
+ "U04_candlestick_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1892,
+  "tris_after": 999,
+  "dims_before": [
+   0.21,
+   0.12,
+   0.28
+  ],
+  "dims_after": [
+   0.23,
+   0.13,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.3",
+  "name": "Candlestick",
+  "size_mb": 0.63
+ },
+ "U04_candlestick_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2240,
+  "tris_after": 1000,
+  "dims_before": [
+   0.25,
+   0.12,
+   0.27
+  ],
+  "dims_after": [
+   0.28,
+   0.13,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.3",
+  "name": "Candlestick",
+  "size_mb": 0.63
+ },
+ "U05_bare_bulb_wire_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 412,
+  "tris_after": 412,
+  "dims_before": [
+   0.06,
+   0.06,
+   0.22
+  ],
+  "dims_after": [
+   0.05,
+   0.05,
+   0.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.2",
+  "name": "Bare bulb on wire",
+  "size_mb": 0.57
+ },
+ "U05_bare_bulb_wire_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 412,
+  "tris_after": 412,
+  "dims_before": [
+   0.06,
+   0.06,
+   0.22
+  ],
+  "dims_after": [
+   0.05,
+   0.05,
+   0.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 600,
+  "target": "0.2",
+  "name": "Bare bulb on wire",
+  "size_mb": 0.56
+ },
+ "U06_emergency_light_box.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 788,
+  "tris_after": 788,
+  "dims_before": [
+   0.35,
+   0.15,
+   0.18
+  ],
+  "dims_after": [
+   0.4,
+   0.18,
+   0.2
+  ],
+  "materials": 3,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Emergency light box",
+  "size_mb": 0.47
+ },
+ "U07_neon_sign_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 548,
+  "tris_after": 548,
+  "dims_before": [
+   0.9,
+   0.08,
+   0.6
+  ],
+  "dims_after": [
+   1.0,
+   0.09,
+   0.67
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Neon sign shapes",
+  "size_mb": 0.4
+ },
+ "U07_neon_sign_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 188,
+  "tris_after": 188,
+  "dims_before": [
+   0.9,
+   0.08,
+   0.6
+  ],
+  "dims_after": [
+   1.0,
+   0.09,
+   0.67
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Neon sign shapes",
+  "size_mb": 0.38
+ },
+ "U07_neon_sign_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 208,
+  "tris_after": 208,
+  "dims_before": [
+   0.9,
+   0.08,
+   0.6
+  ],
+  "dims_after": [
+   1.0,
+   0.09,
+   0.67
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "1.0",
+  "name": "Neon sign shapes",
+  "size_mb": 0.37
+ },
+ "Y01_lab_table_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 972,
+  "tris_after": 972,
+  "dims_before": [
+   2.0,
+   0.8,
+   0.92
+  ],
+  "dims_after": [
+   2.0,
+   0.8,
+   0.92
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "2.0",
+  "name": "Lab table",
+  "size_mb": 0.78
+ },
+ "Y01_lab_table_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 812,
+  "tris_after": 812,
+  "dims_before": [
+   2.0,
+   0.8,
+   1.21
+  ],
+  "dims_after": [
+   2.0,
+   0.8,
+   1.21
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "2.0",
+  "name": "Lab table",
+  "size_mb": 0.54
+ },
+ "Y02_beakers_flasks_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 424,
+  "tris_after": 424,
+  "dims_before": [
+   0.12,
+   0.12,
+   0.15
+  ],
+  "dims_after": [
+   0.24,
+   0.24,
+   0.3
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Beakers and flasks",
+  "size_mb": 0.42
+ },
+ "Y02_beakers_flasks_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 532,
+  "tris_after": 532,
+  "dims_before": [
+   0.14,
+   0.14,
+   0.24
+  ],
+  "dims_after": [
+   0.17,
+   0.17,
+   0.3
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Beakers and flasks",
+  "size_mb": 0.43
+ },
+ "Y02_beakers_flasks_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 564,
+  "tris_after": 564,
+  "dims_before": [
+   0.14,
+   0.14,
+   0.21
+  ],
+  "dims_after": [
+   0.19,
+   0.2,
+   0.3
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Beakers and flasks",
+  "size_mb": 0.43
+ },
+ "Y02_beakers_flasks_v4.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2868,
+  "tris_after": 1500,
+  "dims_before": [
+   0.2,
+   0.06,
+   0.14
+  ],
+  "dims_after": [
+   0.3,
+   0.09,
+   0.22
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Beakers and flasks",
+  "size_mb": 0.89
+ },
+ "Y03_centrifuge.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1996,
+  "tris_after": 1996,
+  "dims_before": [
+   0.55,
+   0.65,
+   0.42
+  ],
+  "dims_after": [
+   0.51,
+   0.6,
+   0.39
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.6",
+  "name": "Centrifuge",
+  "size_mb": 1.11
+ },
+ "Y04_brain_jar_specimen_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1556,
+  "tris_after": 1556,
+  "dims_before": [
+   0.32,
+   0.32,
+   0.47
+  ],
+  "dims_after": [
+   0.34,
+   0.34,
+   0.5
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.5",
+  "name": "Brain-jar specimen",
+  "size_mb": 0.77
+ },
+ "Y04_brain_jar_specimen_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1604,
+  "tris_after": 1604,
+  "dims_before": [
+   0.41,
+   0.32,
+   0.6
+  ],
+  "dims_after": [
+   0.34,
+   0.26,
+   0.5
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.5",
+  "name": "Brain-jar specimen",
+  "size_mb": 0.94
+ },
+ "Y05_restraint_chair.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2000,
+  "tris_after": 2000,
+  "dims_before": [
+   0.7,
+   0.81,
+   1.55
+  ],
+  "dims_after": [
+   0.54,
+   0.63,
+   1.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.2",
+  "name": "Restraint chair",
+  "size_mb": 0.86
+ },
+ "Y06_server_rack_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2616,
+  "tris_after": 2616,
+  "dims_before": [
+   0.6,
+   1.01,
+   2.0
+  ],
+  "dims_after": [
+   0.6,
+   1.01,
+   2.0
+  ],
+  "materials": 7,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.0",
+  "name": "Server rack",
+  "size_mb": 1.31
+ },
+ "Y06_server_rack_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2244,
+  "tris_after": 2244,
+  "dims_before": [
+   0.61,
+   1.18,
+   2.0
+  ],
+  "dims_after": [
+   0.61,
+   1.18,
+   2.0
+  ],
+  "materials": 6,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.0",
+  "name": "Server rack",
+  "size_mb": 1.08
+ },
+ "Y07_monitor_wall.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1860,
+  "tris_after": 1860,
+  "dims_before": [
+   3.0,
+   0.56,
+   2.4
+  ],
+  "dims_after": [
+   3.0,
+   0.56,
+   2.4
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "3.0",
+  "name": "Monitor wall",
+  "size_mb": 1.25
+ },
+ "Y08_floor_cable_bundles_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 720,
+  "tris_after": 720,
+  "dims_before": [
+   3.02,
+   0.76,
+   0.05
+  ],
+  "dims_after": [
+   3.0,
+   0.75,
+   0.05
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Floor cable bundles",
+  "size_mb": 0.61
+ },
+ "Y08_floor_cable_bundles_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 840,
+  "tris_after": 840,
+  "dims_before": [
+   3.02,
+   0.85,
+   0.05
+  ],
+  "dims_after": [
+   3.0,
+   0.85,
+   0.05
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Floor cable bundles",
+  "size_mb": 0.62
+ },
+ "Y08_floor_cable_bundles_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1068,
+  "tris_after": 1068,
+  "dims_before": [
+   3.03,
+   0.95,
+   0.16
+  ],
+  "dims_after": [
+   3.0,
+   0.94,
+   0.15
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Floor cable bundles",
+  "size_mb": 0.84
+ },
+ "Y09_specimen_shelf.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 8844,
+  "tris_after": 6000,
+  "dims_before": [
+   1.25,
+   0.45,
+   2.0
+  ],
+  "dims_after": [
+   1.25,
+   0.45,
+   2.0
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Specimen shelf",
+  "size_mb": 1.64
+ }
+}

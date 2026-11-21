@@ -1,0 +1,794 @@
+{
+ "CV01_old_sedan_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   4.58,
+   1.74,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   1.67,
+   1.64
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Old sedan",
+  "size_mb": 1.5
+ },
+ "CV01_old_sedan_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   4.58,
+   1.74,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   1.67,
+   1.64
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Old sedan",
+  "size_mb": 1.49
+ },
+ "CV01_old_sedan_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   4.58,
+   1.74,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   1.67,
+   1.64
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Old sedan",
+  "size_mb": 1.53
+ },
+ "CV02_small_hatchback_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   3.78,
+   1.61,
+   1.7
+  ],
+  "dims_after": [
+   3.6,
+   1.53,
+   1.62
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "3.6",
+  "name": "Small hatchback",
+  "size_mb": 1.33
+ },
+ "CV02_small_hatchback_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   3.78,
+   1.61,
+   1.7
+  ],
+  "dims_after": [
+   3.6,
+   1.53,
+   1.62
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "3.6",
+  "name": "Small hatchback",
+  "size_mb": 1.33
+ },
+ "CV03_open_jeep.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2628,
+  "tris_after": 2628,
+  "dims_before": [
+   3.98,
+   1.7,
+   1.55
+  ],
+  "dims_after": [
+   3.8,
+   1.62,
+   1.48
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "3.8",
+  "name": "Open jeep",
+  "size_mb": 1.5
+ },
+ "CV04_taxi_black_yellow.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2764,
+  "tris_after": 2764,
+  "dims_before": [
+   4.38,
+   1.74,
+   1.7
+  ],
+  "dims_after": [
+   4.2,
+   1.67,
+   1.63
+  ],
+  "materials": 8,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.2",
+  "name": "Taxi black-yellow",
+  "size_mb": 1.73
+ },
+ "CV05_pickup_truck.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2944,
+  "tris_after": 2944,
+  "dims_before": [
+   5.18,
+   1.83,
+   2.01
+  ],
+  "dims_after": [
+   5.0,
+   1.77,
+   1.94
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 16000,
+  "target": "5.0",
+  "name": "Pickup truck",
+  "size_mb": 1.36
+ },
+ "CV06_minivan.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2620,
+  "tris_after": 2620,
+  "dims_before": [
+   4.78,
+   1.79,
+   2.15
+  ],
+  "dims_after": [
+   4.6,
+   1.72,
+   2.07
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.6",
+  "name": "Minivan",
+  "size_mb": 1.34
+ },
+ "JV01_crashed_car_front_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2852,
+  "tris_after": 2852,
+  "dims_before": [
+   4.76,
+   3.12,
+   4.0
+  ],
+  "dims_after": [
+   4.4,
+   2.88,
+   3.7
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Crashed car (front smashed)",
+  "size_mb": 1.8
+ },
+ "JV01_crashed_car_front_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.58,
+   2.68,
+   1.72
+  ],
+  "dims_after": [
+   4.4,
+   2.57,
+   1.65
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Crashed car (front smashed)",
+  "size_mb": 1.49
+ },
+ "JV01_crashed_car_front_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.58,
+   2.42,
+   1.72
+  ],
+  "dims_after": [
+   4.4,
+   2.33,
+   1.65
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.4",
+  "name": "Crashed car (front smashed)",
+  "size_mb": 1.53
+ },
+ "JV02_burnt_car_shell_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1660,
+  "tris_after": 1660,
+  "dims_before": [
+   4.58,
+   3.45,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   3.32,
+   1.64
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Burnt-out car shell",
+  "size_mb": 1.02
+ },
+ "JV02_burnt_car_shell_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1660,
+  "tris_after": 1660,
+  "dims_before": [
+   4.58,
+   3.31,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   3.18,
+   1.64
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Burnt-out car shell",
+  "size_mb": 1.02
+ },
+ "JV02_burnt_car_shell_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1660,
+  "tris_after": 1660,
+  "dims_before": [
+   4.58,
+   2.39,
+   1.7
+  ],
+  "dims_after": [
+   4.4,
+   2.29,
+   1.64
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Burnt-out car shell",
+  "size_mb": 1.02
+ },
+ "JV03_overturned_car_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2700,
+  "tris_after": 2700,
+  "dims_before": [
+   4.77,
+   2.96,
+   1.71
+  ],
+  "dims_after": [
+   4.4,
+   2.73,
+   1.57
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Overturned car",
+  "size_mb": 1.5
+ },
+ "JV03_overturned_car_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2700,
+  "tris_after": 2700,
+  "dims_before": [
+   4.55,
+   1.97,
+   3.03
+  ],
+  "dims_after": [
+   4.4,
+   1.91,
+   2.93
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Overturned car",
+  "size_mb": 1.54
+ },
+ "JV04_car_on_bricks_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2100,
+  "tris_after": 2100,
+  "dims_before": [
+   4.58,
+   1.7,
+   1.86
+  ],
+  "dims_after": [
+   4.4,
+   1.63,
+   1.78
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Car on bricks, hood open",
+  "size_mb": 1.46
+ },
+ "JV04_car_on_bricks_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2100,
+  "tris_after": 2100,
+  "dims_before": [
+   4.58,
+   1.7,
+   1.86
+  ],
+  "dims_after": [
+   4.4,
+   1.63,
+   1.78
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Car on bricks, hood open",
+  "size_mb": 1.49
+ },
+ "JV05_car_smashed_windows_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.58,
+   3.42,
+   1.78
+  ],
+  "dims_after": [
+   4.4,
+   3.28,
+   1.71
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Car with smashed windows",
+  "size_mb": 1.5
+ },
+ "JV05_car_smashed_windows_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.58,
+   2.76,
+   1.78
+  ],
+  "dims_after": [
+   4.4,
+   2.65,
+   1.71
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Car with smashed windows",
+  "size_mb": 1.49
+ },
+ "JV05_car_smashed_windows_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.58,
+   2.05,
+   1.78
+  ],
+  "dims_after": [
+   4.4,
+   1.97,
+   1.71
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Car with smashed windows",
+  "size_mb": 1.53
+ },
+ "JV06_rusted_overgrown_car_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3396,
+  "tris_after": 3396,
+  "dims_before": [
+   4.81,
+   2.28,
+   1.78
+  ],
+  "dims_after": [
+   4.4,
+   2.08,
+   1.63
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Rusted overgrown car",
+  "size_mb": 1.78
+ },
+ "JV06_rusted_overgrown_car_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3396,
+  "tris_after": 3396,
+  "dims_before": [
+   4.64,
+   2.87,
+   1.79
+  ],
+  "dims_after": [
+   4.4,
+   2.72,
+   1.7
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 14000,
+  "target": "4.4",
+  "name": "Rusted overgrown car",
+  "size_mb": 1.78
+ },
+ "JV07_head_on_collision_pair.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5316,
+  "tris_after": 5316,
+  "dims_before": [
+   8.82,
+   3.52,
+   1.86
+  ],
+  "dims_after": [
+   8.0,
+   3.19,
+   1.69
+  ],
+  "materials": 7,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 28000,
+  "target": "8.0",
+  "name": "Head-on collision pair",
+  "size_mb": 1.8
+ },
+ "JV08_wrecked_city_bus_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3704,
+  "tris_after": 3704,
+  "dims_before": [
+   10.34,
+   4.5,
+   3.6
+  ],
+  "dims_after": [
+   10.0,
+   4.35,
+   3.48
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 26000,
+  "target": "10.0",
+  "name": "Wrecked city bus",
+  "size_mb": 1.31
+ },
+ "JV08_wrecked_city_bus_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3704,
+  "tris_after": 3704,
+  "dims_before": [
+   10.35,
+   3.99,
+   3.71
+  ],
+  "dims_after": [
+   10.0,
+   3.85,
+   3.59
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 26000,
+  "target": "10.0",
+  "name": "Wrecked city bus",
+  "size_mb": 1.37
+ },
+ "R07_abandoned_auto_rickshaw.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2080,
+  "tris_after": 2080,
+  "dims_before": [
+   2.57,
+   1.37,
+   1.96
+  ],
+  "dims_after": [
+   3.0,
+   1.6,
+   2.29
+  ],
+  "materials": 8,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "3.0",
+  "name": "Abandoned auto-rickshaw",
+  "size_mb": 1.8
+ },
+ "R08_abandoned_car.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   4.18,
+   3.15,
+   1.78
+  ],
+  "dims_after": [
+   4.0,
+   3.02,
+   1.71
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "4.0",
+  "name": "Abandoned car",
+  "size_mb": 1.5
+ },
+ "V01_old_police_car.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3076,
+  "tris_after": 3076,
+  "dims_before": [
+   4.68,
+   1.75,
+   1.7
+  ],
+  "dims_after": [
+   4.5,
+   1.68,
+   1.64
+  ],
+  "materials": 9,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 18000,
+  "target": "4.5",
+  "name": "Old police car",
+  "size_mb": 1.74
+ },
+ "V02_old_fire_truck.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4528,
+  "tris_after": 4528,
+  "dims_before": [
+   8.12,
+   2.85,
+   3.03
+  ],
+  "dims_after": [
+   8.0,
+   2.81,
+   2.98
+  ],
+  "materials": 7,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 25000,
+  "target": "8.0",
+  "name": "Old fire truck",
+  "size_mb": 1.66
+ },
+ "V03_toy_delivery_truck.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5472,
+  "tris_after": 5472,
+  "dims_before": [
+   7.14,
+   2.85,
+   3.5
+  ],
+  "dims_after": [
+   7.0,
+   2.79,
+   3.43
+  ],
+  "materials": 11,
+  "textures": 20,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 22000,
+  "target": "7.0",
+  "name": "Toy company delivery truck",
+  "size_mb": 2.52
+ },
+ "V04_forklift.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2804,
+  "tris_after": 2804,
+  "dims_before": [
+   2.9,
+   1.23,
+   2.13
+  ],
+  "dims_after": [
+   3.0,
+   1.27,
+   2.2
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "3.0",
+  "name": "Forklift",
+  "size_mb": 1.3
+ }
+}

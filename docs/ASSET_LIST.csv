@@ -127,7 +127,7 @@ C01,P2,Carnival / Mela mohalla,2,Ferris wheel,1,20.0,40000,-,"large old ferris w
 C02,P2,Carnival / Mela mohalla,2,Carousel,1,8.0,35000,-,"carousel with painted toy horses and striped canopy, set piece",
 C03,P2,Carnival / Mela mohalla,2,Circus tent,1,12.0,15000,-,torn striped circus tent,
 C04,P2,Carnival / Mela mohalla,2,Giant clown head entrance,1,5.0,20000,-,"giant clown face carnival entrance, open mouth gate, faded paint",
-C05,P2,Carnival / Mela mohalla,2,Ticket booth,1,2.5,8000,-,wooden carnival ticket booth with window,
+C05,P2,Carnival / Mela mohalla,2,Ticket booth,1,2.5,8000,-,wooden carnival ticket booth with window,DONE (1/1)
 C06,P3,Carnival / Mela mohalla,2,Popcorn cart,1,2.0,7000,-,vintage popcorn cart with glass box,
 C07,P3,Carnival / Mela mohalla,2,Bumper car,1,2.0,7000,-,"old bumper car, faded paint",
 C08,P3,Carnival / Mela mohalla,2,Shooting gallery stall,1,4.0,12000,-,carnival shooting gallery stall with tin targets,
@@ -139,13 +139,13 @@ C13,P3,Carnival / Mela mohalla,2,Strongman hammer game,1,3.0,8000,-,high-striker
 C14,P3,Carnival / Mela mohalla,2,Prize shelf with crates,1,2.0,5000,-,wooden prize shelf with crates and plush toys,
 C15,P3,Carnival / Mela mohalla,2,String-light bunting,1,4.0,2000,-,string of carnival lights with bunting flags,
 R01,P2,Metro & city streets,2,Metro train carriage,1,18.0,40000,-,"old metro train carriage, dirty windows, doors open, set piece",
-R02,P2,Metro & city streets,2,Platform bench,1,2.0,4000,-,metal metro platform bench,
-R03,P2,Metro & city streets,2,Ticket gate turnstile,1,1.0,5000,-,metro ticket turnstile gate,
+R02,P2,Metro & city streets,2,Platform bench,1,2.0,4000,-,metal metro platform bench,DONE (1/1)
+R03,P2,Metro & city streets,2,Ticket gate turnstile,1,1.0,5000,-,metro ticket turnstile gate,DONE (1/1)
 R04,P3,Metro & city streets,2,Escalator,1,10.0,20000,-,stopped metro escalator with handrails,
-R05,P2,Metro & city streets,2,Street lamp,1,5.0,4000,-,"old iron street lamp, one bulb",
+R05,P2,Metro & city streets,2,Street lamp,1,5.0,4000,-,"old iron street lamp, one bulb",DONE (1/1)
 R06,P3,Metro & city streets,2,Road sign post,1,3.0,1500,-,"metal road sign post, no text",
-R07,P2,Metro & city streets,2,Abandoned auto-rickshaw,1,3.0,12000,-,"old yellow-green auto rickshaw, flat tyres, dusty",
-R08,P2,Metro & city streets,2,Abandoned car,1,4.0,15000,-,"old sedan car abandoned, rusty, windows broken",
+R07,P2,Metro & city streets,2,Abandoned auto-rickshaw,1,3.0,12000,-,"old yellow-green auto rickshaw, flat tyres, dusty",DONE (1/1)
+R08,P2,Metro & city streets,2,Abandoned car,1,4.0,15000,-,"old sedan car abandoned, rusty, windows broken",DONE (1/1)
 R09,P3,Metro & city streets,2,Old city bus,1,10.0,25000,-,"old city bus, faded paint",
 R10,P3,Metro & city streets,2,Kirana shop front,1,5.0,12000,-,small corner shop front with shutter half open,
 R11,P3,Metro & city streets,2,Billboard,1,6.0,4000,-,"large roadside billboard frame, torn poster",
@@ -158,8 +158,8 @@ R17,P3,Metro & city streets,2,Shop-front modules,4,5.0,8000,-,4 variants shop fr
 R18,P3,Metro & city streets,2,Rooftop water tank,1,2.0,4000,-,rooftop plastic water tank on stand,
 R19,P3,Metro & city streets,2,Electric pole with wires,1,8.0,4000,-,concrete electric pole with hanging wires,
 R20,P3,Metro & city streets,2,Transformer box,1,1.5,3000,-,street transformer box with warning sign,
-R21,P2,Metro & city streets,2,Dead tree,3,6.0,6000,-,"3 variants bare dead trees, twisted",
-R22,P2,Metro & city streets,2,Iron fence section,1,3.0,2000,-,"iron picket fence section, rusty",
+R21,P2,Metro & city streets,2,Dead tree,3,6.0,6000,-,"3 variants bare dead trees, twisted",DONE (3/3)
+R22,P2,Metro & city streets,2,Iron fence section,1,3.0,2000,-,"iron picket fence section, rusty",DONE (1/1)
 R23,P3,Metro & city streets,2,Manhole cover,1,0.8,1000,-,round iron manhole cover,
 R24,P3,Metro & city streets,2,Newspaper stand,1,1.5,4000,-,street newspaper stand with faded papers,
 R25,P3,Metro & city streets,2,Wooden handcart (thela),1,2.0,5000,-,wooden hand cart with two wheels,
@@ -386,15 +386,15 @@ W42,P4,Bazaar: shops & market stalls,Bazaar,Roadside cabin,1,1.5,3500,-,small ro
 W43,P4,Bazaar: shops & market stalls,Bazaar,Hand-pulled rickshaw,1,3.0,8000,-,hand-pulled rickshaw,
 W44,P4,Bazaar: shops & market stalls,Bazaar,Camera shop display,1,1.5,4000,-,old camera display with tripod,
 W45,P4,Bazaar: shops & market stalls,Bazaar,Photo studio backdrop,1,3.0,3000,-,photo studio painted backdrop and stool,
-Y01,P2,Underground lab & sewer,Underground,Lab table,2,2.0,5000,-,steel lab table with beakers and burners,
-Y02,P2,Underground lab & sewer,Underground,Beakers and flasks,4,0.3,1500,-,4 variants lab glassware sets,
-Y03,P2,Underground lab & sewer,Underground,Centrifuge,1,0.6,4000,-,lab centrifuge machine,
-Y04,P2,Underground lab & sewer,Underground,Brain-jar specimen,2,0.5,3500,-,glass jar with glowing blue memory swirl inside,
-Y05,P2,Underground lab & sewer,Underground,Restraint chair,1,1.2,6000,-,"steel chair with straps and cables, medical",
-Y06,P2,Underground lab & sewer,Underground,Server rack,2,2.0,8000,-,old computer server rack with blinking lights,
-Y07,P2,Underground lab & sewer,Underground,Monitor wall,1,3.0,6000,-,wall of old monitors with static,
-Y08,P2,Underground lab & sewer,Underground,Floor cable bundles,3,3.0,3000,-,3 variants thick cable bundles,
-Y09,P2,Underground lab & sewer,Underground,Specimen shelf,1,2.0,6000,-,shelves of glass jars containing toy parts,
+Y01,P2,Underground lab & sewer,Underground,Lab table,2,2.0,5000,-,steel lab table with beakers and burners,DONE (2/2)
+Y02,P2,Underground lab & sewer,Underground,Beakers and flasks,4,0.3,1500,-,4 variants lab glassware sets,DONE (4/4)
+Y03,P2,Underground lab & sewer,Underground,Centrifuge,1,0.6,4000,-,lab centrifuge machine,DONE (1/1)
+Y04,P2,Underground lab & sewer,Underground,Brain-jar specimen,2,0.5,3500,-,glass jar with glowing blue memory swirl inside,DONE (2/2)
+Y05,P2,Underground lab & sewer,Underground,Restraint chair,1,1.2,6000,-,"steel chair with straps and cables, medical",DONE (1/1)
+Y06,P2,Underground lab & sewer,Underground,Server rack,2,2.0,8000,-,old computer server rack with blinking lights,DONE (2/2)
+Y07,P2,Underground lab & sewer,Underground,Monitor wall,1,3.0,6000,-,wall of old monitors with static,DONE (1/1)
+Y08,P2,Underground lab & sewer,Underground,Floor cable bundles,3,3.0,3000,-,3 variants thick cable bundles,DONE (3/3)
+Y09,P2,Underground lab & sewer,Underground,Specimen shelf,1,2.0,6000,-,shelves of glass jars containing toy parts,DONE (1/1)
 Y10,P3,Underground lab & sewer,Underground,Lab operating lamp,1,1.5,5000,-,overhead lab lamp,
 Y11,P3,Underground lab & sewer,Underground,Microscope,1,0.5,4000,-,old microscope,
 Y12,P3,Underground lab & sewer,Underground,Test tube rack,1,0.3,1500,-,test tube rack with colored liquids,
@@ -428,13 +428,13 @@ Y39,P4,Underground lab & sewer,Underground,Lab coat on hook,1,1.0,2000,-,lab coa
 Y40,P4,Underground lab & sewer,Underground,Pipe-organ machine,1,4.0,12000,-,huge strange machine of pipes and bellows,
 Y41,P4,Underground lab & sewer,Underground,Tall warped mirror,1,3.0,4000,-,tall warped mirror panel,
 Y42,P4,Underground lab & sewer,Underground,Stone altar,1,1.5,4000,-,stone altar slab with candle stubs,
-U01,P2,Lights & electrical,All,Wall sconce,3,0.3,1200,-,3 variants old wall sconces,
-U02,P2,Lights & electrical,All,Chandelier,2,1.0,6000,-,2 variants dusty cracked chandeliers,
-U03,P2,Lights & electrical,All,Oil lantern,2,0.3,2000,-,2 variants old lantern,
-U04,P2,Lights & electrical,All,Candlestick,3,0.3,1000,-,3 variants candle holders with melted candles,
-U05,P2,Lights & electrical,All,Bare bulb on wire,2,0.2,600,-,2 variants hanging bare bulbs,
-U06,P2,Lights & electrical,All,Emergency light box,1,0.4,1500,-,wall emergency light box with red lamp,
-U07,P2,Lights & electrical,All,Neon sign shapes,3,1.0,2000,-,"3 variants glowing neon shapes (star, smile, arrow), no text",
+U01,P2,Lights & electrical,All,Wall sconce,3,0.3,1200,-,3 variants old wall sconces,DONE (3/3)
+U02,P2,Lights & electrical,All,Chandelier,2,1.0,6000,-,2 variants dusty cracked chandeliers,DONE (2/2)
+U03,P2,Lights & electrical,All,Oil lantern,2,0.3,2000,-,2 variants old lantern,DONE (2/2)
+U04,P2,Lights & electrical,All,Candlestick,3,0.3,1000,-,3 variants candle holders with melted candles,DONE (3/3)
+U05,P2,Lights & electrical,All,Bare bulb on wire,2,0.2,600,-,2 variants hanging bare bulbs,DONE (2/2)
+U06,P2,Lights & electrical,All,Emergency light box,1,0.4,1500,-,wall emergency light box with red lamp,DONE (1/1)
+U07,P2,Lights & electrical,All,Neon sign shapes,3,1.0,2000,-,"3 variants glowing neon shapes (star, smile, arrow), no text",DONE (3/3)
 U08,P3,Lights & electrical,All,Industrial spotlight,1,0.8,2500,-,industrial spotlight on stand,
 U09,P3,Lights & electrical,All,Wall switchboard,3,0.3,1200,-,3 variants wall switchboards,
 U10,P3,Lights & electrical,All,Wall socket,1,0.1,400,-,wall socket,
@@ -448,14 +448,14 @@ U17,P3,Lights & electrical,All,Big fuse panel,1,1.5,4000,-,large fuse panel with
 U18,P3,Lights & electrical,All,Warning beacon,1,0.3,1500,-,rotating warning beacon,
 U19,P3,Lights & electrical,All,Loudspeaker horn,1,0.5,2000,-,PA loudspeaker horn,
 U20,P3,Lights & electrical,All,Broken hanging tube light,1,1.2,1000,-,broken tube light hanging,
-D01,P2,"Decor, clutter & atmosphere",All,Scattered papers,4,0.5,600,-,"4 variants floor paper scatter, flat mesh",
-D02,P2,"Decor, clutter & atmosphere",All,Overturned chair,2,0.9,2500,-,2 variants fallen chairs,
-D03,P2,"Decor, clutter & atmosphere",All,Glass shards,3,0.4,700,-,3 variants glass shards,
-D04,P2,"Decor, clutter & atmosphere",All,Cobweb corner,3,0.6,600,-,"3 variants corner cobwebs, thin",
-D05,P2,"Decor, clutter & atmosphere",All,Dust sheet over furniture,3,1.5,2500,-,3 variants white sheets over furniture,
-D06,P2,"Decor, clutter & atmosphere",All,Trash bag pile,3,0.8,1500,-,3 variants garbage bag piles,
-D07,P2,"Decor, clutter & atmosphere",All,Plastic bottles,3,0.3,800,-,3 variants empty bottles,
-D08,P2,"Decor, clutter & atmosphere",All,Rusty cans,3,0.2,800,-,3 variants rusty cans,
+D01,P2,"Decor, clutter & atmosphere",All,Scattered papers,4,0.5,600,-,"4 variants floor paper scatter, flat mesh",DONE (4/4)
+D02,P2,"Decor, clutter & atmosphere",All,Overturned chair,2,0.9,2500,-,2 variants fallen chairs,DONE (2/2)
+D03,P2,"Decor, clutter & atmosphere",All,Glass shards,3,0.4,700,-,3 variants glass shards,DONE (3/3)
+D04,P2,"Decor, clutter & atmosphere",All,Cobweb corner,3,0.6,600,-,"3 variants corner cobwebs, thin",DONE (3/3)
+D05,P2,"Decor, clutter & atmosphere",All,Dust sheet over furniture,3,1.5,2500,-,3 variants white sheets over furniture,DONE (3/3)
+D06,P2,"Decor, clutter & atmosphere",All,Trash bag pile,3,0.8,1500,-,3 variants garbage bag piles,DONE (3/3)
+D07,P2,"Decor, clutter & atmosphere",All,Plastic bottles,3,0.3,800,-,3 variants empty bottles,DONE (3/3)
+D08,P2,"Decor, clutter & atmosphere",All,Rusty cans,3,0.2,800,-,3 variants rusty cans,DONE (3/3)
 D09,P3,"Decor, clutter & atmosphere",All,Open books on floor,3,0.4,1200,-,3 variants open books on floor,
 D10,P3,"Decor, clutter & atmosphere",All,Old shoes pair,4,0.3,1200,-,4 variants old shoes,
 D11,P3,"Decor, clutter & atmosphere",All,Clothes heap,3,0.6,1500,-,3 variants clothes heap,
@@ -500,18 +500,18 @@ D49,P4,"Decor, clutter & atmosphere",All,Dead leaf piles,2,1.0,600,-,2 variants 
 D50,P4,"Decor, clutter & atmosphere",All,Toy capsules,3,0.1,600,-,3 variants plastic toy capsules,
 D51,P4,"Decor, clutter & atmosphere",All,Tiny kids shoes,2,0.15,900,-,2 variants tiny shoes,
 D52,P4,"Decor, clutter & atmosphere",All,Hopscotch chalk grid,2,1.5,300,-,2 variants hopscotch chalk grid (flat),
-P01,P2,Puzzle items & tools,All,Brass gear cog,4,0.3,1500,-,4 variants brass gears for puzzle,
-P02,P2,Puzzle items & tools,All,Puzzle box,2,0.3,3000,-,2 variants ornate puzzle boxes,
-P03,P2,Puzzle items & tools,All,Animal statue set,4,0.6,3500,-,"4 variants animal statues (elephant, lion, monkey, bear) for puzzle",
-P04,P2,Puzzle items & tools,All,Stone pedestal,2,1.0,2000,-,2 variants stone pedestals,
-P05,P2,Puzzle items & tools,All,Combination padlock,1,0.15,1500,-,combination padlock,
-P06,P2,Puzzle items & tools,All,Padlock and chain,1,0.4,1500,-,heavy padlock and chain,
-P07,P2,Puzzle items & tools,All,Crowbar,1,0.6,2000,-,crowbar,
-P08,P2,Puzzle items & tools,All,Bolt cutters,1,0.7,2500,-,bolt cutters,
-P09,P2,Puzzle items & tools,All,Claw hammer,1,0.35,1500,-,claw hammer,
-P10,P2,Puzzle items & tools,All,Big wrench,1,0.4,1500,-,big wrench,
-P11,P2,Puzzle items & tools,All,Screwdriver set,1,0.25,1500,-,screwdrivers,
-P12,P2,Puzzle items & tools,All,Lock pick set,1,0.15,1000,-,lock pick set,
+P01,P2,Puzzle items & tools,All,Brass gear cog,4,0.3,1500,-,4 variants brass gears for puzzle,DONE (4/4)
+P02,P2,Puzzle items & tools,All,Puzzle box,2,0.3,3000,-,2 variants ornate puzzle boxes,DONE (2/2)
+P03,P2,Puzzle items & tools,All,Animal statue set,4,0.6,3500,-,"4 variants animal statues (elephant, lion, monkey, bear) for puzzle",DONE (4/4)
+P04,P2,Puzzle items & tools,All,Stone pedestal,2,1.0,2000,-,2 variants stone pedestals,DONE (2/2)
+P05,P2,Puzzle items & tools,All,Combination padlock,1,0.15,1500,-,combination padlock,DONE (1/1)
+P06,P2,Puzzle items & tools,All,Padlock and chain,1,0.4,1500,-,heavy padlock and chain,DONE (1/1)
+P07,P2,Puzzle items & tools,All,Crowbar,1,0.6,2000,-,crowbar,DONE (1/1)
+P08,P2,Puzzle items & tools,All,Bolt cutters,1,0.7,2500,-,bolt cutters,DONE (1/1)
+P09,P2,Puzzle items & tools,All,Claw hammer,1,0.35,1500,-,claw hammer,DONE (1/1)
+P10,P2,Puzzle items & tools,All,Big wrench,1,0.4,1500,-,big wrench,DONE (1/1)
+P11,P2,Puzzle items & tools,All,Screwdriver set,1,0.25,1500,-,screwdrivers,DONE (1/1)
+P12,P2,Puzzle items & tools,All,Lock pick set,1,0.15,1000,-,lock pick set,DONE (1/1)
 P13,P3,Puzzle items & tools,All,Metal whistle,1,0.1,500,-,metal whistle (distraction),
 P14,P3,Puzzle items & tools,All,Throwable tin can,1,0.1,500,-,tin can for throwing,
 P15,P3,Puzzle items & tools,All,Firecracker,2,0.1,500,-,2 variants firecrackers,
@@ -537,10 +537,10 @@ P34,P3,Puzzle items & tools,All,Brass compass,1,0.08,800,-,brass compass,
 P35,P3,Puzzle items & tools,All,Large medkit,1,0.35,2500,-,first aid kit,
 P36,P3,Puzzle items & tools,All,Pill bottle,1,0.08,600,-,"pill bottle, no text",
 P37,P3,Puzzle items & tools,All,Chocolate bar,1,0.15,500,-,"chocolate bar wrapper, no text",
-V01,P2,Vehicles,City,Old police car,1,4.5,18000,-,"old police car, boxy, light bar",
-V02,P2,Vehicles,City,Old fire truck,1,8.0,25000,-,old red fire truck with ladder,
-V03,P2,Vehicles,City,Toy company delivery truck,1,7.0,22000,-,"box delivery truck with toy mural, no text",
-V04,P2,Vehicles,City,Forklift,1,3.0,12000,-,old forklift,
+V01,P2,Vehicles,City,Old police car,1,4.5,18000,-,"old police car, boxy, light bar",DONE (1/1)
+V02,P2,Vehicles,City,Old fire truck,1,8.0,25000,-,old red fire truck with ladder,DONE (1/1)
+V03,P2,Vehicles,City,Toy company delivery truck,1,7.0,22000,-,"box delivery truck with toy mural, no text",DONE (1/1)
+V04,P2,Vehicles,City,Forklift,1,3.0,12000,-,old forklift,DONE (1/1)
 V05,P3,Vehicles,City,Kid tricycle,2,0.7,3500,-,"2 variants kid's tricycle, rusty",
 V06,P3,Vehicles,City,Baby pram,1,1.0,4000,-,old baby pram,
 V07,P3,Vehicles,City,Go-kart,1,1.5,6000,-,go-kart,
@@ -657,12 +657,12 @@ X13,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Skirting board,1,
 X14,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Door frame,2,2.4,1200,-,OPTIONAL: door frame,
 X15,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Window frame,2,1.5,1200,-,OPTIONAL: window frame,
 X16,P4,Modular kit (OPTIONAL - main procedural bana dunga),All,Broken window glass,1,1.5,600,-,OPTIONAL: broken glass pane,
-CV01,P2,Cars & vehicles: intact variety,City,Old sedan,3,4.4,15000,-,"3 variants old boxy Indian sedan, faded paint, dusty, intact",
-CV02,P2,Cars & vehicles: intact variety,City,Small hatchback,2,3.6,12000,-,"2 variants small old hatchback car, intact",
-CV03,P2,Cars & vehicles: intact variety,City,Open jeep,1,3.8,14000,-,"old open jeep, intact",
-CV04,P2,Cars & vehicles: intact variety,City,Taxi black-yellow,1,4.2,15000,-,"old black-and-yellow taxi, no text",
-CV05,P2,Cars & vehicles: intact variety,City,Pickup truck,1,5.0,16000,-,old pickup truck with open bed,
-CV06,P2,Cars & vehicles: intact variety,City,Minivan,1,4.6,15000,-,old minivan with sliding door,
+CV01,P2,Cars & vehicles: intact variety,City,Old sedan,3,4.4,15000,-,"3 variants old boxy Indian sedan, faded paint, dusty, intact",DONE (3/3)
+CV02,P2,Cars & vehicles: intact variety,City,Small hatchback,2,3.6,12000,-,"2 variants small old hatchback car, intact",DONE (2/2)
+CV03,P2,Cars & vehicles: intact variety,City,Open jeep,1,3.8,14000,-,"old open jeep, intact",DONE (1/1)
+CV04,P2,Cars & vehicles: intact variety,City,Taxi black-yellow,1,4.2,15000,-,"old black-and-yellow taxi, no text",DONE (1/1)
+CV05,P2,Cars & vehicles: intact variety,City,Pickup truck,1,5.0,16000,-,old pickup truck with open bed,DONE (1/1)
+CV06,P2,Cars & vehicles: intact variety,City,Minivan,1,4.6,15000,-,old minivan with sliding door,DONE (1/1)
 CV07,P3,Cars & vehicles: intact variety,City,Station wagon,1,4.6,15000,-,old station wagon,
 CV08,P3,Cars & vehicles: intact variety,City,Luxury old car,1,4.8,16000,-,"old luxury sedan with chrome, faded",
 CV09,P3,Cars & vehicles: intact variety,City,Mini goods truck (tempo),1,4.5,14000,-,small three-wheel goods tempo,
@@ -678,14 +678,14 @@ CV18,P3,Cars & vehicles: intact variety,City,Bullock cart,1,3.0,8000,-,wooden bu
 CV19,P4,Cars & vehicles: intact variety,City,Horse carriage,1,4.0,12000,-,"old horse carriage, no horse",
 CV20,P4,Cars & vehicles: intact variety,City,Large ride-on toy car,1,1.2,5000,-,"large kid's ride-on toy car, faded",
 CV21,P4,Cars & vehicles: intact variety,City,Pedal car,1,1.2,4000,-,old kid's pedal car,
-JV01,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Crashed car (front smashed),3,4.4,15000,-,"3 variants old car crashed into a pole, hood crumpled, glass broken",
-JV02,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Burnt-out car shell,3,4.4,14000,-,"3 variants burnt-out car shell, blackened, no tyres",
-JV03,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Overturned car,2,4.4,14000,-,2 variants car overturned on its roof,
-JV04,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,"Car on bricks, hood open",2,4.4,14000,-,"abandoned car on bricks, hood open, wheels missing",
-JV05,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car with smashed windows,3,4.4,14000,-,"3 variants abandoned car with smashed windows, flat tyres",
-JV06,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Rusted overgrown car,2,4.4,14000,-,rusty car covered with vines and weeds,
-JV07,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Head-on collision pair,1,8.0,28000,-,"two old cars crashed head-on, interlocked",
-JV08,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked city bus,2,10.0,26000,-,"2 variants wrecked city bus, windows smashed, tilted",
+JV01,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Crashed car (front smashed),3,4.4,15000,-,"3 variants old car crashed into a pole, hood crumpled, glass broken",DONE (3/3)
+JV02,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Burnt-out car shell,3,4.4,14000,-,"3 variants burnt-out car shell, blackened, no tyres",DONE (3/3)
+JV03,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Overturned car,2,4.4,14000,-,2 variants car overturned on its roof,DONE (2/2)
+JV04,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,"Car on bricks, hood open",2,4.4,14000,-,"abandoned car on bricks, hood open, wheels missing",DONE (2/2)
+JV05,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Car with smashed windows,3,4.4,14000,-,"3 variants abandoned car with smashed windows, flat tyres",DONE (3/3)
+JV06,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Rusted overgrown car,2,4.4,14000,-,rusty car covered with vines and weeds,DONE (2/2)
+JV07,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Head-on collision pair,1,8.0,28000,-,"two old cars crashed head-on, interlocked",DONE (1/1)
+JV08,P2,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked city bus,2,10.0,26000,-,"2 variants wrecked city bus, windows smashed, tilted",DONE (2/2)
 JV09,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked truck,2,7.0,20000,-,"2 variants wrecked truck, cargo spilled",
 JV10,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked auto-rickshaw,2,3.0,10000,-,2 variants overturned crushed rickshaw,
 JV11,P3,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked motorcycle,2,2.0,8000,-,2 variants crashed motorcycles,
@@ -715,17 +715,17 @@ JV34,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Derailed tram,1
 JV35,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Wrecked school bus,1,9.0,24000,-,wrecked yellow school bus,
 JV36,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Burnt bus shell,1,10.0,24000,-,burnt bus shell,
 JV37,P4,Wrecks & junkyard (toota-foota gaadiyan),City / Junkyard,Burnt truck shell,1,7.0,20000,-,burnt truck shell,
-BR01,P2,Broken & damaged props (toota-foota saman),All,Broken chair,4,0.9,2500,-,"4 variants broken chairs, legs snapped",
-BR02,P2,Broken & damaged props (toota-foota saman),All,Broken table,3,1.2,3500,-,3 variants broken tables,
-BR03,P2,Broken & damaged props (toota-foota saman),All,Broken door hanging,3,2.2,3000,-,"3 variants broken door hanging off one hinge, door leaf only",
-BR04,P2,Broken & damaged props (toota-foota saman),All,Broken window with glass,2,1.5,2500,-,2 variants broken window frames with glass,
-BR05,P2,Broken & damaged props (toota-foota saman),All,Smashed CRT television,2,0.8,3500,-,2 variants smashed old televisions,
-BR06,P2,Broken & damaged props (toota-foota saman),All,Smashed monitor,1,0.5,2500,-,smashed CRT monitor,
-BR07,P2,Broken & damaged props (toota-foota saman),All,Collapsed shelf,2,1.8,4000,-,2 variants collapsed shelves with fallen items,
-BR08,P2,Broken & damaged props (toota-foota saman),All,Cracked mirror,3,1.0,2000,-,3 variants cracked mirrors,
-BR09,P2,Broken & damaged props (toota-foota saman),All,Broken bed frame,2,2.0,4500,-,2 variants broken bed frames,
-BR10,P2,Broken & damaged props (toota-foota saman),All,Torn mattress,2,1.9,2500,-,2 variants torn mattresses,
-BR11,P2,Broken & damaged props (toota-foota saman),All,Ripped sofa,2,2.0,5500,-,2 variants ripped sofa,
+BR01,P2,Broken & damaged props (toota-foota saman),All,Broken chair,4,0.9,2500,-,"4 variants broken chairs, legs snapped",DONE (4/4)
+BR02,P2,Broken & damaged props (toota-foota saman),All,Broken table,3,1.2,3500,-,3 variants broken tables,DONE (3/3)
+BR03,P2,Broken & damaged props (toota-foota saman),All,Broken door hanging,3,2.2,3000,-,"3 variants broken door hanging off one hinge, door leaf only",DONE (3/3)
+BR04,P2,Broken & damaged props (toota-foota saman),All,Broken window with glass,2,1.5,2500,-,2 variants broken window frames with glass,DONE (2/2)
+BR05,P2,Broken & damaged props (toota-foota saman),All,Smashed CRT television,2,0.8,3500,-,2 variants smashed old televisions,DONE (2/2)
+BR06,P2,Broken & damaged props (toota-foota saman),All,Smashed monitor,1,0.5,2500,-,smashed CRT monitor,DONE (1/1)
+BR07,P2,Broken & damaged props (toota-foota saman),All,Collapsed shelf,2,1.8,4000,-,2 variants collapsed shelves with fallen items,DONE (2/2)
+BR08,P2,Broken & damaged props (toota-foota saman),All,Cracked mirror,3,1.0,2000,-,3 variants cracked mirrors,DONE (3/3)
+BR09,P2,Broken & damaged props (toota-foota saman),All,Broken bed frame,2,2.0,4500,-,2 variants broken bed frames,DONE (2/2)
+BR10,P2,Broken & damaged props (toota-foota saman),All,Torn mattress,2,1.9,2500,-,2 variants torn mattresses,DONE (2/2)
+BR11,P2,Broken & damaged props (toota-foota saman),All,Ripped sofa,2,2.0,5500,-,2 variants ripped sofa,DONE (2/2)
 BR12,P3,Broken & damaged props (toota-foota saman),All,Smashed vending machine,1,1.8,7000,-,smashed vending machine,
 BR13,P3,Broken & damaged props (toota-foota saman),All,Bent street lamp,2,5.0,3500,-,2 variants bent street lamps,
 BR14,P3,Broken & damaged props (toota-foota saman),All,Fallen signboard,3,2.0,1500,-,3 variants fallen blank signboards,
@@ -756,11 +756,11 @@ BR38,P4,Broken & damaged props (toota-foota saman),All,Burnt furniture,4,1.0,250
 BR39,P4,Broken & damaged props (toota-foota saman),All,Burnt doll,3,0.4,3500,-,3 variants burnt dolls,
 BR40,P4,Broken & damaged props (toota-foota saman),All,Melted toys pile,2,0.5,3000,-,2 variants piles of melted toys,
 BR41,P4,Broken & damaged props (toota-foota saman),All,Flooded rubble,1,2.0,2500,-,rubble half under dark water,
-NT01,P2,Nature & outdoors,Outdoors,Dead tree,5,6.0,7000,-,5 variants twisted bare dead trees,
-NT02,P2,Nature & outdoors,Outdoors,Overgrown bush,4,1.5,3000,-,4 variants overgrown bushes,
-NT03,P2,Nature & outdoors,Outdoors,Tall grass clump,4,1.0,1500,-,4 variants tall grass clumps,
-NT04,P2,Nature & outdoors,Outdoors,Rocks,5,1.0,2500,-,5 variants rocks,
-NT05,P2,Nature & outdoors,Outdoors,Boulders,3,2.5,3500,-,3 variants big boulders,
+NT01,P2,Nature & outdoors,Outdoors,Dead tree,5,6.0,7000,-,5 variants twisted bare dead trees,DONE (5/5)
+NT02,P2,Nature & outdoors,Outdoors,Overgrown bush,4,1.5,3000,-,4 variants overgrown bushes,DONE (4/4)
+NT03,P2,Nature & outdoors,Outdoors,Tall grass clump,4,1.0,1500,-,4 variants tall grass clumps,DONE (4/4)
+NT04,P2,Nature & outdoors,Outdoors,Rocks,5,1.0,2500,-,5 variants rocks,DONE (5/5)
+NT05,P2,Nature & outdoors,Outdoors,Boulders,3,2.5,3500,-,3 variants big boulders,DONE (3/3)
 NT06,P3,Nature & outdoors,Outdoors,Tree stump,3,0.6,2000,-,3 variants tree stumps,
 NT07,P3,Nature & outdoors,Outdoors,Fallen log,3,2.5,2500,-,3 variants fallen logs,
 NT08,P3,Nature & outdoors,Outdoors,Dead hedge,2,2.0,2500,-,2 variants dead hedges,
