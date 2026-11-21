@@ -35,4 +35,4 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - v0.1 APK phone par TEST NAHI hua (sirf is mashin mein). Phone par kya chalega/dhima: user se feedback lo.
 
 ## Purana demo (jungle)
-Naya bada plan: PLAN.md (Block City, GTA-jaisa open world, Minecraft look). Purana demo: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
+Horror plan (naya): HORROR_PLAN.md. Block City plan: PLAN.md (Block City, GTA-jaisa open world, Minecraft look). Purana demo: GAME.md (v0.1 chal raha, autotest PASS). Godot project: godot_project/ (headless test: `godot --headless --path godot_project -- --autotest`).
