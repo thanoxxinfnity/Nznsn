@@ -1,8 +1,8 @@
 ﻿ID,Priority,Category,Act,Name,Variants,Size_m,Tris_budget,Rig_Anim,Prompt,Done
-M01,P1,Monsters & characters,All,Gudiya (doll monster),1,1.2,25000,RIG,"porcelain doll girl, cracked face, empty black eyes, faded red dress, thin stiff limbs, creepy, full body T-pose facing front",
-M02,P1,Monsters & characters,All,Khokhla Teddy (hollow bear),1,0.6,12000,RIG,"worn hollow teddy bear, stuffing spilling from torn seams, one button eye missing, full body T-pose facing front",
+M01,P1,Monsters & characters,All,Gudiya (doll monster),1,1.2,25000,RIG,"porcelain doll girl, cracked face, empty black eyes, faded red dress, thin stiff limbs, creepy, full body T-pose facing front",DONE (1/1)
+M02,P1,Monsters & characters,All,Khokhla Teddy (hollow bear),1,0.6,12000,RIG,"worn hollow teddy bear, stuffing spilling from torn seams, one button eye missing, full body T-pose facing front",DONE (1/1)
 M03,P1,Monsters & characters,All,Mannequin figure,3,1.8,8000,-,"faceless pale shop mannequin, 3 different standing poses, slightly cracked plastic",DONE (3/3)
-M04,P1,Monsters & characters,All,First-person arms with flashlight grip,1,0.7,6000,RIG,"pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model",
+M04,P1,Monsters & characters,All,First-person arms with flashlight grip,1,0.7,6000,RIG,"pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model",DONE (1/1)
 M05,P2,Monsters & characters,All,Lambu Kaka (tall puppet man),1,3.0,40000,RIG,"3 metre tall thin puppet man, stitched burlap skin, button eyes, long arms, torn top hat, full body T-pose",
 M06,P2,Monsters & characters,All,Khokhla Wind-up Monkey,1,0.5,10000,RIG,"wind-up tin monkey with cymbals, rusty, grinning, full body front view",
 M07,P2,Monsters & characters,All,Khokhla Clown puppet,1,1.0,14000,RIG,"cracked-face clown puppet doll, torn colorful costume, full body T-pose",
@@ -738,7 +738,7 @@ BR20,P3,Broken & damaged props (toota-foota saman),All,Broken railing,3,2.0,1500
 BR21,P3,Broken & damaged props (toota-foota saman),All,Bent metal sheet,3,1.5,1200,-,3 variants bent metal sheets,DONE-Claude (3/3)
 BR22,P3,Broken & damaged props (toota-foota saman),All,Torn tent,1,4.0,3000,-,torn tent collapsed,DONE-Claude (1/1)
 BR23,P3,Broken & damaged props (toota-foota saman),All,Broken piano,1,1.6,8000,-,broken piano with missing keys,DONE-Claude (1/1)
-BR24,P3,Broken & damaged props (toota-foota saman),All,Broken clock,2,0.6,2000,-,2 variants broken clocks,
+BR24,P3,Broken & damaged props (toota-foota saman),All,Broken clock,2,0.6,2000,-,2 variants broken clocks,DONE-Claude (2/2)
 BR25,P3,Broken & damaged props (toota-foota saman),All,Smashed dollhouse,1,0.8,6000,-,smashed dollhouse,
 BR26,P3,Broken & damaged props (toota-foota saman),All,Smashed toy box,1,0.6,2500,-,smashed toy box,DONE-Claude (1/1)
 BR27,P3,Broken & damaged props (toota-foota saman),All,Broken fridge open,1,1.7,5000,-,broken fridge door hanging open,DONE-Claude (1/1)

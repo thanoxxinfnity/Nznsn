@@ -14,16 +14,16 @@ Har imaarat enter ho sakti hai: andar ke kamre in props se bharenge (ghar: livin
 
 ## Monsters & characters
 
-- M01 | P1 | Gudiya (doll monster) [RIG] | 1.2 m | max 25k tris
+- M01 | P1 | Gudiya (doll monster) [RIG] | 1.2 m | max 25k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, porcelain doll girl, cracked face, empty black eyes, faded red dress, thin stiff limbs, creepy, full body T-pose facing front
 
-- M02 | P1 | Khokhla Teddy (hollow bear) [RIG] | 0.6 m | max 12k tris
+- M02 | P1 | Khokhla Teddy (hollow bear) [RIG] | 0.6 m | max 12k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, worn hollow teddy bear, stuffing spilling from torn seams, one button eye missing, full body T-pose facing front
 
 - M03 | P1 | Mannequin figure x3 | 1.8 m | max 8k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, faceless pale shop mannequin, 3 different standing poses, slightly cracked plastic
 
-- M04 | P1 | First-person arms with flashlight grip [RIG] | 0.7 m | max 6k tris
+- M04 | P1 | First-person arms with flashlight grip [RIG] | 0.7 m | max 6k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model
 
 - M05 | P2 | Lambu Kaka (tall puppet man) [RIG] | 3.0 m | max 40k tris
@@ -2315,7 +2315,7 @@ Har imaarat enter ho sakti hai: andar ke kamre in props se bharenge (ghar: livin
 - BR23 | P3 | Broken piano | 1.6 m | max 8k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, broken piano with missing keys
 
-- BR24 | P3 | Broken clock x2 | 0.6 m | max 2k tris
+- BR24 | P3 | Broken clock x2 | 0.6 m | max 2k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, 2 variants broken clocks
 
 - BR25 | P3 | Smashed dollhouse | 0.8 m | max 6k tris

@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent; os.chdir(ROOT)
 rows = list(csv.DictReader(open("docs/ASSET_LIST.csv", encoding="utf-8-sig")))
 mine = set(json.load(open("docs/claude_gen_list.json"))) if Path("docs/claude_gen_list.json").exists() else set()
 have = {}
-for f in glob.glob("horror_city/assets/props/*.glb"):
+for f in glob.glob("horror_city/assets/props/*.glb") + glob.glob("horror_city/assets/characters/*.glb"):
     m = re.match(r"([A-Z]{1,2}\d{2,3})", os.path.basename(f)); have.setdefault(m.group(1), []).append(f)
 for r in rows:
     if r["ID"] in have:
