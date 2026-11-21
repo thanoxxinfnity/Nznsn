@@ -1,0 +1,1562 @@
+{
+ "F02_conveyor_belt_curve.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3800,
+  "tris_after": 3800,
+  "dims_before": [
+   1.75,
+   1.75,
+   0.91
+  ],
+  "dims_after": [
+   3.0,
+   3.0,
+   1.56
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "3.0",
+  "name": "Conveyor belt curve",
+  "size_mb": 1.05
+ },
+ "F03_robotic_arm.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2380,
+  "tris_after": 2380,
+  "dims_before": [
+   2.14,
+   0.9,
+   1.94
+  ],
+  "dims_after": [
+   2.5,
+   1.05,
+   2.26
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "2.5",
+  "name": "Robotic arm",
+  "size_mb": 1.15
+ },
+ "F04_hydraulic_press.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3380,
+  "tris_after": 3380,
+  "dims_before": [
+   2.42,
+   1.41,
+   3.3
+  ],
+  "dims_after": [
+   2.2,
+   1.28,
+   3.0
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "3.0",
+  "name": "Hydraulic press",
+  "size_mb": 1.96
+ },
+ "F05_paint_vat.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3664,
+  "tris_after": 3664,
+  "dims_before": [
+   1.6,
+   1.46,
+   1.82
+  ],
+  "dims_after": [
+   1.32,
+   1.2,
+   1.5
+  ],
+  "materials": 9,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.5",
+  "name": "Paint vat",
+  "size_mb": 2.16
+ },
+ "F11_tool_rack_wall.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1440,
+  "tris_after": 1440,
+  "dims_before": [
+   1.5,
+   0.06,
+   1.0
+  ],
+  "dims_after": [
+   1.5,
+   0.06,
+   1.0
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.5",
+  "name": "Tool rack wall panel",
+  "size_mb": 1.25
+ },
+ "F13_diesel_generator.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4652,
+  "tris_after": 4652,
+  "dims_before": [
+   2.26,
+   0.94,
+   1.35
+  ],
+  "dims_after": [
+   2.0,
+   0.83,
+   1.19
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "2.0",
+  "name": "Diesel generator",
+  "size_mb": 1.68
+ },
+ "F16_filing_cabinet.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1584,
+  "tris_after": 1584,
+  "dims_before": [
+   0.45,
+   0.8,
+   1.3
+  ],
+  "dims_after": [
+   0.45,
+   0.8,
+   1.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.3",
+  "name": "Filing cabinet",
+  "size_mb": 0.86
+ },
+ "F17_office_swivel_chair.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1948,
+  "tris_after": 1948,
+  "dims_before": [
+   0.6,
+   0.64,
+   1.12
+  ],
+  "dims_after": [
+   0.54,
+   0.57,
+   1.0
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.0",
+  "name": "Office swivel chair",
+  "size_mb": 0.94
+ },
+ "F18_crt_monitor_keyboard.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3800,
+  "tris_after": 3800,
+  "dims_before": [
+   0.57,
+   0.77,
+   0.37
+  ],
+  "dims_after": [
+   0.37,
+   0.5,
+   0.24
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.5",
+  "name": "CRT monitor and keyboard",
+  "size_mb": 0.89
+ },
+ "F19_cassette_recorder.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2850,
+  "tris_after": 2850,
+  "dims_before": [
+   0.3,
+   0.09,
+   0.22
+  ],
+  "dims_after": [
+   0.3,
+   0.09,
+   0.22
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.3",
+  "name": "Cassette tape recorder",
+  "size_mb": 1.11
+ },
+ "F20_rotary_telephone.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.37,
+   0.28,
+   0.19
+  ],
+  "dims_after": [
+   0.3,
+   0.23,
+   0.16
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Rotary telephone",
+  "size_mb": 0.52
+ },
+ "F21_desk_lamp.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 920,
+  "tris_after": 920,
+  "dims_before": [
+   0.38,
+   0.16,
+   0.36
+  ],
+  "dims_after": [
+   0.4,
+   0.17,
+   0.37
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.4",
+  "name": "Desk lamp",
+  "size_mb": 0.78
+ },
+ "F22_fluorescent_light.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 950,
+  "tris_after": 950,
+  "dims_before": [
+   1.22,
+   0.16,
+   0.34
+  ],
+  "dims_after": [
+   1.2,
+   0.16,
+   0.33
+  ],
+  "materials": 5,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "1.2",
+  "name": "Fluorescent ceiling light",
+  "size_mb": 1.05
+ },
+ "F23_pipe_elbow.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 792,
+  "tris_after": 792,
+  "dims_before": [
+   0.43,
+   0.22,
+   0.43
+  ],
+  "dims_after": [
+   0.8,
+   0.41,
+   0.8
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Pipe set modular",
+  "size_mb": 0.31
+ },
+ "F23_pipe_straight.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   3.0,
+   0.22,
+   0.22
+  ],
+  "dims_after": [
+   3.0,
+   0.22,
+   0.22
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Pipe set modular",
+  "size_mb": 0.34
+ },
+ "F23_pipe_tjunction.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 944,
+  "tris_after": 944,
+  "dims_before": [
+   1.2,
+   0.22,
+   0.72
+  ],
+  "dims_after": [
+   1.0,
+   0.18,
+   0.6
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Pipe set modular",
+  "size_mb": 0.32
+ },
+ "F23_pipe_valve.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1460,
+  "tris_after": 1460,
+  "dims_before": [
+   1.0,
+   0.24,
+   0.43
+  ],
+  "dims_after": [
+   0.6,
+   0.14,
+   0.26
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "3.0",
+  "name": "Pipe set modular",
+  "size_mb": 0.57
+ },
+ "F24_wall_vent_grate.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.81,
+   0.54,
+   0.61
+  ],
+  "dims_after": [
+   0.8,
+   0.54,
+   0.6
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.8",
+  "name": "Wall vent grate",
+  "size_mb": 0.74
+ },
+ "F26_double_industrial_door.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1784,
+  "tris_after": 1784,
+  "dims_before": [
+   2.38,
+   0.06,
+   2.35
+  ],
+  "dims_after": [
+   2.4,
+   0.06,
+   2.37
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.4",
+  "name": "Double industrial door",
+  "size_mb": 0.87
+ },
+ "F27_fire_exit_door.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 972,
+  "tris_after": 972,
+  "dims_before": [
+   1.12,
+   0.16,
+   2.51
+  ],
+  "dims_after": [
+   0.98,
+   0.14,
+   2.2
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "2.2",
+  "name": "Fire exit door",
+  "size_mb": 0.99
+ },
+ "F28_metal_staircase.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2604,
+  "tris_after": 2604,
+  "dims_before": [
+   5.38,
+   1.04,
+   4.1
+  ],
+  "dims_after": [
+   3.0,
+   0.58,
+   2.29
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "3.0",
+  "name": "Metal staircase",
+  "size_mb": 0.73
+ },
+ "F29_wall_ladder.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1224,
+  "tris_after": 1224,
+  "dims_before": [
+   0.49,
+   0.17,
+   3.0
+  ],
+  "dims_after": [
+   0.49,
+   0.17,
+   3.0
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "3.0",
+  "name": "Ladder",
+  "size_mb": 0.33
+ },
+ "F30_freight_elevator_cage.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2640,
+  "tris_after": 2640,
+  "dims_before": [
+   2.28,
+   2.28,
+   3.1
+  ],
+  "dims_after": [
+   1.84,
+   1.84,
+   2.5
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "2.5",
+  "name": "Freight elevator cage",
+  "size_mb": 1.22
+ },
+ "F33_toy_parts_bin.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3800,
+  "tris_after": 3800,
+  "dims_before": [
+   0.62,
+   0.4,
+   0.32
+  ],
+  "dims_after": [
+   0.6,
+   0.39,
+   0.31
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.6",
+  "name": "Toy parts bin",
+  "size_mb": 0.69
+ },
+ "F34_toy_factory_sign.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 9000,
+  "tris_after": 9000,
+  "dims_before": [
+   4.0,
+   0.43,
+   2.2
+  ],
+  "dims_after": [
+   4.0,
+   0.43,
+   2.2
+  ],
+  "materials": 6,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "4.0",
+  "name": "Toy factory sign",
+  "size_mb": 1.9
+ },
+ "F35_mascot_statue_rangu.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5936,
+  "tris_after": 5936,
+  "dims_before": [
+   1.4,
+   2.17,
+   2.03
+  ],
+  "dims_after": [
+   1.61,
+   2.5,
+   2.34
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 15000,
+  "target": "2.5",
+  "name": "Mascot statue Rangu (elephant)",
+  "size_mb": 1.54
+ },
+ "F36_wall_clock.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1660,
+  "tris_after": 1660,
+  "dims_before": [
+   0.5,
+   0.07,
+   0.5
+  ],
+  "dims_after": [
+   0.5,
+   0.07,
+   0.5
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.5",
+  "name": "Wall clock",
+  "size_mb": 0.67
+ },
+ "F37_warning_poster_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "dims_after": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.6",
+  "name": "Warning poster frame",
+  "size_mb": 0.46
+ },
+ "F37_warning_poster_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "dims_after": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.6",
+  "name": "Warning poster frame",
+  "size_mb": 0.46
+ },
+ "F37_warning_poster_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 120,
+  "tris_after": 120,
+  "dims_before": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "dims_after": [
+   0.45,
+   0.02,
+   0.6
+  ],
+  "materials": 2,
+  "textures": 3,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1000,
+  "target": "0.6",
+  "name": "Warning poster frame",
+  "size_mb": 0.44
+ },
+ "F38_vending_machine.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3972,
+  "tris_after": 3972,
+  "dims_before": [
+   0.9,
+   0.78,
+   1.8
+  ],
+  "dims_after": [
+   0.9,
+   0.78,
+   1.8
+  ],
+  "materials": 10,
+  "textures": 20,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.8",
+  "name": "Vending machine",
+  "size_mb": 2.21
+ },
+ "F39_trolley_cart.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1720,
+  "tris_after": 1720,
+  "dims_before": [
+   1.01,
+   0.57,
+   1.02
+  ],
+  "dims_after": [
+   0.99,
+   0.56,
+   1.0
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.0",
+  "name": "Trolley cart",
+  "size_mb": 1.05
+ },
+ "F41_hand_pallet_jack.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1388,
+  "tris_after": 1388,
+  "dims_before": [
+   1.55,
+   0.56,
+   1.32
+  ],
+  "dims_after": [
+   1.5,
+   0.54,
+   1.28
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.5",
+  "name": "Hand pallet jack",
+  "size_mb": 0.75
+ },
+ "F42_stuffing_machine.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2112,
+  "tris_after": 2112,
+  "dims_before": [
+   1.52,
+   1.05,
+   1.56
+  ],
+  "dims_after": [
+   1.46,
+   1.01,
+   1.5
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "1.5",
+  "name": "Stuffing machine",
+  "size_mb": 1.47
+ },
+ "F46_cotton_stuffing_sack.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1796,
+  "tris_after": 1796,
+  "dims_before": [
+   0.77,
+   0.58,
+   0.91
+  ],
+  "dims_after": [
+   0.67,
+   0.51,
+   0.8
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.8",
+  "name": "Cotton stuffing sack",
+  "size_mb": 0.44
+ },
+ "G09_first_aid_kit.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 624,
+  "tris_after": 624,
+  "dims_before": [
+   0.3,
+   0.13,
+   0.25
+  ],
+  "dims_after": [
+   0.3,
+   0.13,
+   0.25
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "First-aid kit",
+  "size_mb": 0.91
+ },
+ "G10_door_code_keypad.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1788,
+  "tris_after": 1788,
+  "dims_before": [
+   0.12,
+   0.04,
+   0.18
+  ],
+  "dims_after": [
+   0.2,
+   0.06,
+   0.3
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Door-code keypad",
+  "size_mb": 1.09
+ },
+ "G11_memory_orb.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1900,
+  "tris_after": 1900,
+  "dims_before": [
+   0.16,
+   0.16,
+   0.19
+  ],
+  "dims_after": [
+   0.17,
+   0.17,
+   0.2
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Memory orb (glowing)",
+  "size_mb": 0.67
+ },
+ "G12_gate_lever.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 612,
+  "tris_after": 612,
+  "dims_before": [
+   0.25,
+   0.28,
+   0.55
+  ],
+  "dims_after": [
+   0.27,
+   0.31,
+   0.6
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.6",
+  "name": "Gate lever",
+  "size_mb": 0.96
+ },
+ "M03_mannequin_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4724,
+  "tris_after": 4724,
+  "dims_before": [
+   0.62,
+   0.25,
+   1.79
+  ],
+  "dims_after": [
+   0.62,
+   0.25,
+   1.8
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.8",
+  "name": "Mannequin figure",
+  "size_mb": 0.37
+ },
+ "M03_mannequin_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4724,
+  "tris_after": 4724,
+  "dims_before": [
+   0.66,
+   0.42,
+   1.79
+  ],
+  "dims_after": [
+   0.66,
+   0.42,
+   1.8
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.8",
+  "name": "Mannequin figure",
+  "size_mb": 0.37
+ },
+ "M03_mannequin_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4724,
+  "tris_after": 4724,
+  "dims_before": [
+   0.82,
+   0.42,
+   1.9
+  ],
+  "dims_after": [
+   0.78,
+   0.39,
+   1.8
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.8",
+  "name": "Mannequin figure",
+  "size_mb": 0.37
+ },
+ "T01_teddy_bear_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2408,
+  "tris_after": 2408,
+  "dims_before": [
+   0.41,
+   0.32,
+   0.49
+  ],
+  "dims_after": [
+   0.42,
+   0.32,
+   0.5
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "0.5",
+  "name": "Teddy bear (worn)",
+  "size_mb": 0.81
+ },
+ "T01_teddy_bear_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2696,
+  "tris_after": 2696,
+  "dims_before": [
+   0.37,
+   0.28,
+   0.44
+  ],
+  "dims_after": [
+   0.41,
+   0.31,
+   0.5
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "0.5",
+  "name": "Teddy bear (worn)",
+  "size_mb": 0.84
+ },
+ "T01_teddy_bear_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2696,
+  "tris_after": 2696,
+  "dims_before": [
+   0.45,
+   0.34,
+   0.54
+  ],
+  "dims_after": [
+   0.42,
+   0.32,
+   0.5
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "0.5",
+  "name": "Teddy bear (worn)",
+  "size_mb": 0.82
+ },
+ "T02_porcelain_doll_sitting_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2868,
+  "tris_after": 2868,
+  "dims_before": [
+   0.22,
+   0.31,
+   0.33
+  ],
+  "dims_after": [
+   0.26,
+   0.37,
+   0.4
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "0.4",
+  "name": "Porcelain doll (sitting)",
+  "size_mb": 1.23
+ },
+ "T02_porcelain_doll_sitting_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2868,
+  "tris_after": 2868,
+  "dims_before": [
+   0.21,
+   0.29,
+   0.31
+  ],
+  "dims_after": [
+   0.26,
+   0.37,
+   0.4
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "0.4",
+  "name": "Porcelain doll (sitting)",
+  "size_mb": 1.36
+ },
+ "T02_porcelain_doll_sitting_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2868,
+  "tris_after": 2868,
+  "dims_before": [
+   0.23,
+   0.32,
+   0.35
+  ],
+  "dims_after": [
+   0.26,
+   0.37,
+   0.4
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "0.4",
+  "name": "Porcelain doll (sitting)",
+  "size_mb": 1.36
+ },
+ "T03_windup_tin_robot.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2084,
+  "tris_after": 2084,
+  "dims_before": [
+   0.15,
+   0.1,
+   0.3
+  ],
+  "dims_after": [
+   0.15,
+   0.1,
+   0.3
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.3",
+  "name": "Wind-up tin robot",
+  "size_mb": 1.23
+ },
+ "T04_toy_train_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3832,
+  "tris_after": 3832,
+  "dims_before": [
+   0.62,
+   0.09,
+   0.15
+  ],
+  "dims_after": [
+   0.6,
+   0.09,
+   0.15
+  ],
+  "materials": 8,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "0.6",
+  "name": "Toy train set",
+  "size_mb": 2.05
+ },
+ "T05_alphabet_blocks.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 840,
+  "tris_after": 840,
+  "dims_before": [
+   0.25,
+   0.2,
+   0.1
+  ],
+  "dims_after": [
+   0.3,
+   0.24,
+   0.12
+  ],
+  "materials": 7,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "0.3",
+  "name": "Alphabet blocks",
+  "size_mb": 1.57
+ },
+ "T06_rubber_duck.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1184,
+  "tris_after": 1184,
+  "dims_before": [
+   0.21,
+   0.14,
+   0.17
+  ],
+  "dims_after": [
+   0.2,
+   0.13,
+   0.16
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Rubber duck",
+  "size_mb": 0.59
+ },
+ "T07_jack_in_the_box.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3028,
+  "tris_after": 3028,
+  "dims_before": [
+   0.23,
+   0.23,
+   0.57
+  ],
+  "dims_after": [
+   0.16,
+   0.16,
+   0.4
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.4",
+  "name": "Jack-in-the-box (open)",
+  "size_mb": 1.4
+ },
+ "T08_rocking_horse.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2116,
+  "tris_after": 2116,
+  "dims_before": [
+   1.56,
+   0.35,
+   0.89
+  ],
+  "dims_after": [
+   1.0,
+   0.22,
+   0.57
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.0",
+  "name": "Rocking horse",
+  "size_mb": 1.72
+ },
+ "T10_toy_car_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1184,
+  "tris_after": 1184,
+  "dims_before": [
+   0.16,
+   0.08,
+   0.08
+  ],
+  "dims_after": [
+   0.2,
+   0.1,
+   0.1
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Toy cars",
+  "size_mb": 0.93
+ },
+ "T10_toy_car_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1184,
+  "tris_after": 1184,
+  "dims_before": [
+   0.16,
+   0.08,
+   0.08
+  ],
+  "dims_after": [
+   0.2,
+   0.1,
+   0.1
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Toy cars",
+  "size_mb": 0.98
+ },
+ "T10_toy_car_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1184,
+  "tris_after": 1184,
+  "dims_before": [
+   0.16,
+   0.08,
+   0.08
+  ],
+  "dims_after": [
+   0.2,
+   0.1,
+   0.1
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.2",
+  "name": "Toy cars",
+  "size_mb": 0.97
+ },
+ "T11_drumming_monkey_toy.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2500,
+  "tris_after": 2500,
+  "dims_before": [
+   0.26,
+   0.26,
+   0.41
+  ],
+  "dims_after": [
+   0.25,
+   0.25,
+   0.4
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.4",
+  "name": "Drumming monkey toy",
+  "size_mb": 1.81
+ },
+ "T12_marionette_hanging.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 992,
+  "tris_after": 992,
+  "dims_before": [
+   0.3,
+   0.2,
+   0.69
+  ],
+  "dims_after": [
+   0.35,
+   0.24,
+   0.8
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "0.8",
+  "name": "Marionette puppet (hanging)",
+  "size_mb": 0.89
+ },
+ "T13_ragdoll.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1172,
+  "tris_after": 1172,
+  "dims_before": [
+   0.26,
+   0.14,
+   0.44
+  ],
+  "dims_after": [
+   0.3,
+   0.16,
+   0.5
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.5",
+  "name": "Ragdoll",
+  "size_mb": 0.89
+ },
+ "T14_dollhouse_open.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1784,
+  "tris_after": 1784,
+  "dims_before": [
+   0.62,
+   0.39,
+   0.84
+  ],
+  "dims_after": [
+   0.59,
+   0.37,
+   0.8
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 10000,
+  "target": "0.8",
+  "name": "Dollhouse (open)",
+  "size_mb": 1.41
+ },
+ "T15_music_box_ballerina.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2420,
+  "tris_after": 2420,
+  "dims_before": [
+   0.2,
+   0.14,
+   0.19
+  ],
+  "dims_after": [
+   0.25,
+   0.18,
+   0.24
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.25",
+  "name": "Music box (ballerina)",
+  "size_mb": 1.34
+ },
+ "T19_plush_rabbit.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1576,
+  "tris_after": 1576,
+  "dims_before": [
+   0.24,
+   0.22,
+   0.32
+  ],
+  "dims_after": [
+   0.3,
+   0.27,
+   0.4
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.4",
+  "name": "Plush rabbit",
+  "size_mb": 1.19
+ },
+ "T20_toy_soldiers_group.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3288,
+  "tris_after": 3288,
+  "dims_before": [
+   0.15,
+   0.1,
+   0.08
+  ],
+  "dims_after": [
+   0.3,
+   0.2,
+   0.15
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.3",
+  "name": "Toy soldiers group",
+  "size_mb": 0.38
+ },
+ "T23_giant_plush_elephant.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5028,
+  "tris_after": 5028,
+  "dims_before": [
+   1.96,
+   1.15,
+   0.89
+  ],
+  "dims_after": [
+   1.5,
+   0.88,
+   0.69
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 12000,
+  "target": "1.5",
+  "name": "Giant plush elephant Rangu",
+  "size_mb": 1.11
+ }
+}

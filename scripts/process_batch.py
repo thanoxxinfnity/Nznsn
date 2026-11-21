@@ -7,13 +7,15 @@ ROOT = Path(__file__).resolve().parent.parent
 rows = {r["ID"]: r for r in csv.DictReader(open(ROOT / "docs/ASSET_LIST.csv", encoding="utf-8-sig"))}
 src, dst = Path(sys.argv[1]), Path(sys.argv[2]); dst.mkdir(parents=True, exist_ok=True)
 (dst / "previews").mkdir(exist_ok=True)
+# ek ID ke kai alag tukde ho to unka apna size (m): file-stem ka shuru
+OVERRIDE = {"F23_pipe_elbow": "0.8", "F23_pipe_tjunction": "1.0", "F23_pipe_valve": "0.6"}
 def work(f):
     m = re.match(r"([A-Z]{1,2}\d{2,3})", f.name)
     r = rows.get(m.group(1)) if m else None
     if not r: return f.name, {"error": "ID list mein nahi"}
     out = dst / f.name; prev = dst / "previews" / (f.stem + ".png")
     p = subprocess.run(["blender", "-b", "--python", str(ROOT / "blender/scripts/process_asset.py"), "--", str(f), str(out),
-                        r["Size_m"], r["Tris_budget"], str(prev)], capture_output=True, text=True, timeout=600)
+                        next((v for k, v in OVERRIDE.items() if f.stem.startswith(k)), r["Size_m"]), r["Tris_budget"], str(prev)], capture_output=True, text=True, timeout=600)
     line = [l for l in p.stdout.splitlines() if l.startswith("ASSET ")]
     rep = json.loads(line[0][6:]) if line else {"error": "blender fail: " + p.stdout[-150:]}
     rep.update(budget=int(r["Tris_budget"]), target=r["Size_m"], name=r["Name"], size_mb=round(out.stat().st_size / 1e6, 2) if out.exists() else 0)

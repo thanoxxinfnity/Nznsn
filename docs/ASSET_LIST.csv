@@ -1,7 +1,7 @@
 ﻿ID,Priority,Category,Act,Name,Variants,Size_m,Tris_budget,Rig_Anim,Prompt,Done
 M01,P1,Monsters & characters,All,Gudiya (doll monster),1,1.2,25000,RIG,"porcelain doll girl, cracked face, empty black eyes, faded red dress, thin stiff limbs, creepy, full body T-pose facing front",
 M02,P1,Monsters & characters,All,Khokhla Teddy (hollow bear),1,0.6,12000,RIG,"worn hollow teddy bear, stuffing spilling from torn seams, one button eye missing, full body T-pose facing front",
-M03,P1,Monsters & characters,All,Mannequin figure,3,1.8,8000,-,"faceless pale shop mannequin, 3 different standing poses, slightly cracked plastic",
+M03,P1,Monsters & characters,All,Mannequin figure,3,1.8,8000,-,"faceless pale shop mannequin, 3 different standing poses, slightly cracked plastic",DONE (3/3)
 M04,P1,Monsters & characters,All,First-person arms with flashlight grip,1,0.7,6000,RIG,"pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model",
 M05,P2,Monsters & characters,All,Lambu Kaka (tall puppet man),1,3.0,40000,RIG,"3 metre tall thin puppet man, stitched burlap skin, button eyes, long arms, torn top hat, full body T-pose",
 M06,P2,Monsters & characters,All,Khokhla Wind-up Monkey,1,0.5,10000,RIG,"wind-up tin monkey with cymbals, rusty, grinning, full body front view",
@@ -9,89 +9,89 @@ M07,P2,Monsters & characters,All,Khokhla Clown puppet,1,1.0,14000,RIG,"cracked-f
 M08,P2,Monsters & characters,All,Khokhla Toy Soldier,1,0.8,10000,RIG,"large wooden toy soldier with chipped paint and bayonet, full body T-pose",
 M09,P3,Monsters & characters,All,Gudiya Maa (final boss),1,4.0,50000,RIG,"giant doll-mother, porcelain face, huge billowing cradle-like dress, many extra arms, gentle but terrifying, full body",
 M10,P3,Monsters & characters,All,Vent hand-puppet creature,1,0.5,8000,RIG,"small puppet creature with long fingers that crawls in vents, glove-like body, button eyes",
-F01,P1,Factory (Act 1),1,Conveyor belt straight,1,3.0,4000,-,"industrial conveyor belt straight section, rusty steel frame, rubber belt",DONE (batch1)
-F02,P2,Factory (Act 1),1,Conveyor belt curve,1,3.0,4000,-,industrial conveyor belt 90-degree curve section,
-F03,P2,Factory (Act 1),1,Robotic arm,1,2.5,12000,-,"old yellow industrial robotic arm, 1980s, paint peeling",
-F04,P2,Factory (Act 1),1,Hydraulic press,1,3.0,15000,-,"large hydraulic stamping press machine, grimy steel, warning stripes",
-F05,P2,Factory (Act 1),1,Paint vat,1,1.5,6000,-,"round industrial paint mixing vat with stirrer, dried colorful paint drips",
-F06,P1,Factory (Act 1),1,Metal shelving unit with boxes,1,2.0,6000,-,tall industrial metal shelving with cardboard boxes and toy parts,DONE (batch1)
-F07,P1,Factory (Act 1),1,Cardboard box stack,3,1.0,2000,-,"3 variants of stacked cardboard shipping boxes, taped, dusty",DONE (batch1)
-F08,P1,Factory (Act 1),1,Wooden pallet,1,1.2,1500,-,worn wooden shipping pallet,DONE (batch1)
-F09,P1,Factory (Act 1),1,Rusty oil barrel,1,0.9,2000,-,"rusty steel oil drum, dented",DONE (batch1)
-F10,P1,Factory (Act 1),1,Workbench with tools,1,2.0,8000,-,"heavy wooden workbench with vise, hammers and screwdrivers",DONE (batch1)
-F11,P2,Factory (Act 1),1,Tool rack wall panel,1,1.5,4000,-,pegboard wall with hanging hand tools,
-F12,P1,Factory (Act 1),1,Fuse box (wall),1,0.6,3000,-,grey metal electrical fuse box with open door and big switch,DONE (batch1)
-F13,P1,Factory (Act 1),1,Diesel generator,1,2.0,12000,-,"old diesel generator on skid, green paint, cables, fuel tank",
-F14,P1,Factory (Act 1),1,Metal locker (hideable),1,1.8,5000,-,"tall dented grey metal locker, door ajar, vent slits",DONE (batch1)
-F15,P1,Factory (Act 1),1,Office desk,1,1.6,5000,-,worn wooden office desk with drawers,DONE (batch1)
-F16,P2,Factory (Act 1),1,Filing cabinet,1,1.3,3000,-,"grey metal 4-drawer filing cabinet, dented",
-F17,P2,Factory (Act 1),1,Office swivel chair,1,1.0,4000,-,torn vinyl office swivel chair,
-F18,P2,Factory (Act 1),1,CRT monitor and keyboard,1,0.5,4000,-,1980s CRT computer monitor with beige keyboard,
-F19,P1,Factory (Act 1),1,Cassette tape recorder,1,0.3,3000,-,"vintage portable cassette tape recorder, dusty",
-F20,P2,Factory (Act 1),1,Rotary telephone,1,0.3,2000,-,black rotary dial telephone,
-F21,P2,Factory (Act 1),1,Desk lamp,1,0.4,2000,-,old metal articulated desk lamp,
-F22,P1,Factory (Act 1),1,Fluorescent ceiling light,1,1.2,1000,-,"ceiling mounted fluorescent tube fixture, dirty, one end flickering",
-F23,P1,Factory (Act 1),1,Pipe set modular,1,3.0,3000,-,"industrial pipes: straight, elbow, valve, T-junction, rusty",
-F24,P1,Factory (Act 1),1,Wall vent grate,1,0.8,2000,-,"metal wall ventilation grate with screws, large enough to crawl behind",
-F25,P1,Factory (Act 1),1,Metal door single,1,2.2,4000,-,"heavy industrial steel door with small window, scratched, door leaf only",DONE (batch1)
-F26,P1,Factory (Act 1),1,Double industrial door,1,2.4,6000,-,"double swing steel doors with round windows, door leaves only",
-F27,P2,Factory (Act 1),1,Fire exit door,1,2.2,4000,-,metal fire exit door with green exit sign above,
-F28,P2,Factory (Act 1),1,Metal staircase,1,3.0,10000,-,"industrial metal staircase with railings, 3 metres high",
-F29,P2,Factory (Act 1),1,Ladder,1,3.0,2000,-,"fixed steel wall ladder, rusty",
-F30,P2,Factory (Act 1),1,Freight elevator cage,1,2.5,12000,-,old freight elevator cage with scissor gate,
-F31,P1,Factory (Act 1),1,Keycard reader panel,1,0.2,1500,-,wall keycard reader with red light,DONE (batch1)
-F32,P1,Factory (Act 1),1,Large valve wheel,1,0.5,2000,-,big red industrial valve wheel on pipe,DONE (batch1)
-F33,P1,Factory (Act 1),1,Toy parts bin,1,0.6,4000,-,plastic crate full of doll arms legs and heads,
-F34,P1,Factory (Act 1),1,Toy factory sign,1,4.0,10000,-,"giant colorful toy factory rooftop sign with broken letters and bulbs, no readable text",
-F35,P1,Factory (Act 1),1,Mascot statue Rangu (elephant),1,2.5,15000,-,"smiling rainbow elephant toy company mascot statue, faded paint, cracked, creepy cheerful",
-F36,P2,Factory (Act 1),1,Wall clock,1,0.5,2000,-,"round factory wall clock, glass cracked, stopped",
-F37,P1,Factory (Act 1),1,Warning poster frame,3,0.6,1000,-,"framed poster on wall, 3 variants, worn paper",
-F38,P2,Factory (Act 1),1,Vending machine,1,1.8,8000,-,"old vending machine with toy capsules, glass cracked",
-F39,P2,Factory (Act 1),1,Trolley cart,1,1.0,4000,-,metal warehouse trolley cart,
+F01,P1,Factory (Act 1),1,Conveyor belt straight,1,3.0,4000,-,"industrial conveyor belt straight section, rusty steel frame, rubber belt",DONE (1/1)
+F02,P2,Factory (Act 1),1,Conveyor belt curve,1,3.0,4000,-,industrial conveyor belt 90-degree curve section,DONE (1/1)
+F03,P2,Factory (Act 1),1,Robotic arm,1,2.5,12000,-,"old yellow industrial robotic arm, 1980s, paint peeling",DONE (1/1)
+F04,P2,Factory (Act 1),1,Hydraulic press,1,3.0,15000,-,"large hydraulic stamping press machine, grimy steel, warning stripes",DONE (1/1)
+F05,P2,Factory (Act 1),1,Paint vat,1,1.5,6000,-,"round industrial paint mixing vat with stirrer, dried colorful paint drips",DONE (1/1)
+F06,P1,Factory (Act 1),1,Metal shelving unit with boxes,1,2.0,6000,-,tall industrial metal shelving with cardboard boxes and toy parts,DONE (1/1)
+F07,P1,Factory (Act 1),1,Cardboard box stack,3,1.0,2000,-,"3 variants of stacked cardboard shipping boxes, taped, dusty",DONE (3/3)
+F08,P1,Factory (Act 1),1,Wooden pallet,1,1.2,1500,-,worn wooden shipping pallet,DONE (1/1)
+F09,P1,Factory (Act 1),1,Rusty oil barrel,1,0.9,2000,-,"rusty steel oil drum, dented",DONE (1/1)
+F10,P1,Factory (Act 1),1,Workbench with tools,1,2.0,8000,-,"heavy wooden workbench with vise, hammers and screwdrivers",DONE (1/1)
+F11,P2,Factory (Act 1),1,Tool rack wall panel,1,1.5,4000,-,pegboard wall with hanging hand tools,DONE (1/1)
+F12,P1,Factory (Act 1),1,Fuse box (wall),1,0.6,3000,-,grey metal electrical fuse box with open door and big switch,DONE (1/1)
+F13,P1,Factory (Act 1),1,Diesel generator,1,2.0,12000,-,"old diesel generator on skid, green paint, cables, fuel tank",DONE (1/1)
+F14,P1,Factory (Act 1),1,Metal locker (hideable),1,1.8,5000,-,"tall dented grey metal locker, door ajar, vent slits",DONE (1/1)
+F15,P1,Factory (Act 1),1,Office desk,1,1.6,5000,-,worn wooden office desk with drawers,DONE (1/1)
+F16,P2,Factory (Act 1),1,Filing cabinet,1,1.3,3000,-,"grey metal 4-drawer filing cabinet, dented",DONE (1/1)
+F17,P2,Factory (Act 1),1,Office swivel chair,1,1.0,4000,-,torn vinyl office swivel chair,DONE (1/1)
+F18,P2,Factory (Act 1),1,CRT monitor and keyboard,1,0.5,4000,-,1980s CRT computer monitor with beige keyboard,DONE (1/1)
+F19,P1,Factory (Act 1),1,Cassette tape recorder,1,0.3,3000,-,"vintage portable cassette tape recorder, dusty",DONE (1/1)
+F20,P2,Factory (Act 1),1,Rotary telephone,1,0.3,2000,-,black rotary dial telephone,DONE (1/1)
+F21,P2,Factory (Act 1),1,Desk lamp,1,0.4,2000,-,old metal articulated desk lamp,DONE (1/1)
+F22,P1,Factory (Act 1),1,Fluorescent ceiling light,1,1.2,1000,-,"ceiling mounted fluorescent tube fixture, dirty, one end flickering",DONE (1/1)
+F23,P1,Factory (Act 1),1,Pipe set modular,1,3.0,3000,-,"industrial pipes: straight, elbow, valve, T-junction, rusty",DONE (4/1)
+F24,P1,Factory (Act 1),1,Wall vent grate,1,0.8,2000,-,"metal wall ventilation grate with screws, large enough to crawl behind",DONE (1/1)
+F25,P1,Factory (Act 1),1,Metal door single,1,2.2,4000,-,"heavy industrial steel door with small window, scratched, door leaf only",DONE (1/1)
+F26,P1,Factory (Act 1),1,Double industrial door,1,2.4,6000,-,"double swing steel doors with round windows, door leaves only",DONE (1/1)
+F27,P2,Factory (Act 1),1,Fire exit door,1,2.2,4000,-,metal fire exit door with green exit sign above,DONE (1/1)
+F28,P2,Factory (Act 1),1,Metal staircase,1,3.0,10000,-,"industrial metal staircase with railings, 3 metres high",DONE (1/1)
+F29,P2,Factory (Act 1),1,Ladder,1,3.0,2000,-,"fixed steel wall ladder, rusty",DONE (1/1)
+F30,P2,Factory (Act 1),1,Freight elevator cage,1,2.5,12000,-,old freight elevator cage with scissor gate,DONE (1/1)
+F31,P1,Factory (Act 1),1,Keycard reader panel,1,0.2,1500,-,wall keycard reader with red light,DONE (1/1)
+F32,P1,Factory (Act 1),1,Large valve wheel,1,0.5,2000,-,big red industrial valve wheel on pipe,DONE (1/1)
+F33,P1,Factory (Act 1),1,Toy parts bin,1,0.6,4000,-,plastic crate full of doll arms legs and heads,DONE (1/1)
+F34,P1,Factory (Act 1),1,Toy factory sign,1,4.0,10000,-,"giant colorful toy factory rooftop sign with broken letters and bulbs, no readable text",DONE (1/1)
+F35,P1,Factory (Act 1),1,Mascot statue Rangu (elephant),1,2.5,15000,-,"smiling rainbow elephant toy company mascot statue, faded paint, cracked, creepy cheerful",DONE (1/1)
+F36,P2,Factory (Act 1),1,Wall clock,1,0.5,2000,-,"round factory wall clock, glass cracked, stopped",DONE (1/1)
+F37,P1,Factory (Act 1),1,Warning poster frame,3,0.6,1000,-,"framed poster on wall, 3 variants, worn paper",DONE (3/3)
+F38,P2,Factory (Act 1),1,Vending machine,1,1.8,8000,-,"old vending machine with toy capsules, glass cracked",DONE (1/1)
+F39,P2,Factory (Act 1),1,Trolley cart,1,1.0,4000,-,metal warehouse trolley cart,DONE (1/1)
 F40,P3,Factory (Act 1),1,Mop bucket,1,0.6,2000,-,yellow mop bucket with wringer,
-F41,P2,Factory (Act 1),1,Hand pallet jack,1,1.5,6000,-,"manual hand pallet jack, rusty",
-F42,P2,Factory (Act 1),1,Stuffing machine,1,1.5,10000,-,industrial cotton stuffing machine with hopper and nozzle,
+F41,P2,Factory (Act 1),1,Hand pallet jack,1,1.5,6000,-,"manual hand pallet jack, rusty",DONE (1/1)
+F42,P2,Factory (Act 1),1,Stuffing machine,1,1.5,10000,-,industrial cotton stuffing machine with hopper and nozzle,DONE (1/1)
 F43,P3,Factory (Act 1),1,Overhead crane hook,1,2.0,5000,-,overhead crane hook with chain,
 F44,P3,Factory (Act 1),1,Industrial floor fan,1,1.0,4000,-,"large industrial pedestal fan, dusty blades",
 F45,P3,Factory (Act 1),1,Wire spool,1,0.8,2000,-,big wooden cable spool with wire,
-F46,P2,Factory (Act 1),1,Cotton stuffing sack,1,0.8,2000,-,"burlap sack of white cotton stuffing, torn",
+F46,P2,Factory (Act 1),1,Cotton stuffing sack,1,0.8,2000,-,"burlap sack of white cotton stuffing, torn",DONE (1/1)
 F47,P3,Factory (Act 1),1,Hanging chains,1,2.0,2000,-,bundle of hanging steel chains,
 F48,P3,Factory (Act 1),1,Broken window frame,1,1.5,2000,-,steel window frame with broken glass shards,
-T01,P1,Toys (set dressing),All,Teddy bear (worn),3,0.5,6000,-,"3 variants worn teddy bears, matted fur, one eye missing",
-T02,P1,Toys (set dressing),All,Porcelain doll (sitting),3,0.4,8000,-,"3 variants small seated porcelain dolls, lace dress, cracked cheek",
-T03,P1,Toys (set dressing),All,Wind-up tin robot,1,0.3,4000,-,"retro wind-up tin robot toy, rusty key in back",
-T04,P2,Toys (set dressing),All,Toy train set,1,0.6,8000,-,wooden toy train engine with two cars on short track,
-T05,P1,Toys (set dressing),All,Alphabet blocks,1,0.3,3000,-,pile of wooden alphabet building blocks,
-T06,P2,Toys (set dressing),All,Rubber duck,1,0.2,2000,-,"yellow rubber duck, faded",
-T07,P1,Toys (set dressing),All,Jack-in-the-box (open),1,0.4,5000,-,"jack-in-the-box with spring clown popped out, creepy smile",
-T08,P2,Toys (set dressing),All,Rocking horse,1,1.0,8000,-,"old wooden rocking horse, chipped paint",
+T01,P1,Toys (set dressing),All,Teddy bear (worn),3,0.5,6000,-,"3 variants worn teddy bears, matted fur, one eye missing",DONE (3/3)
+T02,P1,Toys (set dressing),All,Porcelain doll (sitting),3,0.4,8000,-,"3 variants small seated porcelain dolls, lace dress, cracked cheek",DONE (3/3)
+T03,P1,Toys (set dressing),All,Wind-up tin robot,1,0.3,4000,-,"retro wind-up tin robot toy, rusty key in back",DONE (1/1)
+T04,P2,Toys (set dressing),All,Toy train set,1,0.6,8000,-,wooden toy train engine with two cars on short track,DONE (1/1)
+T05,P1,Toys (set dressing),All,Alphabet blocks,1,0.3,3000,-,pile of wooden alphabet building blocks,DONE (1/1)
+T06,P2,Toys (set dressing),All,Rubber duck,1,0.2,2000,-,"yellow rubber duck, faded",DONE (1/1)
+T07,P1,Toys (set dressing),All,Jack-in-the-box (open),1,0.4,5000,-,"jack-in-the-box with spring clown popped out, creepy smile",DONE (1/1)
+T08,P2,Toys (set dressing),All,Rocking horse,1,1.0,8000,-,"old wooden rocking horse, chipped paint",DONE (1/1)
 T09,P3,Toys (set dressing),All,Spinning top,1,0.2,1500,-,"tin spinning top, colorful",
-T10,P2,Toys (set dressing),All,Toy cars,3,0.2,2000,-,3 variants small old toy cars,
-T11,P2,Toys (set dressing),All,Drumming monkey toy,1,0.4,5000,-,clockwork drumming monkey toy,
-T12,P2,Toys (set dressing),All,Marionette puppet (hanging),1,0.8,8000,-,"wooden marionette puppet hanging by strings, limp",
-T13,P2,Toys (set dressing),All,Ragdoll,1,0.5,5000,-,stitched cloth ragdoll with button eyes,
-T14,P2,Toys (set dressing),All,Dollhouse (open),1,0.8,10000,-,"two-storey dollhouse with open back, tiny furniture",
-T15,P1,Toys (set dressing),All,Music box (ballerina),1,0.25,4000,-,"wooden music box with ballerina, lid open",
+T10,P2,Toys (set dressing),All,Toy cars,3,0.2,2000,-,3 variants small old toy cars,DONE (3/3)
+T11,P2,Toys (set dressing),All,Drumming monkey toy,1,0.4,5000,-,clockwork drumming monkey toy,DONE (1/1)
+T12,P2,Toys (set dressing),All,Marionette puppet (hanging),1,0.8,8000,-,"wooden marionette puppet hanging by strings, limp",DONE (1/1)
+T13,P2,Toys (set dressing),All,Ragdoll,1,0.5,5000,-,stitched cloth ragdoll with button eyes,DONE (1/1)
+T14,P2,Toys (set dressing),All,Dollhouse (open),1,0.8,10000,-,"two-storey dollhouse with open back, tiny furniture",DONE (1/1)
+T15,P1,Toys (set dressing),All,Music box (ballerina),1,0.25,4000,-,"wooden music box with ballerina, lid open",DONE (1/1)
 T16,P3,Toys (set dressing),All,Balloon animal,1,0.4,3000,-,"deflated balloon animal dog, faded",
 T17,P3,Toys (set dressing),All,Jigsaw pieces pile,1,0.3,2000,-,pile of loose jigsaw puzzle pieces,
 T18,P3,Toys (set dressing),All,Crayon box,1,0.2,1500,-,open crayon box with melted crayons,
-T19,P2,Toys (set dressing),All,Plush rabbit,1,0.4,5000,-,"floppy-eared plush rabbit, stained",
-T20,P2,Toys (set dressing),All,Toy soldiers group,1,0.3,4000,-,group of 6 small plastic toy soldiers,
+T19,P2,Toys (set dressing),All,Plush rabbit,1,0.4,5000,-,"floppy-eared plush rabbit, stained",DONE (1/1)
+T20,P2,Toys (set dressing),All,Toy soldiers group,1,0.3,4000,-,group of 6 small plastic toy soldiers,DONE (1/1)
 T21,P3,Toys (set dressing),All,Slinky spring,1,0.2,2000,-,metal slinky spring toy,
 T22,P3,Toys (set dressing),All,Toy xylophone,1,0.4,2000,-,colorful toy xylophone with mallet,
-T23,P2,Toys (set dressing),All,Giant plush elephant Rangu,1,1.5,12000,-,"large plush elephant mascot lying on side, faded rainbow fur",
-G01,P1,Gameplay items,All,Flashlight (held),1,0.25,3000,-,classic metal handheld flashlight with rubber grip,DONE (batch1)
-G02,P1,Gameplay items,All,Battery D-cell,1,0.1,800,-,"single D-cell battery, worn label",DONE (batch1)
-G03,P1,Gameplay items,All,Key,3,0.1,1000,-,"3 variants old keys: brass, red-tagged, blue-tagged",DONE (batch1)
-G04,P1,Gameplay items,All,Ceramic fuse,1,0.1,800,-,ceramic cartridge fuse,DONE (batch1)
-G05,P1,Gameplay items,All,Diary / notebook,1,0.2,1500,-,worn leather diary with elastic band,DONE (batch1)
-G06,P1,Gameplay items,All,Letter / envelope,1,0.2,500,-,old yellowed envelope with wax seal,DONE (batch1)
-G07,P1,Gameplay items,All,Cassette tape,1,0.1,1000,-,cassette tape with handwritten label,DONE (batch1)
-G08,P1,Gameplay items,All,Family photo frame,1,0.3,1500,-,small wooden photo frame with faded family photo,DONE (batch1)
-G09,P2,Gameplay items,All,First-aid kit,1,0.3,2000,-,white first-aid box with red cross,
-G10,P2,Gameplay items,All,Door-code keypad,1,0.3,2000,-,wall keypad with numbered buttons,
-G11,P2,Gameplay items,All,Memory orb (glowing),1,0.2,2000,-,glass orb with swirling blue light inside,
-G12,P2,Gameplay items,All,Gate lever,1,0.6,3000,-,"large wall lever switch, rusty",
+T23,P2,Toys (set dressing),All,Giant plush elephant Rangu,1,1.5,12000,-,"large plush elephant mascot lying on side, faded rainbow fur",DONE (1/1)
+G01,P1,Gameplay items,All,Flashlight (held),1,0.25,3000,-,classic metal handheld flashlight with rubber grip,DONE (1/1)
+G02,P1,Gameplay items,All,Battery D-cell,1,0.1,800,-,"single D-cell battery, worn label",DONE (1/1)
+G03,P1,Gameplay items,All,Key,3,0.1,1000,-,"3 variants old keys: brass, red-tagged, blue-tagged",DONE (3/3)
+G04,P1,Gameplay items,All,Ceramic fuse,1,0.1,800,-,ceramic cartridge fuse,DONE (1/1)
+G05,P1,Gameplay items,All,Diary / notebook,1,0.2,1500,-,worn leather diary with elastic band,DONE (1/1)
+G06,P1,Gameplay items,All,Letter / envelope,1,0.2,500,-,old yellowed envelope with wax seal,DONE (1/1)
+G07,P1,Gameplay items,All,Cassette tape,1,0.1,1000,-,cassette tape with handwritten label,DONE (1/1)
+G08,P1,Gameplay items,All,Family photo frame,1,0.3,1500,-,small wooden photo frame with faded family photo,DONE (1/1)
+G09,P2,Gameplay items,All,First-aid kit,1,0.3,2000,-,white first-aid box with red cross,DONE (1/1)
+G10,P2,Gameplay items,All,Door-code keypad,1,0.3,2000,-,wall keypad with numbered buttons,DONE (1/1)
+G11,P2,Gameplay items,All,Memory orb (glowing),1,0.2,2000,-,glass orb with swirling blue light inside,DONE (1/1)
+G12,P2,Gameplay items,All,Gate lever,1,0.6,3000,-,"large wall lever switch, rusty",DONE (1/1)
 G13,P3,Gameplay items,All,Lighter,1,0.06,800,-,metal flip lighter,
 G14,P3,Gameplay items,All,Crowbar,1,0.6,2000,-,rusty crowbar,
 S01,P2,School mohalla,2,School desk and bench,1,1.2,4000,-,"old wooden school desk with attached bench, carved initials",
