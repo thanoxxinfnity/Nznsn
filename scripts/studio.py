@@ -9,8 +9,9 @@
   studio.py forget <name>                 # clear one agent's memory
   studio.py memory <name>                 # show what the agent remembers
   studio.py team "<task>"                 # 'lead' agent plans, others execute
+  studio.py usage                         # kitni calls/characters kharch hue (local log)
 """
-import sys, json, re, time, urllib.request, urllib.error
+import os, sys, json, re, time, urllib.request, urllib.error
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -53,7 +54,9 @@ def raw_chat(chat_id, text, retries=3, timeout=240, conv=None):
                     if isinstance(ev, dict) and "chunk" in ev:
                         out.append(ev["chunk"])
             if out:
-                return "".join(out)
+                reply = "".join(out)
+                _log_usage(chat_id, len(text), len(reply))
+                return reply
             last = "empty reply"
         except (OSError, urllib.error.URLError) as e:
             last = e
@@ -61,6 +64,13 @@ def raw_chat(chat_id, text, retries=3, timeout=240, conv=None):
                 time.sleep(15 * (i + 1)); continue
         time.sleep(2 * (i + 1))
     raise RuntimeError(f"chat {chat_id} failed: {last}")
+
+def _log_usage(chat_id, n_in, n_out):
+    try:
+        with (MEM / "usage.log").open("a") as f:
+            f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} {chat_id} in={n_in} out={n_out}\n")
+    except OSError:
+        pass
 
 # ---- memory ----
 def _hist_path(name): return MEM / f"{name}.json"
@@ -91,6 +101,12 @@ def build_prompt(name, agent, text, m):
             return prompt
         turns.pop(0)
 
+def build_prompt_lean(name, agent, text):
+    # Sim-side memory chalu hai: history dobara mat bhejo (credits bachte hain)
+    head = f"[Tum '{name}' ho. Kaam: {agent.get('role','')}]"
+    notes = SHARED.read_text().strip() if SHARED.exists() else ""
+    return f"{head}\n{notes}\n\n{text}" if notes else f"{head}\n\n{text}"
+
 def compress(name, agent, m):
     old = m["turns"][:-MAX_TURNS]
     if not old:
@@ -108,10 +124,14 @@ def ask(name, text, fresh=False):
         raise SystemExit(f"agent '{name}' nahi mila. Available: {', '.join(agents)}")
     agent = agents[name]
     m = {"summary": "", "turns": []} if fresh else load_mem(name)
-    reply = raw_chat(agent["chat_id"], build_prompt(name, agent, text, m), conv=None if fresh else f"nznsn-{name}")
+    lean = (not fresh) and os.environ.get("NZNSN_LOCAL_MEMORY") != "1"
+    prompt = build_prompt_lean(name, agent, text) if lean else build_prompt(name, agent, text, m)
+    reply = raw_chat(agent["chat_id"], prompt, conv=None if fresh else f"nznsn-{name}")
     if not fresh:
         m["turns"] += [{"who": "user", "text": text}, {"who": name, "text": reply}]
-        if len(m["turns"]) > SUMMARIZE_AT:
+        if lean:
+            m["turns"] = m["turns"][-MAX_TURNS * 2:]
+        elif len(m["turns"]) > SUMMARIZE_AT:
             try: compress(name, agent, m)
             except RuntimeError: pass
         save_mem(name, m)
@@ -153,6 +173,11 @@ def main(a):
         p = _hist_path(a[1]); p.unlink(missing_ok=True); print("cleared", a[1])
     elif cmd == "memory":
         m = load_mem(a[1]); print("SUMMARY:", m["summary"] or "-"); print("TURNS:", len(m["turns"]))
+    elif cmd == "usage":
+        f = MEM / "usage.log"
+        rows = f.read_text().splitlines() if f.exists() else []
+        tot_in = sum(int(r.split("in=")[1].split()[0]) for r in rows); tot_out = sum(int(r.split("out=")[1]) for r in rows)
+        print(f"calls={len(rows)} in_chars={tot_in} out_chars={tot_out} (log shuru hone ke baad se)")
     elif cmd == "team":
         plan, res = team(a[1])
         for ag, t, r in res: print(f"\n=== {ag} ===\nTask: {t}\n{r}")
