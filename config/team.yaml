@@ -1,4 +1,4 @@
-# Team roles. Model: Fable 5.2 (final). Real agent links live in config/agents.json
+# Team roles. Model: Fable 5.2 (final). Real agent links live in config/agents.json (PRIVATE, gitignored; template: config/agents.example.json)
 # Manage with: python3 scripts/studio.py list | add | ask | remember
 default_model: "Fable 5.2"
 roles:
