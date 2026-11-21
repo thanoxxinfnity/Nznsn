@@ -48,15 +48,15 @@ F36,P2,Factory (Act 1),1,Wall clock,1,0.5,2000,-,"round factory wall clock, glas
 F37,P1,Factory (Act 1),1,Warning poster frame,3,0.6,1000,-,"framed poster on wall, 3 variants, worn paper",DONE (3/3)
 F38,P2,Factory (Act 1),1,Vending machine,1,1.8,8000,-,"old vending machine with toy capsules, glass cracked",DONE (1/1)
 F39,P2,Factory (Act 1),1,Trolley cart,1,1.0,4000,-,metal warehouse trolley cart,DONE (1/1)
-F40,P3,Factory (Act 1),1,Mop bucket,1,0.6,2000,-,yellow mop bucket with wringer,
+F40,P3,Factory (Act 1),1,Mop bucket,1,0.6,2000,-,yellow mop bucket with wringer,DONE-Claude (1/1)
 F41,P2,Factory (Act 1),1,Hand pallet jack,1,1.5,6000,-,"manual hand pallet jack, rusty",DONE (1/1)
 F42,P2,Factory (Act 1),1,Stuffing machine,1,1.5,10000,-,industrial cotton stuffing machine with hopper and nozzle,DONE (1/1)
-F43,P3,Factory (Act 1),1,Overhead crane hook,1,2.0,5000,-,overhead crane hook with chain,
-F44,P3,Factory (Act 1),1,Industrial floor fan,1,1.0,4000,-,"large industrial pedestal fan, dusty blades",
-F45,P3,Factory (Act 1),1,Wire spool,1,0.8,2000,-,big wooden cable spool with wire,
+F43,P3,Factory (Act 1),1,Overhead crane hook,1,2.0,5000,-,overhead crane hook with chain,DONE-Claude (1/1)
+F44,P3,Factory (Act 1),1,Industrial floor fan,1,1.0,4000,-,"large industrial pedestal fan, dusty blades",DONE-Claude (1/1)
+F45,P3,Factory (Act 1),1,Wire spool,1,0.8,2000,-,big wooden cable spool with wire,DONE-Claude (1/1)
 F46,P2,Factory (Act 1),1,Cotton stuffing sack,1,0.8,2000,-,"burlap sack of white cotton stuffing, torn",DONE (1/1)
-F47,P3,Factory (Act 1),1,Hanging chains,1,2.0,2000,-,bundle of hanging steel chains,
-F48,P3,Factory (Act 1),1,Broken window frame,1,1.5,2000,-,steel window frame with broken glass shards,
+F47,P3,Factory (Act 1),1,Hanging chains,1,2.0,2000,-,bundle of hanging steel chains,DONE-Claude (1/1)
+F48,P3,Factory (Act 1),1,Broken window frame,1,1.5,2000,-,steel window frame with broken glass shards,DONE-Claude (1/1)
 T01,P1,Toys (set dressing),All,Teddy bear (worn),3,0.5,6000,-,"3 variants worn teddy bears, matted fur, one eye missing",DONE (3/3)
 T02,P1,Toys (set dressing),All,Porcelain doll (sitting),3,0.4,8000,-,"3 variants small seated porcelain dolls, lace dress, cracked cheek",DONE (3/3)
 T03,P1,Toys (set dressing),All,Wind-up tin robot,1,0.3,4000,-,"retro wind-up tin robot toy, rusty key in back",DONE (1/1)
@@ -65,7 +65,7 @@ T05,P1,Toys (set dressing),All,Alphabet blocks,1,0.3,3000,-,pile of wooden alpha
 T06,P2,Toys (set dressing),All,Rubber duck,1,0.2,2000,-,"yellow rubber duck, faded",DONE (1/1)
 T07,P1,Toys (set dressing),All,Jack-in-the-box (open),1,0.4,5000,-,"jack-in-the-box with spring clown popped out, creepy smile",DONE (1/1)
 T08,P2,Toys (set dressing),All,Rocking horse,1,1.0,8000,-,"old wooden rocking horse, chipped paint",DONE (1/1)
-T09,P3,Toys (set dressing),All,Spinning top,1,0.2,1500,-,"tin spinning top, colorful",
+T09,P3,Toys (set dressing),All,Spinning top,1,0.2,1500,-,"tin spinning top, colorful",DONE-Claude (1/1)
 T10,P2,Toys (set dressing),All,Toy cars,3,0.2,2000,-,3 variants small old toy cars,DONE (3/3)
 T11,P2,Toys (set dressing),All,Drumming monkey toy,1,0.4,5000,-,clockwork drumming monkey toy,DONE (1/1)
 T12,P2,Toys (set dressing),All,Marionette puppet (hanging),1,0.8,8000,-,"wooden marionette puppet hanging by strings, limp",DONE (1/1)
@@ -73,12 +73,12 @@ T13,P2,Toys (set dressing),All,Ragdoll,1,0.5,5000,-,stitched cloth ragdoll with 
 T14,P2,Toys (set dressing),All,Dollhouse (open),1,0.8,10000,-,"two-storey dollhouse with open back, tiny furniture",DONE (1/1)
 T15,P1,Toys (set dressing),All,Music box (ballerina),1,0.25,4000,-,"wooden music box with ballerina, lid open",DONE (1/1)
 T16,P3,Toys (set dressing),All,Balloon animal,1,0.4,3000,-,"deflated balloon animal dog, faded",
-T17,P3,Toys (set dressing),All,Jigsaw pieces pile,1,0.3,2000,-,pile of loose jigsaw puzzle pieces,
-T18,P3,Toys (set dressing),All,Crayon box,1,0.2,1500,-,open crayon box with melted crayons,
+T17,P3,Toys (set dressing),All,Jigsaw pieces pile,1,0.3,2000,-,pile of loose jigsaw puzzle pieces,DONE-Claude (1/1)
+T18,P3,Toys (set dressing),All,Crayon box,1,0.2,1500,-,open crayon box with melted crayons,DONE-Claude (1/1)
 T19,P2,Toys (set dressing),All,Plush rabbit,1,0.4,5000,-,"floppy-eared plush rabbit, stained",DONE (1/1)
 T20,P2,Toys (set dressing),All,Toy soldiers group,1,0.3,4000,-,group of 6 small plastic toy soldiers,DONE (1/1)
-T21,P3,Toys (set dressing),All,Slinky spring,1,0.2,2000,-,metal slinky spring toy,
-T22,P3,Toys (set dressing),All,Toy xylophone,1,0.4,2000,-,colorful toy xylophone with mallet,
+T21,P3,Toys (set dressing),All,Slinky spring,1,0.2,2000,-,metal slinky spring toy,DONE-Claude (1/1)
+T22,P3,Toys (set dressing),All,Toy xylophone,1,0.4,2000,-,colorful toy xylophone with mallet,DONE-Claude (1/1)
 T23,P2,Toys (set dressing),All,Giant plush elephant Rangu,1,1.5,12000,-,"large plush elephant mascot lying on side, faded rainbow fur",DONE (1/1)
 G01,P1,Gameplay items,All,Flashlight (held),1,0.25,3000,-,classic metal handheld flashlight with rubber grip,DONE (1/1)
 G02,P1,Gameplay items,All,Battery D-cell,1,0.1,800,-,"single D-cell battery, worn label",DONE (1/1)
@@ -92,7 +92,7 @@ G09,P2,Gameplay items,All,First-aid kit,1,0.3,2000,-,white first-aid box with re
 G10,P2,Gameplay items,All,Door-code keypad,1,0.3,2000,-,wall keypad with numbered buttons,DONE (1/1)
 G11,P2,Gameplay items,All,Memory orb (glowing),1,0.2,2000,-,glass orb with swirling blue light inside,DONE (1/1)
 G12,P2,Gameplay items,All,Gate lever,1,0.6,3000,-,"large wall lever switch, rusty",DONE (1/1)
-G13,P3,Gameplay items,All,Lighter,1,0.06,800,-,metal flip lighter,
+G13,P3,Gameplay items,All,Lighter,1,0.06,800,-,metal flip lighter,DONE-Claude (1/1)
 G14,P3,Gameplay items,All,Crowbar,1,0.6,2000,-,rusty crowbar,
 S01,P2,School mohalla,2,School desk and bench,1,1.2,4000,-,"old wooden school desk with attached bench, carved initials",DONE (1/1)
 S02,P2,School mohalla,2,Blackboard,1,2.0,2000,-,classroom blackboard with wooden frame and chalk tray,DONE (1/1)
@@ -101,26 +101,26 @@ S04,P2,School mohalla,2,School locker row,1,2.0,6000,-,row of 4 dented green sch
 S05,P2,School mohalla,2,School bus,1,9.0,30000,-,"old yellow school bus, faded, flat tyres",DONE (1/1)
 S06,P2,School mohalla,2,Playground slide,1,3.0,8000,-,rusty metal playground slide with ladder,DONE (1/1)
 S07,P2,School mohalla,2,Swing set,1,3.0,6000,-,"playground swing set, chains, two swings",DONE (1/1)
-S08,P3,School mohalla,2,Seesaw,1,3.0,3000,-,playground seesaw,
-S09,P3,School mohalla,2,Merry-go-round (playground),1,2.0,6000,-,"playground merry-go-round, rusty",
+S08,P3,School mohalla,2,Seesaw,1,3.0,3000,-,playground seesaw,DONE-Claude (1/1)
+S09,P3,School mohalla,2,Merry-go-round (playground),1,2.0,6000,-,"playground merry-go-round, rusty",DONE-Claude (1/1)
 S10,P2,School mohalla,2,School bag,1,0.4,2000,-,"small kid's school backpack, faded",DONE (1/1)
-S11,P3,School mohalla,2,Globe,1,0.4,3000,-,old desk globe on stand,
+S11,P3,School mohalla,2,Globe,1,0.4,3000,-,old desk globe on stand,DONE-Claude (1/1)
 S12,P2,School mohalla,2,Stack of books,1,0.3,2000,-,stack of old school books,DONE (1/1)
 S13,P2,School mohalla,2,School gate arch,1,5.0,8000,-,iron school entrance gate with brick pillars,DONE (1/1)
-S14,P3,School mohalla,2,Trophy cabinet,1,1.5,6000,-,glass trophy cabinet with dusty cups,
-S15,P3,School mohalla,2,School bell,1,0.3,2000,-,brass hand school bell,
-S16,P3,School mohalla,2,Cafeteria table with tray,1,2.0,5000,-,long cafeteria table with metal trays,
+S14,P3,School mohalla,2,Trophy cabinet,1,1.5,6000,-,glass trophy cabinet with dusty cups,DONE-Claude (1/1)
+S15,P3,School mohalla,2,School bell,1,0.3,2000,-,brass hand school bell,DONE-Claude (1/1)
+S16,P3,School mohalla,2,Cafeteria table with tray,1,2.0,5000,-,long cafeteria table with metal trays,DONE-Claude (1/1)
 H01,P2,Hospital mohalla,2,Hospital bed,1,2.0,8000,-,old metal hospital bed with thin mattress,DONE (1/1)
 H02,P2,Hospital mohalla,2,Wheelchair,1,1.0,8000,-,"old wheelchair, torn seat",DONE (1/1)
 H03,P2,Hospital mohalla,2,IV drip stand,1,1.8,3000,-,IV stand with empty drip bag,DONE (1/1)
 H04,P2,Hospital mohalla,2,Stretcher trolley,1,2.0,6000,-,hospital stretcher on wheels,DONE (1/1)
-H05,P3,Hospital mohalla,2,X-ray light box,1,0.6,2000,-,wall x-ray viewer lightbox with film,
+H05,P3,Hospital mohalla,2,X-ray light box,1,0.6,2000,-,wall x-ray viewer lightbox with film,DONE-Claude (1/1)
 H06,P2,Hospital mohalla,2,Medicine cabinet,1,1.8,6000,-,tall glass-front medicine cabinet with bottles,DONE (1/1)
 H07,P2,Hospital mohalla,2,Reception desk,1,3.0,8000,-,hospital reception counter,DONE (1/1)
 H08,P2,Hospital mohalla,2,Surgical lamp,1,1.5,6000,-,overhead round surgical lamp on arm,DONE (1/1)
 H09,P2,Hospital mohalla,2,Privacy curtain on rail,1,2.0,3000,-,"hospital privacy curtain on ceiling rail, stained",DONE (1/1)
-H10,P3,Hospital mohalla,2,Oxygen cylinder,1,1.2,2000,-,green oxygen cylinder on trolley,
-H11,P3,Hospital mohalla,2,Ambulance (old),1,5.0,25000,-,"old white ambulance van, faded cross",
+H10,P3,Hospital mohalla,2,Oxygen cylinder,1,1.2,2000,-,green oxygen cylinder on trolley,DONE-Claude (1/1)
+H11,P3,Hospital mohalla,2,Ambulance (old),1,5.0,25000,-,"old white ambulance van, faded cross",DONE-Claude (1/1)
 H12,P3,Hospital mohalla,2,Operating table,1,2.0,7000,-,metal operating table with lamp stand,
 H13,P3,Hospital mohalla,2,Skeleton model,1,1.7,8000,-,anatomical skeleton model on stand,
 C01,P2,Carnival / Mela mohalla,2,Ferris wheel,1,20.0,40000,-,"large old ferris wheel with colorful gondolas, rusty, set piece",DONE (1/1)
@@ -129,38 +129,38 @@ C03,P2,Carnival / Mela mohalla,2,Circus tent,1,12.0,15000,-,torn striped circus 
 C04,P2,Carnival / Mela mohalla,2,Giant clown head entrance,1,5.0,20000,-,"giant clown face carnival entrance, open mouth gate, faded paint",DONE (1/1)
 C05,P2,Carnival / Mela mohalla,2,Ticket booth,1,2.5,8000,-,wooden carnival ticket booth with window,DONE (1/1)
 C06,P3,Carnival / Mela mohalla,2,Popcorn cart,1,2.0,7000,-,vintage popcorn cart with glass box,
-C07,P3,Carnival / Mela mohalla,2,Bumper car,1,2.0,7000,-,"old bumper car, faded paint",
-C08,P3,Carnival / Mela mohalla,2,Shooting gallery stall,1,4.0,12000,-,carnival shooting gallery stall with tin targets,
+C07,P3,Carnival / Mela mohalla,2,Bumper car,1,2.0,7000,-,"old bumper car, faded paint",DONE-Claude (1/1)
+C08,P3,Carnival / Mela mohalla,2,Shooting gallery stall,1,4.0,12000,-,carnival shooting gallery stall with tin targets,DONE-Claude (1/1)
 C09,P3,Carnival / Mela mohalla,2,Cotton-candy stall,1,2.0,6000,-,"cotton-candy machine stall, dusty",
-C10,P3,Carnival / Mela mohalla,2,Balloon bunch,1,1.0,3000,-,bunch of deflated faded balloons,
-C11,P3,Carnival / Mela mohalla,2,Mirror maze mirror,1,2.0,4000,-,ornate warped carnival mirror,
-C12,P3,Carnival / Mela mohalla,2,Dunk tank,1,3.0,8000,-,carnival dunk tank with seat,
-C13,P3,Carnival / Mela mohalla,2,Strongman hammer game,1,3.0,8000,-,high-striker strongman hammer game,
+C10,P3,Carnival / Mela mohalla,2,Balloon bunch,1,1.0,3000,-,bunch of deflated faded balloons,DONE-Claude (1/1)
+C11,P3,Carnival / Mela mohalla,2,Mirror maze mirror,1,2.0,4000,-,ornate warped carnival mirror,DONE-Claude (1/1)
+C12,P3,Carnival / Mela mohalla,2,Dunk tank,1,3.0,8000,-,carnival dunk tank with seat,DONE-Claude (1/1)
+C13,P3,Carnival / Mela mohalla,2,Strongman hammer game,1,3.0,8000,-,high-striker strongman hammer game,DONE-Claude (1/1)
 C14,P3,Carnival / Mela mohalla,2,Prize shelf with crates,1,2.0,5000,-,wooden prize shelf with crates and plush toys,
-C15,P3,Carnival / Mela mohalla,2,String-light bunting,1,4.0,2000,-,string of carnival lights with bunting flags,
+C15,P3,Carnival / Mela mohalla,2,String-light bunting,1,4.0,2000,-,string of carnival lights with bunting flags,DONE-Claude (1/1)
 R01,P2,Metro & city streets,2,Metro train carriage,1,18.0,40000,-,"old metro train carriage, dirty windows, doors open, set piece",DONE (1/1)
 R02,P2,Metro & city streets,2,Platform bench,1,2.0,4000,-,metal metro platform bench,DONE (1/1)
 R03,P2,Metro & city streets,2,Ticket gate turnstile,1,1.0,5000,-,metro ticket turnstile gate,DONE (1/1)
-R04,P3,Metro & city streets,2,Escalator,1,10.0,20000,-,stopped metro escalator with handrails,
+R04,P3,Metro & city streets,2,Escalator,1,10.0,20000,-,stopped metro escalator with handrails,DONE-Claude (1/1)
 R05,P2,Metro & city streets,2,Street lamp,1,5.0,4000,-,"old iron street lamp, one bulb",DONE (1/1)
-R06,P3,Metro & city streets,2,Road sign post,1,3.0,1500,-,"metal road sign post, no text",
+R06,P3,Metro & city streets,2,Road sign post,1,3.0,1500,-,"metal road sign post, no text",DONE-Claude (1/1)
 R07,P2,Metro & city streets,2,Abandoned auto-rickshaw,1,3.0,12000,-,"old yellow-green auto rickshaw, flat tyres, dusty",DONE (1/1)
 R08,P2,Metro & city streets,2,Abandoned car,1,4.0,15000,-,"old sedan car abandoned, rusty, windows broken",DONE (1/1)
-R09,P3,Metro & city streets,2,Old city bus,1,10.0,25000,-,"old city bus, faded paint",
-R10,P3,Metro & city streets,2,Kirana shop front,1,5.0,12000,-,small corner shop front with shutter half open,
-R11,P3,Metro & city streets,2,Billboard,1,6.0,4000,-,"large roadside billboard frame, torn poster",
-R12,P3,Metro & city streets,2,Bus stop shelter,1,3.0,5000,-,bus stop shelter with bench,
-R13,P3,Metro & city streets,2,Fire hydrant,1,0.8,2000,-,red fire hydrant,
+R09,P3,Metro & city streets,2,Old city bus,1,10.0,25000,-,"old city bus, faded paint",DONE-Claude (1/1)
+R10,P3,Metro & city streets,2,Kirana shop front,1,5.0,12000,-,small corner shop front with shutter half open,DONE-Claude (1/1)
+R11,P3,Metro & city streets,2,Billboard,1,6.0,4000,-,"large roadside billboard frame, torn poster",DONE-Claude (1/1)
+R12,P3,Metro & city streets,2,Bus stop shelter,1,3.0,5000,-,bus stop shelter with bench,DONE-Claude (1/1)
+R13,P3,Metro & city streets,2,Fire hydrant,1,0.8,2000,-,red fire hydrant,DONE-Claude (1/1)
 R14,P3,Metro & city streets,2,Street dustbin,1,0.8,2000,-,"metal street dustbin, dented",
-R15,P3,Metro & city streets,2,Park bench,1,1.8,3000,-,"wooden park bench, peeling paint",
+R15,P3,Metro & city streets,2,Park bench,1,1.8,3000,-,"wooden park bench, peeling paint",DONE-Claude (1/1)
 R16,P2,Metro & city streets,2,Apartment block facade,3,30.0,20000,-,"3 variants low-detail 8-storey apartment block, dark windows, background building",DONE (3/3)
-R17,P3,Metro & city streets,2,Shop-front modules,4,5.0,8000,-,4 variants shop fronts with shutters,
-R18,P3,Metro & city streets,2,Rooftop water tank,1,2.0,4000,-,rooftop plastic water tank on stand,
-R19,P3,Metro & city streets,2,Electric pole with wires,1,8.0,4000,-,concrete electric pole with hanging wires,
+R17,P3,Metro & city streets,2,Shop-front modules,4,5.0,8000,-,4 variants shop fronts with shutters,DONE-Claude (4/4)
+R18,P3,Metro & city streets,2,Rooftop water tank,1,2.0,4000,-,rooftop plastic water tank on stand,DONE-Claude (1/1)
+R19,P3,Metro & city streets,2,Electric pole with wires,1,8.0,4000,-,concrete electric pole with hanging wires,DONE-Claude (1/1)
 R20,P3,Metro & city streets,2,Transformer box,1,1.5,3000,-,street transformer box with warning sign,
 R21,P2,Metro & city streets,2,Dead tree,3,6.0,6000,-,"3 variants bare dead trees, twisted",DONE (3/3)
 R22,P2,Metro & city streets,2,Iron fence section,1,3.0,2000,-,"iron picket fence section, rusty",DONE (1/1)
-R23,P3,Metro & city streets,2,Manhole cover,1,0.8,1000,-,round iron manhole cover,
+R23,P3,Metro & city streets,2,Manhole cover,1,0.8,1000,-,round iron manhole cover,DONE-Claude (1/1)
 R24,P3,Metro & city streets,2,Newspaper stand,1,1.5,4000,-,street newspaper stand with faded papers,
 R25,P3,Metro & city streets,2,Wooden handcart (thela),1,2.0,5000,-,wooden hand cart with two wheels,
 R26,P3,Metro & city streets,2,Overgrown weeds,1,1.0,2000,-,clump of tall weeds,
