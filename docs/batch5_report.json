@@ -1,0 +1,1034 @@
+{
+ "B01_double_bed_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1204,
+  "tris_after": 1204,
+  "dims_before": [
+   2.06,
+   1.68,
+   1.1
+  ],
+  "dims_after": [
+   2.0,
+   1.63,
+   1.07
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Double bed",
+  "size_mb": 1.05
+ },
+ "B01_double_bed_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1204,
+  "tris_after": 1204,
+  "dims_before": [
+   2.06,
+   1.68,
+   1.1
+  ],
+  "dims_after": [
+   2.0,
+   1.63,
+   1.07
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Double bed",
+  "size_mb": 1.05
+ },
+ "B02_single_bed_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1000,
+  "tris_after": 1000,
+  "dims_before": [
+   2.04,
+   1.05,
+   1.02
+  ],
+  "dims_after": [
+   1.9,
+   0.98,
+   0.95
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.9",
+  "name": "Single bed",
+  "size_mb": 0.63
+ },
+ "B02_single_bed_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 980,
+  "tris_after": 980,
+  "dims_before": [
+   2.06,
+   1.05,
+   1.1
+  ],
+  "dims_after": [
+   1.9,
+   0.97,
+   1.01
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.9",
+  "name": "Single bed",
+  "size_mb": 1.04
+ },
+ "B03_bunk_bed.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1852,
+  "tris_after": 1852,
+  "dims_before": [
+   2.07,
+   1.02,
+   1.9
+  ],
+  "dims_after": [
+   2.0,
+   0.99,
+   1.84
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "2.0",
+  "name": "Bunk bed",
+  "size_mb": 1.19
+ },
+ "B04_wooden_wardrobe_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1620,
+  "tris_after": 1620,
+  "dims_before": [
+   1.15,
+   1.07,
+   2.09
+  ],
+  "dims_after": [
+   1.1,
+   1.02,
+   2.0
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Wooden wardrobe",
+  "size_mb": 1.45
+ },
+ "B04_wooden_wardrobe_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1620,
+  "tris_after": 1620,
+  "dims_before": [
+   1.15,
+   0.66,
+   2.09
+  ],
+  "dims_after": [
+   1.1,
+   0.63,
+   2.0
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Wooden wardrobe",
+  "size_mb": 1.45
+ },
+ "B05_dressing_table_mirror.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3388,
+  "tris_after": 3388,
+  "dims_before": [
+   1.01,
+   0.48,
+   1.57
+  ],
+  "dims_after": [
+   0.9,
+   0.43,
+   1.4
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.4",
+  "name": "Dressing table with mirror",
+  "size_mb": 1.46
+ },
+ "B06_nightstand_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1504,
+  "tris_after": 1504,
+  "dims_before": [
+   0.45,
+   0.43,
+   0.93
+  ],
+  "dims_after": [
+   0.24,
+   0.23,
+   0.5
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.5",
+  "name": "Nightstand",
+  "size_mb": 0.98
+ },
+ "B06_nightstand_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1612,
+  "tris_after": 1612,
+  "dims_before": [
+   0.45,
+   0.43,
+   0.93
+  ],
+  "dims_after": [
+   0.24,
+   0.23,
+   0.5
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.5",
+  "name": "Nightstand",
+  "size_mb": 1.15
+ },
+ "B07_baby_crib.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 7836,
+  "tris_after": 5000,
+  "dims_before": [
+   1.15,
+   0.65,
+   1.41
+  ],
+  "dims_after": [
+   0.82,
+   0.46,
+   1.0
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.0",
+  "name": "Baby crib",
+  "size_mb": 1.7
+ },
+ "B08_toy_chest_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1488,
+  "tris_after": 1488,
+  "dims_before": [
+   1.04,
+   0.77,
+   0.84
+  ],
+  "dims_after": [
+   0.8,
+   0.6,
+   0.65
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.8",
+  "name": "Toy chest",
+  "size_mb": 1.38
+ },
+ "B08_toy_chest_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1464,
+  "tris_after": 1464,
+  "dims_before": [
+   1.04,
+   0.77,
+   0.84
+  ],
+  "dims_after": [
+   0.8,
+   0.6,
+   0.65
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.8",
+  "name": "Toy chest",
+  "size_mb": 1.28
+ },
+ "K01_gas_stove.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2744,
+  "tris_after": 2744,
+  "dims_before": [
+   1.2,
+   0.5,
+   1.07
+  ],
+  "dims_after": [
+   0.7,
+   0.29,
+   0.62
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.7",
+  "name": "Gas stove",
+  "size_mb": 1.46
+ },
+ "K02_old_refrigerator.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1160,
+  "tris_after": 1160,
+  "dims_before": [
+   0.7,
+   1.1,
+   1.73
+  ],
+  "dims_after": [
+   0.69,
+   1.08,
+   1.7
+  ],
+  "materials": 6,
+  "textures": 11,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.7",
+  "name": "Old refrigerator",
+  "size_mb": 1.33
+ },
+ "K03_kitchen_sink_counter.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2320,
+  "tris_after": 2320,
+  "dims_before": [
+   1.65,
+   0.65,
+   1.16
+  ],
+  "dims_after": [
+   1.6,
+   0.63,
+   1.13
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.6",
+  "name": "Kitchen sink with counter",
+  "size_mb": 1.15
+ },
+ "K04_utensil_shelf.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 6476,
+  "tris_after": 4000,
+  "dims_before": [
+   1.22,
+   0.29,
+   1.13
+  ],
+  "dims_after": [
+   1.2,
+   0.29,
+   1.11
+  ],
+  "materials": 1,
+  "textures": 2,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.2",
+  "name": "Utensil shelf",
+  "size_mb": 0.56
+ },
+ "O01_boardroom_table.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 6652,
+  "tris_after": 6000,
+  "dims_before": [
+   4.0,
+   2.56,
+   1.12
+  ],
+  "dims_after": [
+   4.0,
+   2.56,
+   1.12
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "4.0",
+  "name": "Boardroom table",
+  "size_mb": 1.46
+ },
+ "O02_whiteboard.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1372,
+  "tris_after": 1372,
+  "dims_before": [
+   1.55,
+   0.62,
+   1.82
+  ],
+  "dims_after": [
+   1.28,
+   0.52,
+   1.5
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "1.5",
+  "name": "Whiteboard",
+  "size_mb": 1.08
+ },
+ "O03_wall_safe.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1988,
+  "tris_after": 1988,
+  "dims_before": [
+   0.64,
+   0.91,
+   0.6
+  ],
+  "dims_after": [
+   0.42,
+   0.6,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3500,
+  "target": "0.6",
+  "name": "Wall safe",
+  "size_mb": 0.86
+ },
+ "O04_big_floor_safe.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2008,
+  "tris_after": 2008,
+  "dims_before": [
+   0.8,
+   0.84,
+   1.06
+  ],
+  "dims_after": [
+   0.75,
+   0.79,
+   1.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.0",
+  "name": "Big floor safe",
+  "size_mb": 0.84
+ },
+ "O05_founder_portrait.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1060,
+  "tris_after": 1060,
+  "dims_before": [
+   0.8,
+   0.11,
+   1.0
+  ],
+  "dims_after": [
+   0.8,
+   0.11,
+   1.0
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.0",
+  "name": "Founder portrait painting",
+  "size_mb": 1.47
+ },
+ "Q01_cinema_seat_row_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2104,
+  "tris_after": 2104,
+  "dims_before": [
+   2.28,
+   0.72,
+   1.1
+  ],
+  "dims_after": [
+   2.5,
+   0.79,
+   1.21
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.5",
+  "name": "Cinema seat row",
+  "size_mb": 1.06
+ },
+ "Q01_cinema_seat_row_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2104,
+  "tris_after": 2104,
+  "dims_before": [
+   2.28,
+   0.72,
+   1.1
+  ],
+  "dims_after": [
+   2.5,
+   0.79,
+   1.21
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.5",
+  "name": "Cinema seat row",
+  "size_mb": 1.06
+ },
+ "Q02_cinema_screen.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 708,
+  "tris_after": 708,
+  "dims_before": [
+   8.0,
+   1.5,
+   4.85
+  ],
+  "dims_after": [
+   8.0,
+   1.5,
+   4.85
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "8.0",
+  "name": "Cinema screen",
+  "size_mb": 0.76
+ },
+ "Q03_film_projector.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2276,
+  "tris_after": 2276,
+  "dims_before": [
+   0.78,
+   0.56,
+   1.81
+  ],
+  "dims_after": [
+   0.34,
+   0.25,
+   0.8
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "0.8",
+  "name": "Film projector",
+  "size_mb": 1.01
+ },
+ "Q04_film_reel_cans_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2012,
+  "tris_after": 1500,
+  "dims_before": [
+   0.72,
+   0.38,
+   0.36
+  ],
+  "dims_after": [
+   0.4,
+   0.21,
+   0.2
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Film reel cans",
+  "size_mb": 0.59
+ },
+ "Q04_film_reel_cans_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2236,
+  "tris_after": 1500,
+  "dims_before": [
+   0.4,
+   0.39,
+   0.17
+  ],
+  "dims_after": [
+   0.4,
+   0.4,
+   0.17
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Film reel cans",
+  "size_mb": 0.58
+ },
+ "Q04_film_reel_cans_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3124,
+  "tris_after": 1500,
+  "dims_before": [
+   0.73,
+   0.39,
+   0.36
+  ],
+  "dims_after": [
+   0.4,
+   0.21,
+   0.2
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.4",
+  "name": "Film reel cans",
+  "size_mb": 0.58
+ },
+ "Q05_stage_curtain.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3512,
+  "tris_after": 3512,
+  "dims_before": [
+   6.2,
+   0.19,
+   5.11
+  ],
+  "dims_after": [
+   6.0,
+   0.19,
+   4.94
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "6.0",
+  "name": "Cinema stage curtain",
+  "size_mb": 0.76
+ },
+ "Q06_theatre_stage_footlights.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3816,
+  "tris_after": 3816,
+  "dims_before": [
+   8.0,
+   5.3,
+   1.15
+  ],
+  "dims_after": [
+   8.0,
+   5.3,
+   1.15
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "8.0",
+  "name": "Theatre stage with footlights",
+  "size_mb": 1.32
+ },
+ "Q07_ticket_counter.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 888,
+  "tris_after": 888,
+  "dims_before": [
+   2.1,
+   0.7,
+   2.15
+  ],
+  "dims_after": [
+   1.95,
+   0.65,
+   2.0
+  ],
+  "materials": 5,
+  "textures": 9,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "2.0",
+  "name": "Ticket counter",
+  "size_mb": 1.13
+ },
+ "W01_sweet_shop_counter.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2124,
+  "tris_after": 2124,
+  "dims_before": [
+   3.03,
+   0.85,
+   1.25
+  ],
+  "dims_after": [
+   3.0,
+   0.84,
+   1.24
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "3.0",
+  "name": "Sweet shop counter",
+  "size_mb": 1.41
+ },
+ "W02_sweet_jars_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.31
+  ],
+  "dims_after": [
+   0.19,
+   0.19,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.69
+ },
+ "W02_sweet_jars_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.31
+  ],
+  "dims_after": [
+   0.19,
+   0.19,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.64
+ },
+ "W02_sweet_jars_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.2,
+   0.2,
+   0.34
+  ],
+  "dims_after": [
+   0.17,
+   0.17,
+   0.3
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.3",
+  "name": "Sweet jars",
+  "size_mb": 0.67
+ },
+ "W03_toy_shop_shelf_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 8696,
+  "tris_after": 5000,
+  "dims_before": [
+   2.03,
+   0.41,
+   2.14
+  ],
+  "dims_after": [
+   1.9,
+   0.38,
+   2.0
+  ],
+  "materials": 9,
+  "textures": 18,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "2.0",
+  "name": "Toy shop shelf",
+  "size_mb": 2.67
+ },
+ "W03_toy_shop_shelf_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 8016,
+  "tris_after": 5000,
+  "dims_before": [
+   2.03,
+   0.41,
+   2.14
+  ],
+  "dims_after": [
+   1.9,
+   0.38,
+   2.0
+  ],
+  "materials": 9,
+  "textures": 18,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "2.0",
+  "name": "Toy shop shelf",
+  "size_mb": 2.68
+ },
+ "W04_cloth_rolls_rack.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2472,
+  "tris_after": 2472,
+  "dims_before": [
+   1.2,
+   0.51,
+   1.03
+  ],
+  "dims_after": [
+   1.2,
+   0.51,
+   1.03
+  ],
+  "materials": 8,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.2",
+  "name": "Cloth rolls rack",
+  "size_mb": 1.75
+ },
+ "W05_barber_chair.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1280,
+  "tris_after": 1280,
+  "dims_before": [
+   0.81,
+   1.0,
+   1.46
+  ],
+  "dims_after": [
+   0.56,
+   0.69,
+   1.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.0",
+  "name": "Barber chair",
+  "size_mb": 0.57
+ },
+ "W06_barber_mirror_station.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1232,
+  "tris_after": 1232,
+  "dims_before": [
+   1.25,
+   0.45,
+   1.9
+  ],
+  "dims_after": [
+   1.18,
+   0.43,
+   1.8
+  ],
+  "materials": 8,
+  "textures": 16,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.8",
+  "name": "Barber mirror station",
+  "size_mb": 1.88
+ },
+ "W07_chai_stall.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3968,
+  "tris_after": 3968,
+  "dims_before": [
+   2.2,
+   1.19,
+   2.37
+  ],
+  "dims_after": [
+   2.32,
+   1.26,
+   2.5
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 7000,
+  "target": "2.5",
+  "name": "Chai stall",
+  "size_mb": 1.98
+ },
+ "W08_chai_glasses_tray.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2312,
+  "tris_after": 1200,
+  "dims_before": [
+   0.31,
+   0.21,
+   0.15
+  ],
+  "dims_after": [
+   0.3,
+   0.2,
+   0.15
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1200,
+  "target": "0.3",
+  "name": "Chai glasses tray",
+  "size_mb": 0.77
+ }
+}

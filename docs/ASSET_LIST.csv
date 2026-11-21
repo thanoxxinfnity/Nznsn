@@ -211,14 +211,14 @@ L31,P3,Ghar: living room & furniture,Housing colony,Gramophone,1,0.6,5000,-,"old
 L32,P3,Ghar: living room & furniture,Housing colony,Hand fan,1,0.4,1000,-,palm-leaf hand fan,
 L33,P3,Ghar: living room & furniture,Housing colony,Empty birdcage,1,0.5,2500,-,"empty hanging birdcage, door open",
 L34,P3,Ghar: living room & furniture,Housing colony,Wall calendar,1,0.4,800,-,"old paper wall calendar, no readable text",
-B01,P2,Ghar: bedroom & bathroom,Housing colony,Double bed,2,2.0,6000,-,old wooden double bed with rumpled sheets,
-B02,P2,Ghar: bedroom & bathroom,Housing colony,Single bed,2,1.9,5000,-,metal-frame single bed with thin mattress,
-B03,P2,Ghar: bedroom & bathroom,Housing colony,Bunk bed,1,2.0,7000,-,wooden kids bunk bed with ladder,
-B04,P2,Ghar: bedroom & bathroom,Housing colony,Wooden wardrobe,2,2.0,6000,-,tall wooden wardrobe with mirror door ajar,
-B05,P2,Ghar: bedroom & bathroom,Housing colony,Dressing table with mirror,1,1.4,5000,-,vintage dressing table with oval mirror and perfume bottles,
-B06,P2,Ghar: bedroom & bathroom,Housing colony,Nightstand,2,0.5,2500,-,bedside table with lamp and glass of water,
-B07,P2,Ghar: bedroom & bathroom,Housing colony,Baby crib,1,1.0,5000,-,"wooden baby crib, mobile hanging, empty",
-B08,P2,Ghar: bedroom & bathroom,Housing colony,Toy chest,2,0.8,3500,-,"wooden toy chest with open lid, toys spilling",
+B01,P2,Ghar: bedroom & bathroom,Housing colony,Double bed,2,2.0,6000,-,old wooden double bed with rumpled sheets,DONE (2/2)
+B02,P2,Ghar: bedroom & bathroom,Housing colony,Single bed,2,1.9,5000,-,metal-frame single bed with thin mattress,DONE (2/2)
+B03,P2,Ghar: bedroom & bathroom,Housing colony,Bunk bed,1,2.0,7000,-,wooden kids bunk bed with ladder,DONE (1/1)
+B04,P2,Ghar: bedroom & bathroom,Housing colony,Wooden wardrobe,2,2.0,6000,-,tall wooden wardrobe with mirror door ajar,DONE (2/2)
+B05,P2,Ghar: bedroom & bathroom,Housing colony,Dressing table with mirror,1,1.4,5000,-,vintage dressing table with oval mirror and perfume bottles,DONE (1/1)
+B06,P2,Ghar: bedroom & bathroom,Housing colony,Nightstand,2,0.5,2500,-,bedside table with lamp and glass of water,DONE (2/2)
+B07,P2,Ghar: bedroom & bathroom,Housing colony,Baby crib,1,1.0,5000,-,"wooden baby crib, mobile hanging, empty",DONE (1/1)
+B08,P2,Ghar: bedroom & bathroom,Housing colony,Toy chest,2,0.8,3500,-,"wooden toy chest with open lid, toys spilling",DONE (2/2)
 B09,P3,Ghar: bedroom & bathroom,Housing colony,Pillow and blanket pile,3,0.6,1500,-,3 variants rumpled pillow and blanket,
 B10,P3,Ghar: bedroom & bathroom,Housing colony,Kids study desk,1,1.0,3500,-,small kid's wooden study desk with drawings,
 B11,P3,Ghar: bedroom & bathroom,Housing colony,Kids wardrobe,1,1.4,4000,-,painted kids wardrobe with animal stickers peeling,
@@ -239,10 +239,10 @@ B25,P3,Ghar: bedroom & bathroom,Housing colony,Laundry basket,1,0.6,2000,-,woven
 B26,P4,Ghar: bedroom & bathroom,Housing colony,Small rocking horse,1,0.6,4000,-,small painted rocking horse,
 B27,P4,Ghar: bedroom & bathroom,Housing colony,Teddy on pillow,1,0.4,3000,-,teddy bear sitting on pillow,
 B28,P4,Ghar: bedroom & bathroom,Housing colony,Star night lamp,1,0.25,1500,-,child's star-shaped night lamp,
-K01,P2,Ghar: kitchen & dining,Housing colony,Gas stove,1,0.7,3500,-,old two-burner gas stove with cylinder,
-K02,P2,Ghar: kitchen & dining,Housing colony,Old refrigerator,1,1.7,6000,-,"1980s rounded fridge, rusty, door ajar",
-K03,P2,Ghar: kitchen & dining,Housing colony,Kitchen sink with counter,1,1.6,5000,-,steel kitchen sink with counter and taps,
-K04,P2,Ghar: kitchen & dining,Housing colony,Utensil shelf,1,1.2,4000,-,wall rack with steel utensils,
+K01,P2,Ghar: kitchen & dining,Housing colony,Gas stove,1,0.7,3500,-,old two-burner gas stove with cylinder,DONE (1/1)
+K02,P2,Ghar: kitchen & dining,Housing colony,Old refrigerator,1,1.7,6000,-,"1980s rounded fridge, rusty, door ajar",DONE (1/1)
+K03,P2,Ghar: kitchen & dining,Housing colony,Kitchen sink with counter,1,1.6,5000,-,steel kitchen sink with counter and taps,DONE (1/1)
+K04,P2,Ghar: kitchen & dining,Housing colony,Utensil shelf,1,1.2,4000,-,wall rack with steel utensils,DONE (1/1)
 K05,P3,Ghar: kitchen & dining,Housing colony,Pressure cooker,1,0.3,2000,-,"aluminium pressure cooker, dented",
 K06,P3,Ghar: kitchen & dining,Housing colony,Kadhai wok,1,0.4,1500,-,iron kadhai on stand,
 K07,P3,Ghar: kitchen & dining,Housing colony,Tiffin box,1,0.2,1500,-,stacked steel tiffin carrier,
@@ -267,11 +267,11 @@ K25,P4,Ghar: kitchen & dining,Housing colony,Teapot and cups,1,0.3,2000,-,cerami
 K26,P4,Ghar: kitchen & dining,Housing colony,Bread basket,1,0.3,1500,-,woven basket with stale bread,
 K27,P4,Ghar: kitchen & dining,Housing colony,Rotten fruit bowl,1,0.3,2000,-,bowl of rotten fruit,
 K28,P4,Ghar: kitchen & dining,Housing colony,Baby high chair,1,0.9,3000,-,wooden baby high chair,
-O01,P2,"Civic: office, bank, police, fire station",Civic area,Boardroom table,1,4.0,6000,-,long boardroom table with leather chairs,
-O02,P2,"Civic: office, bank, police, fire station",Civic area,Whiteboard,1,1.5,1500,-,"wheeled whiteboard with faded scribbles, no readable text",
-O03,P2,"Civic: office, bank, police, fire station",Civic area,Wall safe,1,0.6,3500,-,"steel wall safe, door open, empty",
-O04,P2,"Civic: office, bank, police, fire station",Civic area,Big floor safe,1,1.0,5000,-,big steel floor safe with dial,
-O05,P2,"Civic: office, bank, police, fire station",Civic area,Founder portrait painting,1,1.0,3000,-,"large framed painting of an old man, eyes unsettling",
+O01,P2,"Civic: office, bank, police, fire station",Civic area,Boardroom table,1,4.0,6000,-,long boardroom table with leather chairs,DONE (1/1)
+O02,P2,"Civic: office, bank, police, fire station",Civic area,Whiteboard,1,1.5,1500,-,"wheeled whiteboard with faded scribbles, no readable text",DONE (1/1)
+O03,P2,"Civic: office, bank, police, fire station",Civic area,Wall safe,1,0.6,3500,-,"steel wall safe, door open, empty",DONE (1/1)
+O04,P2,"Civic: office, bank, police, fire station",Civic area,Big floor safe,1,1.0,5000,-,big steel floor safe with dial,DONE (1/1)
+O05,P2,"Civic: office, bank, police, fire station",Civic area,Founder portrait painting,1,1.0,3000,-,"large framed painting of an old man, eyes unsettling",DONE (1/1)
 O06,P3,"Civic: office, bank, police, fire station",Civic area,Typewriter,1,0.4,3500,-,old manual typewriter,
 O07,P3,"Civic: office, bank, police, fire station",Civic area,Intercom speaker,1,0.3,1500,-,wall intercom box with buttons,
 O08,P3,"Civic: office, bank, police, fire station",Civic area,Desk calendar,1,0.2,800,-,desk calendar block,
@@ -307,13 +307,13 @@ O37,P4,"Civic: office, bank, police, fire station",Civic area,Clock tower mechan
 O38,P4,"Civic: office, bank, police, fire station",Civic area,Staff lockers,1,2.0,6000,-,staff lockers with open doors,
 O39,P4,"Civic: office, bank, police, fire station",Civic area,Break-room table,1,1.2,3000,-,break room table with mugs,
 O40,P4,"Civic: office, bank, police, fire station",Civic area,Old coffee machine,1,0.5,3500,-,old drip coffee machine,
-Q01,P2,"Cinema, library, community hall",Entertainment street,Cinema seat row,2,2.5,6000,-,"row of 4 old red cinema seats, torn, folding",
-Q02,P2,"Cinema, library, community hall",Entertainment street,Cinema screen,1,8.0,4000,-,large cinema screen with torn edge on stage,
-Q03,P2,"Cinema, library, community hall",Entertainment street,Film projector,1,0.8,7000,-,"old 35mm film projector on stand, reels",
-Q04,P2,"Cinema, library, community hall",Entertainment street,Film reel cans,3,0.4,1500,-,3 variants stacked film reel cans,
-Q05,P2,"Cinema, library, community hall",Entertainment street,Cinema stage curtain,1,6.0,5000,-,"heavy red stage curtain, half open, tattered",
-Q06,P2,"Cinema, library, community hall",Entertainment street,Theatre stage with footlights,1,8.0,8000,-,wooden theatre stage with footlights,
-Q07,P2,"Cinema, library, community hall",Entertainment street,Ticket counter,1,2.0,5000,-,cinema ticket counter with brass grille,
+Q01,P2,"Cinema, library, community hall",Entertainment street,Cinema seat row,2,2.5,6000,-,"row of 4 old red cinema seats, torn, folding",DONE (2/2)
+Q02,P2,"Cinema, library, community hall",Entertainment street,Cinema screen,1,8.0,4000,-,large cinema screen with torn edge on stage,DONE (1/1)
+Q03,P2,"Cinema, library, community hall",Entertainment street,Film projector,1,0.8,7000,-,"old 35mm film projector on stand, reels",DONE (1/1)
+Q04,P2,"Cinema, library, community hall",Entertainment street,Film reel cans,3,0.4,1500,-,3 variants stacked film reel cans,DONE (3/3)
+Q05,P2,"Cinema, library, community hall",Entertainment street,Cinema stage curtain,1,6.0,5000,-,"heavy red stage curtain, half open, tattered",DONE (1/1)
+Q06,P2,"Cinema, library, community hall",Entertainment street,Theatre stage with footlights,1,8.0,8000,-,wooden theatre stage with footlights,DONE (1/1)
+Q07,P2,"Cinema, library, community hall",Entertainment street,Ticket counter,1,2.0,5000,-,cinema ticket counter with brass grille,DONE (1/1)
 Q08,P3,"Cinema, library, community hall",Entertainment street,Popcorn machine,1,1.7,7000,-,"old popcorn machine, glass cracked",
 Q09,P3,"Cinema, library, community hall",Entertainment street,Cinema poster frame,3,1.0,1200,-,"3 variants film poster frames, no readable text, creepy toy-themed art",
 Q10,P3,"Cinema, library, community hall",Entertainment street,Spotlight on stand,1,1.5,3500,-,theatre spotlight on stand,
@@ -341,14 +341,14 @@ Q31,P4,"Cinema, library, community hall",Entertainment street,Torn tapestry,1,2.
 Q32,P4,"Cinema, library, community hall",Entertainment street,Armor stand,1,1.8,6000,-,decorative armor stand,
 Q33,P4,"Cinema, library, community hall",Entertainment street,Theatre masks,3,0.3,1500,-,3 variants theatrical masks hanging,
 Q34,P4,"Cinema, library, community hall",Entertainment street,Magician cabinet,1,0.8,4000,-,magician's cabinet box with sword slots,
-W01,P2,Bazaar: shops & market stalls,Bazaar,Sweet shop counter,1,3.0,6000,-,"sweet shop counter with glass display, empty trays",
-W02,P2,Bazaar: shops & market stalls,Bazaar,Sweet jars,3,0.3,1500,-,3 variants big glass jars with dried sweets,
-W03,P2,Bazaar: shops & market stalls,Bazaar,Toy shop shelf,2,2.0,5000,-,2 variants shop shelf packed with toys,
-W04,P2,Bazaar: shops & market stalls,Bazaar,Cloth rolls rack,1,1.2,3000,-,rolls of cloth on a counter rack,
-W05,P2,Bazaar: shops & market stalls,Bazaar,Barber chair,1,1.0,6000,-,old red barber chair with footrest,
-W06,P2,Bazaar: shops & market stalls,Bazaar,Barber mirror station,1,1.8,4000,-,barber station mirror with combs,
-W07,P2,Bazaar: shops & market stalls,Bazaar,Chai stall,1,2.5,7000,-,roadside chai stall with kettle and glasses,
-W08,P2,Bazaar: shops & market stalls,Bazaar,Chai glasses tray,1,0.3,1200,-,tray of small chai glasses,
+W01,P2,Bazaar: shops & market stalls,Bazaar,Sweet shop counter,1,3.0,6000,-,"sweet shop counter with glass display, empty trays",DONE (1/1)
+W02,P2,Bazaar: shops & market stalls,Bazaar,Sweet jars,3,0.3,1500,-,3 variants big glass jars with dried sweets,DONE (3/3)
+W03,P2,Bazaar: shops & market stalls,Bazaar,Toy shop shelf,2,2.0,5000,-,2 variants shop shelf packed with toys,DONE (2/2)
+W04,P2,Bazaar: shops & market stalls,Bazaar,Cloth rolls rack,1,1.2,3000,-,rolls of cloth on a counter rack,DONE (1/1)
+W05,P2,Bazaar: shops & market stalls,Bazaar,Barber chair,1,1.0,6000,-,old red barber chair with footrest,DONE (1/1)
+W06,P2,Bazaar: shops & market stalls,Bazaar,Barber mirror station,1,1.8,4000,-,barber station mirror with combs,DONE (1/1)
+W07,P2,Bazaar: shops & market stalls,Bazaar,Chai stall,1,2.5,7000,-,roadside chai stall with kettle and glasses,DONE (1/1)
+W08,P2,Bazaar: shops & market stalls,Bazaar,Chai glasses tray,1,0.3,1200,-,tray of small chai glasses,DONE (1/1)
 W09,P3,Bazaar: shops & market stalls,Bazaar,Fruit cart,1,2.0,5000,-,wooden fruit cart with rotten fruit,
 W10,P3,Bazaar: shops & market stalls,Bazaar,Paan kiosk,1,1.8,5000,-,small paan kiosk with jars,
 W11,P3,Bazaar: shops & market stalls,Bazaar,Bakery rack,1,1.5,4000,-,bakery rack with stale bread,
