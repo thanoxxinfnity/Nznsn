@@ -547,8 +547,8 @@ V07,P3,Vehicles,City,Go-kart,1,1.5,6000,-,go-kart,DONE-Claude (1/1)
 V08,P3,Vehicles,City,Old city tram,1,12.0,30000,-,old city tram,DONE-Claude (1/1)
 V09,P3,Vehicles,City,Cycle rickshaw,1,2.5,8000,-,cycle rickshaw,DONE-Claude (1/1)
 V10,P3,Vehicles,City,Old motorcycle,1,2.0,10000,-,old motorcycle,DONE-Claude (1/1)
-V11,P3,Vehicles,City,Old school van,1,5.0,15000,-,old school van,
-V12,P3,Vehicles,City,Garbage truck,1,7.0,20000,-,old garbage truck,
+V11,P3,Vehicles,City,Old school van,1,5.0,15000,-,old school van,DONE-Claude (1/1)
+V12,P3,Vehicles,City,Garbage truck,1,7.0,20000,-,old garbage truck,DONE-Claude (1/1)
 V13,P3,Vehicles,City,Food truck,1,5.0,18000,-,old food truck,
 V14,P4,Vehicles,City,Hot-air balloon basket,1,3.0,8000,-,hot-air balloon basket with deflated balloon,
 V15,P4,Vehicles,City,Carnival train,1,6.0,14000,-,small carnival train,
@@ -573,56 +573,56 @@ Z17,P3,Extra monsters & figures,Per mohalla,Toy rats,2,0.4,8000,RIG,"2 variants 
 Z18,P3,Extra monsters & figures,Per mohalla,Chorus dolls (singing),3,0.9,15000,RIG,"3 variants small dolls that sing in choir, full body",
 Z19,P4,Extra monsters & figures,Per mohalla,Giant puppet-string hands,1,3.0,10000,RIG,giant pair of hands holding strings from ceiling,
 Z20,P4,Extra monsters & figures,Per mohalla,Shadow puppet,1,1.8,10000,RIG,flat dark puppet silhouette cut-out figure,
-SE01,P3,School extras,School mohalla,Chalk and duster,1,0.2,600,-,chalk box and duster,
-SE02,P3,School extras,School mohalla,Ruler and geometry box,1,0.3,700,-,wooden ruler and geometry box,
-SE03,P3,School extras,School mohalla,Cricket bat and ball,1,0.9,2000,-,old cricket bat and ball,
-SE04,P3,School extras,School mohalla,Deflated football,1,0.3,1500,-,deflated football,
+SE01,P3,School extras,School mohalla,Chalk and duster,1,0.2,600,-,chalk box and duster,DONE-Claude (1/1)
+SE02,P3,School extras,School mohalla,Ruler and geometry box,1,0.3,700,-,wooden ruler and geometry box,DONE-Claude (1/1)
+SE03,P3,School extras,School mohalla,Cricket bat and ball,1,0.9,2000,-,old cricket bat and ball,DONE-Claude (1/1)
+SE04,P3,School extras,School mohalla,Deflated football,1,0.3,1500,-,deflated football,DONE-Claude (1/1)
 SE05,P3,School extras,School mohalla,Skipping rope,1,1.5,800,-,skipping rope,
-SE06,P3,School extras,School mohalla,School flag pole,1,5.0,2000,-,"school flag pole, tattered flag no emblem",
-SE07,P3,School extras,School mohalla,Dormitory bed,1,2.0,5000,-,school dormitory bed,
-SE08,P3,School extras,School mohalla,Assembly stage,1,5.0,5000,-,school assembly stage platform,
-SE09,P3,School extras,School mohalla,Water tap row,1,1.0,3000,-,school water tap row,
-SE10,P3,School extras,School mohalla,Kids lunch boxes,3,0.2,1000,-,3 variants kids lunch boxes,
-SE11,P3,School extras,School mohalla,Slate board,1,0.3,800,-,kid's slate,
-SE12,P3,School extras,School mohalla,Abacus,1,0.3,2000,-,wooden abacus,
+SE06,P3,School extras,School mohalla,School flag pole,1,5.0,2000,-,"school flag pole, tattered flag no emblem",DONE-Claude (1/1)
+SE07,P3,School extras,School mohalla,Dormitory bed,1,2.0,5000,-,school dormitory bed,DONE-Claude (1/1)
+SE08,P3,School extras,School mohalla,Assembly stage,1,5.0,5000,-,school assembly stage platform,DONE-Claude (1/1)
+SE09,P3,School extras,School mohalla,Water tap row,1,1.0,3000,-,school water tap row,DONE-Claude (1/1)
+SE10,P3,School extras,School mohalla,Kids lunch boxes,3,0.2,1000,-,3 variants kids lunch boxes,DONE-Claude (3/3)
+SE11,P3,School extras,School mohalla,Slate board,1,0.3,800,-,kid's slate,DONE-Claude (1/1)
+SE12,P3,School extras,School mohalla,Abacus,1,0.3,2000,-,wooden abacus,DONE-Claude (1/1)
 SE13,P3,School extras,School mohalla,Classroom skeleton,1,1.7,6000,-,classroom skeleton,
-SE14,P3,School extras,School mohalla,Rolling blackboard,1,1.5,2500,-,rolling blackboard,
+SE14,P3,School extras,School mohalla,Rolling blackboard,1,1.5,2500,-,rolling blackboard,DONE-Claude (1/1)
 SE15,P4,School extras,School mohalla,Kids paintings,3,1.0,800,-,3 variants kids paintings,
 SE16,P4,School extras,School mohalla,Small kids desk set,1,0.8,3000,-,small kids desk set,
-HE01,P3,Hospital extras,Hospital mohalla,Old syringes,3,0.15,600,-,3 variants old syringes,
-HE02,P3,Hospital extras,Hospital mohalla,Hospital pill bottles,3,0.1,600,-,3 variants pill bottles,
-HE03,P3,Hospital extras,Hospital mohalla,Wheelchair ramp,1,3.0,2500,-,metal ramp,
-HE04,P3,Hospital extras,Hospital mohalla,Torn hospital curtain,1,2.0,2500,-,torn curtain,
-HE05,P3,Hospital extras,Hospital mohalla,Bedside cabinet,1,0.6,2500,-,bedside cabinet,
-HE06,P3,Hospital extras,Hospital mohalla,Waiting room bench,1,2.0,3000,-,bench row,
-HE07,P3,Hospital extras,Hospital mohalla,Hospital pharmacy counter,1,2.5,5000,-,hospital pharmacy counter,
-HE08,P3,Hospital extras,Hospital mohalla,Lab sample fridge,1,1.7,5000,-,lab fridge,
-HE09,P3,Hospital extras,Hospital mohalla,Surgical gown on hook,1,1.2,1500,-,surgical gown on hook,
-HE10,P3,Hospital extras,Hospital mohalla,Bandage roll,2,0.1,600,-,2 variants bandage rolls,
-HE11,P3,Hospital extras,Hospital mohalla,Stethoscope,1,0.3,800,-,stethoscope,
-HE12,P3,Hospital extras,Hospital mohalla,Nurses station,1,3.0,7000,-,nurses station desk,
-HE13,P3,Hospital extras,Hospital mohalla,Crash cart,1,1.0,4000,-,medical crash cart,
+HE01,P3,Hospital extras,Hospital mohalla,Old syringes,3,0.15,600,-,3 variants old syringes,DONE-Claude (3/3)
+HE02,P3,Hospital extras,Hospital mohalla,Hospital pill bottles,3,0.1,600,-,3 variants pill bottles,DONE-Claude (3/3)
+HE03,P3,Hospital extras,Hospital mohalla,Wheelchair ramp,1,3.0,2500,-,metal ramp,DONE-Claude (1/1)
+HE04,P3,Hospital extras,Hospital mohalla,Torn hospital curtain,1,2.0,2500,-,torn curtain,DONE-Claude (1/1)
+HE05,P3,Hospital extras,Hospital mohalla,Bedside cabinet,1,0.6,2500,-,bedside cabinet,DONE-Claude (1/1)
+HE06,P3,Hospital extras,Hospital mohalla,Waiting room bench,1,2.0,3000,-,bench row,DONE-Claude (1/1)
+HE07,P3,Hospital extras,Hospital mohalla,Hospital pharmacy counter,1,2.5,5000,-,hospital pharmacy counter,DONE-Claude (1/1)
+HE08,P3,Hospital extras,Hospital mohalla,Lab sample fridge,1,1.7,5000,-,lab fridge,DONE-Claude (1/1)
+HE09,P3,Hospital extras,Hospital mohalla,Surgical gown on hook,1,1.2,1500,-,surgical gown on hook,DONE-Claude (1/1)
+HE10,P3,Hospital extras,Hospital mohalla,Bandage roll,2,0.1,600,-,2 variants bandage rolls,DONE-Claude (2/2)
+HE11,P3,Hospital extras,Hospital mohalla,Stethoscope,1,0.3,800,-,stethoscope,DONE-Claude (1/1)
+HE12,P3,Hospital extras,Hospital mohalla,Nurses station,1,3.0,7000,-,nurses station desk,DONE-Claude (1/1)
+HE13,P3,Hospital extras,Hospital mohalla,Crash cart,1,1.0,4000,-,medical crash cart,DONE-Claude (1/1)
 HE14,P4,Hospital extras,Hospital mohalla,Baby incubator,1,1.0,5000,-,old incubator with toys inside,
 HE15,P4,Hospital extras,Hospital mohalla,Old x-ray machine,1,2.0,8000,-,old x-ray machine,
-CE01,P3,Carnival extras,Carnival mohalla,Ring toss stall,1,3.0,5000,-,ring toss stall with bottles,
-CE02,P3,Carnival extras,Carnival mohalla,Balloon dart stall,1,3.0,5000,-,balloon dart stall,
+CE01,P3,Carnival extras,Carnival mohalla,Ring toss stall,1,3.0,5000,-,ring toss stall with bottles,DONE-Claude (1/1)
+CE02,P3,Carnival extras,Carnival mohalla,Balloon dart stall,1,3.0,5000,-,balloon dart stall,DONE-Claude (1/1)
 CE03,P3,Carnival extras,Carnival mohalla,Fortune teller booth,1,2.5,8000,-,old fortune teller booth with a mannequin,
-CE04,P3,Carnival extras,Carnival mohalla,Haunted house facade,1,8.0,15000,-,"carnival ghost house facade, no text",
-CE05,P3,Carnival extras,Carnival mohalla,Coaster track piece,2,6.0,8000,-,2 variants coaster track pieces,
-CE06,P3,Carnival extras,Carnival mohalla,Chair swing ride,1,10.0,15000,-,"chair-swing ride, rusty",
-CE07,P3,Carnival extras,Carnival mohalla,Bumper boats pool,1,6.0,7000,-,dry pool with boats,
-CE08,P3,Carnival extras,Carnival mohalla,Carnival picket fence,1,3.0,1500,-,colorful picket fence,
-CE09,P3,Carnival extras,Carnival mohalla,Carnival entry arch,1,6.0,8000,-,carnival entry arch with bulbs,
+CE04,P3,Carnival extras,Carnival mohalla,Haunted house facade,1,8.0,15000,-,"carnival ghost house facade, no text",DONE-Claude (1/1)
+CE05,P3,Carnival extras,Carnival mohalla,Coaster track piece,2,6.0,8000,-,2 variants coaster track pieces,DONE-Claude (2/2)
+CE06,P3,Carnival extras,Carnival mohalla,Chair swing ride,1,10.0,15000,-,"chair-swing ride, rusty",DONE-Claude (1/1)
+CE07,P3,Carnival extras,Carnival mohalla,Bumper boats pool,1,6.0,7000,-,dry pool with boats,DONE-Claude (1/1)
+CE08,P3,Carnival extras,Carnival mohalla,Carnival picket fence,1,3.0,1500,-,colorful picket fence,DONE-Claude (1/1)
+CE09,P3,Carnival extras,Carnival mohalla,Carnival entry arch,1,6.0,8000,-,carnival entry arch with bulbs,DONE-Claude (1/1)
 CE10,P3,Carnival extras,Carnival mohalla,Prize plush toys,3,0.5,3000,-,3 variants prize plush toys,
 CE11,P3,Carnival extras,Carnival mohalla,Clown mask stand,1,1.5,3000,-,stand of clown masks,
-CE12,P3,Carnival extras,Carnival mohalla,Carnival lamp post,1,4.0,3000,-,carnival lamp post with bulbs,
+CE12,P3,Carnival extras,Carnival mohalla,Carnival lamp post,1,4.0,3000,-,carnival lamp post with bulbs,DONE-Claude (1/1)
 CE13,P4,Carnival extras,Carnival mohalla,Carousel horse single,3,1.6,7000,-,3 variants carousel horse,
 CE14,P4,Carnival extras,Carnival mohalla,Old trampoline,1,3.0,2500,-,old trampoline,
 CE15,P4,Carnival extras,Carnival mohalla,Water-gun game stall,1,2.5,5000,-,water-gun game stall,
-RE01,P3,"Metro, roads & park extras",Metro / City,Ticket vending machine,1,1.8,6000,-,metro ticket machine,
-RE02,P3,"Metro, roads & park extras",Metro / City,Platform signs symbols,3,1.2,1500,-,"3 variants platform signs, symbols only",
-RE03,P3,"Metro, roads & park extras",Metro / City,Metro track piece,1,6.0,3000,-,metro track section,
-RE04,P3,"Metro, roads & park extras",Metro / City,Train front cab,1,4.0,15000,-,metro train front,
+RE01,P3,"Metro, roads & park extras",Metro / City,Ticket vending machine,1,1.8,6000,-,metro ticket machine,DONE-Claude (1/1)
+RE02,P3,"Metro, roads & park extras",Metro / City,Platform signs symbols,3,1.2,1500,-,"3 variants platform signs, symbols only",DONE-Claude (3/3)
+RE03,P3,"Metro, roads & park extras",Metro / City,Metro track piece,1,6.0,3000,-,metro track section,DONE-Claude (1/1)
+RE04,P3,"Metro, roads & park extras",Metro / City,Train front cab,1,4.0,15000,-,metro train front,DONE-Claude (1/1)
 RE05,P3,"Metro, roads & park extras",Metro / City,Station pillar,1,4.0,3000,-,concrete pillar with tile,
 RE06,P3,"Metro, roads & park extras",Metro / City,Station bench,1,2.0,3000,-,bench,
 RE07,P3,"Metro, roads & park extras",Metro / City,Metro map board,1,2.0,2500,-,map board no text,
