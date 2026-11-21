@@ -793,32 +793,32 @@ CS07,P3,Construction site,Outskirts,Rebar bundle,2,3.0,1500,-,2 variants steel r
 CS08,P3,Construction site,Outskirts,Brick pallet,1,1.2,2000,-,brick pallet,DONE-Claude (1/1)
 CS09,P3,Construction site,Outskirts,Long ladder,1,4.0,2500,-,long ladder,DONE-Claude (1/1)
 CS10,P3,Construction site,Outskirts,Site portable cabin,1,3.0,5000,-,portable site office cabin,DONE-Claude (1/1)
-CS11,P3,Construction site,Outskirts,Excavator,1,6.0,22000,-,old excavator,
-CS12,P3,Construction site,Outskirts,Bulldozer,1,5.0,20000,-,old bulldozer,
-CS13,P3,Construction site,Outskirts,Dump truck,1,7.0,22000,-,old dump truck,
-CS14,P3,Construction site,Outskirts,Jackhammer,1,0.8,2500,-,jackhammer,
+CS11,P3,Construction site,Outskirts,Excavator,1,6.0,22000,-,old excavator,DONE-Claude (1/1)
+CS12,P3,Construction site,Outskirts,Bulldozer,1,5.0,20000,-,old bulldozer,DONE-Claude (1/1)
+CS13,P3,Construction site,Outskirts,Dump truck,1,7.0,22000,-,old dump truck,DONE-Claude (1/1)
+CS14,P3,Construction site,Outskirts,Jackhammer,1,0.8,2500,-,jackhammer,DONE-Claude (1/1)
 CS15,P3,Construction site,Outskirts,Portable generator,1,0.8,3000,-,small portable generator,
-CS16,P3,Construction site,Outskirts,Hard hats,3,0.3,1200,-,3 variants hard hats,
-CS17,P3,Construction site,Outskirts,Barrier tape,1,3.0,300,-,flat barrier tape,
-CS18,P3,Construction site,Outskirts,Pipes stack,1,1.5,2000,-,stack of pipes,
-CS19,P3,Construction site,Outskirts,Concrete pipes,2,1.5,2000,-,2 variants large concrete pipes,
-CS20,P3,Construction site,Outskirts,Fence panels,2,2.0,1500,-,2 variants site fence panels,
-CS21,P3,Construction site,Outskirts,Floodlight tower,1,5.0,4000,-,floodlight tower,
-CS22,P3,Construction site,Outskirts,Tool trolley,1,1.0,3000,-,tool trolley,
+CS16,P3,Construction site,Outskirts,Hard hats,3,0.3,1200,-,3 variants hard hats,DONE-Claude (3/3)
+CS17,P3,Construction site,Outskirts,Barrier tape,1,3.0,300,-,flat barrier tape,DONE-Claude (1/1)
+CS18,P3,Construction site,Outskirts,Pipes stack,1,1.5,2000,-,stack of pipes,DONE-Claude (1/1)
+CS19,P3,Construction site,Outskirts,Concrete pipes,2,1.5,2000,-,2 variants large concrete pipes,DONE-Claude (2/2)
+CS20,P3,Construction site,Outskirts,Fence panels,2,2.0,1500,-,2 variants site fence panels,DONE-Claude (2/2)
+CS21,P3,Construction site,Outskirts,Floodlight tower,1,5.0,4000,-,floodlight tower,DONE-Claude (1/1)
+CS22,P3,Construction site,Outskirts,Tool trolley,1,1.0,3000,-,tool trolley,DONE-Claude (1/1)
 CS23,P4,Construction site,Outskirts,Unfinished building frame,1,10.0,14000,-,unfinished concrete building frame,
 CS24,P4,Construction site,Outskirts,Rope pulley,1,1.0,2000,-,rope pulley,
-SP01,P3,Sports & games,School / Park,Cricket stumps,1,0.8,1500,-,cricket stumps,
-SP02,P3,Sports & games,School / Park,Football goalpost,1,3.0,3000,-,football goalpost,
-SP03,P3,Sports & games,School / Park,Basketball hoop,1,3.5,3500,-,basketball hoop,
-SP04,P3,Sports & games,School / Park,Carrom board,1,0.8,3000,-,carrom board with pieces,
-SP05,P3,Sports & games,School / Park,Chess set,1,0.4,3000,-,chess set,
-SP06,P3,Sports & games,School / Park,Ludo board,1,0.5,1500,-,ludo board,
-SP07,P3,Sports & games,School / Park,Table tennis table,1,2.5,4000,-,table tennis table,
-SP08,P3,Sports & games,School / Park,Snooker table,1,2.5,7000,-,snooker table,
-SP09,P3,Sports & games,School / Park,Dartboard,1,0.5,1500,-,dartboard,
-SP10,P3,Sports & games,School / Park,Kites,3,0.8,1200,-,3 variants paper kites,
-SP11,P3,Sports & games,School / Park,Marble bag,1,0.2,1000,-,marble bag,
-SP12,P3,Sports & games,School / Park,Gilli danda,1,0.5,800,-,gilli danda,
+SP01,P3,Sports & games,School / Park,Cricket stumps,1,0.8,1500,-,cricket stumps,DONE-Claude (1/1)
+SP02,P3,Sports & games,School / Park,Football goalpost,1,3.0,3000,-,football goalpost,DONE-Claude (1/1)
+SP03,P3,Sports & games,School / Park,Basketball hoop,1,3.5,3500,-,basketball hoop,DONE-Claude (1/1)
+SP04,P3,Sports & games,School / Park,Carrom board,1,0.8,3000,-,carrom board with pieces,DONE-Claude (1/1)
+SP05,P3,Sports & games,School / Park,Chess set,1,0.4,3000,-,chess set,DONE-Claude (1/1)
+SP06,P3,Sports & games,School / Park,Ludo board,1,0.5,1500,-,ludo board,DONE-Claude (1/1)
+SP07,P3,Sports & games,School / Park,Table tennis table,1,2.5,4000,-,table tennis table,DONE-Claude (1/1)
+SP08,P3,Sports & games,School / Park,Snooker table,1,2.5,7000,-,snooker table,DONE-Claude (1/1)
+SP09,P3,Sports & games,School / Park,Dartboard,1,0.5,1500,-,dartboard,DONE-Claude (1/1)
+SP10,P3,Sports & games,School / Park,Kites,3,0.8,1200,-,3 variants paper kites,DONE-Claude (3/3)
+SP11,P3,Sports & games,School / Park,Marble bag,1,0.2,1000,-,marble bag,DONE-Claude (1/1)
+SP12,P3,Sports & games,School / Park,Gilli danda,1,0.5,800,-,gilli danda,DONE-Claude (1/1)
 SP13,P3,Sports & games,School / Park,Roller skates,1,0.3,2500,-,old roller skates,
 SP14,P3,Sports & games,School / Park,Skateboard,1,0.8,2500,-,skateboard,
 SP15,P3,Sports & games,School / Park,Badminton rackets,2,0.7,1500,-,2 variants badminton rackets,

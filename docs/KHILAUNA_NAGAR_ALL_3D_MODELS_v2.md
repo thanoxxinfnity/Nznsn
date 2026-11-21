@@ -2486,40 +2486,40 @@ Har imaarat enter ho sakti hai: andar ke kamre in props se bharenge (ghar: livin
 - CS10 | P3 | Site portable cabin | 3.0 m | max 5k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, portable site office cabin
 
-- CS11 | P3 | Excavator | 6.0 m | max 22k tris
+- CS11 | P3 | Excavator | 6.0 m | max 22k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, old excavator
 
-- CS12 | P3 | Bulldozer | 5.0 m | max 20k tris
+- CS12 | P3 | Bulldozer | 5.0 m | max 20k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, old bulldozer
 
-- CS13 | P3 | Dump truck | 7.0 m | max 22k tris
+- CS13 | P3 | Dump truck | 7.0 m | max 22k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, old dump truck
 
-- CS14 | P3 | Jackhammer | 0.8 m | max 2k tris
+- CS14 | P3 | Jackhammer | 0.8 m | max 2k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, jackhammer
 
 - CS15 | P3 | Portable generator | 0.8 m | max 3k tris
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, small portable generator
 
-- CS16 | P3 | Hard hats x3 | 0.3 m | max 1k tris
+- CS16 | P3 | Hard hats x3 | 0.3 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, 3 variants hard hats
 
-- CS17 | P3 | Barrier tape | 3.0 m | max 300 tris
+- CS17 | P3 | Barrier tape | 3.0 m | max 300 tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, flat barrier tape
 
-- CS18 | P3 | Pipes stack | 1.5 m | max 2k tris
+- CS18 | P3 | Pipes stack | 1.5 m | max 2k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, stack of pipes
 
-- CS19 | P3 | Concrete pipes x2 | 1.5 m | max 2k tris
+- CS19 | P3 | Concrete pipes x2 | 1.5 m | max 2k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, 2 variants large concrete pipes
 
-- CS20 | P3 | Fence panels x2 | 2.0 m | max 1k tris
+- CS20 | P3 | Fence panels x2 | 2.0 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, 2 variants site fence panels
 
-- CS21 | P3 | Floodlight tower | 5.0 m | max 4k tris
+- CS21 | P3 | Floodlight tower | 5.0 m | max 4k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, floodlight tower
 
-- CS22 | P3 | Tool trolley | 1.0 m | max 3k tris
+- CS22 | P3 | Tool trolley | 1.0 m | max 3k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, tool trolley
 
 - CS23 | P4 | Unfinished building frame | 10.0 m | max 14k tris
@@ -2531,40 +2531,40 @@ Har imaarat enter ho sakti hai: andar ke kamre in props se bharenge (ghar: livin
 
 ## Sports & games
 
-- SP01 | P3 | Cricket stumps | 0.8 m | max 1k tris
+- SP01 | P3 | Cricket stumps | 0.8 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, cricket stumps
 
-- SP02 | P3 | Football goalpost | 3.0 m | max 3k tris
+- SP02 | P3 | Football goalpost | 3.0 m | max 3k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, football goalpost
 
-- SP03 | P3 | Basketball hoop | 3.5 m | max 3k tris
+- SP03 | P3 | Basketball hoop | 3.5 m | max 3k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, basketball hoop
 
-- SP04 | P3 | Carrom board | 0.8 m | max 3k tris
+- SP04 | P3 | Carrom board | 0.8 m | max 3k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, carrom board with pieces
 
-- SP05 | P3 | Chess set | 0.4 m | max 3k tris
+- SP05 | P3 | Chess set | 0.4 m | max 3k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, chess set
 
-- SP06 | P3 | Ludo board | 0.5 m | max 1k tris
+- SP06 | P3 | Ludo board | 0.5 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, ludo board
 
-- SP07 | P3 | Table tennis table | 2.5 m | max 4k tris
+- SP07 | P3 | Table tennis table | 2.5 m | max 4k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, table tennis table
 
-- SP08 | P3 | Snooker table | 2.5 m | max 7k tris
+- SP08 | P3 | Snooker table | 2.5 m | max 7k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, snooker table
 
-- SP09 | P3 | Dartboard | 0.5 m | max 1k tris
+- SP09 | P3 | Dartboard | 0.5 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, dartboard
 
-- SP10 | P3 | Kites x3 | 0.8 m | max 1k tris
+- SP10 | P3 | Kites x3 | 0.8 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, 3 variants paper kites
 
-- SP11 | P3 | Marble bag | 0.2 m | max 1k tris
+- SP11 | P3 | Marble bag | 0.2 m | max 1k tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, marble bag
 
-- SP12 | P3 | Gilli danda | 0.5 m | max 800 tris
+- SP12 | P3 | Gilli danda | 0.5 m | max 800 tris (DONE)
   PROMPT: Dark horror game asset, abandoned 1980s Indian toy-factory town, worn and dusty, realistic PBR, muted desaturated colors, single object centered, plain light-grey background, front three-quarter view, no cast shadow, high detail, gilli danda
 
 - SP13 | P3 | Roller skates | 0.3 m | max 2k tris
