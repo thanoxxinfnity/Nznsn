@@ -1,0 +1,1034 @@
+{
+ "H01_hospital_bed.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1920,
+  "tris_after": 1920,
+  "dims_before": [
+   2.08,
+   0.96,
+   1.02
+  ],
+  "dims_after": [
+   2.0,
+   0.92,
+   0.98
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "2.0",
+  "name": "Hospital bed",
+  "size_mb": 1.26
+ },
+ "H02_wheelchair.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 3240,
+  "tris_after": 3240,
+  "dims_before": [
+   0.95,
+   0.67,
+   1.0
+  ],
+  "dims_after": [
+   0.95,
+   0.67,
+   1.0
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "1.0",
+  "name": "Wheelchair",
+  "size_mb": 1.02
+ },
+ "H03_iv_drip_stand.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2076,
+  "tris_after": 2076,
+  "dims_before": [
+   0.55,
+   0.58,
+   1.81
+  ],
+  "dims_after": [
+   0.55,
+   0.58,
+   1.8
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "1.8",
+  "name": "IV drip stand",
+  "size_mb": 0.97
+ },
+ "H04_stretcher_trolley.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1332,
+  "tris_after": 1332,
+  "dims_before": [
+   1.95,
+   0.64,
+   0.91
+  ],
+  "dims_after": [
+   2.0,
+   0.66,
+   0.94
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Stretcher trolley",
+  "size_mb": 1.07
+ },
+ "H06_medicine_cabinet.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5304,
+  "tris_after": 5304,
+  "dims_before": [
+   0.8,
+   0.69,
+   1.8
+  ],
+  "dims_after": [
+   0.8,
+   0.69,
+   1.8
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.8",
+  "name": "Medicine cabinet",
+  "size_mb": 1.6
+ },
+ "H07_reception_desk.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1748,
+  "tris_after": 1748,
+  "dims_before": [
+   2.7,
+   1.02,
+   1.17
+  ],
+  "dims_after": [
+   3.0,
+   1.13,
+   1.31
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "3.0",
+  "name": "Reception desk",
+  "size_mb": 1.46
+ },
+ "H08_surgical_lamp.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2644,
+  "tris_after": 2644,
+  "dims_before": [
+   1.05,
+   0.69,
+   0.84
+  ],
+  "dims_after": [
+   1.5,
+   0.99,
+   1.21
+  ],
+  "materials": 3,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "1.5",
+  "name": "Surgical lamp",
+  "size_mb": 0.65
+ },
+ "H09_privacy_curtain_rail.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2850,
+  "tris_after": 2850,
+  "dims_before": [
+   2.02,
+   0.11,
+   2.22
+  ],
+  "dims_after": [
+   1.82,
+   0.1,
+   2.0
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 3000,
+  "target": "2.0",
+  "name": "Privacy curtain on rail",
+  "size_mb": 0.87
+ },
+ "L01_sofa_3seater_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2292,
+  "tris_after": 2292,
+  "dims_before": [
+   2.55,
+   0.89,
+   1.0
+  ],
+  "dims_after": [
+   2.0,
+   0.7,
+   0.79
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Sofa 3-seater",
+  "size_mb": 0.79
+ },
+ "L01_sofa_3seater_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2292,
+  "tris_after": 2292,
+  "dims_before": [
+   2.55,
+   0.89,
+   1.0
+  ],
+  "dims_after": [
+   2.0,
+   0.7,
+   0.79
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "Sofa 3-seater",
+  "size_mb": 0.79
+ },
+ "L02_armchair_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1752,
+  "tris_after": 1752,
+  "dims_before": [
+   1.05,
+   0.89,
+   1.0
+  ],
+  "dims_after": [
+   0.9,
+   0.77,
+   0.86
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.9",
+  "name": "Armchair",
+  "size_mb": 0.59
+ },
+ "L02_armchair_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1752,
+  "tris_after": 1752,
+  "dims_before": [
+   1.05,
+   0.89,
+   1.0
+  ],
+  "dims_after": [
+   0.9,
+   0.77,
+   0.86
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "0.9",
+  "name": "Armchair",
+  "size_mb": 0.65
+ },
+ "L03_coffee_table.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1524,
+  "tris_after": 1524,
+  "dims_before": [
+   1.0,
+   0.55,
+   0.53
+  ],
+  "dims_after": [
+   1.0,
+   0.55,
+   0.53
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.0",
+  "name": "Coffee table",
+  "size_mb": 1.05
+ },
+ "L04_old_tv_on_stand.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1548,
+  "tris_after": 1548,
+  "dims_before": [
+   0.7,
+   0.52,
+   1.3
+  ],
+  "dims_after": [
+   0.43,
+   0.32,
+   0.8
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "0.8",
+  "name": "Old television on stand",
+  "size_mb": 1.45
+ },
+ "L05_valve_radio.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1252,
+  "tris_after": 1252,
+  "dims_before": [
+   0.42,
+   0.22,
+   0.33
+  ],
+  "dims_after": [
+   0.4,
+   0.21,
+   0.31
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.4",
+  "name": "Valve radio",
+  "size_mb": 0.96
+ },
+ "L06_floor_lamp.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1160,
+  "tris_after": 1160,
+  "dims_before": [
+   0.44,
+   0.44,
+   1.59
+  ],
+  "dims_after": [
+   0.44,
+   0.44,
+   1.6
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "1.6",
+  "name": "Floor lamp",
+  "size_mb": 0.63
+ },
+ "L07_floor_rug_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1524,
+  "tris_after": 1500,
+  "dims_before": [
+   2.1,
+   1.4,
+   0.01
+  ],
+  "dims_after": [
+   2.0,
+   1.33,
+   0.01
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "2.0",
+  "name": "Floor rug",
+  "size_mb": 0.92
+ },
+ "L07_floor_rug_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1524,
+  "tris_after": 1500,
+  "dims_before": [
+   2.1,
+   1.4,
+   0.01
+  ],
+  "dims_after": [
+   2.0,
+   1.33,
+   0.01
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "2.0",
+  "name": "Floor rug",
+  "size_mb": 0.52
+ },
+ "L07_floor_rug_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1524,
+  "tris_after": 1500,
+  "dims_before": [
+   2.1,
+   1.4,
+   0.01
+  ],
+  "dims_after": [
+   2.0,
+   1.33,
+   0.01
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "2.0",
+  "name": "Floor rug",
+  "size_mb": 0.85
+ },
+ "L08_window_curtains_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2108,
+  "tris_after": 2108,
+  "dims_before": [
+   1.59,
+   0.07,
+   1.83
+  ],
+  "dims_after": [
+   1.74,
+   0.08,
+   2.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "2.0",
+  "name": "Window curtains",
+  "size_mb": 0.46
+ },
+ "L08_window_curtains_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2108,
+  "tris_after": 2108,
+  "dims_before": [
+   1.59,
+   0.07,
+   1.83
+  ],
+  "dims_after": [
+   1.74,
+   0.08,
+   2.0
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "2.0",
+  "name": "Window curtains",
+  "size_mb": 0.5
+ },
+ "L09_wall_photo_frames_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 360,
+  "tris_after": 360,
+  "dims_before": [
+   0.89,
+   0.03,
+   0.37
+  ],
+  "dims_after": [
+   0.8,
+   0.03,
+   0.33
+  ],
+  "materials": 4,
+  "textures": 7,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Wall photo frames set",
+  "size_mb": 0.86
+ },
+ "L09_wall_photo_frames_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 480,
+  "tris_after": 480,
+  "dims_before": [
+   1.32,
+   0.03,
+   0.5
+  ],
+  "dims_after": [
+   0.8,
+   0.02,
+   0.3
+  ],
+  "materials": 5,
+  "textures": 9,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Wall photo frames set",
+  "size_mb": 1.2
+ },
+ "L09_wall_photo_frames_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 240,
+  "tris_after": 240,
+  "dims_before": [
+   0.59,
+   0.03,
+   0.39
+  ],
+  "dims_after": [
+   0.8,
+   0.04,
+   0.52
+  ],
+  "materials": 3,
+  "textures": 5,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 1500,
+  "target": "0.8",
+  "name": "Wall photo frames set",
+  "size_mb": 0.7
+ },
+ "L10_dining_table.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1616,
+  "tris_after": 1616,
+  "dims_before": [
+   1.6,
+   0.9,
+   0.9
+  ],
+  "dims_after": [
+   1.6,
+   0.9,
+   0.9
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.6",
+  "name": "Dining table",
+  "size_mb": 1.09
+ },
+ "L11_dining_chair_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.44,
+   0.44,
+   0.97
+  ],
+  "dims_after": [
+   0.41,
+   0.41,
+   0.9
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Dining chair",
+  "size_mb": 0.55
+ },
+ "L11_dining_chair_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.44,
+   0.44,
+   0.97
+  ],
+  "dims_after": [
+   0.41,
+   0.41,
+   0.9
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Dining chair",
+  "size_mb": 0.57
+ },
+ "L11_dining_chair_v3.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1188,
+  "tris_after": 1188,
+  "dims_before": [
+   0.44,
+   0.44,
+   0.97
+  ],
+  "dims_after": [
+   0.41,
+   0.41,
+   0.9
+  ],
+  "materials": 2,
+  "textures": 4,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2500,
+  "target": "0.9",
+  "name": "Dining chair",
+  "size_mb": 0.55
+ },
+ "L12_steel_almirah.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1200,
+  "tris_after": 1200,
+  "dims_before": [
+   0.9,
+   0.53,
+   1.82
+  ],
+  "dims_after": [
+   0.89,
+   0.53,
+   1.8
+  ],
+  "materials": 3,
+  "textures": 5,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Steel almirah",
+  "size_mb": 0.75
+ },
+ "L13_wooden_diwan.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1748,
+  "tris_after": 1748,
+  "dims_before": [
+   1.9,
+   0.93,
+   0.88
+  ],
+  "dims_after": [
+   1.8,
+   0.88,
+   0.83
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Wooden diwan",
+  "size_mb": 0.76
+ },
+ "L14_home_bookshelf_v1.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4320,
+  "tris_after": 4320,
+  "dims_before": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "dims_after": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Home bookshelf",
+  "size_mb": 1.77
+ },
+ "L14_home_bookshelf_v2.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 11124,
+  "tris_after": 5000,
+  "dims_before": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "dims_after": [
+   0.92,
+   0.31,
+   1.8
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.8",
+  "name": "Home bookshelf",
+  "size_mb": 1.82
+ },
+ "L15_sideboard_cabinet.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2420,
+  "tris_after": 2420,
+  "dims_before": [
+   1.55,
+   0.5,
+   1.23
+  ],
+  "dims_after": [
+   1.5,
+   0.49,
+   1.19
+  ],
+  "materials": 5,
+  "textures": 7,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 5000,
+  "target": "1.5",
+  "name": "Sideboard cabinet",
+  "size_mb": 1.01
+ },
+ "S01_school_desk_bench.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 864,
+  "tris_after": 864,
+  "dims_before": [
+   1.1,
+   0.93,
+   0.78
+  ],
+  "dims_after": [
+   1.2,
+   1.02,
+   0.85
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.2",
+  "name": "School desk and bench",
+  "size_mb": 1.05
+ },
+ "S02_blackboard.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1524,
+  "tris_after": 1524,
+  "dims_before": [
+   2.09,
+   0.13,
+   1.2
+  ],
+  "dims_after": [
+   2.0,
+   0.13,
+   1.15
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "2.0",
+  "name": "Blackboard",
+  "size_mb": 0.89
+ },
+ "S03_teacher_desk.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1700,
+  "tris_after": 1700,
+  "dims_before": [
+   1.4,
+   0.71,
+   0.86
+  ],
+  "dims_after": [
+   1.4,
+   0.71,
+   0.86
+  ],
+  "materials": 6,
+  "textures": 12,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 4000,
+  "target": "1.4",
+  "name": "Teacher desk",
+  "size_mb": 1.39
+ },
+ "S04_school_locker_row.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1980,
+  "tris_after": 1980,
+  "dims_before": [
+   2.0,
+   0.75,
+   1.86
+  ],
+  "dims_after": [
+   2.0,
+   0.75,
+   1.86
+  ],
+  "materials": 4,
+  "textures": 8,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "2.0",
+  "name": "School locker row",
+  "size_mb": 1.07
+ },
+ "S05_school_bus.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 5508,
+  "tris_after": 5508,
+  "dims_before": [
+   9.25,
+   2.76,
+   2.68
+  ],
+  "dims_after": [
+   9.0,
+   2.69,
+   2.61
+  ],
+  "materials": 7,
+  "textures": 14,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 30000,
+  "target": "9.0",
+  "name": "School bus",
+  "size_mb": 1.92
+ },
+ "S06_playground_slide.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 960,
+  "tris_after": 960,
+  "dims_before": [
+   0.66,
+   3.27,
+   2.22
+  ],
+  "dims_after": [
+   0.61,
+   3.0,
+   2.04
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "3.0",
+  "name": "Playground slide",
+  "size_mb": 0.8
+ },
+ "S07_swing_set.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 4980,
+  "tris_after": 4980,
+  "dims_before": [
+   2.9,
+   1.48,
+   2.26
+  ],
+  "dims_after": [
+   3.0,
+   1.53,
+   2.33
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 6000,
+  "target": "3.0",
+  "name": "Swing set",
+  "size_mb": 1.21
+ },
+ "S10_school_bag.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 728,
+  "tris_after": 728,
+  "dims_before": [
+   0.3,
+   0.25,
+   0.45
+  ],
+  "dims_after": [
+   0.27,
+   0.22,
+   0.4
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.4",
+  "name": "School bag",
+  "size_mb": 0.48
+ },
+ "S12_stack_of_books.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 1512,
+  "tris_after": 1512,
+  "dims_before": [
+   0.27,
+   0.3,
+   0.24
+  ],
+  "dims_after": [
+   0.27,
+   0.3,
+   0.24
+  ],
+  "materials": 5,
+  "textures": 10,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 2000,
+  "target": "0.3",
+  "name": "Stack of books",
+  "size_mb": 1.1
+ },
+ "S13_school_gate_arch.glb": {
+  "origin_ok": true,
+  "size_ok": true,
+  "tris_before": 2812,
+  "tris_after": 2812,
+  "dims_before": [
+   5.2,
+   0.6,
+   4.08
+  ],
+  "dims_after": [
+   5.0,
+   0.58,
+   3.92
+  ],
+  "materials": 3,
+  "textures": 6,
+  "tex_max": 512,
+  "has_uv": true,
+  "budget": 8000,
+  "target": "5.0",
+  "name": "School gate arch",
+  "size_mb": 0.9
+ }
+}

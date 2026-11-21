@@ -94,31 +94,31 @@ G11,P2,Gameplay items,All,Memory orb (glowing),1,0.2,2000,-,glass orb with swirl
 G12,P2,Gameplay items,All,Gate lever,1,0.6,3000,-,"large wall lever switch, rusty",DONE (1/1)
 G13,P3,Gameplay items,All,Lighter,1,0.06,800,-,metal flip lighter,
 G14,P3,Gameplay items,All,Crowbar,1,0.6,2000,-,rusty crowbar,
-S01,P2,School mohalla,2,School desk and bench,1,1.2,4000,-,"old wooden school desk with attached bench, carved initials",
-S02,P2,School mohalla,2,Blackboard,1,2.0,2000,-,classroom blackboard with wooden frame and chalk tray,
-S03,P2,School mohalla,2,Teacher desk,1,1.4,4000,-,teacher wooden desk with drawers,
-S04,P2,School mohalla,2,School locker row,1,2.0,6000,-,row of 4 dented green school lockers,
-S05,P2,School mohalla,2,School bus,1,9.0,30000,-,"old yellow school bus, faded, flat tyres",
-S06,P2,School mohalla,2,Playground slide,1,3.0,8000,-,rusty metal playground slide with ladder,
-S07,P2,School mohalla,2,Swing set,1,3.0,6000,-,"playground swing set, chains, two swings",
+S01,P2,School mohalla,2,School desk and bench,1,1.2,4000,-,"old wooden school desk with attached bench, carved initials",DONE (1/1)
+S02,P2,School mohalla,2,Blackboard,1,2.0,2000,-,classroom blackboard with wooden frame and chalk tray,DONE (1/1)
+S03,P2,School mohalla,2,Teacher desk,1,1.4,4000,-,teacher wooden desk with drawers,DONE (1/1)
+S04,P2,School mohalla,2,School locker row,1,2.0,6000,-,row of 4 dented green school lockers,DONE (1/1)
+S05,P2,School mohalla,2,School bus,1,9.0,30000,-,"old yellow school bus, faded, flat tyres",DONE (1/1)
+S06,P2,School mohalla,2,Playground slide,1,3.0,8000,-,rusty metal playground slide with ladder,DONE (1/1)
+S07,P2,School mohalla,2,Swing set,1,3.0,6000,-,"playground swing set, chains, two swings",DONE (1/1)
 S08,P3,School mohalla,2,Seesaw,1,3.0,3000,-,playground seesaw,
 S09,P3,School mohalla,2,Merry-go-round (playground),1,2.0,6000,-,"playground merry-go-round, rusty",
-S10,P2,School mohalla,2,School bag,1,0.4,2000,-,"small kid's school backpack, faded",
+S10,P2,School mohalla,2,School bag,1,0.4,2000,-,"small kid's school backpack, faded",DONE (1/1)
 S11,P3,School mohalla,2,Globe,1,0.4,3000,-,old desk globe on stand,
-S12,P2,School mohalla,2,Stack of books,1,0.3,2000,-,stack of old school books,
-S13,P2,School mohalla,2,School gate arch,1,5.0,8000,-,iron school entrance gate with brick pillars,
+S12,P2,School mohalla,2,Stack of books,1,0.3,2000,-,stack of old school books,DONE (1/1)
+S13,P2,School mohalla,2,School gate arch,1,5.0,8000,-,iron school entrance gate with brick pillars,DONE (1/1)
 S14,P3,School mohalla,2,Trophy cabinet,1,1.5,6000,-,glass trophy cabinet with dusty cups,
 S15,P3,School mohalla,2,School bell,1,0.3,2000,-,brass hand school bell,
 S16,P3,School mohalla,2,Cafeteria table with tray,1,2.0,5000,-,long cafeteria table with metal trays,
-H01,P2,Hospital mohalla,2,Hospital bed,1,2.0,8000,-,old metal hospital bed with thin mattress,
-H02,P2,Hospital mohalla,2,Wheelchair,1,1.0,8000,-,"old wheelchair, torn seat",
-H03,P2,Hospital mohalla,2,IV drip stand,1,1.8,3000,-,IV stand with empty drip bag,
-H04,P2,Hospital mohalla,2,Stretcher trolley,1,2.0,6000,-,hospital stretcher on wheels,
+H01,P2,Hospital mohalla,2,Hospital bed,1,2.0,8000,-,old metal hospital bed with thin mattress,DONE (1/1)
+H02,P2,Hospital mohalla,2,Wheelchair,1,1.0,8000,-,"old wheelchair, torn seat",DONE (1/1)
+H03,P2,Hospital mohalla,2,IV drip stand,1,1.8,3000,-,IV stand with empty drip bag,DONE (1/1)
+H04,P2,Hospital mohalla,2,Stretcher trolley,1,2.0,6000,-,hospital stretcher on wheels,DONE (1/1)
 H05,P3,Hospital mohalla,2,X-ray light box,1,0.6,2000,-,wall x-ray viewer lightbox with film,
-H06,P2,Hospital mohalla,2,Medicine cabinet,1,1.8,6000,-,tall glass-front medicine cabinet with bottles,
-H07,P2,Hospital mohalla,2,Reception desk,1,3.0,8000,-,hospital reception counter,
-H08,P2,Hospital mohalla,2,Surgical lamp,1,1.5,6000,-,overhead round surgical lamp on arm,
-H09,P2,Hospital mohalla,2,Privacy curtain on rail,1,2.0,3000,-,"hospital privacy curtain on ceiling rail, stained",
+H06,P2,Hospital mohalla,2,Medicine cabinet,1,1.8,6000,-,tall glass-front medicine cabinet with bottles,DONE (1/1)
+H07,P2,Hospital mohalla,2,Reception desk,1,3.0,8000,-,hospital reception counter,DONE (1/1)
+H08,P2,Hospital mohalla,2,Surgical lamp,1,1.5,6000,-,overhead round surgical lamp on arm,DONE (1/1)
+H09,P2,Hospital mohalla,2,Privacy curtain on rail,1,2.0,3000,-,"hospital privacy curtain on ceiling rail, stained",DONE (1/1)
 H10,P3,Hospital mohalla,2,Oxygen cylinder,1,1.2,2000,-,green oxygen cylinder on trolley,
 H11,P3,Hospital mohalla,2,Ambulance (old),1,5.0,25000,-,"old white ambulance van, faded cross",
 H12,P3,Hospital mohalla,2,Operating table,1,2.0,7000,-,metal operating table with lamp stand,
@@ -177,21 +177,21 @@ A08,P3,Maa Ghar (Act 3),3,Mother's bed with photos,1,2.0,8000,-,old bed with fra
 A09,P3,Maa Ghar (Act 3),3,Hanging toy mobile,1,1.0,4000,-,baby mobile with hanging toys,
 A10,P3,Maa Ghar (Act 3),3,Toy throne altar,1,4.0,20000,-,throne built from piled toys and dolls,
 A11,P3,Maa Ghar (Act 3),3,Cable bundle,1,3.0,4000,-,thick bundle of cables running along floor,
-L01,P2,Ghar: living room & furniture,Housing colony,Sofa 3-seater,2,2.0,6000,-,"old worn 3-seater sofa, torn fabric, springs showing",
-L02,P2,Ghar: living room & furniture,Housing colony,Armchair,2,0.9,4000,-,"old armchair with lace doily, stained",
-L03,P2,Ghar: living room & furniture,Housing colony,Coffee table,1,1.0,2500,-,low wooden coffee table with cup rings,
-L04,P2,Ghar: living room & furniture,Housing colony,Old television on stand,1,0.8,5000,-,1980s CRT television on wooden stand with antenna,
-L05,P2,Ghar: living room & furniture,Housing colony,Valve radio,1,0.4,2500,-,old wooden valve radio with dial,
-L06,P2,Ghar: living room & furniture,Housing colony,Floor lamp,1,1.6,2500,-,"standing floor lamp with fabric shade, tilted",
-L07,P2,Ghar: living room & furniture,Housing colony,Floor rug,3,2.0,1500,-,"3 variants worn patterned floor rugs, thin flat mesh",
-L08,P2,Ghar: living room & furniture,Housing colony,Window curtains,2,2.0,2500,-,"2 variants heavy dusty curtains, torn, hanging from rod",
-L09,P2,Ghar: living room & furniture,Housing colony,Wall photo frames set,3,0.8,1500,-,"3 variants group of framed family photos on wall, faded",
-L10,P2,Ghar: living room & furniture,Housing colony,Dining table,1,1.6,4000,-,wooden dining table with scratches,
-L11,P2,Ghar: living room & furniture,Housing colony,Dining chair,3,0.9,2500,-,"3 variants wooden dining chairs, one broken",
-L12,P2,Ghar: living room & furniture,Housing colony,Steel almirah,1,1.8,5000,-,old steel almirah with door slightly open,
-L13,P2,Ghar: living room & furniture,Housing colony,Wooden diwan,1,1.8,5000,-,wooden diwan with thin mattress and cushions,
-L14,P2,Ghar: living room & furniture,Housing colony,Home bookshelf,2,1.8,5000,-,2 variants wooden bookshelf with old books and trinkets,
-L15,P2,Ghar: living room & furniture,Housing colony,Sideboard cabinet,1,1.5,5000,-,wooden sideboard with glass doors and china,
+L01,P2,Ghar: living room & furniture,Housing colony,Sofa 3-seater,2,2.0,6000,-,"old worn 3-seater sofa, torn fabric, springs showing",DONE (2/2)
+L02,P2,Ghar: living room & furniture,Housing colony,Armchair,2,0.9,4000,-,"old armchair with lace doily, stained",DONE (2/2)
+L03,P2,Ghar: living room & furniture,Housing colony,Coffee table,1,1.0,2500,-,low wooden coffee table with cup rings,DONE (1/1)
+L04,P2,Ghar: living room & furniture,Housing colony,Old television on stand,1,0.8,5000,-,1980s CRT television on wooden stand with antenna,DONE (1/1)
+L05,P2,Ghar: living room & furniture,Housing colony,Valve radio,1,0.4,2500,-,old wooden valve radio with dial,DONE (1/1)
+L06,P2,Ghar: living room & furniture,Housing colony,Floor lamp,1,1.6,2500,-,"standing floor lamp with fabric shade, tilted",DONE (1/1)
+L07,P2,Ghar: living room & furniture,Housing colony,Floor rug,3,2.0,1500,-,"3 variants worn patterned floor rugs, thin flat mesh",DONE (3/3)
+L08,P2,Ghar: living room & furniture,Housing colony,Window curtains,2,2.0,2500,-,"2 variants heavy dusty curtains, torn, hanging from rod",DONE (2/2)
+L09,P2,Ghar: living room & furniture,Housing colony,Wall photo frames set,3,0.8,1500,-,"3 variants group of framed family photos on wall, faded",DONE (3/3)
+L10,P2,Ghar: living room & furniture,Housing colony,Dining table,1,1.6,4000,-,wooden dining table with scratches,DONE (1/1)
+L11,P2,Ghar: living room & furniture,Housing colony,Dining chair,3,0.9,2500,-,"3 variants wooden dining chairs, one broken",DONE (3/3)
+L12,P2,Ghar: living room & furniture,Housing colony,Steel almirah,1,1.8,5000,-,old steel almirah with door slightly open,DONE (1/1)
+L13,P2,Ghar: living room & furniture,Housing colony,Wooden diwan,1,1.8,5000,-,wooden diwan with thin mattress and cushions,DONE (1/1)
+L14,P2,Ghar: living room & furniture,Housing colony,Home bookshelf,2,1.8,5000,-,2 variants wooden bookshelf with old books and trinkets,DONE (2/2)
+L15,P2,Ghar: living room & furniture,Housing colony,Sideboard cabinet,1,1.5,5000,-,wooden sideboard with glass doors and china,DONE (1/1)
 L16,P3,Ghar: living room & furniture,Housing colony,Ceiling fan,1,1.2,3000,-,"old three-blade ceiling fan, dusty",
 L17,P3,Ghar: living room & furniture,Housing colony,Table fan,1,0.5,2500,-,old metal table fan,
 L18,P3,Ghar: living room & furniture,Housing colony,Air cooler,1,0.9,4000,-,"desert air cooler, rusty",
