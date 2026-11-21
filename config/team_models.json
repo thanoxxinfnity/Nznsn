@@ -16,6 +16,14 @@
       "nvidia:moonshotai/kimi-k3.1-pro",
       "codex:gpt-6.1-sol",
       "sim:-"
+    ],
+    "blender": [
+      "sim:-",
+      "codex:gpt-6.1-sol",
+      "nvidia:moonshotai/kimi-k3.1-pro",
+      "gemini:gemini-3.5-flash",
+      "coarena:deepseek-v4-1-flash-1017",
+      "seek:deepseek-v4.1-flash-free"
     ]
   },
   "lead": {
@@ -27,7 +35,7 @@
     "role": "Godot 4 GDScript (aur Blender bpy) code likhna"
   },
   "blender_tech": {
-    "chain": "strong",
+    "chain": "blender",
     "role": "Blender 5.3 ke bpy Python scripts likhna jo 3D models/maps banate hain"
   },
   "reviewer": {
