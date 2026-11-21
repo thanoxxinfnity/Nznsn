@@ -36,7 +36,7 @@ User Hindi/Hinglish bolta hai: usi mein, chhota aur seedha jawab do. Kaam jaldi 
 - Gemini free key par image-generation 429; image-generator abhi nahi hai (text->3D ya user ki image).
 
 ## HORROR game "Khilauna Nagar" (horror_city/) — ASLI FOCUS ab yahi (user ne 'default' choose kiya: medium dar, Neha, Hindi text, Block City rukk gaya)
-- Plan: HORROR_PLAN.md. 3D list v2: docs/KHILAUNA_NAGAR_ALL_3D_MODELS_v2.md + docs/ASSET_LIST.csv (658 items / 892 models, 'Done' column). Batch1 (24 props) horror_city/assets/props/ me DONE+Godot-verified.
+- Plan: HORROR_PLAN.md. 3D list v2: docs/KHILAUNA_NAGAR_ALL_3D_MODELS_v2.md + docs/ASSET_LIST.csv (985 items / 1434 models, 'Done' column). Batch1 (24 props) horror_city/assets/props/ me DONE+Godot-verified.
 - User models banwa ke zip bhejta hai (chat attachment ya gofile; gofile ko API se padhna MANA kiya gaya - user se attach/GitHub/Drive link maango). `python3 scripts/process_batch.py <in_dir> <out_dir>` (Blender: join, sahi size, dhuri zameen par, decimate, preview) phir `godot --headless --path horror_city --script res://tools/check_models.gd`.
 - BADA game: size matter nahi. Plan: chhota APK + chapter data-packs (.pck) Hugging Face dataset repo se download (HF write-token chahiye), ya gofile (guest files expire ho sakti hain).
 - Gudiya/monster aate hi: rig/animation chahiye (Tripo/Meshy ya Blender).

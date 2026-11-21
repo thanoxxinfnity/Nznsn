@@ -521,6 +521,9 @@ P4|Window frame|2|1.5|1200|OPTIONAL: window frame
 P4|Broken window glass|1|1.5|600|OPTIONAL: broken glass pane
 """),
 ]
+import sys; sys.path.insert(0, str(Path(__file__).resolve().parent))
+from asset_data_extra import SECTIONS_EXTRA
+SECTIONS += SECTIONS_EXTRA
 NAMES = {"P1":"PEHLE BANAO (Act 1)", "P2":"DUSRE NUMBAR", "P3":"BAAD MEIN", "P4":"BONUS / BAHUT BAAD MEIN"}
 
 old_csv = ROOT / "docs/ASSET_LIST.csv"
