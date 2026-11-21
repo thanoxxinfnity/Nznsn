@@ -27,7 +27,7 @@ def load_agents():
 def save_agents(a):
     AGENTS.write_text(json.dumps(a, ensure_ascii=False, indent=2) + "\n")
 
-def raw_chat(chat_id, text, retries=2, timeout=240):
+def raw_chat(chat_id, text, retries=3, timeout=240):
     url = f"https://www.sim.ai/api/chat/{chat_id}"
     last = None
     for i in range(retries + 1):
@@ -54,6 +54,8 @@ def raw_chat(chat_id, text, retries=2, timeout=240):
             last = "empty reply"
         except (OSError, urllib.error.URLError) as e:
             last = e
+            if getattr(e, 'code', None) == 429:
+                time.sleep(15 * (i + 1)); continue
         time.sleep(2 * (i + 1))
     raise RuntimeError(f"chat {chat_id} failed: {last}")
 

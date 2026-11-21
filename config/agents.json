@@ -13,5 +13,35 @@
     "chat_id": "1238272ue",
     "role": "Blender 5.3 ke bpy Python scripts likhna jo 3D models/maps banate hain",
     "model": "Fable 5.2"
+  },
+  "level_designer": {
+    "chat_id": "bbbababsg",
+    "model": "Fable 5.2",
+    "role": "Jungle/lakdi wali duniya ka map aur level ka dhaancha banana"
+  },
+  "animator": {
+    "chat_id": "jvivivigi",
+    "model": "Fable 5.2",
+    "role": "Darwaze, ped hilna jaise animations (keyframes) banana"
+  },
+  "reviewer": {
+    "chat_id": "zyxcuvi",
+    "model": "Fable 5.2",
+    "role": "Code, models aur animations mein bugs/kamiyan dhoondhna"
+  },
+  "art_director": {
+    "chat_id": "ff8fi",
+    "model": "Fable 5.2",
+    "role": "Game ka look/style, rang aur lakdi-jungle theme tay karna"
+  },
+  "props_artist": {
+    "chat_id": "vuvuvvuv",
+    "model": "Fable 5.2",
+    "role": "Ped, lattha, jhopdi, pul, saman jaise lakdi ke props ke Blender models"
+  },
+  "gameplay_designer": {
+    "chat_id": "najs",
+    "model": "Fable 5.2",
+    "role": "Gameplay: player ke kaam, dushman, items, rules aur quests"
   }
 }
