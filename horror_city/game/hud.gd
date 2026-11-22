@@ -109,7 +109,7 @@ func _ready() -> void:
 	note_body.custom_minimum_size = Vector2(700, 280)
 	vb.add_child(note_body)
 	var cb := Button.new()
-	cb.text = "ठीक है"
+	cb.text = Tr.t("OK")
 	cb.pressed.connect(close_note)
 	vb.add_child(cb)
 	root.add_child(note_panel)
@@ -128,14 +128,14 @@ func _ready() -> void:
 	dr.set_anchors_preset(Control.PRESET_FULL_RECT)
 	death_box.add_child(dr)
 	var dl := Label.new()
-	dl.text = "तुम पकड़ी गईं…"
+	dl.text = Tr.t("She caught you…")
 	dl.add_theme_font_size_override("font_size", 56)
 	dl.add_theme_color_override("font_color", Color(0.8, 0.1, 0.1))
 	_place(dl, 0.5, 0.5, -300, -120, 300, -40)
 	dl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	death_box.add_child(dl)
 	var rb := Button.new()
-	rb.text = "फिर से कोशिश करो"
+	rb.text = Tr.t("Try again")
 	_place(rb, 0.5, 0.5, -150, 0, 150, 70)
 	rb.add_theme_font_size_override("font_size", 28)
 	rb.pressed.connect(func(): retry_pressed.emit())
@@ -163,7 +163,7 @@ func _ready() -> void:
 	end_body.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	end_box.add_child(end_body)
 	var eb := Button.new()
-	eb.text = "आगे"
+	eb.text = Tr.t("Next")
 	_place(eb, 0.5, 1.0, -120, -140, 120, -76)
 	eb.add_theme_font_size_override("font_size", 28)
 	eb.pressed.connect(func(): continue_pressed.emit())
@@ -177,7 +177,7 @@ func _ready() -> void:
 	lr.set_anchors_preset(Control.PRESET_FULL_RECT)
 	load_box.add_child(lr)
 	load_lbl = Label.new()
-	load_lbl.text = "खिलौना नगर…"
+	load_lbl.text = Tr.t("Khilauna Nagar…")
 	load_lbl.add_theme_font_size_override("font_size", 40)
 	_place(load_lbl, 0.5, 0.5, -300, -30, 300, 30)
 	load_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -235,7 +235,7 @@ func _draw_touch() -> void:
 		var on: bool = btn_ids.values().has(k) or (k == "CROUCH" and crouch_on) or (k == "TORCH" and player and player.torch_on)
 		touch.draw_circle(pos, r, Color(1, 1, 1, 0.22 if on else 0.09))
 		touch.draw_arc(pos, r, 0, TAU, 40, Color(1, 1, 1, 0.3), 2.5)
-		var txt: String = {"USE": "खोलो", "TORCH": "टॉर्च", "RUN": "दौड़ो", "CROUCH": "झुको", "PAUSE": "II"}[k]
+		var txt: String = {"USE": Tr.t("USE"), "TORCH": Tr.t("TORCH"), "RUN": Tr.t("RUN"), "CROUCH": Tr.t("CROUCH"), "PAUSE": "II"}[k]
 		var fs := 26 if k == "USE" else 21
 		var sz := font.get_string_size(txt, HORIZONTAL_ALIGNMENT_LEFT, -1, fs)
 		touch.draw_string(font, pos + Vector2(-sz.x / 2.0, fs * 0.35), txt, HORIZONTAL_ALIGNMENT_LEFT, -1, fs, Color(1, 1, 1, 0.8))
@@ -245,7 +245,7 @@ func _draw_touch() -> void:
 		touch.draw_rect(Rect2(x, 28, 220, 14), Color(0, 0, 0, 0.5))
 		var bat: float = player.battery / 100.0
 		touch.draw_rect(Rect2(x, 28, 220.0 * bat, 14), Color(1.0, 0.85, 0.4) if bat > 0.2 else Color(1, 0.2, 0.1))
-		touch.draw_string(font, Vector2(x, 24), "बैटरी", HORIZONTAL_ALIGNMENT_LEFT, -1, 18, Color(1, 1, 1, 0.7))
+		touch.draw_string(font, Vector2(x, 24), Tr.t("BATTERY"), HORIZONTAL_ALIGNMENT_LEFT, -1, 18, Color(1, 1, 1, 0.7))
 		touch.draw_rect(Rect2(x, 62, 220, 8), Color(0, 0, 0, 0.5))
 		touch.draw_rect(Rect2(x, 62, 220.0 * player.stamina, 8), Color(0.5, 0.8, 1.0, 0.8))
 
@@ -387,7 +387,7 @@ func _process(delta: float) -> void:
 		for k in player.items:
 			if player.items[k] > 0:
 				parts.append(Story.item_name(k))
-		items_lbl.text = ("सामान: " + ", ".join(parts)) if parts.size() > 0 else ""
+		items_lbl.text = (Tr.t("Items: ") + ", ".join(parts)) if parts.size() > 0 else ""
 	fear_mat.set_shader_parameter("fear", f)
 	fear_mat.set_shader_parameter("hide_amt", _hide)
 	fear_mat.set_shader_parameter("flash", _flash)

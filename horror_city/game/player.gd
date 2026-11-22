@@ -124,7 +124,7 @@ func use_item(id: String) -> bool:
 func add_battery(v: float) -> void:
 	battery = minf(100.0, battery + v)
 	if hud:
-		hud.toast("बैटरी मिली: +%d%%" % int(v))
+		hud.toast(Tr.t("Battery found: +%d%%") % int(v))
 
 func add_fear(v: float) -> void:
 	fear = clampf(fear + v, 0.0, 1.0)
@@ -258,7 +258,7 @@ func _update_torch(delta: float) -> void:
 		if battery <= 0.0:
 			torch_on = false
 			if hud:
-				hud.toast("टॉर्च की बैटरी ख़त्म!")
+				hud.toast(Tr.t("Torch battery is dead!"))
 	torch.visible = torch_on and battery > 0.0
 	var e := 9.0
 	if battery < 15.0 and torch_on:
@@ -315,7 +315,7 @@ func leave_hide() -> void:
 
 func _hide_tick() -> void:
 	if hud:
-		hud.set_prompt("बाहर निकलो")
+		hud.set_prompt(Tr.t("Climb out"))
 	if Ctl.take_use():
 		leave_hide()
 

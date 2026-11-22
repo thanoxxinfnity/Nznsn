@@ -82,7 +82,7 @@ func _make_title() -> Control:
 	c.set_anchors_preset(Control.PRESET_FULL_RECT)
 	c.add_child(_full_bg(Color(0.02, 0.0, 0.0, 1.0)))
 	var t := Label.new()
-	t.text = "खिलौना नगर"
+	t.text = Tr.t("Khilauna Nagar")
 	t.add_theme_font_size_override("font_size", 92)
 	t.add_theme_color_override("font_color", Color(0.85, 0.12, 0.08))
 	t.add_theme_color_override("font_shadow_color", Color(0, 0, 0, 0.9))
@@ -97,7 +97,7 @@ func _make_title() -> Control:
 	t.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	c.add_child(t)
 	var sub := Label.new()
-	sub.text = "अध्याय 1 — रंगीला टॉयज़"
+	sub.text = Tr.t("Chapter 1 — Rangeela Toys")
 	sub.add_theme_font_size_override("font_size", 28)
 	sub.add_theme_color_override("font_color", Color(0.7, 0.65, 0.55))
 	sub.anchor_left = 0.5
@@ -111,11 +111,11 @@ func _make_title() -> Control:
 	var v := _center_box()
 	v.offset_top = -90
 	v.offset_bottom = 300
-	cont_btn = _btn("जारी रखो", func(): start_continue.emit())
+	cont_btn = _btn(Tr.t("Continue"), func(): start_continue.emit())
 	v.add_child(cont_btn)
-	v.add_child(_btn("नया खेल", func(): start_new.emit()))
-	v.add_child(_btn("सेटिंग्स", func(): _open_settings(false)))
-	v.add_child(_btn("बाहर", func(): quit_game.emit()))
+	v.add_child(_btn(Tr.t("New game"), func(): start_new.emit()))
+	v.add_child(_btn(Tr.t("Settings"), func(): _open_settings(false)))
+	v.add_child(_btn(Tr.t("Quit"), func(): quit_game.emit()))
 	c.add_child(v)
 	return c
 
@@ -124,7 +124,7 @@ func _make_pause() -> Control:
 	c.set_anchors_preset(Control.PRESET_FULL_RECT)
 	c.add_child(_full_bg(Color(0, 0, 0, 0.72)))
 	var l := Label.new()
-	l.text = "रुका हुआ"
+	l.text = Tr.t("Paused")
 	l.add_theme_font_size_override("font_size", 56)
 	l.anchor_left = 0.5
 	l.anchor_right = 0.5
@@ -137,9 +137,9 @@ func _make_pause() -> Control:
 	var v := _center_box()
 	v.offset_top = -120
 	v.offset_bottom = 260
-	v.add_child(_btn("खेल जारी रखो", func(): hide_pause(); resumed.emit()))
-	v.add_child(_btn("सेटिंग्स", func(): _open_settings(true)))
-	v.add_child(_btn("मुख्य मेनू", func(): to_title.emit()))
+	v.add_child(_btn(Tr.t("Resume"), func(): hide_pause(); resumed.emit()))
+	v.add_child(_btn(Tr.t("Settings"), func(): _open_settings(true)))
+	v.add_child(_btn(Tr.t("Main menu"), func(): to_title.emit()))
 	c.add_child(v)
 	return c
 
@@ -148,7 +148,7 @@ func _make_settings() -> Control:
 	c.set_anchors_preset(Control.PRESET_FULL_RECT)
 	c.add_child(_full_bg(Color(0.02, 0.0, 0.0, 0.96)))
 	var l := Label.new()
-	l.text = "सेटिंग्स"
+	l.text = Tr.t("Settings")
 	l.add_theme_font_size_override("font_size", 52)
 	l.anchor_left = 0.5
 	l.anchor_right = 0.5
@@ -167,20 +167,30 @@ func _make_settings() -> Control:
 	v.offset_top = 140
 	v.offset_bottom = 560
 	v.add_theme_constant_override("separation", 14)
-	v.add_child(_row("देखने की संवेदनशीलता", 0.4, 2.2, Settings.sens, func(x): Settings.sens = x))
-	v.add_child(_row("आवाज़", 0.0, 1.0, Settings.volume, func(x): Settings.volume = x; AudioServer.set_bus_volume_db(0, linear_to_db(maxf(x, 0.0001)))))
+	v.add_child(_row(Tr.t("Look sensitivity"), 0.4, 2.2, Settings.sens, func(x): Settings.sens = x))
+	v.add_child(_row(Tr.t("Volume"), 0.0, 1.0, Settings.volume, func(x): Settings.volume = x; AudioServer.set_bus_volume_db(0, linear_to_db(maxf(x, 0.0001)))))
+	var ll := Label.new()
+	ll.text = Tr.t("Language")
+	v.add_child(ll)
+	var lb := OptionButton.new()
+	lb.add_item("English", 0)
+	lb.add_item("हिन्दी", 1)
+	lb.select(1 if Settings.lang == "hi" else 0)
+	lb.custom_minimum_size = Vector2(0, 64)
+	lb.item_selected.connect(func(i): Settings.lang = "hi" if i == 1 else "en")
+	v.add_child(lb)
 	var ql := Label.new()
-	ql.text = "ग्राफ़िक्स क्वालिटी"
+	ql.text = Tr.t("Graphics quality")
 	v.add_child(ql)
 	var ob := OptionButton.new()
-	ob.add_item("कम (तेज़ फ़ोन)", 0)
-	ob.add_item("मध्यम", 1)
-	ob.add_item("ऊँची", 2)
+	ob.add_item(Tr.t("Low (older phones)"), 0)
+	ob.add_item(Tr.t("Medium"), 1)
+	ob.add_item(Tr.t("High"), 2)
 	ob.select(Settings.quality)
 	ob.custom_minimum_size = Vector2(0, 64)
 	ob.item_selected.connect(func(i): Settings.quality = i)
 	v.add_child(ob)
-	v.add_child(_btn("वापस", func(): _close_settings()))
+	v.add_child(_btn(Tr.t("Back"), func(): _close_settings()))
 	c.add_child(v)
 	return c
 
@@ -217,12 +227,14 @@ func hide_pause() -> void:
 	get_tree().paused = false
 
 func _open_settings(from_pause: bool) -> void:
+	_lang_at_open = Settings.lang
 	_from_pause = from_pause
 	settings_box.visible = true
 
 func _close_settings() -> void:
 	settings_box.visible = false
 	Settings.save_()
-	settings_changed.emit()
+	settings_changed.emit(_lang_at_open != Settings.lang)
 
-signal settings_changed
+signal settings_changed(lang_changed: bool)
+var _lang_at_open := "en"

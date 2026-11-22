@@ -145,12 +145,12 @@ func build(p_: Player, g_: Gudiya, h_: Hud) -> void:
 	door_hall = Door.make(self, Vector3(0, 0, -10.0), true, 1.5, 2.4, true)
 	door_hall.locked = true
 	door_hall.key_id = "key_hall"
-	door_hall.lock_msg = "ताला बंद है। रिसेप्शन में चाबी होगी।"
+	door_hall.lock_msg = Tr.t("It's locked. The key must be somewhere in reception.")
 	door_paint = Door.make(self, Vector3(16.0, 0, -22.0), false, 1.4, 2.4, false)
 	door_gen = Door.make(self, Vector3(-16.0, 0, -22.0), false, 1.4, 2.4, false)
 	door_lift = Door.make(self, Vector3(0, 0, -34.0), true, 1.6, 2.5, true)
 	door_lift.locked = true
-	door_lift.lock_msg = "बिजली बंद है। पहले जनरेटर चालू करो।"
+	door_lift.lock_msg = Tr.t("No power. Start the generator first.")
 	_dress_yard()
 	_dress_reception()
 	_dress_hall()
@@ -230,7 +230,7 @@ func _restore() -> void:
 	if flags.get("entered", false):
 		door_entry.is_open = false
 		door_entry.locked = true
-		door_entry.lock_msg = "दरवाज़ा अटक गया है — पीछे नहीं जा सकते।"
+		door_entry.lock_msg = Tr.t("The door is stuck — there's no going back.")
 	if player.has_item("key_hall"):
 		door_hall.locked = false
 	if flags.get("power", false):
@@ -241,7 +241,7 @@ func checkpoint(obj: String) -> void:
 	Save.data = {"pos": player.global_position, "yaw": player.yaw, "items": player.items.duplicate(), "battery": player.battery,
 		"flags": flags.duplicate(), "objective": obj, "collected": Save.data.get("collected", [])}
 	Save.write()
-	hud.toast("✓ सेव हुआ", 1.5)
+	hud.toast(Tr.t("✓ Checkpoint saved"), 1.5)
 
 # ---------------------------------------------------------------- dressing
 func _P(file: String, x: float, z: float, rot := 0.0, y := 0.0, sc := 1.0, collide := true) -> Node3D:
@@ -277,12 +277,12 @@ func _dress_reception() -> void:
 	_P("D09_open_books_on_floor_v1", -2.2, -3.2, 10)
 	_P("D06_trash_bag_pile_v2", -5.0, -8.8, 30)
 	_P("F21_desk_lamp", -1.0, -6.2, 15, 1.1, 1.0, false)
-	_pk("key", "G03_key_v1_brass", Vector3(3.9, 1.3, -9.65), 20, "key_hall", "रिसेप्शन की चाबी", "item", 2.5)
-	var d1 := _pk("d1", "G05_diary", Vector3(0.9, 1.12, -6.15), 10, "diary1", "डायरी", "note", 1.0)
+	_pk("key", "G03_key_v1_brass", Vector3(3.9, 1.3, -9.65), 20, "key_hall", Tr.t("Reception key"), "item", 2.5)
+	var d1 := _pk("d1", "G05_diary", Vector3(0.9, 1.12, -6.15), 10, "diary1", Tr.t("Diary"), "note", 1.0)
 	if d1:
-		d1.note_title = Story.D1_T
-		d1.note_text = Story.D1
-	var b1 := _pk("bat1", "G02_battery_d_cell", Vector3(-4.8, 0.02, -8.6), 0, "", "बैटरी", "battery", 2.0)
+		d1.note_title = Story.d1_t()
+		d1.note_text = Story.d1()
+	var b1 := _pk("bat1", "G02_battery_d_cell", Vector3(-4.8, 0.02, -8.6), 0, "", Tr.t("BATTERY"), "battery", 2.0)
 	if b1:
 		b1.amount = 45.0
 	Build.tube(self, Vector3(0, 3.3, -2.0), Color(0.82, 1.0, 0.9), 1.5, 9.0, 0.7, "reception", true)
@@ -311,10 +311,10 @@ func _dress_hall() -> void:
 		_P("T02_porcelain_doll_sitting_v%d" % (1 + randi() % 3), d[0], d[1], d[2], 0.9, 1.0, false)
 	var hs := HideSpot.make(self, "B04_wooden_wardrobe_v1", Vector3(-15.3, 0, -13.0), 90, Vector3(1.1, 2.0, 1.02))
 	hs.add_to_group("hide_spots")
-	var d2 := _pk("d2", "G05_diary", Vector3(-2.5, 0.16, -15.5), 70, "diary2", "डायरी", "note", 1.0)
+	var d2 := _pk("d2", "G05_diary", Vector3(-2.5, 0.16, -15.5), 70, "diary2", Tr.t("Diary"), "note", 1.0)
 	if d2:
-		d2.note_title = Story.D2_T
-		d2.note_text = Story.D2
+		d2.note_title = Story.d2_t()
+		d2.note_text = Story.d2()
 	Build.lamp(self, Vector3(-10, 4.9, -15), Color(1.0, 0.12, 0.06), 1.1, 11.0, 0.35, "hall_em", true)
 	Build.lamp(self, Vector3(10, 4.9, -15), Color(1.0, 0.12, 0.06), 1.1, 11.0, 0.35, "hall_em", true)
 	Build.lamp(self, Vector3(-10, 4.9, -28), Color(1.0, 0.12, 0.06), 1.1, 11.0, 0.35, "hall_em", true)
@@ -338,12 +338,12 @@ func _dress_paint() -> void:
 	var h2 := HideSpot.make(self, "B04_wooden_wardrobe_v1", Vector3(16.75, 0, -28.5), 90, Vector3(1.1, 2.0, 1.02))
 	h1.add_to_group("hide_spots")
 	h2.add_to_group("hide_spots")
-	_pk("fuse", "G04_ceramic_fuse", Vector3(28.4, 1.07, -22.3), 0, "fuse", "सिरेमिक फ़्यूज़", "item", 3.0)
-	var d3 := _pk("d3", "G05_diary", Vector3(28.4, 1.07, -23.2), 40, "diary3", "डायरी", "note", 1.0)
+	_pk("fuse", "G04_ceramic_fuse", Vector3(28.4, 1.07, -22.3), 0, "fuse", Tr.t("Ceramic fuse"), "item", 3.0)
+	var d3 := _pk("d3", "G05_diary", Vector3(28.4, 1.07, -23.2), 40, "diary3", Tr.t("Diary"), "note", 1.0)
 	if d3:
-		d3.note_title = Story.D3_T
-		d3.note_text = Story.D3
-	var b2 := _pk("bat2", "G02_battery_d_cell", Vector3(20.0, 0.02, -30.0), 0, "", "बैटरी", "battery", 2.0)
+		d3.note_title = Story.d3_t()
+		d3.note_text = Story.d3()
+	var b2 := _pk("bat2", "G02_battery_d_cell", Vector3(20.0, 0.02, -30.0), 0, "", Tr.t("BATTERY"), "battery", 2.0)
 	if b2:
 		b2.amount = 45.0
 	Build.lamp(self, Vector3(23, 3.0, -23), Color(1.0, 0.7, 0.35), 1.2, 11.0, 0.85, "paint_em", true)
@@ -490,34 +490,34 @@ func _process(delta: float) -> void:
 		flags["entered"] = true
 		door_entry.close(true)
 		door_entry.locked = true
-		door_entry.lock_msg = "दरवाज़ा अटक गया है — पीछे नहीं जा सकते।"
+		door_entry.lock_msg = Tr.t("The door is stuck — there's no going back.")
 		for l in get_tree().get_nodes_in_group("lamps"):
 			if l.zone == "reception":
 				l.blackout(0.8)
 		Aud.play2d(self, "stinger", -8.0)
-		hud.subtitle("नेहा: ये दरवाज़ा अपने आप…? चाबी ढूँढनी होगी।", 4.5)
-		hud.objective(Story.OBJ_KEY)
-		checkpoint(Story.OBJ_KEY)
+		hud.subtitle(Tr.t("Neha: The door shut by itself…? I need to find the key."), 4.5)
+		hud.objective(Story.obj_key())
+		checkpoint(Story.obj_key())
 	if flags.get("entered", false) and not flags.get("key_taken", false) and player.has_item("key_hall"):
 		flags["key_taken"] = true
-		hud.objective(Story.OBJ_HALL)
-		hud.subtitle("नेहा: ये तो हॉल की चाबी है।", 3.0)
-		checkpoint(Story.OBJ_HALL)
+		hud.objective(Story.obj_hall())
+		hud.subtitle(Tr.t("Neha: This is the key to the hall."), 3.0)
+		checkpoint(Story.obj_hall())
 	if not flags.get("hall_entered", false) and zone_of(pp) == "hall" and pp.z < -11.0:
 		flags["hall_entered"] = true
 		for l in get_tree().get_nodes_in_group("lamps"):
 			if l.zone == "hall_em":
 				l.blackout(0.9)
 		Aud.play2d(self, "stinger", -4.0)
-		hud.subtitle("नेहा: वो… वो गुड़िया हिली क्या? रोशनी इस पर रखना।", 5.0)
-		hud.objective(Story.OBJ_FUSE)
-		checkpoint(Story.OBJ_FUSE)
+		hud.subtitle(Tr.t("Neha: That doll… did it just move? Keep the light on it."), 5.0)
+		hud.objective(Story.obj_fuse())
+		checkpoint(Story.obj_fuse())
 		get_tree().create_timer(6.0).timeout.connect(func(): gud.activate())
 	if flags.get("hall_entered", false) and not flags.get("fuse_taken", false) and player.has_item("fuse"):
 		flags["fuse_taken"] = true
-		hud.objective(Story.OBJ_GEN)
-		hud.subtitle("नेहा: फ़्यूज़ मिल गया। जनरेटर रूम… पश्चिम की तरफ़।", 4.0)
-		checkpoint(Story.OBJ_GEN)
+		hud.objective(Story.obj_gen())
+		hud.subtitle(Tr.t("Neha: Got the fuse. The generator room… to the west."), 4.0)
+		checkpoint(Story.obj_gen())
 
 func _lightning() -> void:
 	var tw := create_tween()
@@ -531,13 +531,13 @@ func _lightning() -> void:
 func _fuse_prompt(p) -> String:
 	if flags.get("power", false):
 		return ""
-	return "फ़्यूज़ लगाओ" if p.has_item("fuse") else "फ़्यूज़ बॉक्स — फ़्यूज़ ग़ायब है"
+	return Tr.t("Insert fuse") if p.has_item("fuse") else Tr.t("Fuse box — the fuse is missing")
 
 func _fuse_use(p) -> void:
 	if flags.get("power", false):
 		return
 	if not p.has_item("fuse"):
-		hud.toast("यहाँ का फ़्यूज़ ग़ायब है। रंग वाले कमरे में देखो।")
+		hud.toast(Tr.t("The fuse is missing. Try the paint room."))
 		Aud.play2d(p, "door_locked", -6.0)
 		return
 	p.use_item("fuse")
@@ -555,21 +555,21 @@ func _power_on(silent: bool) -> void:
 		_gen_snd.play()
 	door_lift.locked = false
 	gud.walk_speed = 3.15
-	hud.objective(Story.OBJ_LIFT)
+	hud.objective(Story.obj_lift())
 	if not silent:
 		Aud.play2d(self, "power_up", -4.0)
 		hud.flash(0.6)
-		hud.subtitle("नेहा: बिजली आ गई! लिफ़्ट… जल्दी! वो अब तेज़ है!", 5.0)
-		checkpoint(Story.OBJ_LIFT)
+		hud.subtitle(Tr.t("Neha: Power's back! The lift — hurry! She's faster now!"), 5.0)
+		checkpoint(Story.obj_lift())
 
 func _lift_prompt(p) -> String:
 	if _ended:
 		return ""
-	return "लिफ़्ट में चढ़ो" if flags.get("power", false) else "लिफ़्ट बंद — बिजली नहीं"
+	return Tr.t("Enter lift") if flags.get("power", false) else Tr.t("Lift offline — no power")
 
 func _lift_use(p) -> void:
 	if not flags.get("power", false):
-		hud.toast("लिफ़्ट में बिजली नहीं है।")
+		hud.toast(Tr.t("The lift has no power."))
 		Aud.play2d(p, "door_locked", -6.0)
 		return
 	_ended = true
@@ -578,5 +578,5 @@ func _lift_use(p) -> void:
 	Aud.play2d(self, "door_slam", -2.0)
 	hud.fade_to(1.0, 2.0)
 	await get_tree().create_timer(2.4).timeout
-	hud.show_end(Story.END_T, Story.END_B)
+	hud.show_end(Story.end_t(), Story.end_b())
 	chapter_end.emit()

@@ -4,6 +4,7 @@ extends RefCounted
 static var quality := 1        # 0 kam, 1 madhyam, 2 uchch
 static var sens := 1.0
 static var volume := 0.9
+static var lang := "en"        # "en" ya "hi"
 const PATH := "user://settings.json"
 
 static func load_() -> void:
@@ -15,11 +16,12 @@ static func load_() -> void:
 		quality = int(d.get("quality", quality))
 		sens = float(d.get("sens", sens))
 		volume = float(d.get("volume", volume))
+		lang = str(d.get("lang", lang))
 
 static func save_() -> void:
 	var f := FileAccess.open(PATH, FileAccess.WRITE)
 	if f:
-		f.store_string(JSON.stringify({"quality": quality, "sens": sens, "volume": volume}))
+		f.store_string(JSON.stringify({"quality": quality, "sens": sens, "volume": volume, "lang": lang}))
 
 static func apply(vp: Viewport, level, player) -> void:
 	AudioServer.set_bus_volume_db(0, linear_to_db(clampf(volume, 0.0001, 1.0)))

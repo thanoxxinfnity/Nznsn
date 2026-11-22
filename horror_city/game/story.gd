@@ -1,35 +1,64 @@
 class_name Story
 extends RefCounted
-# Kahani ka Hindi text (diary, naam, subtitle).
+# Kahani ka text (English; Hindi Tr.HI se).
+
 static func item_name(id: String) -> String:
 	match id:
-		"key_hall": return "रिसेप्शन की चाबी"
-		"fuse": return "सिरेमिक फ़्यूज़"
-		"diary1": return "डायरी-1"
-		"diary2": return "डायरी-2"
-		"diary3": return "डायरी-3"
-		"letter": return "माँ की चिट्ठी"
+		"key_hall": return Tr.t("Reception key")
+		"fuse": return Tr.t("Ceramic fuse")
+		"diary1": return Tr.t("Diary 1")
+		"diary2": return Tr.t("Diary 2")
+		"diary3": return Tr.t("Diary 3")
+		"letter": return Tr.t("Mother's letter")
 	return id
 
-const LETTER_T := "माँ की आख़िरी चिट्ठी"
-const LETTER := "नेहा, मेरी बच्ची,\n\nअगर तू ये पढ़ रही है तो मैं लौट नहीं पाई। मैंने गुड़िया वहीं छोड़ दी है, फ़ैक्टरी के नीचे। उसे कभी बाहर मत लाना।\n\nऔर बेटा… मेरी गुड़िया को नीचे मत ले जाना।\n\n— माँ"
+static func letter_t() -> String:
+	return Tr.t("Mother's last letter")
 
-const D1_T := "सावित्री की डायरी — पन्ना 1"
-const D1 := "आज फिर मशीन देर तक चली। मालिक कहते हैं रंगीला टॉयज़ के खिलौने 'ज़िंदा' लगने चाहिए। हम पेंटर्स को हर गुड़िया की आँखों में कुछ अपना डालना है।\n\nकल से सब रात की पाली में हैं। बाहर का गेट अब अंदर से बंद रहता है।"
+static func letter() -> String:
+	return Tr.t("Neha, my child,\n\nIf you are reading this, I never made it back. I left the doll down there, beneath the factory. Never bring her out.\n\nAnd child… don't take my doll downstairs.\n\n— Maa")
 
-const D2_T := "सावित्री की डायरी — पन्ना 2"
-const D2 := "इंजन हमारी यादें खा रहा है।\n\nरामू को अब अपना नाम याद नहीं। मुझे अपनी बेटी का चेहरा धुँधला लगता है। गुड़ियाँ रात को हिलती हैं — बस तब नहीं जब उन्हें कोई देख रहा हो।\n\nरोशनी देखती रहो। रोशनी रोकती है।"
+static func d1_t() -> String:
+	return Tr.t("Savitri's diary — page 1")
 
-const D3_T := "सावित्री की डायरी — पन्ना 3"
-const D3 := "जनरेटर रूम में फ़्यूज़ बॉक्स है, पर फ़्यूज़ मैंने रंग वाले कमरे में छुपा दिया। जो भी लिफ़्ट चलाएगा, पूरा इंजन जाग जाएगा।\n\nअगर तू आई तो दौड़ना, नेहा। पीछे मुड़कर मत देखना।"
+static func d1() -> String:
+	return Tr.t("The machines ran late again today. The owners say Rangeela Toys' dolls must look 'alive'. We painters have to put something of ourselves into every doll's eyes.\n\nFrom tomorrow everyone is on night shift. The front gate stays locked from the inside now.")
 
-const START_SUB := "नेहा: माँ… मैं पहुँच गई। यही वो फ़ैक्टरी है।"
-const OBJ_ENTER := "फ़ैक्टरी के अंदर जाओ"
-const OBJ_KEY := "रिसेप्शन में चाबी ढूँढो"
-const OBJ_HALL := "असेंबली हॉल पार करो — गुड़िया पर नज़र रखना"
-const OBJ_FUSE := "रंग वाले कमरे में फ़्यूज़ ढूँढो"
-const OBJ_GEN := "जनरेटर रूम में फ़्यूज़ लगाओ"
-const OBJ_LIFT := "लिफ़्ट तक भागो!"
+static func d2_t() -> String:
+	return Tr.t("Savitri's diary — page 2")
 
-const END_T := "अध्याय 1 पूरा"
-const END_B := "लिफ़्ट नीचे उतरती जा रही है…\n\nअंधेरे में कहीं से माँ की आवाज़ में एक लोरी सुनाई देती है।\n\nअगला: अध्याय 2 — खिलौना नगर के चार मोहल्ले।"
+static func d2() -> String:
+	return Tr.t("The engine is eating our memories.\n\nRamu no longer remembers his own name. My daughter's face is blurring in my mind. The dolls move at night — just not while anyone is watching them.\n\nKeep the light on them. Light stops them.")
+
+static func d3_t() -> String:
+	return Tr.t("Savitri's diary — page 3")
+
+static func d3() -> String:
+	return Tr.t("The fuse box is in the generator room, but I hid the fuse in the paint room. Whoever starts the lift will wake the whole engine.\n\nIf you come, run, Neha. Don't look back.")
+
+static func start_sub() -> String:
+	return Tr.t("Neha: Maa… I made it. This is the factory.")
+
+static func obj_enter() -> String:
+	return Tr.t("Go inside the factory")
+
+static func obj_key() -> String:
+	return Tr.t("Find the key in reception")
+
+static func obj_hall() -> String:
+	return Tr.t("Cross the assembly hall — keep your eyes on the doll")
+
+static func obj_fuse() -> String:
+	return Tr.t("Find the fuse in the paint room")
+
+static func obj_gen() -> String:
+	return Tr.t("Put the fuse in the generator room")
+
+static func obj_lift() -> String:
+	return Tr.t("Run to the lift!")
+
+static func end_t() -> String:
+	return Tr.t("Chapter 1 complete")
+
+static func end_b() -> String:
+	return Tr.t("The lift keeps sinking…\n\nSomewhere in the dark, a lullaby plays in your mother's voice.\n\nNext: Chapter 2 — the four neighbourhoods of Khilauna Nagar.")

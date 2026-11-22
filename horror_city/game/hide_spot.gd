@@ -2,7 +2,7 @@ class_name HideSpot
 extends Node3D
 # Almari/locker jisme chhup sakte ho. face_yaw = andar se bahar ki taraf dekhne ka kon.
 var face_yaw := 0.0
-var label := "अलमारी में छुपो"
+var label := Tr.t("Hide in the wardrobe")
 var occupied := false
 
 static func make(parent: Node, file: String, pos: Vector3, rot_deg: float, size: Vector3) -> HideSpot:

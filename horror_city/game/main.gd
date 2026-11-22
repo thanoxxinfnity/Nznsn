@@ -23,6 +23,9 @@ func _ready() -> void:
 			autotest = true
 			Ctl.auto = true
 	Settings.load_()
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("--lang="):
+			Settings.lang = a.substr(7)
 	hud = Hud.new()
 	add_child(hud)
 	await get_tree().process_frame
@@ -51,8 +54,12 @@ func _ready() -> void:
 		Save.skip_menu = false
 		get_tree().reload_current_scene())
 	menu.quit_game.connect(func(): get_tree().quit())
-	menu.settings_changed.connect(func():
-		if started:
+	menu.settings_changed.connect(func(lang_changed: bool):
+		if lang_changed:
+			get_tree().paused = false
+			Save.skip_menu = false
+			get_tree().reload_current_scene()
+		elif started:
 			Settings.apply(get_viewport(), level, player))
 	hud.pause_pressed.connect(func(): _set_paused(true))
 	if not Save.has():
@@ -68,7 +75,7 @@ func _ready() -> void:
 		menu.hide_title()
 		_start_game_quiet()
 		await get_tree().create_timer(1.0).timeout
-		hud.show_note(Story.LETTER_T, Story.LETTER)
+		hud.show_note(Story.letter_t(), Story.letter())
 		await _snap("m3_letter")
 		hud.close_note()
 		menu.show_pause()
@@ -127,10 +134,10 @@ func _start_game() -> void:
 	hud.loaded()
 	started = true
 	if not Save.has():
-		hud.objective(Story.OBJ_ENTER)
-		hud.subtitle(Story.START_SUB, 5.0)
+		hud.objective(Story.obj_enter())
+		hud.subtitle(Story.start_sub(), 5.0)
 		if not autotest and shot_dir == "":
-			get_tree().create_timer(2.5).timeout.connect(func(): hud.show_note(Story.LETTER_T, Story.LETTER))
+			get_tree().create_timer(2.5).timeout.connect(func(): hud.show_note(Story.letter_t(), Story.letter()))
 	if not DisplayServer.is_touchscreen_available() and not autotest and shot_dir == "" and DisplayServer.get_name() != "headless":
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	if shot_dir != "" and OS.get_cmdline_user_args().has("--shot2"):
@@ -251,7 +258,7 @@ func _shots2() -> void:
 	await _snap("c_key_prompt")
 	_stand(Vector3(0.0, 0.1, -4.0), Vector3(0.9, 1.1, -6.15))
 	await _snap("d_diary_prompt")
-	level.hud.show_note(Story.D2_T, Story.D2)
+	level.hud.show_note(Story.d2_t(), Story.d2())
 	await _snap("e_note")
 	level.hud.close_note()
 	_stand(Vector3(-13.9, 0.1, -13.0), Vector3(-15.3, 1.0, -13.0))
@@ -398,7 +405,7 @@ func _autotest() -> void:
 	# 4) chaabi
 	_stand(Vector3(3.9, 0.1, -8.6), Vector3(3.9, 1.3, -9.65))
 	await _frames(6)
-	_check("key prompt", hud.prompt_lbl.text.begins_with("उठाओ"), hud.prompt_lbl.text)
+	_check("key prompt", hud.prompt_lbl.text.begins_with(Tr.t("Pick up")), hud.prompt_lbl.text)
 	await _use()
 	await _frames(10)
 	_check("key picked", player.has_item("key_hall"))
@@ -444,7 +451,7 @@ func _autotest() -> void:
 	gud.state = Gudiya.S.STALK
 	_stand(Vector3(-13.9, 0.1, -13.0), Vector3(-15.3, 1.0, -13.0))
 	await _frames(6)
-	_check("wardrobe prompt", hud.prompt_lbl.text.contains("छुपो"), hud.prompt_lbl.text)
+	_check("wardrobe prompt", hud.prompt_lbl.text.contains(Tr.t("Hide")), hud.prompt_lbl.text)
 	await _use()
 	await _frames(10)
 	_check("hidden in wardrobe", player.hidden)
@@ -464,14 +471,14 @@ func _autotest() -> void:
 	_check("fuse picked", player.has_item("fuse"))
 	_stand(Vector3(-27.6, 0.1, -23.0), Vector3(-29.5, 1.5, -23.0))
 	await _frames(6)
-	_check("fuse box prompt", hud.prompt_lbl.text.contains("फ़्यूज़"), hud.prompt_lbl.text)
+	_check("fuse box prompt", hud.prompt_lbl.text.contains(Tr.t("fuse")), hud.prompt_lbl.text)
 	await _use()
 	await _frames(20)
 	_check("power on", level.flags.get("power", false) and not level.door_lift.locked and level.is_lit(Vector3(0, 0, -22)))
 	# 10) lift
 	_stand(Vector3(0, 0.1, -39.5), Vector3(0, 1.25, -42.0))
 	await _frames(6)
-	_check("lift prompt", hud.prompt_lbl.text.contains("लिफ़्ट"), hud.prompt_lbl.text)
+	_check("lift prompt", hud.prompt_lbl.text.contains(Tr.t("lift")), hud.prompt_lbl.text)
 	await _use()
 	await get_tree().create_timer(3.0).timeout
 	_check("chapter end card", hud.end_box.visible)

@@ -28,7 +28,7 @@ func _ready() -> void:
 	_light.omni_range = 1.4
 	_light.position = Vector3(0, 0.25, 0)
 	add_child(_light)
-	_inter = Interactable.make(self, Vector3(0, 0.15, 0), Vector3(0.6, 0.4, 0.6), func(_p): return "उठाओ: " + label, _take)
+	_inter = Interactable.make(self, Vector3(0, 0.15, 0), Vector3(0.6, 0.4, 0.6), func(_p): return Tr.t("Pick up: ") + label, _take)
 
 func _process(_d: float) -> void:
 	var pl = get_tree().get_first_node_in_group("player")
@@ -47,6 +47,6 @@ func _take(p) -> void:
 		_:
 			p.add_item(item_id)
 			if p.hud:
-				p.hud.toast("मिला: " + label)
+				p.hud.toast(Tr.t("Got: ") + label)
 	picked.emit(p)
 	queue_free()

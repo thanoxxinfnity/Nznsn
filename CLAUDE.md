@@ -69,3 +69,11 @@ Horror plan (naya): HORROR_PLAN.md. Block City plan: PLAN.md (Block City, GTA-ja
 - Insaan-jaise mesh ko skeleton par: `blender -b --python blender/scripts/rig_character.py -- char.glb YBot.fbx out.glb` -> horror_city/assets/rigged/*.glb (+.json scale_back: Godot mein root scale). Mesh skeleton ke size tak scale hota hai, band proxy se auto-weights.
 - Test: `godot --headless --path horror_city --script res://tools/anim_test.gd` (117/117 tracks match). Library ke AnimationPlayer ko rigged scene mein root_node=character root se lagao.
 - Fitted rig (mera): `blender -b --python blender/scripts/rig_fit.py -- char.glb YBot.fbx blender/rigs/<ID>.json out.blend` (joint landmarks = front-view pixels in JSON) -> `bake_char_anims.py out.blend <fbx dirs> out.glb` (38 clips baked). Teddy, Monkey aise bane. User ke Blender rigs (Gudiya, Master-ji, Nurse): bake_char_anims.py seedha FBX se. Doctor/Clown/Soldier: purana auto-rig + shared library (mixamo_anims.glb).
+
+## GAME CODE (22 Nov) — horror_city/game/ (Act 1 factory playable)
+- Sab code se: Level (level_act1.gd, class Level), Player (torch/battery/hide/interact), Gudiya (freeze-when-seen AI + navmesh), Door/Pickup/HideSpot/Interactable, Hud (touch), Menu (title/pause/settings), Sfx (procedural audio), Mats (procedural textures), Build (walls/props), Settings/Save (user://), Tr (English text; Hindi via Tr.HI, Settings.lang). Text hamesha `Tr.t("English")`.
+- Naye class_name ke baad: `godot --headless --path horror_city --import` phir `--script res://tools/lint.gd`.
+- Tests: `godot --headless --path horror_city -- --autotest --fresh` (26 checks), `-- --walktest --fresh` (7 routes). Screenshots: `xvfb-run -a godot --rendering-driver opengl3 --path horror_city -- --shot=/tmp/o [--shot2] [--lang=hi]`, menus `--menushot=/tmp/o`.
+- APK: `bash scripts/export_horror.sh` -> build/KhilaunaNagar.apk (staged copy, sirf use hue props; ~111MB). Phone par TEST NAHI hua.
+- Story/animation lists: docs/KHILAUNA_NAGAR_STORY.md, docs/RIG_LIST.md. FP haath abhi purana M04 (ungliyan juddi) — ungli wala rig baaki. Adhyay 2+ aur final factory-escape baaki.
+

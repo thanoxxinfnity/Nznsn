@@ -6,7 +6,7 @@ var width := 1.1
 var height := 2.3
 var locked := false
 var key_id := ""
-var lock_msg := "दरवाज़ा बंद है। चाबी चाहिए।"
+var lock_msg := Tr.t("The door is locked. You need a key.")
 var metal := true
 var is_open := false
 var pivot: Node3D
@@ -78,8 +78,8 @@ func _ready() -> void:
 
 func _prompt(p) -> String:
 	if locked:
-		return "बंद दरवाज़ा"
-	return "दरवाज़ा बंद करो" if is_open else "दरवाज़ा खोलो"
+		return Tr.t("Locked door")
+	return Tr.t("Close door") if is_open else Tr.t("Open door")
 
 func _use(p) -> void:
 	if locked:
@@ -87,7 +87,7 @@ func _use(p) -> void:
 			locked = false
 			Aud.play2d(p, "click", -3.0)
 			if p.hud:
-				p.hud.toast("दरवाज़ा खुल गया")
+				p.hud.toast(Tr.t("Door unlocked"))
 		else:
 			_snd.stream = Sfx.get_sound("door_locked")
 			_snd.play()
