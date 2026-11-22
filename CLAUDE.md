@@ -63,3 +63,9 @@ Horror plan (naya): HORROR_PLAN.md. Block City plan: PLAN.md (Block City, GTA-ja
 ## Claude khud models bana raha hai (21 Nov)
 - `bash scripts/gen_pipeline.sh /tmp/claude-0/gen_pick.txt 40 4` (list: docs/claude_gen_list.json, 383 IDs / 520 models). AI (Codex) bpy build(variant) likhta hai -> blender/scripts/gen_runner.py (join, palette materials, wear/rust bake 512px, GLB) -> process_batch -> props -> Godot check -> scripts/mark_done.py -> commit. Log: /tmp/claude-0/gen_raw/gen_log.jsonl.
 - User/Hark ka hissa: docs/TEJAS_HARK_LIST.md.
+
+## Animation (22 Nov) — Mixamo library
+- User ne 100+ Mixamo FBX (gofile bur7mwfb) diye. `blender -b --python blender/scripts/build_anim_lib.py -- <fbx dirs> out.glb` -> horror_city/assets/anims/mixamo_anims.glb (102 clips, 65 bones, ungliyan, 30fps).
+- Insaan-jaise mesh ko skeleton par: `blender -b --python blender/scripts/rig_character.py -- char.glb YBot.fbx out.glb` -> horror_city/assets/rigged/*.glb (+.json scale_back: Godot mein root scale). Mesh skeleton ke size tak scale hota hai, band proxy se auto-weights.
+- Test: `godot --headless --path horror_city --script res://tools/anim_test.gd` (117/117 tracks match). Library ke AnimationPlayer ko rigged scene mein root_node=character root se lagao.
+- KNOWN: Gudiya/MasterJi/Nurse mein haath ke tukde khinchte hain (mesh A-pose, skeleton T-pose). Doctor/Clown theek. Fix: Mixamo auto-rigger (user) ya T-pose fitting.
