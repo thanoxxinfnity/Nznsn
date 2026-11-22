@@ -2,11 +2,11 @@
 M01,P1,Monsters & characters,All,Gudiya (doll monster),1,1.2,25000,RIG,"porcelain doll girl, cracked face, empty black eyes, faded red dress, thin stiff limbs, creepy, full body T-pose facing front",DONE (1/1)
 M02,P1,Monsters & characters,All,Khokhla Teddy (hollow bear),1,0.6,12000,RIG,"worn hollow teddy bear, stuffing spilling from torn seams, one button eye missing, full body T-pose facing front",DONE (1/1)
 M03,P1,Monsters & characters,All,Mannequin figure,3,1.8,8000,-,"faceless pale shop mannequin, 3 different standing poses, slightly cracked plastic",DONE (3/3)
-M04,P1,Monsters & characters,All,First-person arms with flashlight grip,1,0.7,6000,RIG,"pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model",DONE (1/1)
+M04,P1,Monsters & characters,All,First-person arms with flashlight grip,1,0.7,6000,RIG,"pair of female forearms and hands holding a flashlight, plain sleeves, first-person view model",DONE (2/1)
 M05,P2,Monsters & characters,All,Lambu Kaka (tall puppet man),1,3.0,40000,RIG,"3 metre tall thin puppet man, stitched burlap skin, button eyes, long arms, torn top hat, full body T-pose",
-M06,P2,Monsters & characters,All,Khokhla Wind-up Monkey,1,0.5,10000,RIG,"wind-up tin monkey with cymbals, rusty, grinning, full body front view",
-M07,P2,Monsters & characters,All,Khokhla Clown puppet,1,1.0,14000,RIG,"cracked-face clown puppet doll, torn colorful costume, full body T-pose",
-M08,P2,Monsters & characters,All,Khokhla Toy Soldier,1,0.8,10000,RIG,"large wooden toy soldier with chipped paint and bayonet, full body T-pose",
+M06,P2,Monsters & characters,All,Khokhla Wind-up Monkey,1,0.5,10000,RIG,"wind-up tin monkey with cymbals, rusty, grinning, full body front view",DONE (1/1)
+M07,P2,Monsters & characters,All,Khokhla Clown puppet,1,1.0,14000,RIG,"cracked-face clown puppet doll, torn colorful costume, full body T-pose",DONE (1/1)
+M08,P2,Monsters & characters,All,Khokhla Toy Soldier,1,0.8,10000,RIG,"large wooden toy soldier with chipped paint and bayonet, full body T-pose",DONE (1/1)
 M09,P3,Monsters & characters,All,Gudiya Maa (final boss),1,4.0,50000,RIG,"giant doll-mother, porcelain face, huge billowing cradle-like dress, many extra arms, gentle but terrifying, full body",
 M10,P3,Monsters & characters,All,Vent hand-puppet creature,1,0.5,8000,RIG,"small puppet creature with long fingers that crawls in vents, glove-like body, button eyes",
 F01,P1,Factory (Act 1),1,Conveyor belt straight,1,3.0,4000,-,"industrial conveyor belt straight section, rusty steel frame, rubber belt",DONE (1/1)
@@ -93,7 +93,7 @@ G10,P2,Gameplay items,All,Door-code keypad,1,0.3,2000,-,wall keypad with numbere
 G11,P2,Gameplay items,All,Memory orb (glowing),1,0.2,2000,-,glass orb with swirling blue light inside,DONE (1/1)
 G12,P2,Gameplay items,All,Gate lever,1,0.6,3000,-,"large wall lever switch, rusty",DONE (1/1)
 G13,P3,Gameplay items,All,Lighter,1,0.06,800,-,metal flip lighter,DONE-Claude (1/1)
-G14,P3,Gameplay items,All,Crowbar,1,0.6,2000,-,rusty crowbar,
+G14,P3,Gameplay items,All,Crowbar,1,0.6,2000,-,rusty crowbar,DONE (1/1)
 S01,P2,School mohalla,2,School desk and bench,1,1.2,4000,-,"old wooden school desk with attached bench, carved initials",DONE (1/1)
 S02,P2,School mohalla,2,Blackboard,1,2.0,2000,-,classroom blackboard with wooden frame and chalk tray,DONE (1/1)
 S03,P2,School mohalla,2,Teacher desk,1,1.4,4000,-,teacher wooden desk with drawers,DONE (1/1)
@@ -151,13 +151,13 @@ R10,P3,Metro & city streets,2,Kirana shop front,1,5.0,12000,-,small corner shop 
 R11,P3,Metro & city streets,2,Billboard,1,6.0,4000,-,"large roadside billboard frame, torn poster",DONE-Claude (1/1)
 R12,P3,Metro & city streets,2,Bus stop shelter,1,3.0,5000,-,bus stop shelter with bench,DONE-Claude (1/1)
 R13,P3,Metro & city streets,2,Fire hydrant,1,0.8,2000,-,red fire hydrant,DONE-Claude (1/1)
-R14,P3,Metro & city streets,2,Street dustbin,1,0.8,2000,-,"metal street dustbin, dented",
+R14,P3,Metro & city streets,2,Street dustbin,1,0.8,2000,-,"metal street dustbin, dented",DONE (1/1)
 R15,P3,Metro & city streets,2,Park bench,1,1.8,3000,-,"wooden park bench, peeling paint",DONE-Claude (1/1)
 R16,P2,Metro & city streets,2,Apartment block facade,3,30.0,20000,-,"3 variants low-detail 8-storey apartment block, dark windows, background building",DONE (3/3)
 R17,P3,Metro & city streets,2,Shop-front modules,4,5.0,8000,-,4 variants shop fronts with shutters,DONE-Claude (4/4)
 R18,P3,Metro & city streets,2,Rooftop water tank,1,2.0,4000,-,rooftop plastic water tank on stand,DONE-Claude (1/1)
 R19,P3,Metro & city streets,2,Electric pole with wires,1,8.0,4000,-,concrete electric pole with hanging wires,DONE-Claude (1/1)
-R20,P3,Metro & city streets,2,Transformer box,1,1.5,3000,-,street transformer box with warning sign,
+R20,P3,Metro & city streets,2,Transformer box,1,1.5,3000,-,street transformer box with warning sign,DONE (1/1)
 R21,P2,Metro & city streets,2,Dead tree,3,6.0,6000,-,"3 variants bare dead trees, twisted",DONE (3/3)
 R22,P2,Metro & city streets,2,Iron fence section,1,3.0,2000,-,"iron picket fence section, rusty",DONE (1/1)
 R23,P3,Metro & city streets,2,Manhole cover,1,0.8,1000,-,round iron manhole cover,DONE-Claude (1/1)
@@ -165,7 +165,7 @@ R24,P3,Metro & city streets,2,Newspaper stand,1,1.5,4000,-,street newspaper stan
 R25,P3,Metro & city streets,2,Wooden handcart (thela),1,2.0,5000,-,wooden hand cart with two wheels,DONE-Claude (1/1)
 R26,P3,Metro & city streets,2,Overgrown weeds,1,1.0,2000,-,clump of tall weeds,
 R27,P3,Metro & city streets,2,Rubble pile,1,2.0,3000,-,pile of broken bricks and concrete,DONE-Claude (1/1)
-R28,P3,Metro & city streets,2,Telephone booth,1,2.4,6000,-,"old red street telephone booth, cracked glass",
+R28,P3,Metro & city streets,2,Telephone booth,1,2.4,6000,-,"old red street telephone booth, cracked glass",DONE (1/1)
 A01,P3,Maa Ghar (Act 3),3,Giant cradle,1,4.0,20000,-,"giant ornate wooden baby cradle, toys hanging, eerie",DONE-Claude (1/1)
 A02,P3,Maa Ghar (Act 3),3,Giant music box mechanism,1,5.0,25000,-,"huge music box comb and cylinder mechanism, brass",DONE-Claude (1/1)
 A03,P3,Maa Ghar (Act 3),3,Rocking chair,1,1.0,5000,-,old wooden rocking chair with shawl,DONE-Claude (1/1)
@@ -202,7 +202,7 @@ L22,P3,Ghar: living room & furniture,Housing colony,Coat stand,1,1.8,2500,-,wood
 L23,P3,Ghar: living room & furniture,Housing colony,Wall mirror,2,1.0,2000,-,"2 variants ornate wall mirrors, cracked",DONE-Claude (2/2)
 L24,P3,Ghar: living room & furniture,Housing colony,Upright piano,1,1.6,10000,-,"old upright piano, keys yellowed",DONE-Claude (1/1)
 L25,P3,Ghar: living room & furniture,Housing colony,Sewing basket,1,0.4,2000,-,woven sewing basket with threads,DONE-Claude (1/1)
-L26,P3,Ghar: living room & furniture,Housing colony,Dead flower vase,2,0.4,1500,-,2 variants vase with dried dead flowers,
+L26,P3,Ghar: living room & furniture,Housing colony,Dead flower vase,2,0.4,1500,-,2 variants vase with dried dead flowers,DONE (1/2)
 L27,P3,Ghar: living room & furniture,Housing colony,Stool,2,0.5,1500,-,2 variants small wooden stools,DONE-Claude (2/2)
 L28,P3,Ghar: living room & furniture,Housing colony,Folding chair,1,0.9,2000,-,metal folding chair,DONE-Claude (1/1)
 L29,P3,Ghar: living room & furniture,Housing colony,Plastic chair,2,0.9,2000,-,2 variants worn plastic chairs,DONE-Claude (2/2)
@@ -235,7 +235,7 @@ B21,P3,Ghar: bedroom & bathroom,Housing colony,Shower head and pipe,1,0.6,1500,-
 B22,P3,Ghar: bedroom & bathroom,Housing colony,Towel rack with towel,1,0.8,1800,-,towel rail with damp towel,DONE-Claude (1/1)
 B23,P3,Ghar: bedroom & bathroom,Housing colony,Soap dish and soap,1,0.15,600,-,soap dish with cracked soap,DONE-Claude (1/1)
 B24,P3,Ghar: bedroom & bathroom,Housing colony,Toothbrush cup,1,0.15,600,-,steel cup with toothbrushes,DONE-Claude (1/1)
-B25,P3,Ghar: bedroom & bathroom,Housing colony,Laundry basket,1,0.6,2000,-,woven laundry basket with clothes,
+B25,P3,Ghar: bedroom & bathroom,Housing colony,Laundry basket,1,0.6,2000,-,woven laundry basket with clothes,DONE (1/1)
 B26,P4,Ghar: bedroom & bathroom,Housing colony,Small rocking horse,1,0.6,4000,-,small painted rocking horse,
 B27,P4,Ghar: bedroom & bathroom,Housing colony,Teddy on pillow,1,0.4,3000,-,teddy bear sitting on pillow,
 B28,P4,Ghar: bedroom & bathroom,Housing colony,Star night lamp,1,0.25,1500,-,child's star-shaped night lamp,
@@ -359,16 +359,16 @@ W15,P3,Bazaar: shops & market stalls,Bazaar,Blank shop signboard,4,2.0,1500,-,"4
 W16,P3,Bazaar: shops & market stalls,Bazaar,Hand pump,1,1.2,3000,-,old hand water pump,DONE-Claude (1/1)
 W17,P3,Bazaar: shops & market stalls,Bazaar,Old weighing scale,1,0.6,3000,-,old balance scale with weights,DONE-Claude (1/1)
 W18,P3,Bazaar: shops & market stalls,Bazaar,Vegetable baskets,3,0.5,1800,-,3 variants woven baskets with rotten veggies,
-W19,P3,Bazaar: shops & market stalls,Bazaar,Spice sacks,3,0.7,2500,-,3 variants sacks of spices rolled open,
+W19,P3,Bazaar: shops & market stalls,Bazaar,Spice sacks,3,0.7,2500,-,3 variants sacks of spices rolled open,DONE (1/3)
 W20,P3,Bazaar: shops & market stalls,Bazaar,Old bicycle,2,1.8,6000,-,"2 variants old bicycles, rusted",DONE-Claude (2/2)
 W21,P3,Bazaar: shops & market stalls,Bazaar,Old scooter,1,1.8,10000,-,"old scooter parked, dusty",DONE-Claude (1/1)
 W22,P3,Bazaar: shops & market stalls,Bazaar,Street food cart,1,2.0,6000,-,street food cart with glass front,
 W23,P3,Bazaar: shops & market stalls,Bazaar,Tarpaulin stall roof,1,3.0,2500,-,blue tarpaulin stall cover torn,DONE-Claude (1/1)
 W24,P3,Bazaar: shops & market stalls,Bazaar,Hanging toy bunting,1,4.0,2000,-,bunting with hanging toys,DONE-Claude (1/1)
 W25,P3,Bazaar: shops & market stalls,Bazaar,Tin trunk,1,0.8,2500,-,old painted tin trunk,DONE-Claude (1/1)
-W26,P3,Bazaar: shops & market stalls,Bazaar,Rope coil,1,0.4,1000,-,rope coil,
-W27,P3,Bazaar: shops & market stalls,Bazaar,Wooden crate stack,3,0.8,2000,-,3 variants stacked wooden crates,
-W28,P3,Bazaar: shops & market stalls,Bazaar,Jute sacks,3,0.7,1800,-,3 variants jute sacks,
+W26,P3,Bazaar: shops & market stalls,Bazaar,Rope coil,1,0.4,1000,-,rope coil,DONE (1/1)
+W27,P3,Bazaar: shops & market stalls,Bazaar,Wooden crate stack,3,0.8,2000,-,3 variants stacked wooden crates,DONE (1/3)
+W28,P3,Bazaar: shops & market stalls,Bazaar,Jute sacks,3,0.7,1800,-,3 variants jute sacks,DONE (1/3)
 W29,P3,Bazaar: shops & market stalls,Bazaar,Pottery stall,1,2.0,5000,-,stall of clay pots,DONE-Claude (1/1)
 W30,P3,Bazaar: shops & market stalls,Bazaar,Bangle rack,1,1.2,3000,-,rack of colored bangles,DONE-Claude (1/1)
 W31,P3,Bazaar: shops & market stalls,Bazaar,Doll stall,1,2.0,6000,-,market stall full of dolls,
@@ -376,7 +376,7 @@ W32,P3,Bazaar: shops & market stalls,Bazaar,Mask stall,1,2.0,5000,-,stall of mas
 W33,P3,Bazaar: shops & market stalls,Bazaar,Kite stall,1,2.0,4000,-,stall with kites hanging,DONE-Claude (1/1)
 W34,P3,Bazaar: shops & market stalls,Bazaar,Balloon seller pole,1,2.0,2500,-,balloon seller pole with deflated balloons,DONE-Claude (1/1)
 W35,P3,Bazaar: shops & market stalls,Bazaar,Ice-cream cart,1,1.8,5000,-,old ice-cream cart with umbrella,
-W36,P3,Bazaar: shops & market stalls,Bazaar,Newspaper bundles,1,0.5,1200,-,bundles of old newspapers tied,
+W36,P3,Bazaar: shops & market stalls,Bazaar,Newspaper bundles,1,0.5,1200,-,bundles of old newspapers tied,DONE (1/1)
 W37,P4,Bazaar: shops & market stalls,Bazaar,Market slab,1,2.0,3000,-,"stone market slab, empty",
 W38,P4,Bazaar: shops & market stalls,Bazaar,Hook rail,1,2.0,2500,-,"hook rail, empty, rusty",
 W39,P4,Bazaar: shops & market stalls,Bazaar,Watch repair bench,1,1.8,4000,-,watch repair bench with tools,
@@ -405,7 +405,7 @@ Y16,P3,Underground lab & sewer,Underground,Airlock door,1,2.4,6000,-,round airlo
 Y17,P3,Underground lab & sewer,Underground,Control console,1,2.0,8000,-,big control console with levers and dials,DONE-Claude (1/1)
 Y18,P3,Underground lab & sewer,Underground,Glowing coil machine,1,2.5,8000,-,odd glowing coil machine,DONE-Claude (1/1)
 Y19,P3,Underground lab & sewer,Underground,Sewer pipe junction,2,2.0,3500,-,2 variants sewer pipe junction,DONE-Claude (2/2)
-Y20,P3,Underground lab & sewer,Underground,Sewer floor grate,1,1.0,1500,-,floor sewer grate,
+Y20,P3,Underground lab & sewer,Underground,Sewer floor grate,1,1.0,1500,-,floor sewer grate,DONE (1/1)
 Y21,P3,Underground lab & sewer,Underground,Big sewer valve,1,1.5,3500,-,large sewer valve wheel,DONE-Claude (1/1)
 Y22,P3,Underground lab & sewer,Underground,Sewer ladder,1,3.0,2000,-,rusty sewer ladder,DONE-Claude (1/1)
 Y23,P3,Underground lab & sewer,Underground,Caged tunnel lamp,1,0.5,1500,-,caged tunnel lamp,DONE-Claude (1/1)
@@ -437,7 +437,7 @@ U06,P2,Lights & electrical,All,Emergency light box,1,0.4,1500,-,wall emergency l
 U07,P2,Lights & electrical,All,Neon sign shapes,3,1.0,2000,-,"3 variants glowing neon shapes (star, smile, arrow), no text",DONE (3/3)
 U08,P3,Lights & electrical,All,Industrial spotlight,1,0.8,2500,-,industrial spotlight on stand,DONE-Claude (1/1)
 U09,P3,Lights & electrical,All,Wall switchboard,3,0.3,1200,-,3 variants wall switchboards,DONE-Claude (3/3)
-U10,P3,Lights & electrical,All,Wall socket,1,0.1,400,-,wall socket,
+U10,P3,Lights & electrical,All,Wall socket,1,0.1,400,-,wall socket,DONE (1/1)
 U11,P3,Lights & electrical,All,Electric meter box,1,0.5,2500,-,electric meter box with glass,DONE-Claude (1/1)
 U12,P3,Lights & electrical,All,Tangled extension cable,1,0.5,800,-,tangled extension cable,DONE-Claude (1/1)
 U13,P3,Lights & electrical,All,Cable tray,1,3.0,1500,-,wall cable tray,DONE-Claude (1/1)
@@ -532,11 +532,11 @@ P29,P3,Puzzle items & tools,All,Door code note,1,0.15,300,-,note with symbols,DO
 P30,P3,Puzzle items & tools,All,Walkie-talkie,1,0.2,2500,-,walkie-talkie for story voice,DONE-Claude (1/1)
 P31,P3,Puzzle items & tools,All,Polaroid photos,3,0.1,300,-,3 variants old polaroids,DONE-Claude (3/3)
 P32,P3,Puzzle items & tools,All,Water pistol,1,0.2,1500,-,plastic water pistol,DONE-Claude (1/1)
-P33,P3,Puzzle items & tools,All,Horseshoe magnet,1,0.1,800,-,horseshoe magnet,
+P33,P3,Puzzle items & tools,All,Horseshoe magnet,1,0.1,800,-,horseshoe magnet,DONE (1/1)
 P34,P3,Puzzle items & tools,All,Brass compass,1,0.08,800,-,brass compass,DONE-Claude (1/1)
 P35,P3,Puzzle items & tools,All,Large medkit,1,0.35,2500,-,first aid kit,DONE-Claude (1/1)
 P36,P3,Puzzle items & tools,All,Pill bottle,1,0.08,600,-,"pill bottle, no text",DONE-Claude (1/1)
-P37,P3,Puzzle items & tools,All,Chocolate bar,1,0.15,500,-,"chocolate bar wrapper, no text",
+P37,P3,Puzzle items & tools,All,Chocolate bar,1,0.15,500,-,"chocolate bar wrapper, no text",DONE (1/1)
 V01,P2,Vehicles,City,Old police car,1,4.5,18000,-,"old police car, boxy, light bar",DONE (1/1)
 V02,P2,Vehicles,City,Old fire truck,1,8.0,25000,-,old red fire truck with ladder,DONE (1/1)
 V03,P2,Vehicles,City,Toy company delivery truck,1,7.0,22000,-,"box delivery truck with toy mural, no text",DONE (1/1)
@@ -553,9 +553,9 @@ V13,P3,Vehicles,City,Food truck,1,5.0,18000,-,old food truck,
 V14,P4,Vehicles,City,Hot-air balloon basket,1,3.0,8000,-,hot-air balloon basket with deflated balloon,
 V15,P4,Vehicles,City,Carnival train,1,6.0,14000,-,small carnival train,
 V16,P4,Vehicles,City,Rollercoaster car,1,2.5,8000,-,carnival coaster car,
-Z01,P2,Extra monsters & figures,Per mohalla,Master-ji puppet (school),1,2.0,30000,RIG,"tall teacher puppet in old suit, long cane, chalk-dust, full body T-pose",
-Z02,P2,Extra monsters & figures,Per mohalla,Nurse doll (hospital),1,1.7,28000,RIG,"faceless nurse doll with cap and syringe hand, full body T-pose",
-Z03,P2,Extra monsters & figures,Per mohalla,Doctor Khilauna (hospital),1,1.9,32000,RIG,"tall doctor puppet with mask and long gloves, full body T-pose",
+Z01,P2,Extra monsters & figures,Per mohalla,Master-ji puppet (school),1,2.0,30000,RIG,"tall teacher puppet in old suit, long cane, chalk-dust, full body T-pose",DONE (1/1)
+Z02,P2,Extra monsters & figures,Per mohalla,Nurse doll (hospital),1,1.7,28000,RIG,"faceless nurse doll with cap and syringe hand, full body T-pose",DONE (1/1)
+Z03,P2,Extra monsters & figures,Per mohalla,Doctor Khilauna (hospital),1,1.9,32000,RIG,"tall doctor puppet with mask and long gloves, full body T-pose",DONE (1/1)
 Z04,P2,Extra monsters & figures,Per mohalla,Maskhara jester (carnival),1,1.8,30000,RIG,"jester puppet with bells and long smile, full body T-pose",
 Z05,P2,Extra monsters & figures,Per mohalla,Ringmaster (carnival),1,2.0,32000,RIG,"top-hat ringmaster puppet with whip, full body T-pose",
 Z06,P2,Extra monsters & figures,Per mohalla,Giant clown head,1,3.0,35000,RIG,huge rolling clown head with mouth that opens,
@@ -748,7 +748,7 @@ BR30,P3,Broken & damaged props (toota-foota saman),All,Cracked bathtub,1,1.7,450
 BR31,P3,Broken & damaged props (toota-foota saman),All,Broken glass table,1,1.2,2500,-,broken glass-top table,DONE-Claude (1/1)
 BR32,P3,Broken & damaged props (toota-foota saman),All,Broken lamp,3,0.5,1200,-,3 variants broken lamps,DONE-Claude (3/3)
 BR33,P3,Broken & damaged props (toota-foota saman),All,Cracked pots,4,0.4,1200,-,4 variants cracked clay pots,DONE-Claude (4/4)
-BR34,P3,Broken & damaged props (toota-foota saman),All,Smashed crates,3,0.8,1500,-,3 variants smashed wooden crates,
+BR34,P3,Broken & damaged props (toota-foota saman),All,Smashed crates,3,0.8,1500,-,3 variants smashed wooden crates,DONE (1/3)
 BR35,P3,Broken & damaged props (toota-foota saman),All,Collapsed scaffolding,1,3.0,4000,-,collapsed scaffolding,DONE-Claude (1/1)
 BR36,P3,Broken & damaged props (toota-foota saman),All,Fallen bookcase,1,1.8,4000,-,fallen bookcase with books,DONE-Claude (1/1)
 BR37,P3,Broken & damaged props (toota-foota saman),All,Torn curtain rod,1,2.0,1200,-,torn curtain and bent rod,DONE-Claude (1/1)
@@ -761,13 +761,13 @@ NT02,P2,Nature & outdoors,Outdoors,Overgrown bush,4,1.5,3000,-,4 variants overgr
 NT03,P2,Nature & outdoors,Outdoors,Tall grass clump,4,1.0,1500,-,4 variants tall grass clumps,DONE (4/4)
 NT04,P2,Nature & outdoors,Outdoors,Rocks,5,1.0,2500,-,5 variants rocks,DONE (5/5)
 NT05,P2,Nature & outdoors,Outdoors,Boulders,3,2.5,3500,-,3 variants big boulders,DONE (3/3)
-NT06,P3,Nature & outdoors,Outdoors,Tree stump,3,0.6,2000,-,3 variants tree stumps,
-NT07,P3,Nature & outdoors,Outdoors,Fallen log,3,2.5,2500,-,3 variants fallen logs,
+NT06,P3,Nature & outdoors,Outdoors,Tree stump,3,0.6,2000,-,3 variants tree stumps,DONE (1/3)
+NT07,P3,Nature & outdoors,Outdoors,Fallen log,3,2.5,2500,-,3 variants fallen logs,DONE (1/3)
 NT08,P3,Nature & outdoors,Outdoors,Dead hedge,2,2.0,2500,-,2 variants dead hedges,
 NT09,P3,Nature & outdoors,Outdoors,Thorn bushes,2,1.0,2500,-,2 variants thorn bushes,
 NT10,P3,Nature & outdoors,Outdoors,Vine-covered wall piece,2,3.0,3000,-,2 variants wall pieces covered with vines,
 NT11,P3,Nature & outdoors,Outdoors,Exposed roots,3,2.0,2500,-,3 variants exposed tree roots,
-NT12,P3,Nature & outdoors,Outdoors,Mushrooms,3,0.3,1500,-,3 variants mushroom clusters,
+NT12,P3,Nature & outdoors,Outdoors,Mushrooms,3,0.3,1500,-,3 variants mushroom clusters,DONE (1/3)
 NT13,P3,Nature & outdoors,Outdoors,Dead flowers,3,0.4,1200,-,3 variants dead flower clumps,
 NT14,P3,Nature & outdoors,Outdoors,Dead pine tree,2,8.0,7000,-,2 variants dead pine trees,
 NT15,P3,Nature & outdoors,Outdoors,Dead palm tree,2,7.0,6000,-,2 variants dead palm trees,
@@ -820,24 +820,24 @@ SP10,P3,Sports & games,School / Park,Kites,3,0.8,1200,-,3 variants paper kites,D
 SP11,P3,Sports & games,School / Park,Marble bag,1,0.2,1000,-,marble bag,DONE-Claude (1/1)
 SP12,P3,Sports & games,School / Park,Gilli danda,1,0.5,800,-,gilli danda,DONE-Claude (1/1)
 SP13,P3,Sports & games,School / Park,Roller skates,1,0.3,2500,-,old roller skates,
-SP14,P3,Sports & games,School / Park,Skateboard,1,0.8,2500,-,skateboard,
+SP14,P3,Sports & games,School / Park,Skateboard,1,0.8,2500,-,skateboard,DONE (1/1)
 SP15,P3,Sports & games,School / Park,Badminton rackets,2,0.7,1500,-,2 variants badminton rackets,
 SP16,P3,Sports & games,School / Park,Shuttlecock,1,0.1,500,-,shuttlecock,
-SP17,P3,Sports & games,School / Park,Frisbee,1,0.25,600,-,frisbee,
+SP17,P3,Sports & games,School / Park,Frisbee,1,0.25,600,-,frisbee,DONE (1/1)
 SP18,P3,Sports & games,School / Park,Kite spool,1,0.2,800,-,kite spool,
 SP19,P4,Sports & games,School / Park,Boxing gloves,1,0.3,2000,-,boxing gloves,
 SP20,P4,Sports & games,School / Park,Punching bag,1,1.2,2500,-,punching bag,
 SP21,P4,Sports & games,School / Park,Trophy cups,3,0.4,2000,-,3 variants trophy cups,
 SP22,P4,Sports & games,School / Park,Medals,3,0.1,600,-,3 variants medals,
 MU01,P3,Musical instruments,Entertainment / Home,Harmonium,1,0.8,5000,-,old harmonium,
-MU02,P3,Musical instruments,Entertainment / Home,Tabla set,1,0.5,3500,-,tabla pair,
-MU03,P3,Musical instruments,Entertainment / Home,Dholak,1,0.6,3000,-,dholak drum,
+MU02,P3,Musical instruments,Entertainment / Home,Tabla set,1,0.5,3500,-,tabla pair,DONE (1/1)
+MU03,P3,Musical instruments,Entertainment / Home,Dholak,1,0.6,3000,-,dholak drum,DONE (1/1)
 MU04,P3,Musical instruments,Entertainment / Home,Old guitar,1,1.0,4000,-,old guitar,
 MU05,P3,Musical instruments,Entertainment / Home,Violin,1,0.6,3500,-,violin,
 MU06,P3,Musical instruments,Entertainment / Home,Flute,1,0.5,1200,-,bamboo flute,
 MU07,P3,Musical instruments,Entertainment / Home,Trumpet,1,0.6,2500,-,trumpet,
 MU08,P3,Musical instruments,Entertainment / Home,Small drum kit,1,1.5,6000,-,small drum kit,
-MU09,P3,Musical instruments,Entertainment / Home,Toy snare drum,1,0.4,2000,-,toy snare drum,
+MU09,P3,Musical instruments,Entertainment / Home,Toy snare drum,1,0.4,2000,-,toy snare drum,DONE (1/1)
 MU10,P3,Musical instruments,Entertainment / Home,Accordion,1,0.5,4000,-,accordion,
 MU11,P3,Musical instruments,Entertainment / Home,Toy cymbals,1,0.3,1200,-,toy cymbals,
 MU12,P3,Musical instruments,Entertainment / Home,Toy piano,1,0.5,3000,-,toy piano,

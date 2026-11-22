@@ -8,7 +8,7 @@ rows = {r["ID"]: r for r in csv.DictReader(open(ROOT / "docs/ASSET_LIST.csv", en
 src, dst = Path(sys.argv[1]), Path(sys.argv[2]); dst.mkdir(parents=True, exist_ok=True)
 (dst / "previews").mkdir(exist_ok=True)
 # ek ID ke kai alag tukde ho to unka apna size (m): file-stem ka shuru
-OVERRIDE = {"F23_pipe_elbow": "0.8", "F23_pipe_tjunction": "1.0", "F23_pipe_valve": "0.6"}
+OVERRIDE = {"M04b_": "0.3", "F23_pipe_elbow": "0.8", "F23_pipe_tjunction": "1.0", "F23_pipe_valve": "0.6"}
 def work(f):
     m = re.match(r"([A-Z]{1,2}\d{2,3})", f.name)
     r = rows.get(m.group(1)) if m else None
