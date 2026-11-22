@@ -24,6 +24,9 @@ var _moon: DirectionalLight3D
 var _thunder_t := 12.0
 var _env: Environment
 var _ended := false
+var zone_nodes := {}      # zone -> Array[Node] (culling)
+var _vis_key := ""
+const LINKS := [["yard", "reception", "door_entry"], ["reception", "hall", "door_hall"], ["hall", "paint", "door_paint"], ["hall", "gen", "door_gen"], ["hall", "lift", "door_lift"]]
 
 const WM := 0.3
 
@@ -157,6 +160,7 @@ func build(p_: Player, g_: Gudiya, h_: Hud) -> void:
 	_patrol_points()
 	_build_nav()
 	_build_env()
+	_collect_zone_nodes()
 	# shuruaati bijli: sirf reception chalu; baaki bund
 	for nm in ["hall", "paint", "gen", "lift"]:
 		set_zone_power(nm, false)
@@ -166,6 +170,41 @@ func build(p_: Player, g_: Gudiya, h_: Hud) -> void:
 		player.global_position = Vector3(0, 0.1, 15.5)
 		player.set_view(0.0)
 	_place_gudiya()
+
+func _collect_zone_nodes() -> void:
+	for c in get_children():
+		var cls := c.get_class()
+		if c is Lamp or c is Pickup or c is HideSpot or (cls == "Node3D"):
+			var z := zone_of((c as Node3D).global_position)
+			if z != "":
+				if not zone_nodes.has(z):
+					zone_nodes[z] = []
+				zone_nodes[z].append(c)
+
+func _update_visibility(force := false) -> void:
+	var cur := zone_of(player.global_position)
+	var vis := {}
+	if cur != "":
+		vis[cur] = true
+	var doors := {"door_entry": door_entry, "door_hall": door_hall, "door_paint": door_paint, "door_gen": door_gen, "door_lift": door_lift}
+	for l in LINKS:
+		var d: Door = doors[l[2]]
+		var open := d.is_open or d.pivot.rotation.y != 0.0
+		if open or force:
+			if vis.has(l[0]):
+				vis[l[1]] = true
+			if vis.has(l[1]):
+				vis[l[0]] = true
+	var key := ",".join(vis.keys())
+	if key == _vis_key and not force:
+		return
+	_vis_key = key
+	for z in zone_nodes:
+		var on: bool = vis.has(z) or cur == ""
+		for n in zone_nodes[z]:
+			if is_instance_valid(n) and n.visible != on:
+				n.visible = on
+	_moon.shadow_enabled = (cur == "yard")
 
 func _patrol_points() -> void:
 	for v in [Vector3(-10, 0, -16), Vector3(10, 0, -16), Vector3(-10, 0, -28), Vector3(10, 0, -28), Vector3(0, 0, -22), Vector3(0, 0, -14), Vector3(0, 0, -30), Vector3(-24, 0, -22), Vector3(24, 0, -22)]:
@@ -390,7 +429,7 @@ func _build_env() -> void:
 	_moon.light_energy = 0.28
 	_moon.rotation_degrees = Vector3(-52, 25, 0)
 	_moon.shadow_enabled = true
-	_moon.directional_shadow_max_distance = 38.0
+	_moon.directional_shadow_max_distance = 24.0
 	add_child(_moon)
 	# baarish
 	_rain = GPUParticles3D.new()
@@ -432,6 +471,7 @@ func _build_env() -> void:
 func _process(delta: float) -> void:
 	if player == null or _ended:
 		return
+	_update_visibility()
 	var z := zone_of(player.global_position)
 	# baarish sirf yard mein
 	var in_yard := z == "yard"

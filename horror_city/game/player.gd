@@ -347,3 +347,11 @@ func kill(by: Node3D, cause := "gudiya") -> void:
 
 func get_look_dir() -> Vector3:
 	return -cam.global_basis.z
+
+func revive() -> void:
+	dead = false
+	frozen = false
+	hidden = false
+	look_target = null
+	_shape.disabled = false
+	fear = 0.0
