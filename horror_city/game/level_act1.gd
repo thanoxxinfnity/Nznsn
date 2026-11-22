@@ -240,6 +240,7 @@ func _restore() -> void:
 func checkpoint(obj: String) -> void:
 	Save.data = {"pos": player.global_position, "yaw": player.yaw, "items": player.items.duplicate(), "battery": player.battery,
 		"flags": flags.duplicate(), "objective": obj, "collected": Save.data.get("collected", [])}
+	Save.write()
 	hud.toast("✓ सेव हुआ", 1.5)
 
 # ---------------------------------------------------------------- dressing

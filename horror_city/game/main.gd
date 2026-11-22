@@ -8,20 +8,101 @@ var shot_dir := ""
 var autotest := false
 var results: Array = []
 
+var menu: Menu
+var menu_dir := ""
+var started := false
+var paused := false
+
 func _ready() -> void:
 	for a in OS.get_cmdline_user_args():
 		if a.begins_with("--shot="):
 			shot_dir = a.substr(7)
+		elif a.begins_with("--menushot="):
+			menu_dir = a.substr(11)
 		elif a == "--autotest" or a == "--walktest":
 			autotest = true
 			Ctl.auto = true
-	var tm0 := Time.get_ticks_msec()
+	Settings.load_()
 	hud = Hud.new()
 	add_child(hud)
 	await get_tree().process_frame
 	await get_tree().process_frame
-	if autotest and OS.get_cmdline_user_args().has("--fresh"):
+	if autotest or shot_dir != "":
+		if OS.get_cmdline_user_args().has("--fresh"):
+			Save.clear()
+		_start_game()
+		return
+	var cl := CanvasLayer.new()
+	cl.layer = 20
+	cl.process_mode = Node.PROCESS_MODE_ALWAYS
+	add_child(cl)
+	menu = Menu.new()
+	cl.add_child(menu)
+	menu.start_new.connect(func():
 		Save.clear()
+		menu.hide_title()
+		_start_game())
+	menu.start_continue.connect(func():
+		menu.hide_title()
+		_start_game())
+	menu.resumed.connect(func(): _set_paused(false))
+	menu.to_title.connect(func():
+		get_tree().paused = false
+		Save.skip_menu = false
+		get_tree().reload_current_scene())
+	menu.quit_game.connect(func(): get_tree().quit())
+	menu.settings_changed.connect(func():
+		if started:
+			Settings.apply(get_viewport(), level, player))
+	hud.pause_pressed.connect(func(): _set_paused(true))
+	if not Save.has():
+		Save.read()
+	if menu_dir != "":
+		shot_dir = menu_dir
+		menu.show_title(true)
+		await _snap("m1_title")
+		print("MENUSZ ", menu.size, " ", menu.title_box.size, " ", menu.get_parent().get_class(), " vp ", get_viewport().get_visible_rect().size)
+		menu._open_settings(false)
+		await _snap("m2_settings")
+		menu._close_settings()
+		menu.hide_title()
+		_start_game_quiet()
+		await get_tree().create_timer(1.0).timeout
+		hud.show_note(Story.LETTER_T, Story.LETTER)
+		await _snap("m3_letter")
+		hud.close_note()
+		menu.show_pause()
+		await _snap("m4_pause")
+		get_tree().quit()
+		return
+	if Save.skip_menu:
+		Save.skip_menu = false
+		_start_game()
+	else:
+		menu.show_title(Save.has())
+
+func _set_paused(on: bool) -> void:
+	if not started or hud.death_box.visible or hud.end_box.visible:
+		return
+	paused = on
+	if on:
+		menu.show_pause()
+		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	else:
+		menu.hide_pause()
+		if not DisplayServer.is_touchscreen_available() and DisplayServer.get_name() != "headless":
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
+func _unhandled_key_input(e: InputEvent) -> void:
+	if e is InputEventKey and (e as InputEventKey).pressed and (e as InputEventKey).keycode == KEY_ESCAPE and menu:
+		_set_paused(not paused)
+
+func _start_game_quiet() -> void:
+	shot_dir = ""
+	_start_game()
+	shot_dir = menu_dir
+
+func _start_game() -> void:
 	player = Player.new()
 	add_child(player)
 	player.hud = hud
@@ -37,11 +118,14 @@ func _ready() -> void:
 	_hands()
 	player.died.connect(_on_died)
 	hud.retry_pressed.connect(func():
+		Save.skip_menu = true
 		get_tree().reload_current_scene())
 	hud.continue_pressed.connect(func():
 		get_tree().quit())
 	level.chapter_end.connect(func(): print("CHAPTER_END"))
+	Settings.apply(get_viewport(), level, player)
 	hud.loaded()
+	started = true
 	if not Save.has():
 		hud.objective(Story.OBJ_ENTER)
 		hud.subtitle(Story.START_SUB, 5.0)

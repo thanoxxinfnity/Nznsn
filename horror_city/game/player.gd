@@ -162,7 +162,7 @@ func _physics_process(delta: float) -> void:
 	var lk := Ctl.look
 	Ctl.look = Vector2.ZERO
 	if not frozen or hidden:
-		var sens := 0.0042
+		var sens := 0.0042 * Settings.sens
 		yaw -= lk.x * sens
 		pitch = clampf(pitch - lk.y * sens, deg_to_rad(-80), deg_to_rad(80))
 	if hidden and _hide_spot:

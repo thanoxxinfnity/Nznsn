@@ -3,6 +3,7 @@ extends CanvasLayer
 # Touch HUD: bayein joystick, daayein buttons (USE, TORCH, RUN, CROUCH), dekhne ke liye swipe, darr ka overlay, dairy, maut/jeet screen.
 signal retry_pressed
 signal continue_pressed
+signal pause_pressed
 
 var player: Player
 var font: Font
@@ -217,6 +218,7 @@ func buttons() -> Dictionary:
 		"TORCH": [Vector2(v.x - 330, v.y - 105), 58.0],
 		"RUN": [Vector2(v.x - 110, v.y - 330), 56.0],
 		"CROUCH": [Vector2(v.x - 290, v.y - 250), 50.0],
+		"PAUSE": [Vector2(v.x * 0.5, 44), 30.0],
 	}
 
 func _draw_touch() -> void:
@@ -233,7 +235,7 @@ func _draw_touch() -> void:
 		var on: bool = btn_ids.values().has(k) or (k == "CROUCH" and crouch_on) or (k == "TORCH" and player and player.torch_on)
 		touch.draw_circle(pos, r, Color(1, 1, 1, 0.22 if on else 0.09))
 		touch.draw_arc(pos, r, 0, TAU, 40, Color(1, 1, 1, 0.3), 2.5)
-		var txt: String = {"USE": "खोलो", "TORCH": "टॉर्च", "RUN": "दौड़ो", "CROUCH": "झुको"}[k]
+		var txt: String = {"USE": "खोलो", "TORCH": "टॉर्च", "RUN": "दौड़ो", "CROUCH": "झुको", "PAUSE": "II"}[k]
 		var fs := 26 if k == "USE" else 21
 		var sz := font.get_string_size(txt, HORIZONTAL_ALIGNMENT_LEFT, -1, fs)
 		touch.draw_string(font, pos + Vector2(-sz.x / 2.0, fs * 0.35), txt, HORIZONTAL_ALIGNMENT_LEFT, -1, fs, Color(1, 1, 1, 0.8))
@@ -268,6 +270,7 @@ func _input(e: InputEvent) -> void:
 			if hit != "":
 				btn_ids[ev.index] = hit
 				match hit:
+					"PAUSE": pause_pressed.emit()
 					"USE": Ctl.use_p = true
 					"TORCH": Ctl.torch_p = true
 					"RUN": Ctl.run = true
