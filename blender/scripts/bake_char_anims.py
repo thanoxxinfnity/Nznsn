@@ -8,8 +8,11 @@ want = [c for c in os.environ.get("CLIPS", DEFAULT).split(",") if c]
 files = {}
 for d in dirs:
     for f in sorted(glob.glob(os.path.join(d, "*.fbx"))): files.setdefault(os.path.splitext(os.path.basename(f))[0], f)
-bpy.ops.wm.read_factory_settings(use_empty=True)
-bpy.ops.import_scene.fbx(filepath=rig, automatic_bone_orientation=False)
+if rig.endswith(".blend"):
+    bpy.ops.wm.open_mainfile(filepath=rig)
+else:
+    bpy.ops.wm.read_factory_settings(use_empty=True)
+    bpy.ops.import_scene.fbx(filepath=rig, automatic_bone_orientation=False)
 arm = next(o for o in bpy.data.objects if o.type == "ARMATURE"); arm.name = "Armature"
 hb = arm.data.bones["mixamorig:Hips"]; hip_h = (arm.matrix_world @ hb.head_local).z
 s = 0.01 * hip_h / 0.9979  # lib hips ~99.8cm
