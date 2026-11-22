@@ -46,3 +46,9 @@ H0 plan+APIs jodna -> H1 engine slice: 1 kamra/gallery, torch, fear, touch, 1 mo
 1. Dar ka star: halka (Poppy jaisa) ya bahut gehra (gore/zyada khauf)? 2. Naam/kirdaar (Neha?) badalna hai? 3. Awaaz Hindi mein (voice-over) chahiye? 4. Pehle Block City jaari rakhein ya ab sirf horror?
 
 ## Update 21 Nov: image->3D MUFT raasta chala (HF Space Hunyuan3D-2.1 + Blender optimize). Quota kam (~2 model/din) -> zyada ke liye HF PRO ya paid API.
+
+## Naya (22 Nov, user ki maang) — Hath, darwaze, aakhri bhaag
+- **First-person hath:** poore asli hath, har ungli alag (5 ungliyan, har ek mein 3 jod/bones). Torch pakadna, darwaza dhakelna, chaabi ghumana, almari kholna — sab ungli se. Rigged hand chahiye (Blender mein finger bones + weights; sirf M04 AI-mesh kaafi nahi, usme ungliyan juddi hain).
+- **Darwaze:** hinge par saaf khulte hain (dheere/tez dhakka, chaabi wale, almari ke darwaze, lift/shutter). Awaaz + halka creak. Koi clipping/atakna nahi.
+- **Koi mesh toota/ulta nahi:** har model par check (normals, holes, floating parts, scale). Godot check + preview par dekhna.
+- **Aakhri bhaag — Factory se bhaago (naya ant):** Maa Ghar ke baad factory ka "Yaadon ka engine" (memory core) fatne lagta hai: bijli bhadakti hai, pipe phat-te hain, chhatein girti hain, alarm bajta hai, raasta ek ek karke band hota hai. Timer + raasta: neeche se upar, boiler room -> conveyor hall -> loading dock -> factory gate. Peeche se Khokhla ka jhund aur Lambu Kaka, aage tootay raaste/aag. Chhup ke ya daud ke bachna hai; gate khulne se pehle fuse + chaabi chahiye. Do ant: (a) bach ke bahar nikalo (maa ko aazad karne wala), (b) peeche mud ke Gudiya Maa ko le jao.
