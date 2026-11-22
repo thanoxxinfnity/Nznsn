@@ -4,7 +4,7 @@
 # Key .env ke XINGCHI_API_KEY se aati hai; temp config chalne ke baad shred ho jaati hai.
 set -euo pipefail
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
-KEY=$(grep '^XINGCHI_API_KEY=' "$ROOT/.env" | cut -d= -f2-)
+KEY=$(grep "^${XINGCHI_KEY_VAR:-XINGCHI_API_KEY}=" "$ROOT/.env" | cut -d= -f2-)  # XINGCHI_KEY_VAR=XINGCHI_API_KEY2 -> doosri key
 H=$(mktemp -d); OUT="$H/last.txt"
 trap 'shred -u "$H/config.toml" 2>/dev/null || true; rm -rf "$H"' EXIT
 cat > "$H/config.toml" <<TOML
