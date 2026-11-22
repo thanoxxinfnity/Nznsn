@@ -32,6 +32,14 @@ for stem, f in seen.items():
         st = tr.strips.new(stem, 1, act); st.name = stem
     for o in new:
         if o.name in bpy.data.objects: bpy.data.objects.remove(o)
+if os.environ.get("METERS"):  # meter-unit skeleton (Blender-rigged chars) ke liye hips location cm -> m
+    for act in bpy.data.actions:
+        for lay in act.layers:
+            for st in lay.strips:
+                for cb in st.channelbags:
+                    for fc in cb.fcurves:
+                        if fc.data_path.endswith("location") and "Hips" in fc.data_path:
+                            for kp in fc.keyframe_points: kp.co.y *= 0.01; kp.handle_left.y *= 0.01; kp.handle_right.y *= 0.01
 print("CLIPS", len(base.animation_data.nla_tracks), "bones", len(base.data.bones), "scale", tuple(base.scale), "rot", tuple(base.rotation_euler))
 hips = base.pose.bones.get("mixamorig:Hips"); print("HIPSREST", tuple(hips.bone.head_local) if hips else None)
 bpy.ops.object.select_all(action="DESELECT"); base.select_set(True); bpy.context.view_layer.objects.active = base
