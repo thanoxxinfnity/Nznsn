@@ -866,47 +866,47 @@ FD17,P4,Food & drink props,Home / Bazaar,Milk bottles,3,0.25,1000,-,3 variants m
 FD18,P4,Food & drink props,Home / Bazaar,Egg tray,1,0.3,1200,-,egg tray,DONE-Claude (1/1)
 FD19,P4,Food & drink props,Home / Bazaar,Cooking oil tin,1,0.35,1200,-,"cooking oil tin, no text",DONE-Claude (1/1)
 FD20,P4,Food & drink props,Home / Bazaar,Sugar sacks,2,0.5,1500,-,2 variants sugar sacks,DONE-Claude (1/2)
-CL01,P3,Clothing & fabric,Home / Bazaar,Hanging dress,3,1.0,3000,-,3 variants dresses on hangers,
-CL02,P3,Clothing & fabric,Home / Bazaar,Child's frock,3,0.6,2500,-,3 variants small child frocks,
-CL03,P3,Clothing & fabric,Home / Bazaar,Hanging shirts,3,0.7,2500,-,3 variants shirts on hangers,
-CL04,P3,Clothing & fabric,Home / Bazaar,Draped sari,1,1.5,3500,-,sari draped on a stand,
-CL05,P3,Clothing & fabric,Home / Bazaar,Rolled blankets,3,0.6,1500,-,3 variants rolled blankets,
-CL06,P3,Clothing & fabric,Home / Bazaar,Torn bed sheets,2,2.0,1500,-,2 variants torn bed sheets,
-CL07,P3,Clothing & fabric,Home / Bazaar,Scarf,2,1.0,1200,-,2 variants scarves,
-CL08,P3,Clothing & fabric,Home / Bazaar,Gloves pair,2,0.25,1000,-,2 variants gloves,
-CL09,P3,Clothing & fabric,Home / Bazaar,Socks,2,0.2,600,-,2 variants socks,
-CL10,P3,Clothing & fabric,Home / Bazaar,Baby bib,1,0.2,500,-,baby bib,
-CL11,P3,Clothing & fabric,Home / Bazaar,School tie,1,0.5,600,-,school tie,
-CL12,P3,Clothing & fabric,Home / Bazaar,Apron,1,0.9,1800,-,apron on hook,
-CL13,P3,Clothing & fabric,Home / Bazaar,Raincoat,1,1.1,2500,-,raincoat on hook,
-CL14,P3,Clothing & fabric,Home / Bazaar,Boots,2,0.3,1500,-,2 variants boots,
-CL15,P3,Clothing & fabric,Home / Bazaar,Slippers,3,0.25,800,-,3 variants slippers,
-CL16,P4,Clothing & fabric,Home / Bazaar,Lace curtains,1,2.0,1800,-,lace curtains,
-CL17,P4,Clothing & fabric,Home / Bazaar,Doll dresses,3,0.2,800,-,3 variants tiny doll dresses,
+CL01,P3,Clothing & fabric,Home / Bazaar,Hanging dress,3,1.0,3000,-,3 variants dresses on hangers,DONE-Claude (1/3)
+CL02,P3,Clothing & fabric,Home / Bazaar,Child's frock,3,0.6,2500,-,3 variants small child frocks,DONE-Claude (1/3)
+CL03,P3,Clothing & fabric,Home / Bazaar,Hanging shirts,3,0.7,2500,-,3 variants shirts on hangers,DONE-Claude (1/3)
+CL04,P3,Clothing & fabric,Home / Bazaar,Draped sari,1,1.5,3500,-,sari draped on a stand,DONE-Claude (1/1)
+CL05,P3,Clothing & fabric,Home / Bazaar,Rolled blankets,3,0.6,1500,-,3 variants rolled blankets,DONE-Claude (1/3)
+CL06,P3,Clothing & fabric,Home / Bazaar,Torn bed sheets,2,2.0,1500,-,2 variants torn bed sheets,DONE-Claude (1/2)
+CL07,P3,Clothing & fabric,Home / Bazaar,Scarf,2,1.0,1200,-,2 variants scarves,DONE-Claude (1/2)
+CL08,P3,Clothing & fabric,Home / Bazaar,Gloves pair,2,0.25,1000,-,2 variants gloves,DONE-Claude (1/2)
+CL09,P3,Clothing & fabric,Home / Bazaar,Socks,2,0.2,600,-,2 variants socks,DONE-Claude (1/2)
+CL10,P3,Clothing & fabric,Home / Bazaar,Baby bib,1,0.2,500,-,baby bib,DONE-Claude (1/1)
+CL11,P3,Clothing & fabric,Home / Bazaar,School tie,1,0.5,600,-,school tie,DONE-Claude (1/1)
+CL12,P3,Clothing & fabric,Home / Bazaar,Apron,1,0.9,1800,-,apron on hook,DONE-Claude (1/1)
+CL13,P3,Clothing & fabric,Home / Bazaar,Raincoat,1,1.1,2500,-,raincoat on hook,DONE-Claude (1/1)
+CL14,P3,Clothing & fabric,Home / Bazaar,Boots,2,0.3,1500,-,2 variants boots,DONE-Claude (1/2)
+CL15,P3,Clothing & fabric,Home / Bazaar,Slippers,3,0.25,800,-,3 variants slippers,DONE-Claude (1/3)
+CL16,P4,Clothing & fabric,Home / Bazaar,Lace curtains,1,2.0,1800,-,lace curtains,DONE-Claude (1/1)
+CL17,P4,Clothing & fabric,Home / Bazaar,Doll dresses,3,0.2,800,-,3 variants tiny doll dresses,DONE-Claude (1/3)
 HM01,P2,Heavy machinery & factory industry,Factory / Outskirts,Industrial loom,1,3.0,10000,-,large industrial loom,DONE (1/1)
 HM02,P2,Heavy machinery & factory industry,Factory / Outskirts,Injection molding machine,1,3.5,14000,-,plastic injection molding machine,DONE (1/1)
 HM03,P2,Heavy machinery & factory industry,Factory / Outskirts,Plastic extruder,1,3.0,10000,-,plastic extruder,DONE (1/1)
 HM04,P2,Heavy machinery & factory industry,Factory / Outskirts,Paint booth,1,3.0,8000,-,toy painting booth,DONE (1/1)
 HM05,P2,Heavy machinery & factory industry,Factory / Outskirts,Assembly line module,2,3.0,6000,-,2 variants assembly line modules with clamps,DONE (2/2)
 HM06,P2,Heavy machinery & factory industry,Factory / Outskirts,Packaging machine,1,2.5,8000,-,packaging machine,DONE (1/1)
-HM07,P3,Heavy machinery & factory industry,Factory / Outskirts,Boiler,1,3.0,8000,-,industrial boiler,
-HM08,P3,Heavy machinery & factory industry,Factory / Outskirts,Air compressor,1,1.5,6000,-,air compressor,
-HM09,P3,Heavy machinery & factory industry,Factory / Outskirts,Lathe,1,2.0,7000,-,metal lathe,
-HM10,P3,Heavy machinery & factory industry,Factory / Outskirts,Drill press,1,1.5,4000,-,drill press,
-HM11,P3,Heavy machinery & factory industry,Factory / Outskirts,Welding station,1,1.5,4000,-,welding station,
-HM12,P3,Heavy machinery & factory industry,Factory / Outskirts,Gas cylinder trolley,1,1.2,3000,-,gas cylinder trolley,
-HM13,P3,Heavy machinery & factory industry,Factory / Outskirts,Overhead pipe rack,1,3.0,4000,-,overhead pipe rack,
-HM14,P3,Heavy machinery & factory industry,Factory / Outskirts,Factory smokestack,1,15.0,8000,-,tall brick smokestack,
-HM15,P3,Heavy machinery & factory industry,Factory / Outskirts,Storage tank,2,5.0,8000,-,2 variants large storage tanks,
-HM16,P3,Heavy machinery & factory industry,Factory / Outskirts,Cooling tower,1,10.0,10000,-,cooling tower,
-HM17,P3,Heavy machinery & factory industry,Factory / Outskirts,Factory gate,1,6.0,6000,-,"large factory gate, no text",
-HM18,P3,Heavy machinery & factory industry,Factory / Outskirts,Loading dock,1,4.0,7000,-,loading dock,
-HM19,P3,Heavy machinery & factory industry,Factory / Outskirts,Roller conveyor,1,2.0,3000,-,roller conveyor,
-HM20,P3,Heavy machinery & factory industry,Factory / Outskirts,Material hopper,1,2.5,5000,-,hopper,
-HM21,P3,Heavy machinery & factory industry,Factory / Outskirts,Steel beams pile,2,3.0,2500,-,2 variants steel beam piles,
-HM22,P3,Heavy machinery & factory industry,Factory / Outskirts,Chain hoist,1,1.0,3500,-,chain hoist,
-HM23,P4,Heavy machinery & factory industry,Factory / Outskirts,Shipping container,2,6.0,4000,-,2 variants rusty shipping containers,
-HM24,P4,Heavy machinery & factory industry,Factory / Outskirts,Weighbridge,1,6.0,5000,-,weighbridge,
+HM07,P3,Heavy machinery & factory industry,Factory / Outskirts,Boiler,1,3.0,8000,-,industrial boiler,DONE-Claude (1/1)
+HM08,P3,Heavy machinery & factory industry,Factory / Outskirts,Air compressor,1,1.5,6000,-,air compressor,DONE-Claude (1/1)
+HM09,P3,Heavy machinery & factory industry,Factory / Outskirts,Lathe,1,2.0,7000,-,metal lathe,DONE-Claude (1/1)
+HM10,P3,Heavy machinery & factory industry,Factory / Outskirts,Drill press,1,1.5,4000,-,drill press,DONE-Claude (1/1)
+HM11,P3,Heavy machinery & factory industry,Factory / Outskirts,Welding station,1,1.5,4000,-,welding station,DONE-Claude (1/1)
+HM12,P3,Heavy machinery & factory industry,Factory / Outskirts,Gas cylinder trolley,1,1.2,3000,-,gas cylinder trolley,DONE-Claude (1/1)
+HM13,P3,Heavy machinery & factory industry,Factory / Outskirts,Overhead pipe rack,1,3.0,4000,-,overhead pipe rack,DONE-Claude (1/1)
+HM14,P3,Heavy machinery & factory industry,Factory / Outskirts,Factory smokestack,1,15.0,8000,-,tall brick smokestack,DONE-Claude (1/1)
+HM15,P3,Heavy machinery & factory industry,Factory / Outskirts,Storage tank,2,5.0,8000,-,2 variants large storage tanks,DONE-Claude (1/2)
+HM16,P3,Heavy machinery & factory industry,Factory / Outskirts,Cooling tower,1,10.0,10000,-,cooling tower,DONE-Claude (1/1)
+HM17,P3,Heavy machinery & factory industry,Factory / Outskirts,Factory gate,1,6.0,6000,-,"large factory gate, no text",DONE-Claude (1/1)
+HM18,P3,Heavy machinery & factory industry,Factory / Outskirts,Loading dock,1,4.0,7000,-,loading dock,DONE-Claude (1/1)
+HM19,P3,Heavy machinery & factory industry,Factory / Outskirts,Roller conveyor,1,2.0,3000,-,roller conveyor,DONE-Claude (1/1)
+HM20,P3,Heavy machinery & factory industry,Factory / Outskirts,Material hopper,1,2.5,5000,-,hopper,DONE-Claude (1/1)
+HM21,P3,Heavy machinery & factory industry,Factory / Outskirts,Steel beams pile,2,3.0,2500,-,2 variants steel beam piles,DONE-Claude (1/2)
+HM22,P3,Heavy machinery & factory industry,Factory / Outskirts,Chain hoist,1,1.0,3500,-,chain hoist,DONE-Claude (1/1)
+HM23,P4,Heavy machinery & factory industry,Factory / Outskirts,Shipping container,2,6.0,4000,-,2 variants rusty shipping containers,DONE-Claude (1/2)
+HM24,P4,Heavy machinery & factory industry,Factory / Outskirts,Weighbridge,1,6.0,5000,-,weighbridge,DONE-Claude (1/1)
 TY01,P2,More toys (bahut saare khilaune),All,Large retro toy robot,2,0.6,7000,-,2 variants large retro toy robots,DONE (2/2)
 TY02,P2,More toys (bahut saare khilaune),All,Toy telephone,1,0.3,2500,-,pull toy phone with eyes,DONE (1/1)
 TY03,P2,More toys (bahut saare khilaune),All,Pull-along duck,1,0.4,3000,-,wooden pull-along duck,DONE (1/1)
@@ -956,30 +956,30 @@ TY46,P3,More toys (bahut saare khilaune),All,Sticker book,1,0.2,500,-,sticker bo
 TY47,P4,More toys (bahut saare khilaune),All,Giant plush bear,1,2.0,9000,-,giant plush bear,
 TY48,P4,More toys (bahut saare khilaune),All,Giant jack-in-the-box,1,2.5,9000,-,giant jack-in-the-box,
 TY49,P4,More toys (bahut saare khilaune),All,Giant wind-up key,1,1.0,3000,-,giant wind-up key,
-ST01,P3,Street furniture & signage extras,City,Street clock pole,1,4.0,4000,-,"street clock on pole, stopped",
-ST02,P3,Street furniture & signage extras,City,Public telephone,1,1.8,3500,-,public telephone box,
-ST03,P3,Street furniture & signage extras,City,Post box,1,1.4,3000,-,old post box,
-ST04,P3,Street furniture & signage extras,City,Concrete bench,1,2.0,2000,-,concrete bench,
-ST05,P3,Street furniture & signage extras,City,Bollards,2,1.0,1000,-,2 variants bollards,
-ST06,P3,Street furniture & signage extras,City,Planters,3,1.0,2000,-,3 variants dead planters,
-ST07,P3,Street furniture & signage extras,City,Trash cans,3,0.8,1500,-,3 variants trash cans,
-ST08,P3,Street furniture & signage extras,City,Bus-stop sign,1,3.0,1200,-,"bus-stop sign, symbols only",
-ST09,P3,Street furniture & signage extras,City,Direction signboards,3,3.0,1500,-,"3 variants direction signboards, symbols only",
-ST10,P3,Street furniture & signage extras,City,Double streetlight,1,6.0,4500,-,double-arm streetlight,
-ST11,P3,Street furniture & signage extras,City,Hoarding stand,1,8.0,4000,-,large hoarding stand,
-ST12,P3,Street furniture & signage extras,City,Cable drum,1,1.0,1500,-,cable drum,
-ST13,P3,Street furniture & signage extras,City,Open manhole,1,0.8,1000,-,open manhole,
-ST14,P3,Street furniture & signage extras,City,Storm drain,1,1.5,1500,-,storm drain grate,
-ST15,P3,Street furniture & signage extras,City,Speed breaker,1,3.0,500,-,speed breaker,
-ST16,P3,Street furniture & signage extras,City,Lane divider,1,3.0,800,-,lane divider,
+ST01,P3,Street furniture & signage extras,City,Street clock pole,1,4.0,4000,-,"street clock on pole, stopped",DONE-Claude (1/1)
+ST02,P3,Street furniture & signage extras,City,Public telephone,1,1.8,3500,-,public telephone box,DONE-Claude (1/1)
+ST03,P3,Street furniture & signage extras,City,Post box,1,1.4,3000,-,old post box,DONE-Claude (1/1)
+ST04,P3,Street furniture & signage extras,City,Concrete bench,1,2.0,2000,-,concrete bench,DONE-Claude (1/1)
+ST05,P3,Street furniture & signage extras,City,Bollards,2,1.0,1000,-,2 variants bollards,DONE-Claude (1/2)
+ST06,P3,Street furniture & signage extras,City,Planters,3,1.0,2000,-,3 variants dead planters,DONE-Claude (1/3)
+ST07,P3,Street furniture & signage extras,City,Trash cans,3,0.8,1500,-,3 variants trash cans,DONE-Claude (1/3)
+ST08,P3,Street furniture & signage extras,City,Bus-stop sign,1,3.0,1200,-,"bus-stop sign, symbols only",DONE-Claude (1/1)
+ST09,P3,Street furniture & signage extras,City,Direction signboards,3,3.0,1500,-,"3 variants direction signboards, symbols only",DONE-Claude (1/3)
+ST10,P3,Street furniture & signage extras,City,Double streetlight,1,6.0,4500,-,double-arm streetlight,DONE-Claude (1/1)
+ST11,P3,Street furniture & signage extras,City,Hoarding stand,1,8.0,4000,-,large hoarding stand,DONE-Claude (1/1)
+ST12,P3,Street furniture & signage extras,City,Cable drum,1,1.0,1500,-,cable drum,DONE-Claude (1/1)
+ST13,P3,Street furniture & signage extras,City,Open manhole,1,0.8,1000,-,open manhole,DONE-Claude (1/1)
+ST14,P3,Street furniture & signage extras,City,Storm drain,1,1.5,1500,-,storm drain grate,DONE-Claude (1/1)
+ST15,P3,Street furniture & signage extras,City,Speed breaker,1,3.0,500,-,speed breaker,DONE-Claude (1/1)
+ST16,P3,Street furniture & signage extras,City,Lane divider,1,3.0,800,-,lane divider,DONE-Claude (1/1)
 ST17,P3,Street furniture & signage extras,City,Pedestrian bridge,1,15.0,10000,-,pedestrian overhead bridge,
-ST18,P3,Street furniture & signage extras,City,Underpass sign,1,2.0,1200,-,"underpass sign, symbols only",
-ST19,P3,Street furniture & signage extras,City,Large iron gate,2,3.5,5000,-,2 variants large iron gates,
-ST20,P3,Street furniture & signage extras,City,Boundary wall segment,3,3.0,1500,-,3 variants boundary wall segments,
-ST21,P3,Street furniture & signage extras,City,Garage shutter,1,3.0,3000,-,garage shutter half open,
-ST22,P3,Street furniture & signage extras,City,Parking meter,2,1.3,1500,-,2 variants parking meters,
-ST23,P3,Street furniture & signage extras,City,Bike stand,1,2.0,2000,-,bike stand,
-ST24,P3,Street furniture & signage extras,City,Street ice box,1,1.0,2000,-,street ice box,
+ST18,P3,Street furniture & signage extras,City,Underpass sign,1,2.0,1200,-,"underpass sign, symbols only",DONE-Claude (1/1)
+ST19,P3,Street furniture & signage extras,City,Large iron gate,2,3.5,5000,-,2 variants large iron gates,DONE-Claude (1/2)
+ST20,P3,Street furniture & signage extras,City,Boundary wall segment,3,3.0,1500,-,3 variants boundary wall segments,DONE-Claude (1/3)
+ST21,P3,Street furniture & signage extras,City,Garage shutter,1,3.0,3000,-,garage shutter half open,DONE-Claude (1/1)
+ST22,P3,Street furniture & signage extras,City,Parking meter,2,1.3,1500,-,2 variants parking meters,DONE-Claude (1/2)
+ST23,P3,Street furniture & signage extras,City,Bike stand,1,2.0,2000,-,bike stand,DONE-Claude (1/1)
+ST24,P3,Street furniture & signage extras,City,Street ice box,1,1.0,2000,-,street ice box,DONE-Claude (1/1)
 ST25,P4,Street furniture & signage extras,City,Wall graffiti panels,3,2.0,600,-,"3 variants flat wall graffiti panels (symbols only, no text)",
 ST26,P4,Street furniture & signage extras,City,Paste-up poster sheets,3,1.0,400,-,"3 variants flat paste-up poster sheets, no text",
 ST27,P4,Street furniture & signage extras,City,Torn banner,2,4.0,1500,-,"2 variants torn banners, no text",
